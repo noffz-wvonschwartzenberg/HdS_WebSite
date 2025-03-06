@@ -1,0 +1,114 @@
+
+@include themify($themes) {
+    .home-main {
+
+        margin: 0;
+        padding: 0;
+        background-color: themed("website-background");
+    }
+    .header {
+        background-color: themed("website-background");
+
+        .header-container {
+            margin: 0 auto;
+            width: 100%; //$width-percent-of-screen;
+            height: $header-height;
+            background-color: themed("logo-green");
+        }
+
+        .header-logo {
+            z-index: 2;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: $logo-width;;
+            height: $logo-height;
+            margin-left: $logo-left-margin;
+            background-color: themed("background-logo-white");
+            border: 1px solid themed("logo-green");
+        }
+
+        .logo {
+            width: 90%;
+            height: auto;
+            display: block;
+        }
+
+        .logo-klein {
+            height: auto;
+            width: 90%;
+            display: none;
+        }
+
+        .header-donate-paypal {
+            z-index: 2;
+            position: absolute;
+            margin-left: $logo-left-margin - 10px;
+            margin-top: $logo-height + 10px;
+        }
+
+        .header-menu {
+            display: flex;
+            justify-content: center;
+            z-index: 1;
+            position: absolute;
+        }
+
+        .gray {
+            font-size: calc( #{$header-height} * #{$header-height-factor-gray} * 0.25 );
+            width: 100%; //$width-percent-of-screen;
+            margin-top: 0px;
+            height: calc( #{$header-height} * #{$header-height-factor-gray} );
+            justify-content: right;
+            background-color: themed(website-background);
+        }
+
+        .header-gray-item {
+            display: flex;
+            margin: 0 3px;
+            padding: 0 0;
+            place-items: center;
+            font-weight: lighter;
+            color: themed("text-black");
+
+            &:hover {
+                text-decoration: underline;
+            }
+
+            &::before {
+                content: "";
+                position: relative;
+                left: -3px;
+                height: calc( #{$header-height} * #{$header-height-factor-gray} * 0.25 );
+                width: 1px;
+                background-color: themed("text-white");
+            }
+
+            &:first-child::before {
+                display: none;
+            }
+        }
+    }
+
+    @media (max-width: 1080px) {
+        .header .header-logo {
+            width: $logo-klein-width;
+        }
+
+        .header .logo {
+            display: none;
+        }
+
+        .header .logo-klein {
+            display:inline;
+        }
+
+        .header .mega-menu {
+            margin-left: calc( #{$logo-klein-width} + #{$logo-left-margin} + 5px);
+            //max-width: calc( #{$width-percent-of-screen} - #{$logo-klein-width} - #{$logo-left-margin} - 10px);
+            //margin-left: 100px;
+            max-width: 100%;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{{- $rows := split (.Inner | strings.TrimSpace) "\n" -}}
+
+<table>
+  <thead>
+    <tr>
+      {{- $headers := split (index $rows 0) ";" -}} <!-- Erste Zeile als Header -->
+      {{- range $headers }}
+      <th>{{ . }}</th>
+      {{- end }}
+    </tr>
+  </thead>
+  <tbody>
+    {{- range $i, $row := $rows }}
+      {{- if gt $i 0 }} <!-- Überspringe die erste Zeile -->
+      <tr>
+        {{- $cells := split $row ";" -}} <!-- Aufteilen der Zellen anhand von ";" -->
+        {{- range $cells }}
+        <td>{{ . }}</td>
+        {{- end }}
+      </tr>
+      {{- end }}
+    {{- end }}
+  </tbody>
+</table>

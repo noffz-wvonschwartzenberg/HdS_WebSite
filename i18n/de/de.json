@@ -1,0 +1,41 @@
+{
+  "campus": "Campus - Haus der Sonne",
+  "about": "Wir über uns",
+  "whatWeDo": "Was wir tun",
+  "toHelp": "Helfen",
+  
+  "aboutSubHead": "Wir über uns im Überblick",
+  "aboutSubCol1": "Der Verein",
+  "AGoal": "Ziel",
+  "AOrganization": "Organisation",
+  "ATransparency": "Transparenz",
+  "AFinance": "Finanzen",
+  "AStatute": "Satzung",
+  "APress": "Presse",
+  "AChronicle": "Chronik",
+    
+  "whatWeDoSubHead": "Was wir tun im Überblick",
+  "whatWeDoSubCol1": "Versorgung",
+  "wwDOneMeal": "Eine warme Mahlzeit",
+  "wwDCleanWater": "Sauberes Wasser",
+  "wwDMedicine": "Medizinische Versorgung",
+  "wwDMedicalStore": "Sanitätshaus",
+
+  "whatWeDoSubCol2": "Bildung",
+  "wwDTutoring": "Nachhilfe",
+  "wwDEnlightenment": "Aufklärung",
+
+  "whatWeDoSubCol3": "Hilfe zur Selbsthilfe",
+  "wwDVegetableGarden": "Gemüsegarten",
+  "wwDAnimals": "Nutztiere",
+  "wwDEnvironment": "Umwelt/Müll",
+  "wwDOrphanages": "Waisenhäuser",
+
+  "whatWeDoSubCol4": "Galerie",
+  "wwDFotos": "Fotos",
+  "wwDChronicle": "Chronik",
+  
+  "oneEuroADay": "1 € am Tag",
+  "oneMeal": "für eine warme Mahlzeit.",
+  "getPate": "Werde Pate"
+}

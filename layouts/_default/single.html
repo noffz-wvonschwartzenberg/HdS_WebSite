@@ -1,0 +1,46 @@
+{{ define "main" }}
+  <div id = "js-single" class="dark-theme">
+    <div class="single">
+      <a href="/" class="single-logo">
+        <img class="logo" src="/img/logo.png" alt="Haus der Sonne">
+        <img class="logo-klein" src="/img/logo-klein.png" alt="Haus der Sonne">
+      </a>
+      <div class="single-picture">
+        <img src="{{ .Params.image }}" alt="Single Picture" class="single-picture-main">
+      </div>
+      <div class="single-contents">
+        <h1 class="single-pagetitle">{{ .Title }}</h1>
+        <div class="single-date-author">
+          <div class="single-author">
+              {{if .Params.author}}Author: {{.Params.Author}}{{end}}
+          </div>
+          <div class="single-date">
+              {{ dateFormat "Monday, Jan 2, 2006" .Date }}
+          </div>
+        </div>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+{{ end }}
+
+{{ define "scripts" }}
+  <script>
+    // Dark mode    
+    var jsSingle = document.getElementById("js-single");
+    if (localStorage.getItem("darkMode") == "true") {
+      jsSingle.className = "light-theme";
+    } else {
+      jsSingle.className = "dark-theme";
+    }
+
+    // Viewable area
+    function updateViewableArea() {
+      const height = window.innerHeight;
+      document.documentElement.style.setProperty('--viewable-height', `${height}px`);
+    }
+
+    window.addEventListener('resize', updateViewableArea);
+    updateViewableArea();
+  </script>
+{{ end }}

@@ -1,0 +1,58 @@
+// ********** Sizes
+// Global
+$width-percent-of-screen: 95%;
+$language: "DE";
+
+// Header
+$header-height: 100px;
+$header-height-factor-gray: 0.6;
+$header-height-factor-menu: 0.4;
+$logo-width: 350px;
+$logo-klein-width: 130px;
+$logo-height: 120px;
+$logo-left-margin: 20px;
+
+// ********** Colors
+// Global
+$font-family: 'Calibri', sans-serif;
+//$font-family: 'inter';
+$themes: (
+  light: (
+    text-white: white,
+    text-black: black,
+    text-main-menu: white,
+    background-logo-white: white,
+    // background-beige: beige,    
+    // background-opaque: rgb(121, 134, 109),
+    //logo-green: rgba(8,129,98, 1),
+    logo-green: rgb(0, 122, 94),
+    // logo-yellow: rgba(254, 209, 10, 1),
+    logo-yellow: rgb(252, 209, 22),
+    // logo-green-transparent: rgba(8,129,98, 0.2),
+    // logo-yellow-transparent: rgba(254, 209, 10, 0.2),
+    // logo-red: rgba(209,18,39,1),
+    logo-red: rgb(206, 17, 38),
+    // website-background: rgba(204, 202, 195, 1),
+    //website-background: rgb(209, 228, 209),
+    // website-background: rgb(208, 170, 174),
+    // website-background: rgb(252, 252, 211),
+    //  website-background: white,
+    // website-background: rgb(44, 10, 10),
+    website-background: rgb(227, 226, 212),
+    footer-background: rgba(8,129,98, 1),
+  ),
+  dark: (
+    text-white: black,
+    text-black: lightgrey,
+    text-main-menu: rgba(211, 211, 211, 0.829),
+    background-logo-white: rgb(185, 182, 149),
+    logo-green: rgb(3, 44, 34),
+    logo-yellow: rgb(83, 69, 4),
+    // logo-green-transparent: rgb(3, 44, 34),
+    // logo-yellow-transparent: rgb(83, 69, 4),
+    logo-red: rgb(115, 11, 23),
+    website-background: rgb(87, 86, 81),
+    footer-background: rgb(3, 44, 34),
+  ),
+);
+

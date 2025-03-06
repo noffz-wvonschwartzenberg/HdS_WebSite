@@ -1,0 +1,12 @@
+{
+  "name": "haus-der-sonne",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "swiper": "^11.2.4"
+  }
+}

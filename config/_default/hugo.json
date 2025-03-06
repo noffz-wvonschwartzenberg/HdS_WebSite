@@ -1,0 +1,65 @@
+{
+  "baseURL": "http://localhost:1313",
+  "defaultContentLanguage": "de",
+  "defaultContentLanguageInSubdir": true,
+  "title": "Haus der Sonne", 
+  "markup": {
+    "goldmark": {
+      "renderer": {
+        "unsafe": true
+      }
+    }
+  },
+  "languages": {
+    "de": {
+      "languageName": "German",
+      "contentDir": "content/de",
+      "weight": 1
+    },
+    "en": {
+      "languageName": "English",
+      "contentDir": "content/en",
+      "weight": 2
+    },
+    "fr": {
+      "languageName": "French",
+      "contentDir": "content/fr",
+      "weight": 3
+    }
+  },
+  "redirects": [
+      {
+        "from": "/*",
+        "to": "/fr/:splat",
+        "status": 301,
+        "force": false,
+        "conditions": {
+          "language": ["fr"]
+        }
+      },
+      {
+        "from": "/*",
+        "to": "/en/:splat",
+        "status": 301,
+        "force": false,
+        "conditions": {
+          "language": ["en"]
+        }
+      },
+      {
+        "from": "/*",
+        "to": "/de/:splat",
+        "status": 301,
+        "force": false,
+        "conditions": {
+          "language": ["de"]
+        }
+      },
+      {
+        "from": "/*",
+        "to": "/de/:splat",
+        "status": 301,
+        "force": false
+      }
+  ]
+}

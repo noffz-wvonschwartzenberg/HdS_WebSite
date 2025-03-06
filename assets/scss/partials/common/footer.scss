@@ -1,0 +1,208 @@
+@include themify($themes) {
+    .footer {
+        background-color: themed(website-background);
+        color: themed(text-white);
+        font-family: $font-family;
+    }
+
+    .footer-container {
+        width: 100%;
+        min-height: 250px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-social-buttons {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        gap: 10px;
+        background-color: themed(footer-background);
+        width: 100%;
+    }
+
+    .footer-social-buttons .social-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: themed(logo-red);
+        color: themed(logo-yellow);
+        font-size: 18px;
+        text-decoration: none;
+        transition: all 0.15s;
+    }
+
+    .social-button:hover {
+        background-color: themed(logo-yellow);
+        color: themed(logo-red);
+    }
+    
+    .footer-bottom {
+        margin-top: 5px;
+        //background-color: themed(footer-background);
+        display: flex;
+        // flex-direction: row;
+        width: 100%;
+        justify-content: space-between; // horizontally (Hauptachse)
+        align-items: center; // vertically (Querachse)
+    }
+
+    .footer-address {
+        // flex-grow: 0;
+        padding-left: 30px;
+        // padding-right: 0px;
+        // padding-top: 10px;
+        // padding-bottom: 10px;
+        width: 250px;
+        background-color: themed(footer-background);
+        align-self: stretch;
+        align-content: center;
+    }
+
+    .footer-donate {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        padding: 15px;
+        align-self: stretch;
+        background-color: themed(footer-background);
+        margin-left: 5px;
+        //     margin-left: auto;
+    //   margin-right: auto;
+    }
+    
+    .footer-donate .donate {
+        // flex: 1;
+        // padding-top: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-donate .donate button {
+        // flex: 1;
+        // padding: 7px;
+        //border-radius: 10px;
+    }
+
+    .footer-donate .donate-paypal {
+        vertical-align: bottom;
+        align-items: end;
+    }
+    .footer-copyright {
+        margin-top: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: themed(footer-background);
+        width: 100%;
+        text-align: center;
+    }
+
+    .donate p {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .heart-btn {
+        position: relative;
+        width: 35px; /* Breite des Herzens */
+        height: 35px; /* Höhe des Herzens */
+        background-color: themed(logo-red);
+        border: none;
+
+        outline: none;
+        // margin: 20px; /* Abstand für die Schaltfläche */
+        margin-left: 13px;
+        margin-top: 13px;
+        margin-bottom: 10px;
+        margin-right: 13px;
+                //border-radius: 17.5px 17.5px 0 0; /* Abgerundete Ecken für die Herzform */
+        transform: rotate(-45deg);
+        transition: all 0.15s;
+    }
+      
+      .heart-btn:before,
+      .heart-btn:after {
+        content: "";
+        position: absolute;
+        width: 35px; /* Breite des oberen Kreises */
+        height: 35px; /* Höhe des oberen Kreises */
+        background-color: themed(logo-red);
+        border-radius: 50%; /* Kreisform */
+        transition: all 0.15s;
+    }
+
+      .heart-btn:before {
+        top: -17.5px; /* Position des linken Kreises */
+        left: 0;
+        transition: all 0.15s;
+    }
+      
+      .heart-btn:after {
+        left: 17.5px; /* Position des rechten Kreises */
+        top: 0;
+        transition: all 0.15s;
+    }
+      .button-heart{
+        width:fit-content;
+        padding:0;
+        margin: 0%;
+        position: relative;
+        cursor: pointer;
+      }       
+
+      .heart-btn-click {
+        position: absolute;
+        left: 15px;
+        top: 2px;
+        color: themed(logo-yellow);
+        font-weight: bolder;
+        background-color: transparent;
+        transition: all 0.15s;
+        font-family: $font-family;
+        font-stretch: normal;
+        font-size: 16px;
+      }
+
+      .button-heart:hover {
+
+        .heart-btn,
+        .heart-btn:after,
+        .heart-btn:before{
+            background-color: themed(logo-yellow);
+        }
+        .heart-btn-click {
+            color: themed(logo-red);
+        }  
+      }
+
+      .heart-btn-click:hover {
+        color: themed(logo-red);
+      }
+
+      .button-patenschaft {
+        background-color: themed(logo-red);
+        color: themed(logo-yellow);
+        border: none;
+        font-weight: bold;
+        margin-top: 0px;
+        border-radius:20px;
+        padding: 12px;
+        transition: all 0.15s;
+        font-family: $font-family;
+        font-stretch: normal;
+        font-size: 16px;
+      }
+
+      .button-patenschaft:hover {
+        background-color: themed(logo-yellow);
+        color: themed(logo-red);
+      }
+}

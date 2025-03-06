@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html 
+  lang="{{ .Language.Lang }}"
+  dir="{{ .Language.LanguageDirection | default `ltr` }}">
+  <head>
+    {{ partial "common/head.html" . }}
+  </head>
+  <body>
+     {{ if or (eq .Type "page") (eq .Type "list") }}
+      {{ partial "common/header.html" . }}
+     {{ end }}
+    
+    {{ block "main" . }}{{ end }}
+
+    {{ partial "common/footer.html" . }}
+    {{ block "scripts" . }}{{ end }}>
+  </body>
+</html>
+
+{{ define "scripts" }}
+<script>
+  // var jsMain = document.getElementById("js-main");
+  // if (localStorage.getItem("darkMode") == "true") {
+  //   jsMain.className = "light-theme";
+  // } else {
+  //   jsMain.className = "dark-theme";
+  // }
+  // jsDarkMode.addEventListener("click", function() {
+  //     if (localStorage.getItem("darkMode") == "true") {
+  //         localStorage.setItem("darkMode", "false");
+  //     } else {
+  //         localStorage.setItem("darkMode", "true");
+  //     }
+  // })
+</script>
+{{ end }}
+

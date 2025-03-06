@@ -1,0 +1,24 @@
+@import "partials/common/themes.scss";
+@import "variables.scss";
+@import "globals.scss";
+
+/* Common */
+
+@import "partials/common/header.scss";
+@import "partials/common/megamenu.scss";
+@import "partials/common/burgermenu.scss";
+@import "partials/common/footer.scss";
+/* End Common */
+
+/* Home */
+@import "_default/home.scss";
+@import "partials/home/mainswiper.scss";
+@import "partials/home/welcome.scss";
+@import "partials/home/about.scss";
+/* End Home */
+
+/* List */
+@import "_default/list.scss";
+
+/* Single */
+@import "_default/single.scss";

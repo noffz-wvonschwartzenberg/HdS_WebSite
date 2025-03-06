@@ -1,0 +1,46 @@
+{{ define "main" }}
+<div id = "js-home" class="dark-theme">
+  <div class="home-main">
+  {{ partial "home/mainswiper" }}
+    {{.Content}}
+    {{ range .Pages }}
+      <div class="home-container" onclick="location.href='{{ .RelPermalink }}';">
+          <!-- <div class="home-picture"> -->
+            <img src="{{ .Params.image }}" alt="Home Picture" class="home-picture">
+          <!-- </div> -->
+            <div class="home-textbox">
+              <div class="home-shifted">
+                <div class="home-title">
+                  {{.Title}}
+                </div>
+                <div class="home-description">
+                  {{ .Params.description }}
+                </div>
+              </div>
+              <div class="home-date">
+                {{ dateFormat "Monday, Jan 2, 2006" .Date }}
+              </div>
+            </div>
+      </div>
+    {{ end }}
+  </div>
+{{ end }}
+
+{{ define "scripts" }}
+<script>
+  const swiper = new Swiper('.swiper', {
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  });
+
+  // Dark mode    
+  var jsHome = document.getElementById("js-home");
+  if (localStorage.getItem("darkMode") == "true") {
+    jsHome.className = "light-theme";
+  } else {
+    jsHome.className = "dark-theme";
+  }
+</script>
+{{ end }}

@@ -1,0 +1,94 @@
+<div id = "js-header" class="dark-theme">
+    <header class="header">
+        <div class="header-container">
+            <nav class="header-menu gray">
+                <a href="" id="js-de" class="header-gray-item">DE</a>
+                <a href="" id="js-en" class="header-gray-item">EN</a>
+                <a href="" id="js-fr" class="header-gray-item">FR</a>
+                <a href="" class="header-gray-item"><i id="js-darkMode" class="fas fa-sun"></i></a>
+            </nav>
+            <a href="/" class="header-logo">
+                <img class="logo" src="/img/logo.png" alt="Haus der Sonne">
+                <img class="logo-klein" src="/img/logo-klein.png" alt="Haus der Sonne">
+            </a>
+            {{ partial "common/megamenu" }}
+            <div class="header-donate-paypal">
+                <!-- <button>Direkt über Paypal spenden</button> -->
+                <form action="https://www.paypal.com/donate" method="post" target="_top">
+                    <input type="hidden" name="hosted_button_id" value="JVEF3JGFNK2ML" />
+                    <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Spenden mit dem PayPal-Button" />
+                    <img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1" />
+                </form>
+            </div>    
+        </div>
+        <!-- <link rel="stylesheet" href="main.css"> -->
+        <script>
+            // // Size
+            // var jsLogo = document.getElementById("js-logo");
+            // if (window.innerWidth < 900) {
+            //     jsLogo.src = "/img/logo-klein.png";
+            // } else {
+            //     jsLogo.src = "/img/logo.png";
+            // }
+
+            // Language setting
+            var jsLanguageDe = document.getElementById("js-de");
+            var jsLanguageEn = document.getElementById("js-en");
+            var jsLanguageFr = document.getElementById("js-fr");
+            jsLanguageDe.style.fontWeight = "normal";
+            jsLanguageEn.style.fontWeight = "normal";
+            jsLanguageFr.style.fontWeight = "normal";
+
+            const language = document.documentElement.lang;
+            if (language == "de") {
+                jsLanguageDe.style.fontWeight = "bolder";
+                jsLanguageDe.href = "";
+                jsLanguageEn.href = "{{( index .Translations 0).Permalink }}";
+                jsLanguageFr.href = "{{( index .Translations 1).Permalink }}";
+            }
+            if (language == "en") {
+                jsLanguageEn.style.fontWeight = "bolder";
+                jsLanguageDe.href = "{{( index .Translations 0).Permalink }}";
+                jsLanguageEn.href = "";
+                jsLanguageFr.href = "{{( index .Translations 1).Permalink }}";
+            }
+            if (language == "fr") {
+                jsLanguageFr.style.fontWeight = "bolder";
+                jsLanguageDe.href = "{{( index .Translations 0).Permalink }}";
+                jsLanguageEn.href = "{{( index .Translations 1).Permalink }}";
+                jsLanguageFr.href = "";
+            }
+
+            jsLanguageDe.addEventListener("click", function() {
+                document.documentElement.lang = "de";
+            })
+            jsLanguageEn.addEventListener("click", function() {
+                document.documentElement.lang = "en";
+            })
+            jsLanguageFr.addEventListener("click", function() {
+                document.documentElement.lang = "fr";
+            })
+
+            // Dark mode    
+            var jsHeader = document.getElementById("js-header");
+            var jsDarkMode = document.getElementById("js-darkMode");
+            if (localStorage.getItem("darkMode") == "true") {
+                jsDarkMode.classList.remove("fas", "fa-sun");
+                jsDarkMode.classList.add("far", "fa-moon");
+                jsHeader.className = "light-theme";
+            } else {
+                jsDarkMode.classList.remove("far", "fa-moon");
+                jsDarkMode.classList.add("fas", "fa-sun");
+                jsHeader.className = "dark-theme";
+            }
+            
+            jsDarkMode.addEventListener("click", function() {
+                if (localStorage.getItem("darkMode") == "true") {
+                    localStorage.setItem("darkMode", "false");
+                } else {
+                    localStorage.setItem("darkMode", "true");
+                }
+            })
+        </script>
+    </header>
+</div>
