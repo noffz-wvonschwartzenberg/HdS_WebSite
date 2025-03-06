@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homepage on Haus der Sonne</title>
+    <link>http://localhost:1313/en/</link>
+    <description>Recent content in Homepage on Haus der Sonne</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 19 Feb 2025 20:38:42 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1 warme Mahlzeit</title>
+      <link>http://localhost:1313/en/1warmemahlzeit/</link>
+      <pubDate>Wed, 19 Feb 2025 20:38:42 +0100</pubDate>
+      <guid>http://localhost:1313/en/1warmemahlzeit/</guid>
+      <description>&lt;p&gt;TEST&#xA;&amp;ldquo;Haus der Sonne&amp;rdquo; hilft zum Leben&#xA;Seit dem 01. Juli 2018 läuft unser Projekt &amp;ldquo;1 warme Mahlzeit&amp;rdquo;. Was zunächst für 20 bis 25 Kinder und Jugendliche geplant war, erweiterte sich durch den dringenden Bedarf sehr schnell auf 40 zu versorgende junge Menschen. Inzwischen ist die Zahl auf 50 Kinder und Jugendliche angewachsen. Einige davon sind noch nicht versorgt. Auf weitere Patenschaften sind wir dringend angewiesen.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/whatwedo/1warmeMahlzeit_text1.jpeg&#34; alt=&#34;1 warm Mahlzeit&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sauberes Wasser</title>
+      <link>http://localhost:1313/en/saubereswasser/</link>
+      <pubDate>Wed, 19 Feb 2025 20:38:42 +0100</pubDate>
+      <guid>http://localhost:1313/en/saubereswasser/</guid>
+      <description>&lt;p&gt;Brunnen Brunnen Brunnen Brunnen Brunnen Brunnen Brunnen Brunnen Brunnen Brunnen Brunnen Brunnen Brunnen Brunnen&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/whatwedo/SauberesWasser_text1.jpeg&#34; alt=&#34;Brunnenbau&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post 3</title>
+      <link>http://localhost:1313/en/posts/post-3/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/en/posts/post-3/</guid>
+      <description>&lt;p&gt;English&#xA;English&#xA;English&#xA;English&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/en/posts/post-3/bryce-canyon.jpg&#34; alt=&#34;Bryce Canyon National Park&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;English&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Post 1</title>
+      <link>http://localhost:1313/en/posts/post-1/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/en/posts/post-1/</guid>
+      <description>&lt;p&gt;Post in English&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
