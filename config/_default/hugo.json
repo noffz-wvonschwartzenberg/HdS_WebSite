@@ -1,5 +1,5 @@
 {
-  "baseURL": "http://localhost:1313",
+  "baseURL": "https://hdskempen2.netlify.app",
   "defaultContentLanguage": "de",
   "defaultContentLanguageInSubdir": true,
   "title": "Haus der Sonne", 
