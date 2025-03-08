@@ -1,13 +1,4 @@
 @include themify($themes) {
-    .list-logo {
-        transition: transform 0.15s ease, box-shadow 0.15s ease;
-    }
-
-    .list-logo:hover {
-        transform: scale(1.05);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    }
-
     .list {
         background-color: themed("website-background");
         padding-bottom: calc( ( 100% - #{$width-percent-of-screen} ) );
@@ -33,6 +24,15 @@
             display: block;
         }
 
+        .list-logo {
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+    
+        .list-logo:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
         .logo-klein {
             height: auto;
             width: 90%;
@@ -43,9 +43,13 @@
             height: calc(var(--viewable-height) - #{$logo-height} - 50px);
         }
 
+        .list-div-main {
+            height: calc(var(--viewable-height) -30px);
+
+        }
         .list-picture-main {
             width: 100%;
-            height: 100%;
+            height: 100%; 
             object-fit: cover;
         }
         
