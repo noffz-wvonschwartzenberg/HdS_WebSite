@@ -1413,8 +1413,7 @@
       color: white;
       text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
       /* Unten rechts */
-      line-height: 1;
-      background-color: black; }
+      line-height: 1; }
     .light-theme .mainswiper .swiper-slide .button11 {
       bottom: 20px;
       right: 20px;
@@ -1495,8 +1494,7 @@
       color: black;
       text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
       /* Unten rechts */
-      line-height: 1;
-      background-color: black; }
+      line-height: 1; }
     .dark-theme .mainswiper .swiper-slide .button11 {
       bottom: 20px;
       right: 20px;
