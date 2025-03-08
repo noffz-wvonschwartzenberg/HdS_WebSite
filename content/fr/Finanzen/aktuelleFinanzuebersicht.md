@@ -1,6 +1,6 @@
 {
     "date": "2025-03-01T21:11:48+01:00",
-    "draft": true,
+    "draft": false,
     "title": "Aktuelle Finanzübersicht",
     "author": "WvS",
     "description": "Hier finden Sie alle Informationen rund um die aktuellen Ein- und Ausgaben. Ein paar nette Diagramme sind auch zu sehen.",
