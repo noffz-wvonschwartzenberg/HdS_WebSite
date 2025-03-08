@@ -48,27 +48,27 @@ Bei uns ist genau das Gegenteil der Fall. Durch unsere ehrenamtlichen Tätigkeit
 Auch das Team in Kamerun arbeitet ehrenamtlich.
 
 <input type="checkbox" id="expand-image1" />
-<label for="expand-image1">
+<label class="img-div" for="expand-image1">
   <img src="/img/Finanzen/AktuelleFinanzuebersicht/GesamtErtrag.png#imagemd" alt="Gesamtertrag der letzten 12 Monate" />
 </label>
-<p class="imagemd-caption">Gesamtertrag der letzten 12 Monate</p>
+<div class="imagemd-caption">Gesamtertrag der letzten 12 Monate</div>
 <br>
 
 <div>
 <input type="checkbox" id="expand-image2" />
-<label for="expand-image2">
+<label class="img-div" for="expand-image2">
   <img src="/img/Finanzen/AktuelleFinanzuebersicht/MitgliedsbeiträgeHistorisch.png#imagemd" alt="Mitgliedsbeiträge seit Vereinsgründung" />
 </label>
 <div>
 </div>
 <input type="checkbox" id="expand-image3" />
-<label for="expand-image3">
+<label class="img-div" for="expand-image3">
   <img src="/img/Finanzen/AktuelleFinanzuebersicht/PatenschaftenHistorisch.png#imagemd" alt="Patenschaftsbeiträge seit Vereinsgründung" />
 </label>
 <div>
 </div>
 <input type="checkbox" id="expand-image4" />
-<label for="expand-image4">
+<label class="img-div" for="expand-image4">
   <img src="/img/Finanzen/AktuelleFinanzuebersicht/SpendenHistorisch.png#imagemd" alt="Spenden seit Vereinsgründung" />
 </label>
 </div>
@@ -78,7 +78,7 @@ Auch das Team in Kamerun arbeitet ehrenamtlich.
 Alle Tätigkeiten werden ausschließlich von Ehrenamtlichen ausgeführt, wodurch die Vereinskosten minimal bleiben. Die beigefügte Grafik zeigt, wie viel Prozent der Ausgaben direkt den Kindern und Projekten zugutekommen und wie gering der Kostenanteil ist.
 
 <input type="checkbox" id="expand-image5" />
-<label for="expand-image5">
+<label class="img-div" for="expand-image5">
   <img src="/img/Finanzen/AktuelleFinanzuebersicht/AusgabenHistorisch.png#imagemd"     alt="Ausgaben seit Vereinsgründung" />
 </label>
 <p class="imagemd-caption">Ausgaben seit Vereinsgründung</p>

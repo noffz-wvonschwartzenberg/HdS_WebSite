@@ -350,7 +350,8 @@
                 dependentElement2.style.fontSize = Math.min(imageHeight / 13, 100) + 'px';
             }
 
-            if (dependentElement1.style.fontSize < 40 + 'px') {
+            const fontSize = parseFloat(window.getComputedStyle(dependentElement1).fontSize);
+            if (fontSize < 40) {
                 dependentElement1.style.fontSize = 40 + 'px';
                 dependentElement2.style.fontSize = 40 + 'px';
                 dependentElement2.style.top = (dependentElement1.offsetTop + dependentElement1.offsetHeight) + 'px'; 

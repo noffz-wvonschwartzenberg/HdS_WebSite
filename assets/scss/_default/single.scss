@@ -5,7 +5,7 @@
 
         p {
             font-size: 18px;
-            text-align: left;
+            text-align: justify;
             padding-top: 10px;
             // margin-bottom: 10px;
         }
@@ -90,10 +90,6 @@
                 1px  1px 0 black; /* Unten rechts */
         }
 
-        .single-date-author {
-
-        }
-
         .single-author {
             text-align: end;
             // border-color: themed("text-black");
@@ -112,6 +108,13 @@
         }
         h4 {
           padding-top: 20px;
+        }
+
+        .img-div {
+          display: block;
+          justify-content: center; /* Horizontales Zentrieren */
+          text-align: center;
+          align-items: center;
         }
 
         /* Verstecke die Checkbox */
@@ -148,14 +151,16 @@
         }
         
         .imagemd-caption  {
+            display: block;
             width: 600px;
             border-color: themed("logo-yellow-60");
             border-width: 2px;
             border-style: solid;
             background-color: themed("logo-yellow-60");
             padding: 5px 0px;
-            text-align: center;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-left: 100px;
         }
 
         .kleine-tabelle {
@@ -163,6 +168,7 @@
             width: 600px;
             overflow-x: hidden;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-left: 100px;
           }
           
           .kleine-tabelle table {
@@ -219,9 +225,10 @@
 
         .finanzen-tabelle {
             margin-top: 10px;
-            width: 800px;
+            width: 600px;
             overflow-x: hidden;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-left: 100px;
           }
           
           .finanzen-tabelle table {
@@ -292,21 +299,27 @@
           }
     }
 
-    @media (max-width: 840px) {
+    @media (max-width: 900px) {
       .single .single-pagetitle {
           font-size: calc(var(--viewable-height) / 12);
       }
     }
 
-    @media (max-width: 450px) {
+    @media (max-width: 500px) {
       .single .single-pagetitle {
           font-size: calc(var(--viewable-height) / 20);
       }
     }
 
-    @media (max-width: 320px) {
+    @media (max-width: 400px) {
       .single .single-pagetitle {
           font-size: calc(var(--viewable-height) / 30);
+      }
+    }
+
+    @media (max-width: 300px) {
+      .single .single-pagetitle {
+          font-size: calc(var(--viewable-height) / 40);
       }
     }
 
