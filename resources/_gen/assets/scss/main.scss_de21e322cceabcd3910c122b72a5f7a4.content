@@ -649,6 +649,8 @@
     display: inline; }
   .light-theme .checkbtn:hover + .hoverCheck {
     display: block; }
+  .light-theme .fas {
+    padding: 9px; }
   .light-theme #check {
     display: none; } }
 
@@ -775,6 +777,8 @@
     display: inline; }
   .dark-theme .checkbtn:hover + .hoverCheck {
     display: block; }
+  .dark-theme .fas {
+    padding: 9px; }
   .dark-theme #check {
     display: none; } }
 
@@ -1390,29 +1394,26 @@
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
       padding: 10px; }
     .light-theme .mainswiper .swiper-slide .headline11 {
-      top: calc(var(--viewable-height) / 5);
       left: 50px;
       font-family: "Ingrid Darling", serif;
       font-weight: 400;
       font-stretch: bolder;
       font-style: normal;
-      font-size: 130px;
       opacity: 70%;
       color: white;
       text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-      /* Unten rechts */ }
+      /* Unten rechts */
+      line-height: 1; }
     .light-theme .mainswiper .swiper-slide .headline12 {
-      top: calc(var(--viewable-height) / 5 +  var(--viewable-height) / 5);
       left: 50px;
       font-family: "Ingrid Darling", serif;
       font-weight: 400;
-      font-stretch: bolder;
       font-style: normal;
-      font-size: 130px;
       opacity: 70%;
       color: white;
       text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-      /* Unten rechts */ }
+      /* Unten rechts */
+      line-height: 1; }
     .light-theme .mainswiper .swiper-slide .button11 {
       bottom: 20px;
       right: 20px;
@@ -1438,23 +1439,7 @@
     .light-theme .mainswiper .swiper-slide .button11:focus {
       outline: none; }
 
-@media (min-width: 1050px) and (max-width: 1260px) {
-  .light-theme .mainswiper .swiper-slide .headline11 {
-    top: calc(var(--viewable-height) / 3 - 30px);
-    font-size: 100px; }
-  .light-theme .mainswiper .swiper-slide .headline12 {
-    top: calc(var(--viewable-height) / 3 +  var(--viewable-height) / 7 - 30px);
-    font-size: 100px; } }
-
 @media (min-width: 580px) and (max-width: 1050px) {
-  .light-theme .mainswiper .swiper-slide .headline11 {
-    top: calc(var(--viewable-height) / 2.6);
-    font-size: 70px;
-    opacity: 90%; }
-  .light-theme .mainswiper .swiper-slide .headline12 {
-    top: calc(var(--viewable-height) / 2.6 +  var(--viewable-height) / 10);
-    font-size: 70px;
-    opacity: 90%; }
   .light-theme .mainswiper .swiper-slide .button11 {
     bottom: 10px;
     right: 10px;
@@ -1462,14 +1447,6 @@
     width: 90px; } }
 
 @media (max-width: 580px) {
-  .light-theme .mainswiper .swiper-slide .headline11 {
-    top: calc(var(--viewable-height) / 2.3);
-    font-size: 50px;
-    opacity: 90%; }
-  .light-theme .mainswiper .swiper-slide .headline12 {
-    top: calc(var(--viewable-height) / 2.3 +  var(--viewable-height) / 15);
-    font-size: 50px;
-    opacity: 90%; }
   .light-theme .mainswiper .swiper-slide .button11 {
     bottom: 10px;
     right: 10px;
@@ -1498,29 +1475,26 @@
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
       padding: 10px; }
     .dark-theme .mainswiper .swiper-slide .headline11 {
-      top: calc(var(--viewable-height) / 5);
       left: 50px;
       font-family: "Ingrid Darling", serif;
       font-weight: 400;
       font-stretch: bolder;
       font-style: normal;
-      font-size: 130px;
       opacity: 70%;
       color: black;
       text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-      /* Unten rechts */ }
+      /* Unten rechts */
+      line-height: 1; }
     .dark-theme .mainswiper .swiper-slide .headline12 {
-      top: calc(var(--viewable-height) / 5 +  var(--viewable-height) / 5);
       left: 50px;
       font-family: "Ingrid Darling", serif;
       font-weight: 400;
-      font-stretch: bolder;
       font-style: normal;
-      font-size: 130px;
       opacity: 70%;
       color: black;
       text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-      /* Unten rechts */ }
+      /* Unten rechts */
+      line-height: 1; }
     .dark-theme .mainswiper .swiper-slide .button11 {
       bottom: 20px;
       right: 20px;
@@ -1546,23 +1520,7 @@
     .dark-theme .mainswiper .swiper-slide .button11:focus {
       outline: none; }
 
-@media (min-width: 1050px) and (max-width: 1260px) {
-  .dark-theme .mainswiper .swiper-slide .headline11 {
-    top: calc(var(--viewable-height) / 3 - 30px);
-    font-size: 100px; }
-  .dark-theme .mainswiper .swiper-slide .headline12 {
-    top: calc(var(--viewable-height) / 3 +  var(--viewable-height) / 7 - 30px);
-    font-size: 100px; } }
-
 @media (min-width: 580px) and (max-width: 1050px) {
-  .dark-theme .mainswiper .swiper-slide .headline11 {
-    top: calc(var(--viewable-height) / 2.6);
-    font-size: 70px;
-    opacity: 90%; }
-  .dark-theme .mainswiper .swiper-slide .headline12 {
-    top: calc(var(--viewable-height) / 2.6 +  var(--viewable-height) / 10);
-    font-size: 70px;
-    opacity: 90%; }
   .dark-theme .mainswiper .swiper-slide .button11 {
     bottom: 10px;
     right: 10px;
@@ -1570,14 +1528,6 @@
     width: 90px; } }
 
 @media (max-width: 580px) {
-  .dark-theme .mainswiper .swiper-slide .headline11 {
-    top: calc(var(--viewable-height) / 2.3);
-    font-size: 50px;
-    opacity: 90%; }
-  .dark-theme .mainswiper .swiper-slide .headline12 {
-    top: calc(var(--viewable-height) / 2.3 +  var(--viewable-height) / 15);
-    font-size: 50px;
-    opacity: 90%; }
   .dark-theme .mainswiper .swiper-slide .button11 {
     bottom: 10px;
     right: 10px;

@@ -2,11 +2,11 @@
     
     <section class="swipers">
         <div class="mainswiper swiper">
-            <div class="swiper-wrapper">
+            <div id="js-img11" class="swiper-wrapper">
                 <div class="swiper-slide">
                     <img src="/img/main-warmeMahlzeit.png" alt="main picture - warme Mahlzeit" class="img11">
-                    <h3 class="headline11">{{ T "oneEuroADay" }}</h3>
-                    <h3 class="headline12">{{ T "oneMeal" }}</h3>
+                    <h3 id="js-headline11" class="headline11">{{ T "oneEuroADay" }}</h3>
+                    <h3 id="js-headline12" class="headline12">{{ T "oneMeal" }}</h3>
                     <button class="button11">{{ T "getPate" }}</button>
                 </div>
                 <div class="swiper-slide">
@@ -35,5 +35,32 @@
 
         window.addEventListener('resize', updateViewableArea);
         updateViewableArea();
+
+        // Hauptbild Schrift ändern
+        const image = document.getElementById('js-img11');
+        const dependentElement1 = document.getElementById('js-headline11');
+        const dependentElement2 = document.getElementById('js-headline12');
+
+        function positionElement() {
+            const imageTop = image.offsetTop;
+            const imageWidth = image.offsetWidth;
+            const imageHeight = image.offsetHeight;
+            
+            dependentElement1.style.top = (imageTop + imageHeight / 3) + 'px'; // 20px Abstand unterhalb
+            dependentElement1.style.fontSize = imageHeight / 5 + 'px';
+            dependentElement2.style.top = (dependentElement1.offsetTop + dependentElement1.offsetHeight) + 'px'; // 20px Abstand unterhalb
+            dependentElement2.style.fontSize = imageHeight / 5 + 'px';
+            dependentElement1.style.left = 30 + 'px';
+            dependentElement2.style.left = 30 + 'px';
+
+            if (imageHeight < 270 && imageWidth > 720) {
+                dependentElement1.style.left = 150 + 'px';
+                dependentElement2.style.left = 150 + 'px';
+            }
+        }
+
+        // Position berechnen und aktualisieren
+        positionElement();
+        window.addEventListener('resize', positionElement);
     </script>
 </div>
