@@ -64,7 +64,7 @@
             font-weight: 400;
             font-stretch: bolder;
             font-style: normal;
-            font-size: calc(var(--viewable-height) / 5);
+            font-size: calc(var(--viewable-height) / 8);
             opacity: 80%;
             color: themed("logo-yellow");
             text-shadow: 
@@ -276,7 +276,25 @@
           }
     }
 
-    @media (max-width: 1080px) {
+    @media (max-width: 840px) {
+      .single .single-pagetitle {
+          font-size: calc(var(--viewable-height) / 12);
+      }
+    }
+
+    @media (max-width: 450px) {
+      .single .single-pagetitle {
+          font-size: calc(var(--viewable-height) / 20);
+      }
+    }
+
+    @media (max-width: 320px) {
+      .single .single-pagetitle {
+          font-size: calc(var(--viewable-height) / 30);
+      }
+    }
+
+    @media (max-width: 500px) {
         .single .single-logo {
             width: $logo-klein-width;
         }

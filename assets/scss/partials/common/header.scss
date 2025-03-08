@@ -27,12 +27,18 @@
             margin-left: $logo-left-margin;
             background-color: themed("background-logo-white");
             border: 1px solid themed("logo-green");
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
         }
 
         .logo {
             width: 90%;
             height: auto;
             display: block;
+        }
+
+        .header-logo:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
 
         .logo-klein {
@@ -81,12 +87,16 @@
                 position: relative;
                 left: -3px;
                 height: calc( #{$header-height} * #{$header-height-factor-gray} * 0.25 );
-                width: 1px;
-                background-color: themed("text-white");
+                width: 2px;
+                background-color: themed("logo-green");
             }
 
             &:first-child::before {
                 display: none;
+            }
+
+            &:last-child {
+                padding-right: 30px;
             }
         }
     }

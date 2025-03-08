@@ -2,47 +2,188 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/fr/posts/post-3/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+    <loc>http://localhost:1313/fr/finanzen/aktuellefinanzuebersicht/</loc>
+    <lastmod>2025-03-01T21:11:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/finanzen/aktuellefinanzuebersicht/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/post-3/"
+                href="http://localhost:1313/en/finanzen/aktuellefinanzuebersicht/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/posts/post-3/"
+                href="http://localhost:1313/fr/finanzen/aktuellefinanzuebersicht/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/posts/post-1/</loc>
-    <lastmod>2023-01-15T09:00:00-07:00</lastmod>
+    <loc>http://localhost:1313/fr/bildung/</loc>
+    <lastmod>2025-02-19T21:11:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/bildung/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/post-1/"
+                href="http://localhost:1313/en/bildung/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/posts/post-1/"
+                href="http://localhost:1313/fr/bildung/"
                 />
   </url><url>
-    <loc>http://localhost:1313/fr/posts/</loc>
-    <lastmod>2023-01-01T08:30:00-07:00</lastmod>
+    <loc>http://localhost:1313/fr/campus/</loc>
+    <lastmod>2025-02-19T21:11:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/campus/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/"
+                href="http://localhost:1313/en/campus/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/posts/"
+                href="http://localhost:1313/fr/campus/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fr/derverein/</loc>
+    <lastmod>2025-02-19T21:11:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/derverein/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/derverein/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/derverein/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fr/finanzen/</loc>
+    <lastmod>2025-02-19T21:11:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/finanzen/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/finanzen/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/finanzen/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fr/galerie/</loc>
+    <lastmod>2025-02-19T21:11:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/galerie/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/galerie/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/galerie/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fr/helfen/</loc>
+    <lastmod>2025-02-19T21:11:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/helfen/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/helfen/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/helfen/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fr/hilfezursebsthilfe/</loc>
+    <lastmod>2025-02-19T21:11:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/hilfezursebsthilfe/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/hilfezursebsthilfe/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/hilfezursebsthilfe/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fr/versorgung/</loc>
+    <lastmod>2025-02-19T21:11:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/versorgung/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/versorgung/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/versorgung/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/fr/wirueberuns/</loc>
+    <lastmod>2025-02-19T21:11:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/wirueberuns/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/wirueberuns/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/wirueberuns/"
                 />
   </url><url>
     <loc>http://localhost:1313/fr/</loc>
-    <lastmod>2023-01-01T08:00:00-07:00</lastmod>
+    <lastmod>2025-02-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"

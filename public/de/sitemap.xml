@@ -11,6 +11,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/finanzen/aktuellefinanzuebersicht/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="de"
                 href="http://localhost:1313/de/finanzen/aktuellefinanzuebersicht/"
                 />
@@ -21,6 +26,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/bildung/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/bildung/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -37,6 +47,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/campus/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="de"
                 href="http://localhost:1313/de/campus/"
                 />
@@ -47,6 +62,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/derverein/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/derverein/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -63,6 +83,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/finanzen/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="de"
                 href="http://localhost:1313/de/finanzen/"
                 />
@@ -73,6 +98,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/galerie/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/galerie/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -89,6 +119,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/helfen/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="de"
                 href="http://localhost:1313/de/helfen/"
                 />
@@ -99,6 +134,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/hilfezursebsthilfe/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/hilfezursebsthilfe/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -115,12 +155,32 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/versorgung/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="de"
                 href="http://localhost:1313/de/versorgung/"
                 />
   </url><url>
     <loc>http://localhost:1313/de/wirueberuns/</loc>
     <lastmod>2025-02-19T21:11:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/wirueberuns/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/wirueberuns/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/wirueberuns/"
+                />
   </url><url>
     <loc>http://localhost:1313/de/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
