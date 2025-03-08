@@ -39,7 +39,7 @@
                 font-stretch: bolder;
                 font-style: normal;
                 //font-size: calc(var(--viewable-height) / 8);
-                font-size: calc(var(--viewable-height) / 5);
+                font-size: 130px;// calc(var(--viewable-height) / 5);
                 opacity: 70%;
                 color: themed("text-white");
                 text-shadow: 
@@ -61,7 +61,7 @@
                 font-stretch: bolder;
                 font-style: normal;
                 //font-size: calc(var(--viewable-height) / 8);
-                font-size: calc(var(--viewable-height) / 5);
+                font-size: 130px;// calc(var(--viewable-height) / 5);
                 opacity: 70%;
                 color: themed("text-white");
                 text-shadow: 
@@ -106,52 +106,52 @@
 
     }
     
-    @media (min-width: 1260px) and (max-width: 1460px) {
-        .mainswiper .swiper-slide .headline11 {
-            top: calc(var(--viewable-height) / 4 - 30px);
-            font-size: calc(var(--viewable-height) / 6);
-        }
+    // @media (min-width: 1260px) and (max-width: 1460px) {
+    //     .mainswiper .swiper-slide .headline11 {
+    //         top: calc(var(--viewable-height) / 4 - 30px);
+    //         font-size: calc(var(--viewable-height) / 6);
+    //     }
 
-        .mainswiper .swiper-slide .headline12 {
-            top: calc(var(--viewable-height) / 4 +  var(--viewable-height) / 5 - 30px);
-            font-size: calc(var(--viewable-height) / 6);
-        }
-    }
+    //     .mainswiper .swiper-slide .headline12 {
+    //         top: calc(var(--viewable-height) / 4 +  var(--viewable-height) / 5 - 30px);
+    //         font-size: calc(var(--viewable-height) / 6);
+    //     }
+    // }
 
     @media (min-width: 1050px) and (max-width: 1260px) {
         .mainswiper .swiper-slide .headline11 {
             top: calc(var(--viewable-height) / 3 - 30px);
-            font-size: calc(var(--viewable-height) / 8);
+            font-size: 100px;// calc(var(--viewable-height) / 8);
         }
 
         .mainswiper .swiper-slide .headline12 {
             top: calc(var(--viewable-height) / 3 +  var(--viewable-height) / 7 - 30px);
-            font-size: calc(var(--viewable-height) / 8);
+            font-size: 100px;// calc(var(--viewable-height) / 8);
         }
     }
 
-    @media (min-width: 840px) and (max-width: 1050px) {
-        .mainswiper .swiper-slide .headline11 {
-            top: calc(var(--viewable-height) / 3);
-            font-size: calc(var(--viewable-height) / 8);
-        }
+    // @media (min-width: 840px) and (max-width: 1050px) {
+    //     .mainswiper .swiper-slide .headline11 {
+    //         top: calc(var(--viewable-height) / 3);
+    //         font-size: calc(var(--viewable-height) / 8);
+    //     }
 
-        .mainswiper .swiper-slide .headline12 {
-            top: calc(var(--viewable-height) / 3 +  var(--viewable-height) / 7);
-            font-size: calc(var(--viewable-height) / 8);
-        }
-    }
+    //     .mainswiper .swiper-slide .headline12 {
+    //         top: calc(var(--viewable-height) / 3 +  var(--viewable-height) / 7);
+    //         font-size: calc(var(--viewable-height) / 8);
+    //     }
+    // }
 
-    @media (min-width: 450px) and (max-width: 840px) {
+    @media (min-width: 580px) and (max-width: 1050px) {
         .mainswiper .swiper-slide .headline11 {
             top: calc(var(--viewable-height) / 2.6);
-            font-size: calc(var(--viewable-height) / 13);
+            font-size: 70px;// calc(var(--viewable-height) / 13);
             opacity: 90%;
         }
 
         .mainswiper .swiper-slide .headline12 {
             top: calc(var(--viewable-height) / 2.6 +  var(--viewable-height) / 10);
-            font-size: calc(var(--viewable-height) / 13);
+            font-size: 70px;// calc(var(--viewable-height) / 13);
             opacity: 90%;
         }
 
@@ -163,16 +163,16 @@
         }
     }
     
-    @media (max-width: 450px) {
+    @media (max-width: 580px) {
         .mainswiper .swiper-slide .headline11 {
             top: calc(var(--viewable-height) / 2.3);
-            font-size: calc(var(--viewable-height) / 15);
+            font-size: 50px;// calc(var(--viewable-height) / 15);
             opacity: 90%;
         }
 
         .mainswiper .swiper-slide .headline12 {
             top: calc(var(--viewable-height) / 2.3 +  var(--viewable-height) / 15);
-            font-size: calc(var(--viewable-height) / 18);
+            font-size: 50px;// calc(var(--viewable-height) / 18);
             opacity: 90%;
         }
 

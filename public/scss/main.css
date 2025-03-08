@@ -1396,7 +1396,7 @@
       font-weight: 400;
       font-stretch: bolder;
       font-style: normal;
-      font-size: calc(var(--viewable-height) / 5);
+      font-size: 130px;
       opacity: 70%;
       color: white;
       text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
@@ -1408,7 +1408,7 @@
       font-weight: 400;
       font-stretch: bolder;
       font-style: normal;
-      font-size: calc(var(--viewable-height) / 5);
+      font-size: 130px;
       opacity: 70%;
       color: white;
       text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
@@ -1438,38 +1438,22 @@
     .light-theme .mainswiper .swiper-slide .button11:focus {
       outline: none; }
 
-@media (min-width: 1260px) and (max-width: 1460px) {
-  .light-theme .mainswiper .swiper-slide .headline11 {
-    top: calc(var(--viewable-height) / 4 - 30px);
-    font-size: calc(var(--viewable-height) / 6); }
-  .light-theme .mainswiper .swiper-slide .headline12 {
-    top: calc(var(--viewable-height) / 4 +  var(--viewable-height) / 5 - 30px);
-    font-size: calc(var(--viewable-height) / 6); } }
-
 @media (min-width: 1050px) and (max-width: 1260px) {
   .light-theme .mainswiper .swiper-slide .headline11 {
     top: calc(var(--viewable-height) / 3 - 30px);
-    font-size: calc(var(--viewable-height) / 8); }
+    font-size: 100px; }
   .light-theme .mainswiper .swiper-slide .headline12 {
     top: calc(var(--viewable-height) / 3 +  var(--viewable-height) / 7 - 30px);
-    font-size: calc(var(--viewable-height) / 8); } }
+    font-size: 100px; } }
 
-@media (min-width: 840px) and (max-width: 1050px) {
-  .light-theme .mainswiper .swiper-slide .headline11 {
-    top: calc(var(--viewable-height) / 3);
-    font-size: calc(var(--viewable-height) / 8); }
-  .light-theme .mainswiper .swiper-slide .headline12 {
-    top: calc(var(--viewable-height) / 3 +  var(--viewable-height) / 7);
-    font-size: calc(var(--viewable-height) / 8); } }
-
-@media (min-width: 450px) and (max-width: 840px) {
+@media (min-width: 580px) and (max-width: 1050px) {
   .light-theme .mainswiper .swiper-slide .headline11 {
     top: calc(var(--viewable-height) / 2.6);
-    font-size: calc(var(--viewable-height) / 13);
+    font-size: 70px;
     opacity: 90%; }
   .light-theme .mainswiper .swiper-slide .headline12 {
     top: calc(var(--viewable-height) / 2.6 +  var(--viewable-height) / 10);
-    font-size: calc(var(--viewable-height) / 13);
+    font-size: 70px;
     opacity: 90%; }
   .light-theme .mainswiper .swiper-slide .button11 {
     bottom: 10px;
@@ -1477,14 +1461,14 @@
     height: 90px;
     width: 90px; } }
 
-@media (max-width: 450px) {
+@media (max-width: 580px) {
   .light-theme .mainswiper .swiper-slide .headline11 {
     top: calc(var(--viewable-height) / 2.3);
-    font-size: calc(var(--viewable-height) / 15);
+    font-size: 50px;
     opacity: 90%; }
   .light-theme .mainswiper .swiper-slide .headline12 {
     top: calc(var(--viewable-height) / 2.3 +  var(--viewable-height) / 15);
-    font-size: calc(var(--viewable-height) / 18);
+    font-size: 50px;
     opacity: 90%; }
   .light-theme .mainswiper .swiper-slide .button11 {
     bottom: 10px;
@@ -1520,7 +1504,7 @@
       font-weight: 400;
       font-stretch: bolder;
       font-style: normal;
-      font-size: calc(var(--viewable-height) / 5);
+      font-size: 130px;
       opacity: 70%;
       color: black;
       text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
@@ -1532,7 +1516,7 @@
       font-weight: 400;
       font-stretch: bolder;
       font-style: normal;
-      font-size: calc(var(--viewable-height) / 5);
+      font-size: 130px;
       opacity: 70%;
       color: black;
       text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
@@ -1562,38 +1546,22 @@
     .dark-theme .mainswiper .swiper-slide .button11:focus {
       outline: none; }
 
-@media (min-width: 1260px) and (max-width: 1460px) {
-  .dark-theme .mainswiper .swiper-slide .headline11 {
-    top: calc(var(--viewable-height) / 4 - 30px);
-    font-size: calc(var(--viewable-height) / 6); }
-  .dark-theme .mainswiper .swiper-slide .headline12 {
-    top: calc(var(--viewable-height) / 4 +  var(--viewable-height) / 5 - 30px);
-    font-size: calc(var(--viewable-height) / 6); } }
-
 @media (min-width: 1050px) and (max-width: 1260px) {
   .dark-theme .mainswiper .swiper-slide .headline11 {
     top: calc(var(--viewable-height) / 3 - 30px);
-    font-size: calc(var(--viewable-height) / 8); }
+    font-size: 100px; }
   .dark-theme .mainswiper .swiper-slide .headline12 {
     top: calc(var(--viewable-height) / 3 +  var(--viewable-height) / 7 - 30px);
-    font-size: calc(var(--viewable-height) / 8); } }
+    font-size: 100px; } }
 
-@media (min-width: 840px) and (max-width: 1050px) {
-  .dark-theme .mainswiper .swiper-slide .headline11 {
-    top: calc(var(--viewable-height) / 3);
-    font-size: calc(var(--viewable-height) / 8); }
-  .dark-theme .mainswiper .swiper-slide .headline12 {
-    top: calc(var(--viewable-height) / 3 +  var(--viewable-height) / 7);
-    font-size: calc(var(--viewable-height) / 8); } }
-
-@media (min-width: 450px) and (max-width: 840px) {
+@media (min-width: 580px) and (max-width: 1050px) {
   .dark-theme .mainswiper .swiper-slide .headline11 {
     top: calc(var(--viewable-height) / 2.6);
-    font-size: calc(var(--viewable-height) / 13);
+    font-size: 70px;
     opacity: 90%; }
   .dark-theme .mainswiper .swiper-slide .headline12 {
     top: calc(var(--viewable-height) / 2.6 +  var(--viewable-height) / 10);
-    font-size: calc(var(--viewable-height) / 13);
+    font-size: 70px;
     opacity: 90%; }
   .dark-theme .mainswiper .swiper-slide .button11 {
     bottom: 10px;
@@ -1601,14 +1569,14 @@
     height: 90px;
     width: 90px; } }
 
-@media (max-width: 450px) {
+@media (max-width: 580px) {
   .dark-theme .mainswiper .swiper-slide .headline11 {
     top: calc(var(--viewable-height) / 2.3);
-    font-size: calc(var(--viewable-height) / 15);
+    font-size: 50px;
     opacity: 90%; }
   .dark-theme .mainswiper .swiper-slide .headline12 {
     top: calc(var(--viewable-height) / 2.3 +  var(--viewable-height) / 15);
-    font-size: calc(var(--viewable-height) / 18);
+    font-size: 50px;
     opacity: 90%; }
   .dark-theme .mainswiper .swiper-slide .button11 {
     bottom: 10px;
