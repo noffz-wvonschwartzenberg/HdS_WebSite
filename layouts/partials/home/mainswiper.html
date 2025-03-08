@@ -47,15 +47,37 @@
             const imageHeight = image.offsetHeight;
             
             dependentElement1.style.top = (imageTop + imageHeight / 3) + 'px'; // 20px Abstand unterhalb
-            dependentElement1.style.fontSize = imageHeight / 5 + 'px';
+            dependentElement1.style.fontSize = Math.min(imageHeight / 5, 130) + 'px';
             dependentElement2.style.top = (dependentElement1.offsetTop + dependentElement1.offsetHeight) + 'px'; // 20px Abstand unterhalb
-            dependentElement2.style.fontSize = imageHeight / 5 + 'px';
+            dependentElement2.style.fontSize = Math.min(imageHeight / 5, 130) + 'px';
             dependentElement1.style.left = 30 + 'px';
             dependentElement2.style.left = 30 + 'px';
 
             if (imageHeight < 270 && imageWidth > 720) {
                 dependentElement1.style.left = 150 + 'px';
                 dependentElement2.style.left = 150 + 'px';
+            }
+
+            if (imageWidth > 900 && imageWidth < 1050) {
+                dependentElement1.style.top = (imageTop + imageHeight / 3) + 'px'; // 20px Abstand unterhalb
+                dependentElement1.style.fontSize = Math.min(imageHeight / 7, 100) + 'px';
+                dependentElement2.style.top = (dependentElement1.offsetTop + dependentElement1.offsetHeight) + 'px'; // 20px Abstand unterhalb
+                dependentElement2.style.fontSize = Math.min(imageHeight / 7, 100) + 'px';
+            }
+
+            if (imageWidth > 620 && imageWidth <= 900) {
+                dependentElement1.style.top = (imageTop + imageHeight / 2) + 'px'; // 20px Abstand unterhalb
+                dependentElement1.style.fontSize = Math.min(imageHeight / 10, 100) + 'px';
+                dependentElement2.style.top = (dependentElement1.offsetTop + dependentElement1.offsetHeight) + 'px'; // 20px Abstand unterhalb
+                dependentElement2.style.fontSize = Math.min(imageHeight / 10, 100) + 'px';
+            }
+
+
+            if (imageWidth <= 620) {
+                dependentElement1.style.top = (imageTop + imageHeight / 2) + 'px'; // 20px Abstand unterhalb
+                dependentElement1.style.fontSize = Math.min(imageHeight / 13, 100) + 'px';
+                dependentElement2.style.top = (dependentElement1.offsetTop + dependentElement1.offsetHeight) + 'px'; // 20px Abstand unterhalb
+                dependentElement2.style.fontSize = Math.min(imageHeight / 13, 100) + 'px';
             }
         }
 
