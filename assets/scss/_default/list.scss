@@ -170,51 +170,53 @@
     }
 
     @media (max-width: 840px) {
-        .list .list-pagetitle {
-            font-size: calc(var(--viewable-height) / 8);
-        }
+        .list {
+            .list .list-pagetitle {
+                font-size: calc(var(--viewable-height) / 8);
+            }
 
-        .list-container {
-            margin: 0 auto;
-            width: calc( #{$width-percent-of-screen} - 2px );
-            height: 500px;
-            display: flex;
-            flex-direction: column;
-            margin-bottom: calc( ( 100% - #{$width-percent-of-screen} ) );
-        } 
-    
-        .list-picture {
-            width:auto;
-            height: 250px;
-            object-fit:none;
-        }
-    
-        .list-shifted {
-            flex: 2;
-            display: flex;
-            flex-direction: column;
-            margin-left: 20px;
-            margin-top: 20px;
-            margin-right: 20px;
-            background-color: themed(website-background);
-        }
+            .list-container {
+                margin: 0 auto;
+                width: calc( #{$width-percent-of-screen} - 2px );
+                height: 500px;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: calc( ( 100% - #{$width-percent-of-screen} ) );
+            } 
+        
+            .list-picture {
+                width:auto;
+                height: 250px;
+                object-fit:cover;
+            }
+        
+            .list-shifted {
+                flex: 2;
+                display: flex;
+                flex-direction: column;
+                margin-left: 20px;
+                margin-top: 20px;
+                margin-right: 20px;
+                background-color: themed(website-background);
+            }
 
-        .list-description {
-            flex: 2;
-            margin-top: 10px;
-            margin-left: 2.5%;
-            margin-right: 2.5%;
-            color: themed(text-black);
-            white-space:inherit;
-            max-height: calc( 300px / 2);
-        }
-    
-        .list-date {
-            margin-top: 20px;
-            margin-right: 10px;
-            height: 25px;
-            text-align: right;
-            vertical-align:middle;
+            .list-description {
+                flex: 2;
+                margin-top: 10px;
+                margin-left: 2.5%;
+                margin-right: 2.5%;
+                color: themed(text-black);
+                white-space:inherit;
+                max-height: calc( 300px / 2);
+            }
+        
+            .list-date {
+                margin-top: 20px;
+                margin-right: 10px;
+                height: 25px;
+                text-align: right;
+                vertical-align:middle;
+            }
         }
    }
 

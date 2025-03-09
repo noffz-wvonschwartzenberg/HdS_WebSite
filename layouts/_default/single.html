@@ -42,7 +42,43 @@
       document.documentElement.style.setProperty('--viewable-height', `${height}px`);
     }
 
+    // margin and tables
+    function updateMargins() {
+      const single = document.getElementById('js-single');
+
+      const bodyMargin = 16;
+      const contentsPadding = 20;
+      const immagePadding = 10;
+      const width = single.offsetWidth;
+      
+      // Contents
+      let contentsWidth = width - contentsPadding;
+      if (width > 800 + contentsPadding) {
+        contentsWidth = Math.min(width - contentsPadding, 800);
+      }
+      document.documentElement.style.setProperty('--contents-width', `${contentsWidth}px`);
+      const contentsMargin = Math.max((width - contentsWidth - contentsPadding) / 2, 0);
+      document.documentElement.style.setProperty('--contents-margin', `${contentsMargin}px`);
+
+      // Images and Tables
+
+      let imageWidth = contentsWidth - immagePadding;
+      if (contentsWidth >= 600 + immagePadding) {
+        imageWidth = 600;
+      }
+      console.log(imageWidth);
+      
+      document.documentElement.style.setProperty('--image-width', `${imageWidth}px`);
+      const imageMargin = Math.max((contentsWidth- imageWidth) / 2, 0);
+      console.log(contentsWidth);
+      console.log(imageMargin);
+      document.documentElement.style.setProperty('--image-margin', `${imageMargin-1}px`);
+    }
+
+    window.addEventListener('resize', updateMargins);
     window.addEventListener('resize', updateViewableArea);
+    updateMargins();
     updateViewableArea();
+
   </script>
 {{ end }}

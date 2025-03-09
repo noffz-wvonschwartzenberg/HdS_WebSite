@@ -3,9 +3,6 @@
         background-color: themed("website-background");
         height: calc(var(--viewable-height) - #{$logo-height} + 50px);
     }
-    // :root {
-    //     --viewable-height: 400px;
-    // }
 
     .mainswiper {
         max-width: 100%; //$width-percent-of-screen;

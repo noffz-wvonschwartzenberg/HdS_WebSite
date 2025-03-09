@@ -11,16 +11,16 @@
         }
 
         .single-contents {
-          padding-left: 30px;
-          padding-right: 30px;
+          // padding-left: 30px;
+          // padding-right: 30px;
           background: linear-gradient(to bottom, themed(logo-green), #FFFFFF);
         }
 
         .single-content {
-          max-width: 800px;
-          margin-left: calc((100% - 800px) / 2);
+          max-width: var(--contents-width);
+          margin-left: var(--contents-margin);
           background-color: themed(website-background);
-          padding: 10px
+          padding: 10px 10px;
         }
 
         .single-logo {
@@ -92,6 +92,7 @@
 
         .single-author {
             text-align: end;
+            padding: 0 10px;
             // border-color: themed("text-black");
             // border-width: 1px;
             // border-style: solid;
@@ -99,6 +100,7 @@
 
         .single-date {
             text-align: end;
+            padding: 0 10px 10px 10px;
         }
         h2 {
             padding-top: 30px;
@@ -124,7 +126,7 @@
         
         /* Standard-Bild */
         label img {
-            width:600px;
+            width: var(--image-width);
             margin-top: 10px;
             border-color: themed("logo-yellow");
             border-width: 2px;
@@ -152,7 +154,7 @@
         
         .imagemd-caption  {
             display: block;
-            width: 600px;
+            width: var(--image-width);
             border-color: themed("logo-yellow-60");
             border-width: 2px;
             border-style: solid;
@@ -160,15 +162,15 @@
             padding: 5px 0px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             text-align: center;
-            margin-left: 100px;
+            margin-left: var(--image-margin);
         }
 
         .kleine-tabelle {
             margin-top: 10px;
-            width: 600px;
+            width: var(--image-width);
             overflow-x: hidden;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            margin-left: 100px;
+            margin-left: var(--image-margin);
           }
           
           .kleine-tabelle table {
@@ -225,10 +227,10 @@
 
         .finanzen-tabelle {
             margin-top: 10px;
-            width: 600px;
+            width: var(--image-width);
             overflow-x: hidden;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            margin-left: 100px;
+            margin-left: var(--image-margin);
           }
           
           .finanzen-tabelle table {
