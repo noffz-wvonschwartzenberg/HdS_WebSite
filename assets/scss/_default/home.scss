@@ -19,10 +19,12 @@
     }
     .home-container:nth-child(odd) {
         background-color: themed(logo-green);
+        border: 1px solid themed("logo-green");
     }
     
     .home-container:nth-child(even) {
         background-color: themed(logo-yellow);
+        border: 1px solid themed("logo-yellow");
     }
 
     .home-container:last-child {

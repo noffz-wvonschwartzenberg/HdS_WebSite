@@ -58,8 +58,9 @@
         }
 
         .single-picture {
-            height: calc(var(--viewable-height) - 30px);
-        }
+            height: calc(var(--viewable-height) / 2);
+            position: relative;
+          }
 
         .single-picture-main {
             width: 100%;
@@ -71,10 +72,10 @@
         .single-pagetitle {
             position: absolute;
             text-align: center;
-            // padding: 17px;
+            padding-left: 2.5%;
             // margin: 0 0 0 0;
             // margin-left: 0px;
-            top: 150px;
+            top: $logo-height + 30px;
             width: calc(100% - 60px);
             font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             font-weight: 400;
@@ -182,7 +183,7 @@
           .kleine-tabelle tbody tr {
             display: table;
             width: 100%; /* Gleiche Breite für Header und Body */
-            table-layout: fixed; /* Konsistente Spaltenbreiten */
+            table-layout: auto; /* Konsistente Spaltenbreiten */
           }
 
           .kleine-tabelle thead {
@@ -193,7 +194,7 @@
           .kleine-tabelle thead th {
             background: themed(logo-yellow-60);
             padding: 5px 16px;
-            border-bottom: 2px solid themed(logo-yellow-60);
+            border-bottom: 0px solid themed(logo-yellow-60);
             position: sticky;
             top: 0; /* Fixiert die Kopfzeile */
             z-index: 1;
@@ -202,7 +203,7 @@
           .kleine-tabelle thead th:last-child {
             text-align: right;
             border: 2px solid themed(logo-yellow-60);
-            width: 200px;
+            width: 120px;
           }
 
           .kleine-tabelle tbody {
@@ -213,7 +214,7 @@
           
           .kleine-tabelle tbody td {
             padding: 8px 16px;
-            border: 2px solid themed(logo-yellow-60);
+            border: 1px solid themed(logo-yellow-60);
             text-align: left;
             vertical-align: middle;
             background-color: themed(website-background-60);
@@ -222,7 +223,7 @@
           .kleine-tabelle tbody td:last-child {
             text-align: right;
             vertical-align: middle;
-            width: 200px;
+            width: 120px;
           }
 
         .finanzen-tabelle {
@@ -261,19 +262,17 @@
           .finanzen-tabelle thead th:first-child {
             // text-align: right;
             border: 2px solid themed(logo-yellow-60);
-            width: 150px;
+            width: 100px;
           }
 
           .finanzen-tabelle thead th:last-child {
             // text-align: right;
             border: 2px solid themed(logo-yellow-60);
-            width: 150px;
+            width: 120px;
           }
 
           .finanzen-tabelle tbody {
             border: 2px solid themed(logo-yellow-60);
-
-
             display: block;
             max-height: 384px; /* Scrollbare Höhe */
             overflow-y: auto; /* Vertikale Scrollbar */
@@ -282,7 +281,7 @@
           
           .finanzen-tabelle tbody td {
             padding: 4px 16px;
-            border: 2px solid themed(logo-yellow-60);
+            border: 1px solid themed(logo-yellow-60);
             text-align: left;
             vertical-align: middle;
             background-color: themed(website-background);
@@ -291,13 +290,13 @@
           .finanzen-tabelle tbody td:first-child {
             text-align: center;
             vertical-align: middle;
-            width: 150px;
+            width: 100px;
           }
 
           .finanzen-tabelle tbody td:last-child {
             text-align: right;
             vertical-align: middle;
-            width: 150px;
+            width: 120px;
           }
     }
 
@@ -339,5 +338,71 @@
         }
     }
     
+    
+   @media (max-width: 600px) {
+        .finanzen-tabelle table,
+        .finanzen-tabelle thead,
+        .finanzen-tabelle tbody,
+        .finanzen-tabelle tr,
+        .finanzen-tabelle td,
+        .finanzen-tabelle th {
+          display: block; /* Tabellenstruktur wird aufgelöst */
+          width: 100%;
+          box-sizing: border-box;
+          text-align: left;
+        }
+      
+        .finanzen-tabelle thead {
+          display: none; /* Header ausblenden */
+        }
+      
+        .finanzen-tabelle tr {
+          margin-bottom: 0px; /* Abstand zwischen Zeilen */
+        }
+      
+        .finanzen-tabelle td {
+          position: relative;
+          padding-left: 50%; /* Platz für das Label */
+        }
+      
+        .finanzen-tabelle td::before {
+          content: attr(data-label); /* Spaltenüberschrift aus Attribut */
+          position: absolute;
+          left: 16px;
+          width: 45%; /* Platz für das Label */
+          font-weight: bold;
+        }
+
+        .single .finanzen-tabelle tbody td:first-child {
+          width:auto;
+          border-bottom: 0;
+          text-align: left;
+        }
+
+        .single .finanzen-tabelle tbody td:last-child {
+          width:auto;
+          border-top: 0;
+          border-bottom: 3px solid themed(logo-yellow-60);
+          text-align: left;
+        }
+
+        .single .finanzen-tabelle thead th {
+          border-bottom: 0;
+        }
+
+        .single .finanzen-tabelle thead th:first-child {
+          width:auto;
+          border-bottom: 0;
+          border-top: 0;
+          text-align: left;
+        }
+
+        .single .finanzen-tabelle thead th:last-child {
+          width:auto;
+          border-bottom: 0;
+          border-top: 0;
+          text-align: left;
+        }
+   }
 }
 
