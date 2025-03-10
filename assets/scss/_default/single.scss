@@ -58,7 +58,7 @@
         }
 
         .single-picture {
-            height: calc(var(--viewable-height) / 2);
+            height: calc(var(--viewable-height) / 1.9);
             position: relative;
           }
 
@@ -75,7 +75,7 @@
             padding-left: 2.5%;
             // margin: 0 0 0 0;
             // margin-left: 0px;
-            top: $logo-height + 30px;
+            top: $logo-height + 10px;
             width: calc(100% - 60px);
             font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             font-weight: 400;

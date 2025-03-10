@@ -152,13 +152,13 @@
     }
 
     
-    function updateViewableArea2() {
+    function updateViewableAreaList() {
       const height = window.innerHeight;
-      document.documentElement.style.setProperty('--viewable-height', `${height}px`);
+      document.documentElement.style.setProperty('--viewable-height-list', `${height}px`);
     }
 
-    window.addEventListener('resize', updateViewableArea2);
-    updateViewableArea2();
+    window.addEventListener('resize', updateViewableAreaList);
+    updateViewableAreaList();
   </script>
 >
   </body>

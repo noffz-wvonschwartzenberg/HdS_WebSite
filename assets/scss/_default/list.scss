@@ -36,25 +36,23 @@
             display: none;
         }
 
-        .list-picture {
-            width: calc(( #{$width-percent-of-screen} - 4px) / 1.7 );
-            object-fit: cover;
-            transition: all 150ms ease;
+        .list-div-main {
+            height: calc(var(--viewable-height-list) / 1.9);
             position: relative;
-        }    
+        }
 
         .list-pagetitle {
             position: absolute;
             padding: 17px;
             //top: 150px;
-            top: $logo-height + 30px;
+            top: $logo-height - 10px;
             left:0px;
             width: calc(100% - 35px);
             font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             font-weight: 400;
             font-stretch: bolder;
             font-style: normal;
-            font-size: calc(var(--viewable-height) / 5);
+            font-size: calc(var(--viewable-height-list) / 5);
             opacity: 80%;
             color: themed("logo-yellow");
             text-shadow: 
@@ -162,9 +160,11 @@
             vertical-align:middle;
         }
 
-        .list-div-main {
-            height: calc(var(--viewable-height) / 2);
-        }
+        .list-picture {
+            width: calc(( #{$width-percent-of-screen} - 4px) / 1.7 );
+            object-fit: cover;
+            transition: all 150ms ease;
+        }    
 
         .list-picture-main {
             width: 100%;
@@ -176,7 +176,7 @@
     @media (max-width: 840px) {
         .list {
             .list .list-pagetitle {
-                font-size: calc(var(--viewable-height) / 8);
+                font-size: calc(var(--viewable-height-list) / 8);
             }
 
             .list-container {
@@ -227,45 +227,27 @@
    
    @media (max-width: 900px) {
     .list .list-pagetitle {
-        font-size: calc(var(--viewable-height) / 12);
+        font-size: calc(var(--viewable-height-list) / 12);
         }
     }
 
     @media (max-width: 500px) {
         .list .list-pagetitle {
-            font-size: calc(var(--viewable-height) / 20);
+            font-size: calc(var(--viewable-height-list) / 20);
         }
     }
 
     @media (max-width: 400px) {
         .list .list-pagetitle {
-            font-size: calc(var(--viewable-height) / 30);
+            font-size: calc(var(--viewable-height-list) / 30);
         }
     }
 
     @media (max-width: 300px) {
         .list .list-pagetitle {
-            font-size: calc(var(--viewable-height) / 40);
+            font-size: calc(var(--viewable-height-list) / 35);
         }
     }
-
-    // @media (max-width: 500px) {
-    //     .list .list-pagetitle {
-    //         font-size: calc(var(--viewable-height) / 10);
-    //     }
-    // }
-
-    // @media (max-width: 320px) {
-    //     .list .list-pagetitle {
-    //         font-size: calc(var(--viewable-height) / 14);
-    //     }
-    // }
-    
-    // @media (max-width: 230px) {
-    //     .list .list-pagetitle {
-    //         font-size: calc(var(--viewable-height) / 20);
-    //     }
-    // }
 
     @media (max-width: 500px) {
         .list .list-logo {
