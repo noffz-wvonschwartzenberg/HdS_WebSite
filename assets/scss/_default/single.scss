@@ -113,6 +113,39 @@
           padding-top: 20px;
         }
 
+        input, select {
+          background-color: themed(website-background);
+          text-align: left;
+          border-radius: 3px;
+          padding: 5px;
+          border: 1px solid themed(logo-green-60);
+          font-size: 18px;
+          width: 300px;
+          color: themed(logo-green);
+        }
+
+        select {
+          width: 150px;
+        }
+
+        button {
+          border: none;
+          text-align: center;
+          font-size: 18px;
+          padding: 10px;
+          background-color: themed(logo-green);
+          border-radius: 3px;
+          border: 1px solid themed(logo-green-60);
+          color: themed(text-white);
+          cursor: pointer;
+        }
+  
+        button:hover {
+          transform: scale(1.01);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+
         .img-div {
           display: block;
           justify-content: center; /* Horizontales Zentrieren */

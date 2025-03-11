@@ -35,6 +35,17 @@
   "wwDFotos": "Fotos",
   "wwDChronicle": "Chronik",
   
+  "toHelpSubHead": "Wie kann ich dem Haus der Sonne helfen?",
+  "toHelpSubCol1": "Spenden",
+  "tHPatenschaften": "Pate werden",
+  "tHPatenschaftenService": "Meine Patenschaft verwalten",
+  "thDonate": "Spenden",
+  "thDonateProject": "Gezielt Spenden",
+
+  "toHelpSubCol2": "Mitglieder",
+  "tHGetMitglied": "Mitglied werden",
+  "tHMitgliedService": "Meine Mitgliedschaft verwalten",
+
   "oneEuroADay": "1 € am Tag",
   "oneMeal": "für eine warme Mahlzeit.",
   "getPate": "Werde Pate"

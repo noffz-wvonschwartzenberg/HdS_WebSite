@@ -54,9 +54,30 @@
       </div>
       <div>
         <h1 class="list-pagetitle">Helfen</h1>
-        <p class="list-pagedescription">Sie möchten Mitglied werden, spenden oder eine Patenschaft übernehmen? Selbst kleinste Beträge kommen bei den Kindern. Wir stellen auch gerne eine Spendenquittung aus.</p>
+        <p class="list-pagedescription">Sie möchten Mitglied werden, spenden oder eine Patenschaft übernehmen? Selbst kleinste Beträge kommen bei den Kindern und den Projekten an. Wir stellen auch gerne eine Spendenquittung aus.</p>
         
         
+        
+        <div class="list-container" onclick="location.href='\/de\/helfen\/mitgliedwerden\/';">
+          
+            <img src="/img/Helfen/MitgliedWerden/MitgliedWerden.jpg" alt="List Picture" class="list-picture">
+          
+            <div class="list-textbox">
+              <div class="list-shifted">
+                <div class="list-title">
+                  Mitglied werden
+                </div>
+                <div class="list-description">
+                  Sie möchten Mitglied im Verein Haus der Sonne werden? Das freut uns sehr.
+                </div>
+              </div>
+              <div class="list-date">
+                Samstag, März 1, 2025
+              </div>
+            </div>
+        </div>
+          
+          
         
       </div>
     </div>
@@ -131,13 +152,13 @@
     }
 
     
-    function updateViewableArea2() {
+    function updateViewableAreaList() {
       const height = window.innerHeight;
-      document.documentElement.style.setProperty('--viewable-height', `${height}px`);
+      document.documentElement.style.setProperty('--viewable-height-list', `${height}px`);
     }
 
-    window.addEventListener('resize', updateViewableArea2);
-    updateViewableArea2();
+    window.addEventListener('resize', updateViewableAreaList);
+    updateViewableAreaList();
   </script>
 >
   </body>
