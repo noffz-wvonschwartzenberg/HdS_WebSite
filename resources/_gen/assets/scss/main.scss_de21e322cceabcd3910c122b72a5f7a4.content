@@ -829,7 +829,8 @@
   align-items: center; }
 
 .light-theme .footer-address {
-  padding-left: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
   width: 250px;
   background-color: #088162;
   align-self: stretch;
@@ -1001,7 +1002,8 @@
   align-items: center; }
 
 .dark-theme .footer-address {
-  padding-left: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
   width: 250px;
   background-color: #032c22;
   align-self: stretch;
@@ -2072,7 +2074,7 @@
     padding: 5px;
     border: 1px solid rgba(0, 122, 94, 0.6);
     font-size: 18px;
-    width: 300px;
+    width: 90%;
     color: #007a5e; }
   .light-theme .single select {
     width: 150px; }
@@ -2394,7 +2396,7 @@
     padding: 5px;
     border: 1px solid;
     font-size: 18px;
-    width: 300px;
+    width: 90%;
     color: #032c22; }
   .dark-theme .single select {
     width: 150px; }

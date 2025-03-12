@@ -24,9 +24,9 @@ Sie stärken den Verein im allgemeinen, aber Ihr Beitrag wird auch für unsere P
 Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie werden durch eine Mitgliedschaft immer informiert. Sie erhalten am Ende jeden Jahres eine Spendenquittung, die Beiträge lassen sich steuerlich absetzen.
 
 ## Mitgliedschaft beantragen
-### Jahresbeitrag*
+### Jahresbeitrag in €*
 Bitte tragen Sie nur Zahlen ohne Komma oder Währung ein:  
-<input id="js-input-jahresbeitrag" placeholder="Jahresbeitrag" required> €  
+<input id="js-input-jahresbeitrag" placeholder="Jahresbeitrag" required>  
 
 ### Persönliche Angaben
 Geschlecht  
@@ -83,7 +83,9 @@ BIC*
 <br>
 Die Datenschutzerklärung habe ich gelesen und erkenne Sie ausdrücklich an.  
 <br>
-<button id="js-button-mitglied-werden">Mitgliedsantrag abschicken</button>
+<button id="js-button-mitglied-werden">Mitgliedsantrag abschicken</button>  
+
+<br>
   
 
 
