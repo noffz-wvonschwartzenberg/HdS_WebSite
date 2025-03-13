@@ -1,6 +1,7 @@
 @charset "UTF-8";
 .light-theme body {
-  background-color: red; }
+  background-color: red;
+  font-family: "Calibri", sans-serif; }
 
 .light-theme h1,
 .light-theme h2,
@@ -10,14 +11,14 @@
 .light-theme h6,
 .light-theme p {
   padding: 0;
-  margin: 0;
-  font-family: sans-serif; }
+  margin: 0; }
 
 .light-theme a {
   text-decoration: none; }
 
 .dark-theme body {
-  background-color: red; }
+  background-color: red;
+  font-family: "Calibri", sans-serif; }
 
 .dark-theme h1,
 .dark-theme h2,
@@ -27,8 +28,7 @@
 .dark-theme h6,
 .dark-theme p {
   padding: 0;
-  margin: 0;
-  font-family: sans-serif; }
+  margin: 0; }
 
 .dark-theme a {
   text-decoration: none; }
@@ -1995,6 +1995,7 @@
 .light-theme .single {
   background-color: #e3e2d4;
   font-size: 18px;
+  font-family: "Calibri", sans-serif;
   /* Verstecke die Checkbox */
   /* Standard-Bild */
   /* Bei aktivierter Checkbox: Vergrößern und zentrieren */ }
@@ -2138,6 +2139,30 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin-left: var(--image-margin); }
+  .light-theme .single .combobox-details {
+    background-color: #e3e2d4;
+    padding: 7px;
+    border: 1px solid rgba(252, 209, 22, 0.6);
+    cursor: pointer;
+    margin-top: 2px;
+    margin-bottom: 2px; }
+  .light-theme .single .patenschaft-container {
+    background-color: #e3e2d4;
+    padding: 7px;
+    border: 2px solid rgba(0, 122, 94, 0.6);
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px; }
+    .light-theme .single .patenschaft-container img {
+      padding: 2px; }
+    .light-theme .single .patenschaft-container div {
+      padding: 10px; }
+      .light-theme .single .patenschaft-container div p {
+        padding: 0px; }
+    .light-theme .single .patenschaft-container button {
+      margin-left: auto; }
   .light-theme .single .kleine-tabelle {
     margin-top: 10px;
     width: var(--image-width);
@@ -2317,6 +2342,7 @@
 .dark-theme .single {
   background-color: #575651;
   font-size: 18px;
+  font-family: "Calibri", sans-serif;
   /* Verstecke die Checkbox */
   /* Standard-Bild */
   /* Bei aktivierter Checkbox: Vergrößern und zentrieren */ }
@@ -2458,6 +2484,30 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin-left: var(--image-margin); }
+  .dark-theme .single .combobox-details {
+    background-color: #575651;
+    padding: 7px;
+    border: 1px solid;
+    cursor: pointer;
+    margin-top: 2px;
+    margin-bottom: 2px; }
+  .dark-theme .single .patenschaft-container {
+    background-color: #575651;
+    padding: 7px;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px; }
+    .dark-theme .single .patenschaft-container img {
+      padding: 2px; }
+    .dark-theme .single .patenschaft-container div {
+      padding: 10px; }
+      .dark-theme .single .patenschaft-container div p {
+        padding: 0px; }
+    .dark-theme .single .patenschaft-container button {
+      margin-left: auto; }
   .dark-theme .single .kleine-tabelle {
     margin-top: 10px;
     width: var(--image-width);

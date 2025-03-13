@@ -6,8 +6,15 @@
     <description>Recent content on Haus der Sonne</description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <lastBuildDate>Sat, 01 Mar 2025 21:11:48 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 05 Mar 2025 21:11:48 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eine warme Mahlzeit</title>
+      <link>http://localhost:1313/fr/versorgung/einewarmemahlzeit/</link>
+      <pubDate>Wed, 05 Mar 2025 21:11:48 +0100</pubDate>
+      <guid>http://localhost:1313/fr/versorgung/einewarmemahlzeit/</guid>
+      <description>&lt;h2 id=&#34;eine-warme-mahlzeit&#34;&gt;Eine warme Mahlzeit&lt;/h2&gt;</description>
+    </item>
     <item>
       <title>Aktuelle Finanzübersicht</title>
       <link>http://localhost:1313/fr/finanzen/aktuellefinanzuebersicht/</link>

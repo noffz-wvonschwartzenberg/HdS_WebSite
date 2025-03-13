@@ -2,6 +2,7 @@
     body {
         background-color: themed(webpage-background);
         background-color: red;
+        font-family: $font-family;
     }
     h1,
     h2,
@@ -12,7 +13,7 @@
     p {
         padding: 0;
         margin: 0;
-        font-family: sans-serif;
+        //font-family: $font-family;
     }
 
     a  {

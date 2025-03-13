@@ -2,6 +2,7 @@
   .single {
         background-color: themed("website-background");
         font-size: 18px;
+        font-family: $font-family;
 
         p {
             font-size: 18px;
@@ -197,6 +198,42 @@
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             text-align: center;
             margin-left: var(--image-margin);
+        }
+
+        .combobox-details {
+          background-color: themed(website-background);
+          // background-color: red;
+          padding: 7px;
+          border: 1px solid themed(logo-yellow-60);
+          cursor: pointer;
+          margin-top: 2px;
+          margin-bottom: 2px;
+        }
+
+        .patenschaft-container {
+          background-color: themed(website-background);
+          padding: 7px;
+          border: 2px solid themed(logo-green-60);
+          display: flex;
+          align-items: center;
+          margin-right: 10px;
+          margin-top: 2px;
+          margin-bottom: 2px;
+          img {
+            padding: 2px;
+          }
+
+          div {
+            padding: 10px;
+
+            p {
+              padding: 0px;
+            }
+          }
+
+          button {
+            margin-left: auto;
+          }
         }
 
         .kleine-tabelle {

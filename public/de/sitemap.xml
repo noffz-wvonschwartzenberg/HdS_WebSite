@@ -2,8 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/de/versorgung/</loc>
+    <lastmod>2025-03-12T21:11:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/versorgung/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/versorgung/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/versorgung/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/de/finanzen/</loc>
+    <lastmod>2025-03-10T21:11:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/finanzen/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/finanzen/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/finanzen/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/de/helfen/</loc>
+    <lastmod>2025-03-09T21:11:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/helfen/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/helfen/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/helfen/"
+                />
+  </url><url>
     <loc>http://localhost:1313/de/finanzen/aktuellefinanzuebersicht/</loc>
-    <lastmod>2025-03-01T21:11:48+01:00</lastmod>
+    <lastmod>2025-03-05T21:11:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -19,6 +73,27 @@
                 hreflang="de"
                 href="http://localhost:1313/de/finanzen/aktuellefinanzuebersicht/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/de/versorgung/einewarmemahlzeit/</loc>
+    <lastmod>2025-03-05T21:11:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/versorgung/einewarmemahlzeit/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/versorgung/einewarmemahlzeit/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/versorgung/einewarmemahlzeit/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/de/finanzen/2024/</loc>
+    <lastmod>2025-03-02T21:11:48+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/de/finanzen/2023/</loc>
     <lastmod>2025-03-01T21:11:48+01:00</lastmod>
@@ -95,24 +170,6 @@
                 href="http://localhost:1313/de/derverein/"
                 />
   </url><url>
-    <loc>http://localhost:1313/de/finanzen/</loc>
-    <lastmod>2025-02-19T21:11:48+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/finanzen/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/finanzen/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/finanzen/"
-                />
-  </url><url>
     <loc>http://localhost:1313/de/galerie/</loc>
     <lastmod>2025-02-19T21:11:48+01:00</lastmod>
     <xhtml:link
@@ -131,24 +188,6 @@
                 href="http://localhost:1313/de/galerie/"
                 />
   </url><url>
-    <loc>http://localhost:1313/de/helfen/</loc>
-    <lastmod>2025-02-19T21:11:48+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/helfen/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/helfen/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/helfen/"
-                />
-  </url><url>
     <loc>http://localhost:1313/de/hilfezursebsthilfe/</loc>
     <lastmod>2025-02-19T21:11:48+01:00</lastmod>
     <xhtml:link
@@ -165,24 +204,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="http://localhost:1313/de/hilfezursebsthilfe/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/versorgung/</loc>
-    <lastmod>2025-02-19T21:11:48+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/versorgung/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/versorgung/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/versorgung/"
                 />
   </url><url>
     <loc>http://localhost:1313/de/wirueberuns/</loc>
@@ -220,6 +241,9 @@
                 hreflang="de"
                 href="http://localhost:1313/de/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/de/finanzen/2022/</loc>
+    <lastmod>2025-02-01T21:11:48+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/de/categories/</loc>
     <xhtml:link
