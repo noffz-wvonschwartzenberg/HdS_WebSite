@@ -114,12 +114,21 @@
           padding-top: 20px;
         }
 
+        .div-small-img {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0px 12px;
+          justify-content: center; /* Horizontales Zentrieren */
+          text-align: center;
+          align-items: center;
+        }
+
         input, select {
           background-color: themed(website-background);
           text-align: left;
           border-radius: 3px;
           padding: 5px;
-          border: 1px solid themed(logo-green-60);
+          border: 1px solid themed(table-line);
           font-size: 18px;
           width: 90%;
           color: themed(logo-green);
@@ -146,12 +155,16 @@
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
 
-
         .img-div {
           display: block;
           justify-content: center; /* Horizontales Zentrieren */
           text-align: center;
           align-items: center;
+
+          .small-img {
+            height: 50vh;
+            width: auto;
+          }
         }
 
         /* Verstecke die Checkbox */
@@ -163,7 +176,7 @@
         label img {
             width: var(--image-width);
             margin-top: 10px;
-            border-color: themed("logo-yellow");
+            border-color: themed(table-line);
             border-width: 2px;
             border-style: solid;
             margin-bottom: 0;
@@ -202,23 +215,38 @@
 
         .combobox-details {
           background-color: themed(website-background);
-          // background-color: red;
           padding: 7px;
-          border: 1px solid themed(logo-yellow-60);
+          border: 1px solid themed(table-line);
           cursor: pointer;
           margin-top: 2px;
           margin-bottom: 2px;
+          transition: transform 0.15s ease, box-shadow 0.15s ease;
+          &:hover {
+            transform: scale(1.002);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+          }
+        }
+
+        .div-details {
+          margin-left: 15px;
+          margin-right: 15px;
+          padding-left: 5px;
+          padding-right: 5px;
+          border: 1px solid themed(table-line);
         }
 
         .patenschaft-container {
           background-color: themed(website-background);
           padding: 7px;
-          border: 2px solid themed(logo-green-60);
+          border: 5px solid themed(logo-red-60);
           display: flex;
+          flex-wrap: wrap;
           align-items: center;
-          margin-right: 10px;
+          //margin-right: 10px;
           margin-top: 2px;
           margin-bottom: 2px;
+          
+
           img {
             padding: 2px;
           }
@@ -236,12 +264,17 @@
           }
         }
 
+        .patenschaft-container-versorgt {
+          border: 2px solid themed(logo-green-60);
+        }
+
         .kleine-tabelle {
             margin-top: 10px;
             width: var(--image-width);
             overflow-x: hidden;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             margin-left: var(--image-margin);
+            //background-color: themed(logo-yellow-30);
           }
           
           .kleine-tabelle table {
@@ -279,12 +312,12 @@
           .kleine-tabelle tbody {
             display: block;
             overflow: hidden;
-            border: 2px solid themed(logo-yellow-60);
+            border: 2px solid themed(table-line);
           }
           
           .kleine-tabelle tbody td {
             padding: 8px 16px;
-            border: 1px solid themed(logo-yellow-60);
+            border: 1px solid themed(table-line);
             text-align: left;
             vertical-align: middle;
             background-color: themed(website-background-60);
@@ -342,7 +375,7 @@
           }
 
           .finanzen-tabelle tbody {
-            border: 2px solid themed(logo-yellow-60);
+            border: 2px solid themed(table-line);
             display: block;
             max-height: 384px; /* Scrollbare Höhe */
             overflow-y: auto; /* Vertikale Scrollbar */
@@ -351,7 +384,7 @@
           
           .finanzen-tabelle tbody td {
             padding: 4px 16px;
-            border: 1px solid themed(logo-yellow-60);
+            border: 1px solid themed(table-line);
             text-align: left;
             vertical-align: middle;
             background-color: themed(website-background);

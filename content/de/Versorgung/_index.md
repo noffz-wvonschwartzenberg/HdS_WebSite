@@ -3,7 +3,7 @@
     "draft": false,
     "title": "Versorgung",
     "author": "WvS",
-    "description": "Wir versorgen inzwischen mehr als 50 Kinder mit einer täglichen warmen Mahlzeit. Für sauberes Trinkwasser sorgen wir bereits an mehreren Stellen in Kamerun durch den Bau von Brunnen. Die medizinische Versorgung und die medizinische Vorbeugung unserer Kinder ist uns sehr wichtig.",
-    "image": "/img/Versorgung/VersorgungTitle.png"
+    "description": "Wir versorgen inzwischen mehr als 50 Kinder mit einer täglichen warmen Mahlzeit. Für sauberes Trinkwasser sorgen wir bereits an mehreren Stellen in Kamerun durch den Bau von Brunnen. Die medizinische Versorgung unserer Kinder ist uns auch sehr wichtig.",
+    "image": "/img/Versorgung/VersorgungTitle.jpg"
 }
 
