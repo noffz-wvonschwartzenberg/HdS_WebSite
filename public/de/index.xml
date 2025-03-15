@@ -6,8 +6,15 @@
     <description>Recent content on Haus der Sonne</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <lastBuildDate>Wed, 05 Mar 2025 21:11:48 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 15 Mar 2025 21:11:48 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Der Vorstand</title>
+      <link>http://localhost:1313/de/derverein/organisation/</link>
+      <pubDate>Sat, 15 Mar 2025 21:11:48 +0100</pubDate>
+      <guid>http://localhost:1313/de/derverein/organisation/</guid>
+      <description>&lt;h2 id=&#34;auszug-aus-der-satzung&#34;&gt;Auszug aus der Satzung&lt;/h2&gt;&#xA;&lt;p&gt;Die Organe des Vereins sind:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;die Mitgliedsversammlung&lt;/li&gt;&#xA;&lt;li&gt;der Vorstand&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;die-mitgliederversammlung&#34;&gt;Die Mitgliederversammlung&lt;/h3&gt;&#xA;&lt;p&gt;Sie tagt jährlich unter der Leitung des Vorsitzenden. Während der Mitgliederversammlung werden entsprechend der Satzung der Vorstand, die Beisitzer und die Kassenprüfer gewählt.&lt;/p&gt;&#xA;&lt;h3 id=&#34;der-vorstand-im-sinne-26-bgb&#34;&gt;Der Vorstand im Sinne §26 BGB&lt;/h3&gt;&#xA;&lt;p&gt;Der Vorstand ist ehrenamtlich tätig und führt die laufenden Geschäfte des Vereins. Er erfüllt die Aufgaben im Rahmen der gefassten Beschlüsse und im Sinne der Satzung. Den genauen Wortlaut entnehmen Sie bitte unserer Satzung.&lt;br&gt;&#xA;Der Vorstand besteht aus:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Aktuelle Finanzübersicht</title>
       <link>http://localhost:1313/de/finanzen/aktuellefinanzuebersicht/</link>

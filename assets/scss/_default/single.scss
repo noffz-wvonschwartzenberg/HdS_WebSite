@@ -167,6 +167,13 @@
           }
         }
 
+        .smallest-img-in-text {
+          float: left;
+          margin: 10px 10px 10px 0; /* Abstand um das Bild */
+          height: 120px;
+          width: auto;
+        }
+
         /* Verstecke die Checkbox */
         input[type="checkbox"] {
             display: none;

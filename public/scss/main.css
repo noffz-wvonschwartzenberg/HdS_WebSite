@@ -2109,6 +2109,12 @@
     .light-theme .single .img-div .small-img {
       height: 50vh;
       width: auto; }
+  .light-theme .single .smallest-img-in-text {
+    float: left;
+    margin: 10px 10px 10px 0;
+    /* Abstand um das Bild */
+    height: 120px;
+    width: auto; }
   .light-theme .single input[type="checkbox"] {
     display: none; }
   .light-theme .single label img {
@@ -2479,6 +2485,12 @@
     .dark-theme .single .img-div .small-img {
       height: 50vh;
       width: auto; }
+  .dark-theme .single .smallest-img-in-text {
+    float: left;
+    margin: 10px 10px 10px 0;
+    /* Abstand um das Bild */
+    height: 120px;
+    width: auto; }
   .dark-theme .single input[type="checkbox"] {
     display: none; }
   .dark-theme .single label img {

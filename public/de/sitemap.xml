@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/de/derverein/organisation/</loc>
+    <lastmod>2025-03-15T21:11:48+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/de/versorgung/</loc>
     <lastmod>2025-03-12T21:11:48+01:00</lastmod>
     <xhtml:link
@@ -95,6 +98,24 @@
     <loc>http://localhost:1313/de/finanzen/2024/</loc>
     <lastmod>2025-03-02T21:11:48+01:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/de/derverein/</loc>
+    <lastmod>2025-03-01T21:11:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/derverein/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/derverein/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/derverein/"
+                />
+  </url><url>
     <loc>http://localhost:1313/de/finanzen/2023/</loc>
     <lastmod>2025-03-01T21:11:48+01:00</lastmod>
     <xhtml:link
@@ -150,24 +171,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="http://localhost:1313/de/campus/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/de/derverein/</loc>
-    <lastmod>2025-02-19T21:11:48+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/derverein/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/derverein/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/derverein/"
                 />
   </url><url>
     <loc>http://localhost:1313/de/galerie/</loc>
