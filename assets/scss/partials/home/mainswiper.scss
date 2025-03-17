@@ -7,7 +7,7 @@
     .mainswiper {
         max-width: 100%; //$width-percent-of-screen;
         margin: 0 auto;
-        height: calc(var(--viewable-height) - #{$logo-height});
+        height: calc((var(--viewable-height) * #{$picture-home-pct-height} / 100 ) - #{$logo-height});
 
         .swiper-slide {
             display: inline-block;

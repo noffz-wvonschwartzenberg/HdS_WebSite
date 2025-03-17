@@ -1,0 +1,222 @@
+@include themify($themes) {
+
+    // *******************************************************
+    // ** Default Table
+    // *******************************************************
+
+    .default-table {
+        margin-top: 10px;
+        width: var(--table-width);
+        overflow-x: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-left: var(--table-margin);
+    }
+
+    .default-table table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .default-table thead,
+    .default-table tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: auto;
+    }
+
+    .default-table thead {
+        margin-bottom: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .default-table thead th {
+        background: themed(logo-yellow-60);
+        padding: 5px 16px;
+        border-bottom: 0px solid themed(logo-yellow-60);
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .default-table thead th:last-child {
+        text-align: right;
+        border: 2px solid themed(logo-yellow-60);
+        width: 120px;
+    }
+
+    .default-table tbody {
+        display: block;
+        overflow: hidden;
+        border: 2px solid themed(table-line);
+    }
+
+    .default-table tbody td {
+        padding: 8px 16px;
+        border: 1px solid themed(table-line);
+        text-align: left;
+        vertical-align: middle;
+        background-color: themed(website-background-60);
+    }
+
+    .default-table tbody td:last-child {
+        text-align: right;
+        vertical-align: middle;
+        width: 120px;
+    }
+
+    @media (max-width: 400px) {
+        .default-table table,
+        .default-table thead,
+        .default-table tbody,
+        .default-table tr,
+        .default-table td,
+        .default-table th {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: left;
+        }
+
+        .default-table thead th:last-child {
+            width: auto;
+            text-align: left;
+        }
+
+        .default-table tbody td:first-child {
+            width: auto;
+            border-bottom: 0;
+            text-align: left;
+        }
+
+        .default-table tbody td:last-child {
+            width: auto;
+            border-top: 0;
+            border-bottom: 3px solid themed(table-line);
+            text-align: left;
+        }
+
+        .default-table thead th {
+            border-top: 0;
+            border-bottom: 0;
+            width: auto;
+            text-align: left;
+        }
+    }
+
+
+    // *******************************************************
+    // ** Scrollable Table
+    // *******************************************************
+
+    .scrollable-table {
+        margin-top: 10px;
+        width: var(--image-width);
+        overflow-x: hidden;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        margin-left: var(--image-margin);
+    }
+
+    .scrollable-table table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .scrollable-table thead,
+    .scrollable-table tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    .scrollable-table thead {
+        margin-bottom: 5px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .scrollable-table thead th {
+        background: themed(logo-yellow-60);
+        padding: 5px 16px;
+        border-bottom: 2px solid themed(logo-yellow-60);
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .scrollable-table thead th:first-child {
+        border: 2px solid themed(logo-yellow-60);
+        width: 100px;
+    }
+
+    .scrollable-table thead th:last-child {
+        border: 2px solid themed(logo-yellow-60);
+        width: 120px;
+    }
+
+    .scrollable-table tbody {
+        border: 2px solid themed(table-line);
+        display: block;
+        max-height: 384px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .scrollable-table tbody td {
+        padding: 4px 16px;
+        border: 1px solid themed(table-line);
+        text-align: left;
+        vertical-align: middle;
+        background-color: themed(website-background);
+    }
+
+    .scrollable-table tbody td:first-child {
+        text-align: center;
+        vertical-align: middle;
+        width: 100px;
+    }
+
+    .scrollable-table tbody td:last-child {
+        text-align: right;
+        vertical-align: middle;
+        width: 120px;
+    }
+
+    @media (max-width: 600px) {
+        .scrollable-table table,
+        .scrollable-table thead,
+        .scrollable-table tbody,
+        .scrollable-table tr,
+        .scrollable-table td,
+        .scrollable-table th {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: left;
+        }
+
+        .scrollable-table thead th:last-child,
+        .scrollable-table thead th:first-child {
+            width: auto;
+            text-align: left;
+        }
+
+        .scrollable-table tbody td:first-child {
+            width: auto;
+            border-bottom: 0;
+            text-align: left;
+        }
+
+        .scrollable-table tbody td:last-child {
+            width: auto;
+            border-top: 0;
+            border-bottom: 3px solid themed(table-line);
+            text-align: left;
+        }
+
+        .scrollable-table thead th {
+            border-top: 0;
+            border-bottom: 0;
+            width: auto;
+            text-align: left;
+        }
+    }
+}

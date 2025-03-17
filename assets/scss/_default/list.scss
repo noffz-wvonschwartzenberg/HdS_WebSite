@@ -1,67 +1,18 @@
+@import '../common-styles/logo';
+@import '../common-styles/pictures';
+
 @include themify($themes) {
     .list {
         background-color: themed("website-background");
         padding-bottom: calc( ( 100% - #{$width-percent-of-screen} ) );
         width: 100%;
         position: relative;
+        font-size: $font-size;
 
-        .list-logo {
-            z-index: 2;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: $logo-width;
-            height: $logo-height;
-            margin-left: $logo-left-margin;
-            background-color: themed("background-logo-white");
-            border: 1px solid themed("logo-green");
-            transition: transform 0.15s ease, box-shadow 0.15s ease;
-        }
-
-        .list-logo:hover {
-            transform: scale(1.05);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-        }
-
-        .logo {
-            width: 90%;
-            height: auto;
-            display: block;
-        }
-        
-        .logo-klein {
-            height: auto;
-            width: 90%;
-            display: none;
-        }
-
-        .list-div-main {
-            height: calc(var(--viewable-height-list) / 1.9);
-            position: relative;
-        }
-
-        .list-pagetitle {
-            position: absolute;
-            padding: 17px;
-            //top: 150px;
-            top: $logo-height - 10px;
-            left:0px;
-            width: calc(100% - 35px);
-            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            font-weight: 400;
-            font-stretch: bolder;
-            font-style: normal;
-            font-size: calc(var(--viewable-height-list) / 5);
-            opacity: 80%;
-            color: themed("logo-yellow");
-            text-shadow: 
-                -1px -1px 0 black, /* Oben links */
-                1px -1px 0 black, /* Oben rechts */
-                -1px  1px 0 black, /* Unten links */
-                1px  1px 0 black; /* Unten rechts */
-                text-align: center;
-            }
+        // .list-div-main {
+        //     height: calc(var(--viewable-height) * #{$picture-list-pct-height} / 100);
+        //     position: relative;
+        // }
 
         .list-pagedescription {
             font-size: 18px;
@@ -166,18 +117,15 @@
             transition: all 150ms ease;
         }    
 
-        .list-picture-main {
-            width: 100%;
-            height: 100%; 
-            object-fit: cover;
-        }
+        // .list-picture-main {
+        //     width: 100%;
+        //     height: 100%; 
+        //     object-fit: cover;
+        // }
     }
 
     @media (max-width: 840px) {
         .list {
-            .list .list-pagetitle {
-                font-size: calc(var(--viewable-height-list) / 8);
-            }
 
             .list-container {
                 margin: 0 auto;
@@ -223,43 +171,4 @@
             }
         }
    }
-
-   
-   @media (max-width: 900px) {
-    .list .list-pagetitle {
-        font-size: calc(var(--viewable-height-list) / 12);
-        }
-    }
-
-    @media (max-width: 500px) {
-        .list .list-pagetitle {
-            font-size: calc(var(--viewable-height-list) / 20);
-        }
-    }
-
-    @media (max-width: 400px) {
-        .list .list-pagetitle {
-            font-size: calc(var(--viewable-height-list) / 30);
-        }
-    }
-
-    @media (max-width: 300px) {
-        .list .list-pagetitle {
-            font-size: calc(var(--viewable-height-list) / 35);
-        }
-    }
-
-    @media (max-width: 500px) {
-        .list .list-logo {
-            width: $logo-klein-width;
-        }
-    
-        .list .logo {
-            display: none;
-        }
-
-        .list .logo-klein {
-            display:inline;
-        }
-    }
 }

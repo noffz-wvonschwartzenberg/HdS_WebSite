@@ -1,0 +1,30 @@
+@include themify($themes) {
+    .pagetitle {
+        text-align: center;
+        padding: 10px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 400;
+        font-stretch: bold;
+        font-style: normal;
+        font-size: 30px;
+        opacity: 80%;
+        color: themed("logo-yellow");
+        text-shadow:
+            -1px -1px 0 black,
+            1px -1px 0 black,
+            -1px 1px 0 black,
+            1px 1px 0 black;
+    }
+    
+    @media (max-width: 500px) {
+        .pagetitle {
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width: 300px) {
+        .pagetitle {
+            font-size: 15px;
+        }
+    }
+}

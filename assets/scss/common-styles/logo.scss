@@ -1,0 +1,47 @@
+@include themify($themes) {
+    .logo {
+        z-index: 2;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: $logo-width;
+        ;
+        height: $logo-height;
+        margin-left: $logo-left-margin;
+        background-color: themed("background-logo-white");
+        border: 1px solid themed("logo-green");
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .logo:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .img-logo {
+        width: 90%;
+        height: auto;
+        display: block;
+    }
+
+    .img-logo-klein {
+        height: auto;
+        width: 90%;
+        display: none;
+    }
+
+    @media (max-width: 1080px) {
+        .logo {
+            width: $logo-klein-width;
+        }
+
+        .img-logo {
+            display: none;
+        }
+
+        .img-logo-klein {
+            display: inline;
+        }
+    }
+}

@@ -6,19 +6,21 @@
     {{ partial "common/head.html" . }}
   </head>
   <body>
-     {{ if or (eq .Type "page") (eq .Type "list") }}
+    {{ if or (eq .Type "page") (eq .Type "list") }}
       {{ partial "common/header.html" . }}
      {{ end }}
     
     {{ block "main" . }}{{ end }}
 
     {{ partial "common/footer.html" . }}
-    {{ block "scripts" . }}{{ end }}>
+    {{ block "scripts" . }}
+    {{ end }}>
   </body>
 </html>
 
 {{ define "scripts" }}
 <script>
+
   // var jsMain = document.getElementById("js-main");
   // if (localStorage.getItem("darkMode") == "true") {
   //   jsMain.className = "light-theme";

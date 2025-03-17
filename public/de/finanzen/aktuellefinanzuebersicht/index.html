@@ -46,20 +46,22 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
   <body>
-     
     
     
-  <div id = "js-single" class="dark-theme">
-    <div class="single">
-      <a href="/" class="single-logo">
-        <img class="logo" src="/img/logo.png" alt="Haus der Sonne">
-        <img class="logo-klein" src="/img/logo-klein.png" alt="Haus der Sonne">
+    
+  <div id = "js-theme" class="dark-theme">
+    <div id = "js-single" class="single">
+      <a href="/" class="logo">
+        <img class="img-logo" src="/img/logo.png" alt="Haus der Sonne">
+        <img class="img-logo-klein" src="/img/logo-klein.png" alt="Haus der Sonne">
       </a>
-      <div class="single-picture">
-        <img src="/img/Finanzen/AktuelleFinanzuebersicht/AktuelleFinanzuebersichtTitle.jpg" alt="Single Picture" class="single-picture-main">
+      <div class="pagepicture">
+        <img src="/img/Finanzen/AktuelleFinanzuebersicht/AktuelleFinanzuebersichtTitle.jpg" alt="Single Picture" class="img-pagepicture">
       </div>
       <div class="single-contents">
-        <h1 class="single-pagetitle">Aktuelle Finanzübersicht</h1>
+        <div class="pagetitle">
+          <h1 class="header-pagetitle">Aktuelle Finanzübersicht</h1>
+        </div>
         <div class="single-date-author">
           <div class="single-author">
               Author: WvS
@@ -75,7 +77,7 @@ Die nachfolgenden Aufstellungen sind Teil unseres Versprechens auf Transparenz u
 <h2 id="aktuelle-finanzsituation">Aktuelle Finanzsituation</h2>
 <h3 id="kontostand">Kontostand</h3>
 <p>Der aktuelle Kontostand spiegelt die Differenz zwischen den Einnahmen und der Ausgaben seit der Vereinsgründung wider.</p>
-<div class="kleine-tabelle">
+<div class="default-table">
 <table>
   <thead>
     <tr>
@@ -106,7 +108,7 @@ Die nachfolgenden Aufstellungen sind Teil unseres Versprechens auf Transparenz u
 </div>  
 <h3 id="rücklagen">Rücklagen</h3>
 <p>Die aufgeführte Summe für &quot;Eine warme Mahlzeit&quot; soll lt. Vorstandsbeschluss fest vorgehalten werden, damit das Projekt für den Fall eines zeit- oder teilweisen Fortfalls des Geldzuflusses gesichert ist. Die Rücklagen für den geplanten Bau des Waisenhauses sollen systematisch aufgestockt werden.</p>
-<div class="kleine-tabelle">
+<div class="default-table">
 <table>
   <thead>
     <tr>
@@ -141,7 +143,7 @@ Die nachfolgenden Aufstellungen sind Teil unseres Versprechens auf Transparenz u
 </div>  
 <h3 id="verfügbare-summe">Verfügbare Summe</h3>
 <p>Der zur Verfügung stehende Betrag errechnet sich aus dem aktuellen Kontostand und der nötigen Rücklagen.</p>
-<div class="kleine-tabelle">
+<div class="default-table">
 <table>
   <thead>
     <tr>
@@ -172,41 +174,41 @@ Bei uns ist genau das Gegenteil der Fall. Durch unsere ehrenamtlichen Tätigkeit
 Auch das Team in Kamerun arbeitet ehrenamtlich.</li>
 </ul>
 <input type="checkbox" id="expand-image1" />
-<label class="img-div" for="expand-image1">
-  <img src="/img/Finanzen/AktuelleFinanzuebersicht/GesamtErtrag.png#imagemd" alt="Gesamtertrag der letzten 12 Monate" />
+<label for="expand-image1">
+  <img class="img-centered" src="/img/Finanzen/AktuelleFinanzuebersicht/GesamtErtrag.png#imagemd" alt="Gesamtertrag der letzten 12 Monate" />
 </label>
-<div class="imagemd-caption">Gesamtertrag der letzten 12 Monate</div>
+<div class="img-caption">Gesamtertrag der letzten 12 Monate</div>
 <br>
 <div>
 <input type="checkbox" id="expand-image2" />
-<label class="img-div" for="expand-image2">
-  <img src="/img/Finanzen/AktuelleFinanzuebersicht/MitgliedsbeiträgeHistorisch.png#imagemd" alt="Mitgliedsbeiträge seit Vereinsgründung" />
+<label for="expand-image2">
+  <img class="img-centered" src="/img/Finanzen/AktuelleFinanzuebersicht/MitgliedsbeiträgeHistorisch.png#imagemd" alt="Mitgliedsbeiträge seit Vereinsgründung" />
 </label>
 <div>
 </div>
 <input type="checkbox" id="expand-image3" />
-<label class="img-div" for="expand-image3">
-  <img src="/img/Finanzen/AktuelleFinanzuebersicht/PatenschaftenHistorisch.png#imagemd" alt="Patenschaftsbeiträge seit Vereinsgründung" />
+<label for="expand-image3">
+  <img class="img-centered" src="/img/Finanzen/AktuelleFinanzuebersicht/PatenschaftenHistorisch.png#imagemd" alt="Patenschaftsbeiträge seit Vereinsgründung" />
 </label>
 <div>
 </div>
 <input type="checkbox" id="expand-image4" />
-<label class="img-div" for="expand-image4">
-  <img src="/img/Finanzen/AktuelleFinanzuebersicht/SpendenHistorisch.png#imagemd" alt="Spenden seit Vereinsgründung" />
+<label for="expand-image4">
+  <img class="img-centered" src="/img/Finanzen/AktuelleFinanzuebersicht/SpendenHistorisch.png#imagemd" alt="Spenden seit Vereinsgründung" />
 </label>
 </div>
-<p class="imagemd-caption">Gesamtertrag seit Vereinsgründung</p>
+<p class="img-caption">Gesamtertrag seit Vereinsgründung</p>
 <h2 id="ausgaben">Ausgaben</h2>
 <p>Alle Tätigkeiten werden ausschließlich von Ehrenamtlichen ausgeführt, wodurch die Vereinskosten minimal bleiben. Die beigefügte Grafik zeigt, wie viel Prozent der Ausgaben direkt den Kindern und Projekten zugutekommen und wie gering der Kostenanteil ist.</p>
 <input type="checkbox" id="expand-image5" />
-<label class="img-div" for="expand-image5">
-  <img src="/img/Finanzen/AktuelleFinanzuebersicht/AusgabenHistorisch.png#imagemd"     alt="Ausgaben seit Vereinsgründung" />
+<label for="expand-image5">
+  <img class="img-centered" src="/img/Finanzen/AktuelleFinanzuebersicht/AusgabenHistorisch.png#imagemd"     alt="Ausgaben seit Vereinsgründung" />
 </label>
-<p class="imagemd-caption">Ausgaben seit Vereinsgründung</p>
+<p class="img-caption">Ausgaben seit Vereinsgründung</p>
 <p>Die Ausgaben für die Kinder und Projekte finden ausschließlich in Kamerun statt.<br>
 Die in rot gezeigten Unkosten setzen sich hauptsächlich aus laufenden Kosten wie den Überweisungskosten nach Kamerun, Konto-Führungsgebühren und der Breitstellung der Internet Webseite zusammen. Es gibt aber auch einmalige Kosten wie den Flyer und T-Shirts, &hellip;</p>
 <h4 id="detaillierte-auflistung-der-kosten-des-vereins-für-die-letzten-12-monate">Detaillierte Auflistung der Kosten des Vereins für die letzten 12 Monate</h4>
-<div class="finanzen-tabelle">
+<div class="scrollable-table">
 <table>
   <thead>
     <tr>
@@ -441,7 +443,7 @@ Die in rot gezeigten Unkosten setzen sich hauptsächlich aus laufenden Kosten wi
 
 </div>  
 <h4 id="detaillierte-auflistung-der-ausgaben-in-kamerun-für-die-letzten-12-monate">Detaillierte Auflistung der Ausgaben in Kamerun für die letzten 12 Monate</h4>
-<div class="finanzen-tabelle">
+<div class="scrollable-table">
 <table>
   <thead>
     <tr>
@@ -808,7 +810,7 @@ Die in rot gezeigten Unkosten setzen sich hauptsächlich aus laufenden Kosten wi
 <br>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const cells = document.querySelectorAll(".kleine-tabelle tbody td");
+    const cells = document.querySelectorAll(".default-table tbody td");
     cells.forEach(cell => {
       const value = parseFloat(cell.textContent); // Konvertiere den Zellenwert in eine Zahl
       if (value < 0) {
@@ -818,7 +820,7 @@ Die in rot gezeigten Unkosten setzen sich hauptsächlich aus laufenden Kosten wi
     });
   });
   document.addEventListener("DOMContentLoaded", function () {
-    const cells = document.querySelectorAll(".finanzen-tabelle tbody td");
+    const cells = document.querySelectorAll(".scrollable-table tbody td");
     cells.forEach(cell => {
       const value = parseFloat(cell.textContent); // Konvertiere den Zellenwert in eine Zahl
       if (value < 0) {
@@ -892,9 +894,13 @@ Die in rot gezeigten Unkosten setzen sich hauptsächlich aus laufenden Kosten wi
 
 
     
+  
   <script>
+  
+
     
-    var jsSingle = document.getElementById("js-single");
+    
+    var jsSingle = document.getElementById("js-theme");
     if (localStorage.getItem("darkMode") == "true") {
       jsSingle.className = "light-theme";
     } else {
@@ -931,13 +937,12 @@ Die in rot gezeigten Unkosten setzen sich hauptsächlich aus laufenden Kosten wi
       if (contentsWidth >= 600 + immagePadding) {
         imageWidth = 600;
       }
-      console.log(imageWidth);
       
-      document.documentElement.style.setProperty('--image-width', `${imageWidth}px`);
+      document.documentElement.style.setProperty('--image-width', `${imageWidth}px`);      
+      document.documentElement.style.setProperty('--table-width', `${imageWidth}px`);
       const imageMargin = Math.max((contentsWidth- imageWidth) / 2, 0);
-      console.log(contentsWidth);
-      console.log(imageMargin);
       document.documentElement.style.setProperty('--image-margin', `${imageMargin-1}px`);
+      document.documentElement.style.setProperty('--table-margin', `${imageMargin-1}px`);
     }
 
     window.addEventListener('resize', updateMargins);

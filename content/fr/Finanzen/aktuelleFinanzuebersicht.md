@@ -13,7 +13,7 @@ Die nachfolgenden Aufstellungen sind Teil unseres Versprechens auf Transparenz u
 ## Aktuelle Finanzsituation
 ### Kontostand  
 Der aktuelle Kontostand spiegelt die Differenz zwischen den Einnahmen und der Ausgaben seit der Vereinsgründung wider. 
-<div class="kleine-tabelle">
+<div class="default-table">
 {{< csv-table >}}
 {{< include-file csv="static/img/Finanzen/AktuelleFinanzuebersicht/AktuellerKontostand.csv" >}}
 {{< /csv-table >}}
@@ -21,7 +21,7 @@ Der aktuelle Kontostand spiegelt die Differenz zwischen den Einnahmen und der Au
 
 ### Rücklagen  
 Die aufgeführte Summe für \"Eine warme Mahlzeit\" soll lt. Vorstandsbeschluss fest vorgehalten werden, damit das Projekt für den Fall eines zeit- oder teilweisen Fortfalls des Geldzuflusses gesichert ist. Die Rücklagen für den geplanten Bau des Waisenhauses sollen systematisch aufgestockt werden.
-<div class="kleine-tabelle">
+<div class="default-table">
 {{< csv-table >}}
 {{< include-file csv="static/img/Finanzen/AktuelleFinanzuebersicht/Ruecklagen.csv" >}}
 {{< /csv-table >}}
@@ -29,7 +29,7 @@ Die aufgeführte Summe für \"Eine warme Mahlzeit\" soll lt. Vorstandsbeschluss 
 
 ### Verfügbare Summe
 Der zur Verfügung stehende Betrag errechnet sich aus dem aktuellen Kontostand und der nötigen Rücklagen. 
-<div class="kleine-tabelle">
+<div class="default-table">
 {{< csv-table >}}
 {{< include-file csv="static/img/Finanzen/AktuelleFinanzuebersicht/VerfuegbareSumme.csv" >}}
 {{< /csv-table >}}
@@ -51,7 +51,7 @@ Auch das Team in Kamerun arbeitet ehrenamtlich.
 <label for="expand-image1">
   <img src="/img/Finanzen/AktuelleFinanzuebersicht/GesamtErtrag.png#imagemd" alt="Gesamtertrag der letzten 12 Monate" />
 </label>
-<p class="imagemd-caption">Gesamtertrag der letzten 12 Monate</p>
+<p class="img-caption">Gesamtertrag der letzten 12 Monate</p>
 <br>
 
 <div>
@@ -72,7 +72,7 @@ Auch das Team in Kamerun arbeitet ehrenamtlich.
   <img src="/img/Finanzen/AktuelleFinanzuebersicht/SpendenHistorisch.png#imagemd" alt="Spenden seit Vereinsgründung" />
 </label>
 </div>
-<p class="imagemd-caption">Gesamtertrag seit Vereinsgründung</p>
+<p class="img-caption">Gesamtertrag seit Vereinsgründung</p>
 
 ## Ausgaben
 Alle Tätigkeiten werden ausschließlich von Ehrenamtlichen ausgeführt, wodurch die Vereinskosten minimal bleiben. Die beigefügte Grafik zeigt, wie viel Prozent der Ausgaben direkt den Kindern und Projekten zugutekommen und wie gering der Kostenanteil ist.
@@ -81,20 +81,20 @@ Alle Tätigkeiten werden ausschließlich von Ehrenamtlichen ausgeführt, wodurch
 <label for="expand-image5">
   <img src="/img/Finanzen/AktuelleFinanzuebersicht/AusgabenHistorisch.png#imagemd"     alt="Ausgaben seit Vereinsgründung" />
 </label>
-<p class="imagemd-caption">Ausgaben seit Vereinsgründung</p>
+<p class="img-caption">Ausgaben seit Vereinsgründung</p>
 
 Die Ausgaben für die Kinder und Projekte finden ausschließlich in Kamerun statt.  
 Die in rot gezeigten Unkosten setzen sich hauptsächlich aus laufenden Kosten wie den Überweisungskosten nach Kamerun, Konto-Führungsgebühren und der Breitstellung der Internet Webseite zusammen. Es gibt aber auch einmalige Kosten wie den Flyer und T-Shirts, ... 
 
 #### Detaillierte Auflistung der Kosten des Vereins für die letzten 12 Monate
-<div class="finanzen-tabelle">
+<div class="scrollable-table">
 {{< csv-table >}}
 {{< include-file csv="static/img/Finanzen/AktuelleFinanzuebersicht/KostenDetails.csv" >}}
 {{< /csv-table >}}
 </div>  
 
 #### Detaillierte Auflistung der Ausgaben in Kamerun für die letzten 12 Monate
-<div class="finanzen-tabelle">
+<div class="scrollable-table">
 {{< csv-table >}}
 {{< include-file csv="static/img/Finanzen/AktuelleFinanzuebersicht/AusgabenInKamerunDetails.csv" >}}
 {{< /csv-table >}}
@@ -103,7 +103,7 @@ Die in rot gezeigten Unkosten setzen sich hauptsächlich aus laufenden Kosten wi
 <br>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const cells = document.querySelectorAll(".kleine-tabelle tbody td");
+    const cells = document.querySelectorAll(".default-table tbody td");
     cells.forEach(cell => {
       const value = parseFloat(cell.textContent); // Konvertiere den Zellenwert in eine Zahl
       if (value < 0) {
@@ -113,7 +113,7 @@ Die in rot gezeigten Unkosten setzen sich hauptsächlich aus laufenden Kosten wi
     });
   });
   document.addEventListener("DOMContentLoaded", function () {
-    const cells = document.querySelectorAll(".finanzen-tabelle tbody td");
+    const cells = document.querySelectorAll(".scrollable-table tbody td");
     cells.forEach(cell => {
       const value = parseFloat(cell.textContent); // Konvertiere den Zellenwert in eine Zahl
       if (value < 0) {

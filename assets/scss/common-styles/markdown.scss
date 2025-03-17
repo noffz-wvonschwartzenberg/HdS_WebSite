@@ -1,0 +1,190 @@
+@include themify($themes) {
+
+    // *******************************************************
+    // ** Buttons
+    // *******************************************************
+    button {
+        border: none;
+        text-align: center;
+        font-size: 18px;
+        padding: 10px;
+        background-color: themed(logo-green);
+        border-radius: 3px;
+        border: 1px solid themed(logo-green-60);
+        color: themed(text-white);
+        cursor: pointer;
+    }
+
+    button:hover {
+        transform: scale(1.01);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+
+    // *******************************************************
+    // ** Centered pictures with caption - sizeable
+    // *******************************************************
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    input[type="checkbox"]:checked+label img {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        margin: 0px;
+        width: calc(100vw);
+        height: calc(100vh);
+        object-fit: contain;
+        z-index: 1000;
+        background-color: themed(website-background);
+        transition: all 0.15s ease, z-index 0.15s;
+        border: none;
+    }
+
+    .img-centered {
+        width: var(--image-width);
+        margin-top: 10px;
+        border-color: themed(table-line);
+        border-width: 2px;
+        border-style: solid;
+        margin-bottom: 0px;
+        margin-left: var(--image-margin);
+        transition: transform 0.15s ease, z-index 0.15s;
+        cursor: pointer;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .img-caption {
+        display: block;
+        width: var(--image-width);
+        border-color: themed("logo-yellow-60");
+        border-width: 2px;
+        border-style: solid;
+        background-color: themed("logo-yellow-60");
+        padding: 5px 0px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        margin-left: var(--image-margin);
+    }
+
+
+    // *******************************************************
+    // ** Flex pictures
+    // *******************************************************
+    .flexpictures {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px 12px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        label {
+            display: block;
+            justify-content: center;
+            /* Horizontales Zentrieren */
+            text-align: center;
+            align-items: center;
+        }
+    }
+
+    .img-flexpictures {
+        height: 50vh;
+        width: auto;
+        cursor: pointer;
+    }
+
+
+    // *******************************************************
+    // ** Smallest picture in textflow
+    // *******************************************************
+    .img-smallest-in-text {
+        float: left;
+        margin: 10px 10px 10px 0;
+        height: 120px;
+        width: auto;
+    }
+
+
+    // *******************************************************
+    // ** Combobox showing the summary and the details when clicking
+    // *******************************************************
+    .combobox-summary {
+        background-color: themed(website-background);
+        padding: 7px;
+        border: 1px solid themed(table-line);
+        cursor: pointer;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+        &:hover {
+            transform: scale(1.002);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    .combobox-details {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border: 1px solid themed(table-line);
+    }
+
+
+    // *******************************************************
+    // ** Container: Picture | Description | Button
+    // *******************************************************
+    .profile-container {
+        background-color: themed(website-background);
+        padding: 7px;
+        border: 5px solid themed(logo-red-60);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 2px;
+        margin-bottom: 2px;
+
+        img {
+            padding: 2px;
+        }
+
+        div {
+            padding: 10px;
+
+            p {
+                padding: 0px;
+            }
+        }
+
+        button {
+            margin-left: auto;
+        }
+    }
+
+    .profile-container-supplied {
+        border: 2px solid themed(logo-green-60);
+    }
+
+
+    // *******************************************************
+    // ** Input fields
+    // *******************************************************
+    input,
+    select {
+        background-color: themed(website-background);
+        text-align: left;
+        border-radius: 3px;
+        padding: 5px;
+        border: 1px solid themed(table-line);
+        font-size: $font-size;
+        width: 90%;
+        color: themed(logo-green);
+    }
+
+    select {
+        width: 150px;
+    }
+}

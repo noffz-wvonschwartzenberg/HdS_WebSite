@@ -12,109 +12,109 @@ Es ist das Herzensprojekt unseres Vereins. Wir finden es so wichtig den Kindern 
 Das Projekt finanziert sich über die Paten, die den nötigen Beitrag erbringen, damit "ihr" Kind täglich eine warme Mahlzeit erhält.   
 <br> 
 <details>
-    <summary class="combobox-details">Was wir erreicht haben.</summary>
-    <div class="div-details">      
+    <summary class="combobox-summary">Was wir erreicht haben.</summary>
+    <div class="combobox-details">      
           Im Jahr 2018 wurde das Projekt ins Leben gerufen. Anfangs wurden ca. 20 Kinder und Jugendliche mit Essen versorgt und erhielten eine Aufgabenbetreuung. Es wurde noch lange Zeit auf dem offenen Feuer gekocht. Im Jahr 2020 konnten wir endlich eine Küche finanzieren. Die ehrenamtlich arbeitenden Frauen sind sehr glücklich darüber.
-          <div class="div-small-img">
+          <div class="flexpictures">
             <input type="checkbox" id="expand-image1" />
-            <label class="img-div" for="expand-image1">
-              <img class="small-img" src="/img/Versorgung/EineWarmeMahlzeit/Küche1.jpg#imagemd" alt="Küche1" />
+            <label for="expand-image1">
+              <img class="img-flexpictures" src="/img/Versorgung/EineWarmeMahlzeit/Küche1.jpg#imagemd" alt="Küche1" />
             </label>
             <input type="checkbox" id="expand-image2" />
-            <label class="img-div" for="expand-image2">
-              <img class="small-img" src="/img/Versorgung/EineWarmeMahlzeit/Küche2.jpg#imagemd" alt="Küche2" />
+            <label for="expand-image2">
+              <img class="img-flexpictures" src="/img/Versorgung/EineWarmeMahlzeit/Küche2.jpg#imagemd" alt="Küche2" />
             </label>
           </div>
           Die sanitären Einrichtungen wurden bereits 2019 grundsaniert.
-          <div class="div-small-img">
+          <div class="flexpictures">
             <input type="checkbox" id="expand-image3" />
-            <label class="img-div" for="expand-image3">
-              <img class="small-img" src="/img/Versorgung/EineWarmeMahlzeit/SanitärVorher.png#imagemd" alt="Sanitär vorher" />
+            <label for="expand-image3">
+              <img class="img-flexpictures" src="/img/Versorgung/EineWarmeMahlzeit/SanitärVorher.png#imagemd" alt="Sanitär vorher" />
             </label>
             <input type="checkbox" id="expand-image4" />
-            <label class="img-div" for="expand-image4">
-              <img class="small-img" src="/img/Versorgung/EineWarmeMahlzeit/SanitärNachher.png#imagemd" alt="Sanitär nachher" />
+            <label for="expand-image4">
+              <img class="img-flexpictures" src="/img/Versorgung/EineWarmeMahlzeit/SanitärNachher.png#imagemd" alt="Sanitär nachher" />
             </label>
           </div>
           Es gibt schon einige Kinder, die die Schule erfolgreich beendet haben und die wir in der Ausbildung begleitet haben. Der wohl berühmteste ist unser erster Abgänger: Bertin. Er ist jetzt solzer Schneider. Wir haben ihm ein Atelier zur Verfügung gestellt, wo er jetzt weitere Jugendliche ausbildet. Er schneidert auch die jährliche Schuluniform für unsere Kinder. Es ist ein Geben und Nehmen, genauso wie wir uns das erhofft haben.
-          <div class="div-small-img">
+          <div class="flexpictures">
             <input type="checkbox" id="expand-image5" />
-            <label class="img-div" for="expand-image5">
-              <img class="small-img" src="/img/Versorgung/EineWarmeMahlzeit/Bertin1.jpeg#imagemd" alt="Bertin1" />
+            <label for="expand-image5">
+              <img class="img-flexpictures" src="/img/Versorgung/EineWarmeMahlzeit/Bertin1.jpeg#imagemd" alt="Bertin1" />
             </label>
             <input type="checkbox" id="expand-image6" />
-            <label class="img-div" for="expand-image6">
-              <img class="small-img" src="/img/Versorgung/EineWarmeMahlzeit/Bertin2.jpeg#imagemd" alt="Bertin2" />
+            <label for="expand-image6">
+              <img class="img-flexpictures" src="/img/Versorgung/EineWarmeMahlzeit/Bertin2.jpeg#imagemd" alt="Bertin2" />
             </label>
           </div>
     </div>
 </details>
 <details>
-    <summary class="combobox-details">Was kostet eine Patenschaft?</summary>
-    <div class="div-details">
+    <summary class="combobox-summary">Was kostet eine Patenschaft?</summary>
+    <div class="combobox-details">
         Die Kosten für eine warme Mahlzeit im Jahr 2018 lagen bei ca. 0,75€ pro Kind pro Tag. 
         In den letzten Jahren sind die Preise für Grundnahrungsmittel in Kamerun u. a. durch den Ukrainekrieg aber auch durch den Krieg im eigenen Land stark gestiegen. Die Kosten sind im Jahr 2024 um ca. 60% höher als 2018. Es ergeben sich dadurch Kosten von ca. 1,20€ pro Kind pro Tag.
         Durch unser Landwirtschaftsprojekt fließt ein Teil der Erträge direkt in das Projekt “Eine warme Mahlzeit”. Dadurch ist es uns gelungen, den benötigten Betrag pro Kind auf 400€ im Jahr zu stabilisieren.
     </div>
 </details>
 <details>
-    <summary class="combobox-details">Wo und wie werden die Kinder betreut?</summary>
-    <div class="div-details">        
+    <summary class="combobox-summary">Wo und wie werden die Kinder betreut?</summary>
+    <div class="combobox-details">        
         Unser Vereinsheim besteht seit Beginn des Projekts 2018. Im Jahr 2020 und 2022 wurde es renoviert. Die Küche und die sanitären Anlagen dazu werden im Bereich "Was wir erreicht haben" beschrieben.
         So sieht unser Vereinsheim in Mbouda, Kamerun aus.
-        <div class="div-small-img">
+        <div class="flexpictures">
             <input type="checkbox" id="expand-image7" />
-            <label class="img-div" for="expand-image7">
-              <img class="small-img" src="/img/Versorgung/EineWarmeMahlzeit/Vereinsheim2020.jpg#imagemd" alt="Vereinsheim 2020" />
+            <label for="expand-image7">
+              <img class="img-flexpictures" src="/img/Versorgung/EineWarmeMahlzeit/Vereinsheim2020.jpg#imagemd" alt="Vereinsheim 2020" />
             </label>
             <input type="checkbox" id="expand-image8" />
-            <label class="img-div" for="expand-image8">
-              <img class="small-img" src="/img/Versorgung/EineWarmeMahlzeit/Vereinsheim2022.jpg#imagemd" alt="Vereinsheim 2022" />
+            <label for="expand-image8">
+              <img class="img-flexpictures" src="/img/Versorgung/EineWarmeMahlzeit/Vereinsheim2022.jpg#imagemd" alt="Vereinsheim 2022" />
             </label>
         </div>
         Die Kinder finden immer genug Platz. Es passen alle hinein 😊
-        <div class="div-small-img">
+        <div class="flexpictures">
             <input type="checkbox" id="expand-image9" />
-            <label class="img-div" for="expand-image9">
-              <img class="small-img" src="/img/Versorgung/EineWarmeMahlzeit/Betreuung1.jpg#imagemd" alt="Betreuung1" />
+            <label for="expand-image9">
+              <img class="img-flexpictures" src="/img/Versorgung/EineWarmeMahlzeit/Betreuung1.jpg#imagemd" alt="Betreuung1" />
             </label>
             <input type="checkbox" id="expand-image10" />
-            <label class="img-div" for="expand-image10">
-              <img class="small-img" src="/img/Versorgung/EineWarmeMahlzeit/Betreuung2.jpg#imagemd" alt="Betreuung2" />
+            <label for="expand-image10">
+              <img class="img-flexpictures" src="/img/Versorgung/EineWarmeMahlzeit/Betreuung2.jpg#imagemd" alt="Betreuung2" />
             </label>
         </div>
     </div>
 </details>
 <details>
-    <summary class="combobox-details">Wo kauft unser Team in Mbouda die Lebensmittel?</summary>
-    <div class="div-details">        
+    <summary class="combobox-summary">Wo kauft unser Team in Mbouda die Lebensmittel?</summary>
+    <div class="combobox-details">        
         Die Lebensmittel werde natürlich vor Ort gekauft. Hauptsächlich auf Märkten und in Geschäften in der näheren Umgebung. Es werden auch Teile der Ernte aus dem Landwirtschaftsprojekt unserem Verein kostenlos zur Verfügung gestellt.
     </div>
 </details>
 <details>
-    <summary class="combobox-details">Wie geht es für die Kinder nach der Schule weiter?</summary>
-    <div class="div-details">        
+    <summary class="combobox-summary">Wie geht es für die Kinder nach der Schule weiter?</summary>
+    <div class="combobox-details">        
         Wir haben bereits mehrere Jugendliche nach dem Schulabschluss während der Ausbildung begleitet. Es ist für den Verein nicht einfach für jedes Kind eine Ausbildung zu finanzieren. Aber meistens finden wir eine gute Lösung.  
         Bertin hat als schüchternes krankes Kind bei uns angefangen. Jetzt ist er Schneider und bildet weitere Jugendliche aus:
-        <div class="div-small-img">
+        <div class="flexpictures">
             <input type="checkbox" id="expand-image11" />
-            <label class="img-div" for="expand-image11">
-              <img class="small-img" src="/img/Versorgung/EineWarmeMahlzeit/Bertin3.jpg#imagemd" alt="Bertin3" />
+            <label for="expand-image11">
+              <img class="img-flexpictures" src="/img/Versorgung/EineWarmeMahlzeit/Bertin3.jpg#imagemd" alt="Bertin3" />
             </label>
             <input type="checkbox" id="expand-image12" />
-            <label class="img-div" for="expand-image12">
-              <img class="small-img" src="/img/Versorgung/EineWarmeMahlzeit/Bertin4.jpeg#imagemd" alt="Bertin4" />
+            <label for="expand-image12">
+              <img class="img-flexpictures" src="/img/Versorgung/EineWarmeMahlzeit/Bertin4.jpeg#imagemd" alt="Bertin4" />
             </label>
         </div>
         Auch Landry durften wir begleiten. Er ist jetzt ausgebildeter Elektriker:
-        <div class="div-small-img">
+        <div class="flexpictures">
             <input type="checkbox" id="expand-image13" />
-            <label class="img-div" for="expand-image13">
-              <img class="small-img" src="/img/Versorgung/EineWarmeMahlzeit/Landry1.jpg#imagemd" alt="Landry1" />
+            <label for="expand-image13">
+              <img class="img-flexpictures" src="/img/Versorgung/EineWarmeMahlzeit/Landry1.jpg#imagemd" alt="Landry1" />
             </label>
             <input type="checkbox" id="expand-image12" />
-            <label class="img-div" for="expand-image12">
-              <img class="small-img" src="/img/Versorgung/EineWarmeMahlzeit/Landry2.png#imagemd" alt="Landry2" />
+            <label for="expand-image12">
+              <img class="img-flexpictures" src="/img/Versorgung/EineWarmeMahlzeit/Landry2.png#imagemd" alt="Landry2" />
             </label>
         </div>
         Es gibt noch weitere Jungendliche, die wir begleiten, z. B. zur Kosmetikerin, ...
@@ -123,7 +123,7 @@ Das Projekt finanziert sich über die Paten, die den nötigen Beitrag erbringen,
 <br>
 <br>
 Diese Kinder haben noch keinen Paten gefunden. Wenn es Ihnen möglich ist, helfen Sie bitte und schließen Sie eine Patenschaft ab.  
-<div class="patenschaft-container">
+<div class="profile-container">
     <img src="/img/Versorgung/EineWarmeMahlzeit/Kinder/Aurine.png">
     <div>
         <p>Aurine</p>
@@ -132,7 +132,7 @@ Diese Kinder haben noch keinen Paten gefunden. Wenn es Ihnen möglich ist, helfe
     </div>
     <button>Patenschaft übernehmen</button>
 </div>
-<div class="patenschaft-container">
+<div class="profile-container">
     <img src="/img/Versorgung/EineWarmeMahlzeit/Kinder/Brendalice.png">
     <div>
         <p>Brendalice</p>
@@ -143,9 +143,9 @@ Diese Kinder haben noch keinen Paten gefunden. Wenn es Ihnen möglich ist, helfe
 </div>
 <br>
 <details>
-    <summary class="combobox-details">Diese Kinder sind bereits versorgt</summary>
-    <div class="div-details">        
-        <div class="patenschaft-container patenschaft-container-versorgt">
+    <summary class="combobox-summary">Diese Kinder sind bereits versorgt</summary>
+    <div class="combobox-details">        
+        <div class="profile-container profile-container-supplied">
             <img src="/img/Versorgung/EineWarmeMahlzeit/Kinder/Aurine.png">
             <div>
                 <p>Aurine</p>
@@ -153,7 +153,7 @@ Diese Kinder haben noch keinen Paten gefunden. Wenn es Ihnen möglich ist, helfe
                 <p>Waisenkind, lebt bei Ihrer Tante</p>
             </div>
         </div>
-        <div class="patenschaft-container patenschaft-container-versorgt">
+        <div class="profile-container profile-container-supplied">
             <img src="/img/Versorgung/EineWarmeMahlzeit/Kinder/Aurine.png">
             <div>
                 <p>Aurine</p>

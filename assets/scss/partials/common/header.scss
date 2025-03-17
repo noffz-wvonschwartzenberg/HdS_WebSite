@@ -1,4 +1,6 @@
 
+@import '../../common-styles/logo';
+
 @include themify($themes) {
     .home-main {
 
@@ -14,37 +16,6 @@
             width: 100%; //$width-percent-of-screen;
             height: $header-height;
             background-color: themed("logo-green");
-        }
-
-        .header-logo {
-            z-index: 2;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: $logo-width;;
-            height: $logo-height;
-            margin-left: $logo-left-margin;
-            background-color: themed("background-logo-white");
-            border: 1px solid themed("logo-green");
-            transition: transform 0.15s ease, box-shadow 0.15s ease;
-        }
-
-        .logo {
-            width: 90%;
-            height: auto;
-            display: block;
-        }
-
-        .header-logo:hover {
-            transform: scale(1.05);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-        }
-
-        .logo-klein {
-            height: auto;
-            width: 90%;
-            display: none;
         }
 
         .header-donate-paypal {
@@ -102,22 +73,8 @@
     }
 
     @media (max-width: 1080px) {
-        .header .header-logo {
-            width: $logo-klein-width;
-        }
-
-        .header .logo {
-            display: none;
-        }
-
-        .header .logo-klein {
-            display:inline;
-        }
-
         .header .mega-menu {
             margin-left: calc( #{$logo-klein-width} + #{$logo-left-margin} + 5px);
-            //max-width: calc( #{$width-percent-of-screen} - #{$logo-klein-width} - #{$logo-left-margin} - 10px);
-            //margin-left: 100px;
             max-width: 100%;
         }
     }

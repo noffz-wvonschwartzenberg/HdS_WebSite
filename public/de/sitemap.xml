@@ -77,6 +77,9 @@
                 href="http://localhost:1313/de/finanzen/aktuellefinanzuebersicht/"
                 />
   </url><url>
+    <loc>http://localhost:1313/de/versorgung/brunnenbauaktuell/</loc>
+    <lastmod>2025-03-05T21:11:48+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/de/versorgung/einewarmemahlzeit/</loc>
     <lastmod>2025-03-05T21:11:48+01:00</lastmod>
     <xhtml:link

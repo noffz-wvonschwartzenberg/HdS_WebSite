@@ -46,23 +46,46 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
   <body>
-     
+    
     
     
   <div id = "js-list" class="dark-theme">
     <div class="list">
-      <a href="/" class="list-logo">
-        <img class="logo" src="/img/logo.png" alt="Haus der Sonne">
-        <img class="logo-klein" src="/img/logo-klein.png" alt="Haus der Sonne">
+      <a href="/" class="logo">
+        <img class="img-logo" src="/img/logo.png" alt="Haus der Sonne">
+        <img class="img-logo-klein" src="/img/logo-klein.png" alt="Haus der Sonne">
       </a>
-      <div class="list-div-main">
-        <img src="/img/Versorgung/VersorgungTitle.jpg" alt="List Picture" class="list-picture-main">
+      <div class="pagepicture">
+        <img src="/img/Versorgung/VersorgungTitle.jpg" alt="List Picture" class="img-pagepicture">
       </div>
       <div>
-        <h1 class="list-pagetitle">Versorgung</h1>
+        <div class="pagetitle">
+          <h1 class="header-pagetitle">Versorgung</h1>
+        </div>
         <p class="list-pagedescription">Wir versorgen inzwischen mehr als 50 Kinder mit einer täglichen warmen Mahlzeit. Für sauberes Trinkwasser sorgen wir bereits an mehreren Stellen in Kamerun durch den Bau von Brunnen. Die medizinische Versorgung unserer Kinder ist uns auch sehr wichtig.</p>
         
         
+        
+        <div class="list-container" onclick="location.href='\/de\/versorgung\/brunnenbauaktuell\/';">
+          
+            <img src="/img/Versorgung/BrunnenbauAktuell/BrunnenbauAktuellTitle.jpeg" alt="List Picture" class="list-picture">
+          
+            <div class="list-textbox">
+              <div class="list-shifted">
+                <div class="list-title">
+                  Der neue Brunnen
+                </div>
+                <div class="list-description">
+                  Das Projekt &#34;Brunnenbau&#34; lebt von der Unterstützung eines dem Haus der Sonne sehr zugetanen und sehr großzügigen Menschen. Wir sind in der Lage, jedes Jahr einen neuen Brunnen zu bauen. Hier finden Sie die aktuellen Angaben für dieses Jahr.
+                </div>
+              </div>
+              <div class="list-date">
+                Mittwoch, März 5, 2025
+              </div>
+            </div>
+        </div>
+          
+          
         
         <div class="list-container" onclick="location.href='\/de\/versorgung\/einewarmemahlzeit\/';">
           
@@ -161,6 +184,7 @@
     function updateViewableAreaList() {
       const height = window.innerHeight;
       document.documentElement.style.setProperty('--viewable-height-list', `${height}px`);
+      document.documentElement.style.setProperty('--viewable-height', `${height}px`);
     }
 
     window.addEventListener('resize', updateViewableAreaList);

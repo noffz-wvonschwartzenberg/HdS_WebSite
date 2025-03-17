@@ -46,20 +46,22 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
   <body>
-     
+    
     
     
   <div id = "js-list" class="dark-theme">
     <div class="list">
-      <a href="/" class="list-logo">
-        <img class="logo" src="/img/logo.png" alt="Haus der Sonne">
-        <img class="logo-klein" src="/img/logo-klein.png" alt="Haus der Sonne">
+      <a href="/" class="logo">
+        <img class="img-logo" src="/img/logo.png" alt="Haus der Sonne">
+        <img class="img-logo-klein" src="/img/logo-klein.png" alt="Haus der Sonne">
       </a>
-      <div class="list-div-main">
-        <img src="/img/derVerein/derVereinTitle.png" alt="List Picture" class="list-picture-main">
+      <div class="pagepicture">
+        <img src="/img/derVerein/derVereinTitle.jpg" alt="List Picture" class="img-pagepicture">
       </div>
       <div>
-        <h1 class="list-pagetitle">Der Verein</h1>
+        <div class="pagetitle">
+          <h1 class="header-pagetitle">Der Verein</h1>
+        </div>
         <p class="list-pagedescription">Christian Eloundou, der Gründer des Vereins sagt: &#34;Ich habe einen Traum und der lautet: Ich möchte ein Haus für die Kinder bauen, die das Leben führen müssen, aus dem ich entflohen bin. Es ist mein ganz großer Herzenswunsch, etwas zurück zu geben und den ärmsten Kindern und Jugendlichen in Mbouda zu helfen.&#34;</p>
         
         
@@ -161,6 +163,7 @@
     function updateViewableAreaList() {
       const height = window.innerHeight;
       document.documentElement.style.setProperty('--viewable-height-list', `${height}px`);
+      document.documentElement.style.setProperty('--viewable-height', `${height}px`);
     }
 
     window.addEventListener('resize', updateViewableAreaList);

@@ -2,15 +2,17 @@
 {{ define "main" }}
   <div id = "js-list" class="dark-theme">
     <div class="list">
-      <a href="/" class="list-logo">
-        <img class="logo" src="/img/logo.png" alt="Haus der Sonne">
-        <img class="logo-klein" src="/img/logo-klein.png" alt="Haus der Sonne">
+      <a href="/" class="logo">
+        <img class="img-logo" src="/img/logo.png" alt="Haus der Sonne">
+        <img class="img-logo-klein" src="/img/logo-klein.png" alt="Haus der Sonne">
       </a>
-      <div class="list-div-main">
-        <img src="{{ .Params.image }}" alt="List Picture" class="list-picture-main">
+      <div class="pagepicture">
+        <img src="{{ .Params.image }}" alt="List Picture" class="img-pagepicture">
       </div>
       <div>
-        <h1 class="list-pagetitle">{{ .Title }}</h1>
+        <div class="pagetitle">
+          <h1 class="header-pagetitle">{{ .Title }}</h1>
+        </div>
         <p class="list-pagedescription">{{ .Params.Description }}</p>
         
         {{ .Content }}
@@ -55,6 +57,7 @@
     function updateViewableAreaList() {
       const height = window.innerHeight;
       document.documentElement.style.setProperty('--viewable-height-list', `${height}px`);
+      document.documentElement.style.setProperty('--viewable-height', `${height}px`);
     }
 
     window.addEventListener('resize', updateViewableAreaList);

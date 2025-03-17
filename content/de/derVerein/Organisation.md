@@ -16,9 +16,9 @@ Sie tagt jährlich unter der Leitung des Vorsitzenden. Während der Mitgliederve
 Der Vorstand ist ehrenamtlich tätig und führt die laufenden Geschäfte des Vereins. Er erfüllt die Aufgaben im Rahmen der gefassten Beschlüsse und im Sinne der Satzung. Den genauen Wortlaut entnehmen Sie bitte unserer Satzung.  
 Der Vorstand besteht aus: 
 <details>
-    <summary class="combobox-details">Dem 1. Vorsitzenden: Christian Eloundou</summary>
-    <div class="div-details">
-      <img class="smallest-img-in-text" src="/img/derVerein/Organisation/Christian.png#imagemd" alt="Christian" />
+    <summary class="combobox-summary">Dem 1. Vorsitzenden: Christian Eloundou</summary>
+    <div class="combobox-details">
+      <img class="img-smallest-in-text" src="/img/derVerein/Organisation/Christian.png#imagemd" alt="Christian" />
       Mein Name ist Christian Eloundou. Ich bin 43 Jahre alt und komme aus Kamerun.  
       Ich bin Drucker und Kampsportlehrer von Beruf. Seit 2003 Jahren lebe ich in Deutschland, in Kempen am Niederrhein.  
       <br>
@@ -31,9 +31,9 @@ Der Vorstand besteht aus:
     </div>
 </details>
 <details>
-    <summary class="combobox-details">Dem 2. Vorsitzenden: Jürgen Brockmeyer</summary>
-    <div class="div-details">
-      <img class="smallest-img-in-text" src="/img/derVerein/Organisation/Jürgen.png#imagemd" alt="Jürgen" />
+    <summary class="combobox-summary">Dem 2. Vorsitzenden: Jürgen Brockmeyer</summary>
+    <div class="combobox-details">
+      <img class="img-smallest-in-text" src="/img/derVerein/Organisation/Jürgen.png#imagemd" alt="Jürgen" />
       Mein Name ist Jürgen Brockmeyer, geboren 1962.  
       <br>
       Beruflich bin ich als sogenannter Interims-Manager tätig. Seit einigen Jahren konzentrieren sich meine Tätigkeiten auf Kempen und Berlin als geschäftsführender Vorstandsvorsitzender zweier Stiftungen. Die Aufgabenfelder liegen in den vielfältigen Bereichen der sozialen Arbeit mit und für Menschen. Es ist mein grundsätzlicher Ansatz, dass wir soziale Arbeit so gestalten müssen, dass „Betroffene“ zu "Beteiligten" werden.  
@@ -44,9 +44,9 @@ Der Vorstand besteht aus:
     </div>
 </details>
 <details>
-    <summary class="combobox-details">Dem Kassenwart: Wolfgang von Schwartzenberg</summary>
-    <div class="div-details">
-      <img class="smallest-img-in-text" src="/img/derVerein/Organisation/Wolfgang.png#imagemd" alt="Wolfgang" />
+    <summary class="combobox-summary">Dem Kassenwart: Wolfgang von Schwartzenberg</summary>
+    <div class="combobox-details">
+      <img class="img-smallest-in-text" src="/img/derVerein/Organisation/Wolfgang.png#imagemd" alt="Wolfgang" />
       Mein Name ist Wolfgang von Schwartzenberg. Ich wurde am 28. Mai 1972 in Belgien geboren. Nach meinem Abitur studierte ich Elektrotechnik in Aachen, lebe und arbeite nun seit ca. 20 Jahren in Deutschland. Die Jahre 2004 und 2005 verbrachte ich zusammen mit meiner Familie in Schweden.  
       <br>
       In meiner Freizeit betreibe ich Taekwondo. Dort lernte ich Christian, meinen Trainer, kennen.
@@ -59,9 +59,9 @@ Der Vorstand besteht aus:
 ### Der erweiterte Vorstand
 Zusätzlich zum Vorstand im Sinne §26 BGB enthält der erweiterte Vorstand:
 <details>
-    <summary class="combobox-details">Eine Schriftführerin: Mireille Lassig</summary>
-    <div class="div-details">
-      <img class="smallest-img-in-text" src="/img/derVerein/Organisation/Mireille.png#imagemd" alt="Mireille" />
+    <summary class="combobox-summary">Eine Schriftführerin: Mireille Lassig</summary>
+    <div class="combobox-details">
+      <img class="img-smallest-in-text" src="/img/derVerein/Organisation/Mireille.png#imagemd" alt="Mireille" />
       Mein Name ist Mireille Lassig, ich bin 49 Jahre alt und Mutter zwei erwachsener Kinder. Ich lebe in einer Partnerschaft inmitten von Kempen.
       <br>
       Beruflich tätig bin ich im St. Peter-Stift, eines von zwei Senioreneinrichtungen, welche der Stiftung "Hospital zum Hl. Geist" Kempen angehören. Mein Aufgabengebiet bezieht sich u. a. auf die Vermietung unserer seniorengerechten Appartements und die damit verbundene Öffentlichkeitsarbeit. Ich fungiere als Ansprechpartnerin für die Senioren vor Ort und bin mit der Planung sozial-kultureller Aktivitäten innerhalb des Hauses betraut. Parallel dazu plane ich die internen Ausstellungen von Künstlern für beide Häuser sowie unsere Live-Sonntage.
@@ -70,9 +70,9 @@ Zusätzlich zum Vorstand im Sinne §26 BGB enthält der erweiterte Vorstand:
     </div>
 </details>
 <details>
-    <summary class="combobox-details">Den 1. Beisitzer: Erdal Icer</summary>
-    <div class="div-details">
-      <img class="smallest-img-in-text" src="/img/derVerein/Organisation/Erdal.png#imagemd" alt="Erdal" />
+    <summary class="combobox-summary">Den 1. Beisitzer: Erdal Icer</summary>
+    <div class="combobox-details">
+      <img class="img-smallest-in-text" src="/img/derVerein/Organisation/Erdal.png#imagemd" alt="Erdal" />
       Ich bin Erdal Icer aus Kempen. Als Betriebswirt und Berufspädagoge bin ich als Schulleiter tätig.
       <br>
       Mit Christian Eloundou bin ich langjährig befreundet. Nicht nur vor dem Hintergrund habe ich mich ohne zu zögern bereit erklärt, ihn bei der Verwirklichung seines Herzenswunsches zu unterstützen. 
@@ -81,26 +81,26 @@ Zusätzlich zum Vorstand im Sinne §26 BGB enthält der erweiterte Vorstand:
     </div>
 </details>
 <details>
-    <summary class="combobox-details">Den 2. Beisitzer: Bettina Hüsemann</summary>
-    <div class="div-details">
+    <summary class="combobox-summary">Den 2. Beisitzer: Bettina Hüsemann</summary>
+    <div class="combobox-details">
     </div>
 </details>
 <details>
-    <summary class="combobox-details">Den 3. Beisitzer: not named</summary>
-    <div class="div-details">
+    <summary class="combobox-summary">Den 3. Beisitzer: not named</summary>
+    <div class="combobox-details">
     </div>
 </details>
 
 ### Die Kassenprüfer
 Die Kassenprüfer haben die Aufgabe, das jeweils zurückliegende Geschäftsjahr des Vereins buchhalterisch zu prüfen.
 <details>
-    <summary class="combobox-details">1. Kassenprüferin: Marlies Monreal</summary>
-    <div class="div-details">
+    <summary class="combobox-summary">1. Kassenprüferin: Marlies Monreal</summary>
+    <div class="combobox-details">
     </div>
 </details>
 <details>
-    <summary class="combobox-details">2. Kassenprüfer: Boris Greve</summary>
-    <div class="div-details">
+    <summary class="combobox-summary">2. Kassenprüfer: Boris Greve</summary>
+    <div class="combobox-details">
     </div>
 </details>
  
