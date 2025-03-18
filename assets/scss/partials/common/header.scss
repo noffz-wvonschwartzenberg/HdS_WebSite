@@ -21,8 +21,15 @@
         .header-donate-paypal {
             z-index: 2;
             position: absolute;
-            margin-left: $logo-left-margin - 10px;
+            margin-left: calc(#{$logo-left-margin} + (#{$logo-width} - 137px) / 2); // 137px: paypal button width
             margin-top: $logo-height + 10px;
+        }
+
+        .donate-paypal-hosted,
+        .donate-paypal-image,
+        .donate-paypal-img {
+            border: none;
+            background: transparent;
         }
 
         .header-menu {
@@ -76,6 +83,10 @@
         .header .mega-menu {
             margin-left: calc( #{$logo-klein-width} + #{$logo-left-margin} + 5px);
             max-width: 100%;
+        }
+
+        .header .header-donate-paypal {
+            margin-left: calc(#{$logo-left-margin} + (#{$logo-klein-width} - 137px) / 2); // 137px: paypal button width
         }
     }
 }

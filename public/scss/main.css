@@ -119,8 +119,13 @@
   .light-theme .header .header-donate-paypal {
     z-index: 2;
     position: absolute;
-    margin-left: 10px;
+    margin-left: calc(20px + (350px - 137px) / 2);
     margin-top: 130px; }
+  .light-theme .header .donate-paypal-hosted,
+  .light-theme .header .donate-paypal-image,
+  .light-theme .header .donate-paypal-img {
+    border: none;
+    background: transparent; }
   .light-theme .header .header-menu {
     display: flex;
     justify-content: center;
@@ -157,7 +162,9 @@
 @media (max-width: 1080px) {
   .light-theme .header .mega-menu {
     margin-left: calc( 130px + 20px + 5px);
-    max-width: 100%; } }
+    max-width: 100%; }
+  .light-theme .header .header-donate-paypal {
+    margin-left: calc(20px + (130px - 137px) / 2); } }
 
 .dark-theme .home-main {
   margin: 0;
@@ -174,8 +181,13 @@
   .dark-theme .header .header-donate-paypal {
     z-index: 2;
     position: absolute;
-    margin-left: 10px;
+    margin-left: calc(20px + (350px - 137px) / 2);
     margin-top: 130px; }
+  .dark-theme .header .donate-paypal-hosted,
+  .dark-theme .header .donate-paypal-image,
+  .dark-theme .header .donate-paypal-img {
+    border: none;
+    background: transparent; }
   .dark-theme .header .header-menu {
     display: flex;
     justify-content: center;
@@ -212,7 +224,9 @@
 @media (max-width: 1080px) {
   .dark-theme .header .mega-menu {
     margin-left: calc( 130px + 20px + 5px);
-    max-width: 100%; } }
+    max-width: 100%; }
+  .dark-theme .header .header-donate-paypal {
+    margin-left: calc(20px + (130px - 137px) / 2); } }
 
 .light-theme .mega-menu-container {
   font-family: "Calibri", sans-serif; }
@@ -1398,6 +1412,22 @@
   max-width: 100%;
   margin: 0 auto;
   height: calc((var(--viewable-height) * 100 / 100 ) - 120px); }
+  .light-theme .mainswiper .swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center; }
+  .light-theme .mainswiper .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    background-color: rgba(252, 209, 22, 0.6);
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: opacity 0.3s ease; }
+  .light-theme .mainswiper .swiper-pagination-bullet-active {
+    background-color: #fcd116;
+    opacity: 1; }
   .light-theme .mainswiper .swiper-slide {
     display: inline-block; }
     .light-theme .mainswiper .swiper-slide .img11 {
@@ -1476,6 +1506,21 @@
   max-width: 100%;
   margin: 0 auto;
   height: calc((var(--viewable-height) * 100 / 100 ) - 120px); }
+  .dark-theme .mainswiper .swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center; }
+  .dark-theme .mainswiper .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: opacity 0.3s ease; }
+  .dark-theme .mainswiper .swiper-pagination-bullet-active {
+    background-color: #534504;
+    opacity: 1; }
   .dark-theme .mainswiper .swiper-slide {
     display: inline-block; }
     .dark-theme .mainswiper .swiper-slide .img11 {
@@ -1705,6 +1750,45 @@
     height: 100%;
     object-fit: cover; }
 
+.light-theme .swiper-container {
+  height: 500px;
+  width: auto;
+  overflow: hidden;
+  margin: 10px;
+  padding: 2px;
+  position: relative; }
+  .light-theme .swiper-container .swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center; }
+  .light-theme .swiper-container .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    background-color: rgba(252, 209, 22, 0.6);
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: opacity 0.3s ease; }
+  .light-theme .swiper-container .swiper-pagination-bullet-active {
+    background-color: #fcd116;
+    opacity: 1; }
+  .light-theme .swiper-container .swiper-button-prev,
+  .light-theme .swiper-container .swiper-button-next {
+    opacity: 0; }
+  .light-theme .swiper-container .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .light-theme .swiper-container .swiper-slide img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    border-color: grey;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
+
 .dark-theme .pagepicture {
   height: calc(var(--viewable-height) * 53 / 100);
   position: relative; }
@@ -1712,6 +1796,43 @@
     width: 100%;
     height: 100%;
     object-fit: cover; }
+
+.dark-theme .swiper-container {
+  height: 500px;
+  width: auto;
+  overflow: hidden;
+  margin: 10px;
+  padding: 2px;
+  position: relative; }
+  .dark-theme .swiper-container .swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center; }
+  .dark-theme .swiper-container .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: opacity 0.3s ease; }
+  .dark-theme .swiper-container .swiper-pagination-bullet-active {
+    background-color: #534504;
+    opacity: 1; }
+  .dark-theme .swiper-container .swiper-button-prev,
+  .dark-theme .swiper-container .swiper-button-next {
+    opacity: 0; }
+  .dark-theme .swiper-container .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .dark-theme .swiper-container .swiper-slide img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
 
 .light-theme .list {
   background-color: #e3e2d4;
@@ -2026,6 +2147,45 @@
     height: 100%;
     object-fit: cover; }
 
+.light-theme .swiper-container {
+  height: 500px;
+  width: auto;
+  overflow: hidden;
+  margin: 10px;
+  padding: 2px;
+  position: relative; }
+  .light-theme .swiper-container .swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center; }
+  .light-theme .swiper-container .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    background-color: rgba(252, 209, 22, 0.6);
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: opacity 0.3s ease; }
+  .light-theme .swiper-container .swiper-pagination-bullet-active {
+    background-color: #fcd116;
+    opacity: 1; }
+  .light-theme .swiper-container .swiper-button-prev,
+  .light-theme .swiper-container .swiper-button-next {
+    opacity: 0; }
+  .light-theme .swiper-container .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .light-theme .swiper-container .swiper-slide img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    border-color: grey;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
+
 .dark-theme .pagepicture {
   height: calc(var(--viewable-height) * 53 / 100);
   position: relative; }
@@ -2033,6 +2193,43 @@
     width: 100%;
     height: 100%;
     object-fit: cover; }
+
+.dark-theme .swiper-container {
+  height: 500px;
+  width: auto;
+  overflow: hidden;
+  margin: 10px;
+  padding: 2px;
+  position: relative; }
+  .dark-theme .swiper-container .swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center; }
+  .dark-theme .swiper-container .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: opacity 0.3s ease; }
+  .dark-theme .swiper-container .swiper-pagination-bullet-active {
+    background-color: #534504;
+    opacity: 1; }
+  .dark-theme .swiper-container .swiper-button-prev,
+  .dark-theme .swiper-container .swiper-button-next {
+    opacity: 0; }
+  .dark-theme .swiper-container .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .dark-theme .swiper-container .swiper-slide img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
 
 .light-theme .pagetitle {
   text-align: center;

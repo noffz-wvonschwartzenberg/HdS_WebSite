@@ -45,6 +45,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
   </head>
   <body>
     
@@ -231,9 +232,9 @@
             <div class="header-donate-paypal">
                 
                 <form action="https://www.paypal.com/donate" method="post" target="_top">
-                    <input type="hidden" name="hosted_button_id" value="JVEF3JGFNK2ML" />
-                    <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Spenden mit dem PayPal-Button" />
-                    <img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1" />
+                    <input class="donate-paypal-hosted" type="hidden" name="hosted_button_id" value="JVEF3JGFNK2ML" />
+                    <input class="donate-paypal-image" type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Spenden mit dem PayPal-Button" />
+                    <img class="donate-paypal-img" alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1" />
                 </form>
             </div>    
         </div>
@@ -315,7 +316,6 @@
 <div id = "js-home" class="dark-theme">
   <div class="home-main">
   <div id = "js-swipers" class="dark-theme">
-    
     <section class="swipers">
         <div class="mainswiper swiper">
             <div id="js-img11" class="swiper-wrapper">
@@ -647,6 +647,7 @@
     loop: true,
     pagination: {
       el: '.swiper-pagination',
+      clickable: true,
     },
   });
 

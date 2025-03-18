@@ -9,6 +9,28 @@
         margin: 0 auto;
         height: calc((var(--viewable-height) * #{$picture-home-pct-height} / 100 ) - #{$logo-height});
 
+        .swiper-pagination {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+            margin: 0 5px;
+            background-color: themed(logo-yellow-60);
+            border-radius: 50%;
+            opacity: 0.5;
+            transition: opacity 0.3s ease;
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: themed(logo-yellow);
+            opacity: 1;
+        }
+
         .swiper-slide {
             display: inline-block;
 

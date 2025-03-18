@@ -44,6 +44,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
   </head>
   <body>
     
@@ -894,9 +895,29 @@ Die in rot gezeigten Unkosten setzen sich hauptsächlich aus laufenden Kosten wi
 
 
     
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
   
   <script>
   
+    const swiper = new Swiper('.swiper-container', {
+        loop: true, 
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        slidesPerView: 1, 
+    });
+
+    
+    Fancybox.bind("[data-fancybox]", {
+      
+    });
 
     
     
