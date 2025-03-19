@@ -26,7 +26,8 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
 ## Teilen Sie uns Ihre Änderungen mit
 <details>
     <summary class="combobox-summary">Änderung der Adresse</summary>
-    <div class="combobox-details">      
+    <div class="combobox-details">
+    Adressänderung...      
     </div>
 </details>
 <details>
