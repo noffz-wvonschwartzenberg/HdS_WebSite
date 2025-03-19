@@ -21,7 +21,7 @@ Werden Sie Mitglied und unterstützen Sie mit Ihrer Mitgliedschaft den Verein.
 Sie stärken den Verein im allgemeinen, aber Ihr Beitrag wird auch für unsere Projekte dringend benötigt und auch eingesetzt. 
 
 ### Welche Vorteile habe ich
-Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie werden durch eine Mitgliedschaft immer informiert. Sie erhalten am Ende jeden Jahres eine Spendenquittung, die Beiträge lassen sich steuerlich absetzen.
+Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie bleiben durch eine Mitgliedschaft immer informiert. Sie erhalten am Ende jeden Jahres eine Spendenquittung, die Beiträge lassen sich steuerlich absetzen.
 
 ## Mitgliedschaft beantragen
 ### Jahresbeitrag in €*

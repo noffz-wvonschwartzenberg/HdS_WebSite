@@ -9,6 +9,13 @@
     <lastBuildDate>Sat, 01 Mar 2025 21:11:48 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/de/helfen/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Meine Mitgliedschaft verwalten</title>
+      <link>http://localhost:1313/de/helfen/mitgliedschaftverwalten/</link>
+      <pubDate>Sat, 01 Mar 2025 21:11:48 +0100</pubDate>
+      <guid>http://localhost:1313/de/helfen/mitgliedschaftverwalten/</guid>
+      <description>&lt;p&gt;Bei Anliegen rund um Ihre Mitgliedschaft können Sie uns gerne z. B. per E-Mail kontaktieren.&#xA;&lt;input type=&#34;checkbox&#34; id=&#34;expand-image1&#34; /&gt;&#xA;&lt;label for=&#34;expand-image1&#34;&gt;&#xA;&lt;img class=&#34;img-centered-half&#34; src=&#34;http://localhost:1313/img/Helfen/MitgliedschaftVerwalten/Kontakt.png&#34; alt=&#34;Kontakt&#34; /&gt;&#xA;&lt;/label&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;img-caption-half&#34;&gt;Kontaktdaten&lt;/div&gt;&#xD;&#xA;&lt;br&gt;&#xD;&#xA;&lt;h2 id=&#34;warum-sind-sie-mitglied&#34;&gt;Warum sind Sie Mitglied?&lt;/h2&gt;&#xA;&lt;p&gt;Sie tragen dazu bei, dass die Menschen und vor allem die Kinder in Kamerun mit Grundnahrungsmitteln versorgt werden. Unsere Kinder erhalten eine Aufgabenbetreuung und werden deutlich besser in der Schule. Bildung ist wichtig! Durch den Bau zahlreicher Brunnen sind die Menschen plötzlich gesünder.&#xA;Durch Ihre Mitgliedschaft unterstützen Sie mit den Verein.&#xA;Durch Ihren Beitrag stärken Sie den Verein im allgemeinen, aber Ihr Beitrag wird auch für unsere Projekte dringend benötigt und auch eingesetzt.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Mitglied werden</title>
       <link>http://localhost:1313/de/helfen/mitgliedwerden/</link>
       <pubDate>Sat, 01 Mar 2025 21:11:48 +0100</pubDate>

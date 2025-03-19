@@ -2780,6 +2780,18 @@
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
 
+.light-theme .img-centered-half {
+  width: calc(var(--image-width) / 2);
+  margin-top: 10px;
+  border-color: grey;
+  border-width: 2px;
+  border-style: solid;
+  margin-bottom: 0px;
+  margin-left: calc(var(--image-margin) + var(--image-width) / 4);
+  transition: transform 0.15s ease, z-index 0.15s;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
+
 .light-theme .img-caption {
   display: block;
   width: var(--image-width);
@@ -2791,6 +2803,18 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   margin-left: var(--image-margin); }
+
+.light-theme .img-caption-half {
+  display: block;
+  width: calc(var(--image-width) / 2);
+  border-color: rgba(252, 209, 22, 0.6);
+  border-width: 2px;
+  border-style: solid;
+  background-color: rgba(252, 209, 22, 0.6);
+  padding: 5px 0px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-left: calc(var(--image-margin) + var(--image-width) / 4); }
 
 .light-theme .flexpictures {
   display: flex;
@@ -2913,6 +2937,17 @@
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
 
+.dark-theme .img-centered-half {
+  width: calc(var(--image-width) / 2);
+  margin-top: 10px;
+  border-width: 2px;
+  border-style: solid;
+  margin-bottom: 0px;
+  margin-left: calc(var(--image-margin) + var(--image-width) / 4);
+  transition: transform 0.15s ease, z-index 0.15s;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
+
 .dark-theme .img-caption {
   display: block;
   width: var(--image-width);
@@ -2922,6 +2957,16 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   margin-left: var(--image-margin); }
+
+.dark-theme .img-caption-half {
+  display: block;
+  width: calc(var(--image-width) / 2);
+  border-width: 2px;
+  border-style: solid;
+  padding: 5px 0px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-left: calc(var(--image-margin) + var(--image-width) / 4); }
 
 .dark-theme .flexpictures {
   display: flex;
