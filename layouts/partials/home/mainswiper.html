@@ -9,9 +9,9 @@
                     <button class="button11">{{ T "getPate" }}</button>
                 </div>
                 <div class="swiper-slide">
-                    <img src="/img/main_campus.png" alt="main picture - Campus" class="img2">
-                    <h3 class="headline21">Unser Herzensprojekt - Der Campus.</h3>
-                    <h3 class="headline22">Bitte Spenden Sie.</h3>
+                    <img src="/img/main_campus.jpg" alt="main picture - Campus" class="img21">
+                    <h3 id="js-headline21" class="headline21">Unser Großprojekt - Der Campus.</h3>
+                    <button class="button21">{{ T "gezieltSpenden" }}</button>
                 </div>
             </div>
             <div class="swiper-pagination"></div>
@@ -39,6 +39,7 @@
         const image = document.getElementById('js-img11');
         const dependentElement1 = document.getElementById('js-headline11');
         const dependentElement2 = document.getElementById('js-headline12');
+        const dependentElement21 = document.getElementById('js-headline21');
 
         function positionElement() {
             const imageTop = image.offsetTop;
@@ -83,6 +84,34 @@
                 dependentElement1.style.fontSize = 40 + 'px';
                 dependentElement2.style.fontSize = 40 + 'px';
                 dependentElement2.style.top = (dependentElement1.offsetTop + dependentElement1.offsetHeight) + 'px'; 
+            }
+            
+            dependentElement21.style.top = (imageTop + imageHeight / 3) + 'px';
+            dependentElement21.style.fontSize = Math.min(imageHeight / 7, 130) + 'px';
+            dependentElement21.style.left = 30 + 'px';
+
+            if (imageHeight < 270 && imageWidth > 720) {
+                dependentElement21.style.left = 150 + 'px';
+            }
+
+            if (imageWidth > 900 && imageWidth < 1050) {
+                dependentElement21.style.top = (imageTop + imageHeight / 3) + 'px'; 
+                dependentElement21.style.fontSize = Math.min(imageHeight / 10, 80) + 'px';
+            }
+
+            if (imageWidth > 620 && imageWidth <= 900) {
+                dependentElement21.style.top = (imageTop + imageHeight / 2.3) + 'px';
+                dependentElement21.style.fontSize = Math.min(imageHeight / 15, 70) + 'px';
+            }
+
+            if (imageWidth <= 620) {
+                dependentElement21.style.top = (imageTop + imageHeight / 2.3) + 'px';
+                dependentElement21.style.fontSize = Math.min(imageHeight / 25, 40) + 'px';
+            }
+
+            const fontSize2 = parseFloat(window.getComputedStyle(dependentElement21).fontSize);
+            if (fontSize2 < 40) {
+                dependentElement21.style.fontSize = 40 + 'px';
             }
         }
 
