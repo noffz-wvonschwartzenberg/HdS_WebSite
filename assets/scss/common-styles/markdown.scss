@@ -7,7 +7,8 @@
         border: none;
         text-align: center;
         font-size: 18px;
-        padding: 10px;
+        margin-top: 10px;
+        padding: 8px;
         background-color: themed(logo-green);
         border-radius: 3px;
         border: 1px solid themed(logo-green-60);
@@ -211,6 +212,6 @@
     }
 
     select {
-        width: 150px;
+        max-width: 450px;
     }
 }

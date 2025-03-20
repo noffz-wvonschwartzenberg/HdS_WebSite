@@ -2741,7 +2741,8 @@
   border: none;
   text-align: center;
   font-size: 18px;
-  padding: 10px;
+  margin-top: 10px;
+  padding: 8px;
   background-color: #007a5e;
   border-radius: 3px;
   border: 1px solid rgba(0, 122, 94, 0.6);
@@ -2893,13 +2894,14 @@
   color: #007a5e; }
 
 .light-theme select {
-  width: 150px; }
+  max-width: 450px; }
 
 .dark-theme button {
   border: none;
   text-align: center;
   font-size: 18px;
-  padding: 10px;
+  margin-top: 10px;
+  padding: 8px;
   background-color: #032c22;
   border-radius: 3px;
   border: 1px solid;
@@ -3045,7 +3047,7 @@
   color: #032c22; }
 
 .dark-theme select {
-  width: 150px; }
+  max-width: 450px; }
 
 .light-theme .single {
   background-color: #e3e2d4;

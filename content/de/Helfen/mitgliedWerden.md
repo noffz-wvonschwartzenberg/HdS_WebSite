@@ -51,14 +51,14 @@ PLZ*
 Wohnort*  
 <input id="js-input-wohnort" placeholder="" required>  
   
+Telefonnummer  
+<input type="tel" id="js-input-telnummer" placeholder="">  
+
 Geburtsdatum*  
 <input type="date" id="js-input-geburtsdatum" placeholder="" required>  
 
-E-Mail*  
+E-Mail Adresse*  
 <input type="email" id="js-input-email" placeholder="" required>  
-  
-Telefonnummer  
-<input type="tel" id="js-input-telnummer" placeholder="">  
 
 ### Bezahlung
 Bitte buchen Sie den Betrag per SEPA-Lastschriftmandat von meinem nachfolgenden Konto ab.  
