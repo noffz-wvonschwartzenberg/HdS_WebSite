@@ -122,25 +122,10 @@ Das Projekt finanziert sich über die Paten, die den nötigen Beitrag erbringen,
 </details>
 <br>
 <br>
-Diese Kinder haben noch keinen Paten gefunden. Wenn es Ihnen möglich ist, helfen Sie bitte und schließen Sie eine Patenschaft ab.  
-<div class="profile-container">
-    <img src="/img/Versorgung/EineWarmeMahlzeit/Kinder/Aurine.png">
-    <div>
-        <p>Aurine</p>
-        <p>geboren in 2006</p>  
-        <p>Waisenkind, lebt bei Ihrer Tante</p>
-    </div>
-    <button>Patenschaft übernehmen</button>
-</div>
-<div class="profile-container">
-    <img src="/img/Versorgung/EineWarmeMahlzeit/Kinder/Brendalice.png">
-    <div>
-        <p>Brendalice</p>
-        <p>geboren in 2006</p>  
-        <p>Waisenkind, lebt bei Ihrem Onkel</p>
-    </div>
-    <button>Patenschaft übernehmen</button>
-</div>
+Diese Kinder haben noch keinen Paten gefunden. Wenn es Ihnen möglich ist, helfen Sie bitte und schließen Sie eine Patenschaft ab. Hier geht es zum Antrag: 
+<a href="../../Helfen/pateWerden">Pate werden</a> 
+
+<div id="kinder-container"></div> 
 <br>
 <details>
     <summary class="combobox-summary">Diese Kinder sind bereits versorgt</summary>
@@ -163,3 +148,15 @@ Diese Kinder haben noch keinen Paten gefunden. Wenn es Ihnen möglich ist, helfe
         </div>
     </div>
 </details>
+
+<script type="module" src="/js/patenschaft/generateKinderHTML.js"></script>
+<script type="module">
+    import { generateKinderHTML } from '/js/patenschaft/generateKinderHTML.js';
+    document.addEventListener('DOMContentLoaded', () => {
+        const container = document.getElementById('kinder-container');
+        const showkinderOhnePaten = true;
+        const showButton = false;
+        const linkedPage = true;
+        container.innerHTML = generateKinderHTML(showkinderOhnePaten, showButton, linkedPage);
+    });
+</script>

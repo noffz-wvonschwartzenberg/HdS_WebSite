@@ -6,8 +6,15 @@
     <description>Recent content on Haus der Sonne</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Mar 2025 21:11:48 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Mar 2025 19:14:20 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PateWerden</title>
+      <link>http://localhost:1313/en/helfen/patewerden/</link>
+      <pubDate>Fri, 21 Mar 2025 19:14:20 +0100</pubDate>
+      <guid>http://localhost:1313/en/helfen/patewerden/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Eine warme Mahlzeit</title>
       <link>http://localhost:1313/en/versorgung/einewarmemahlzeit/</link>

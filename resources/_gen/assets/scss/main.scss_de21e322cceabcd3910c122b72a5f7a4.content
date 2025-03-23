@@ -2747,11 +2747,14 @@
   border-radius: 3px;
   border: 1px solid rgba(0, 122, 94, 0.6);
   color: white;
-  cursor: pointer; }
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.2s ease-in-out;
+  transition: transition 0.15s ease-in-out; }
 
 .light-theme button:hover {
   transform: scale(1.01);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); }
 
 .light-theme input[type="checkbox"] {
   display: none; }
@@ -2878,9 +2881,14 @@
       padding: 0px; }
   .light-theme .profile-container button {
     margin-left: auto; }
+  .light-theme .profile-container input {
+    margin-left: auto; }
 
 .light-theme .profile-container-supplied {
   border: 2px solid rgba(0, 122, 94, 0.6); }
+
+.light-theme .profile-container-selected {
+  background-color: rgba(0, 122, 94, 0.6); }
 
 .light-theme input,
 .light-theme select {
@@ -2894,7 +2902,23 @@
   color: #007a5e; }
 
 .light-theme select {
-  max-width: 450px; }
+  width: calc(90% + 10px); }
+
+.light-theme #message-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f8f9fa;
+  border: 2px solid #343a40;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center; }
 
 .dark-theme button {
   border: none;
@@ -2906,11 +2930,14 @@
   border-radius: 3px;
   border: 1px solid;
   color: black;
-  cursor: pointer; }
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.2s ease-in-out;
+  transition: transition 0.15s ease-in-out; }
 
 .dark-theme button:hover {
   transform: scale(1.01);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); }
 
 .dark-theme input[type="checkbox"] {
   display: none; }
@@ -3031,6 +3058,8 @@
       padding: 0px; }
   .dark-theme .profile-container button {
     margin-left: auto; }
+  .dark-theme .profile-container input {
+    margin-left: auto; }
 
 .dark-theme .profile-container-supplied {
   border: 2px solid; }
@@ -3047,7 +3076,23 @@
   color: #032c22; }
 
 .dark-theme select {
-  max-width: 450px; }
+  width: calc(90% + 10px); }
+
+.dark-theme #message-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f8f9fa;
+  border: 2px solid #343a40;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center; }
 
 .light-theme .single {
   background-color: #e3e2d4;

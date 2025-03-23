@@ -4,9 +4,9 @@
     "title": "Mitglied werden",
     "author": "WvS",
     "description": "Sie möchten Mitglied im Verein Haus der Sonne werden? Das freut uns sehr.",
-    "image": "/img/Helfen/MitgliedWerden/MitgliedWerden.jpg"
+    "image": "/img/Helfen/MitgliedWerden/MitgliedWerdenTitle.jpg"
 }
-## Warum Mitlgied werden?
+## Warum Mitglied werden?
 Tragen Sie dazu bei, dass die Menschen und vor allem die Kinder in Kamerun mit Grundnahrungsmitteln versorgt werden. Unsere Kinder erhalten eine Aufgabenbetreuung und werden deutlich besser in der Schule. Bildung ist wichtig! Durch den Bau zahlreicher Brunnen sind die Menschen plötzlich gesünder.
 Werden Sie Mitglied und unterstützen Sie mit Ihrer Mitgliedschaft den Verein.
 

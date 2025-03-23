@@ -1,25 +1,25 @@
 {
-    "date": "2025-03-01T21:11:48+01:00",
+    "date": "2025-03-23T20:26:54+01:00",
     "draft": false,
-    "title": "Meine Mitgliedschaft verwalten",
+    "title": "Meine Patenschaft verwalten",
     "author": "WvS",
-    "description": "Sie möchten Ihre Mitgliedschaft ändern oder haben Fragen zu Ihrer Mitgliedschaft?",
-    "image": "/img/Helfen/MitgliedschaftVerwalten/MitgliedschaftVerwaltenTitle.png"
+    "description": "Sie möchten Ihre Patenschaft ändern oder haben Fragen zu Ihrer Patenschaft?",
+    "image": "/img/Helfen/PatenschaftVerwalten/PatenschaftVerwaltenTitle.png"
 }
-Bei Anliegen rund um Ihre Mitgliedschaft können Sie uns gerne z. B. per E-Mail kontaktieren.
+
+Bei Anliegen rund um Ihre Patenschaft können Sie uns gerne z. B. per E-Mail kontaktieren.
 <input type="checkbox" id="expand-image1" />
 <label for="expand-image1">
   <img class="img-centered-half" src="/img/Kontakt.png" alt="Kontakt" />
 </label>
 <div class="img-caption-half">Kontaktdaten</div>
 <br>
-## Warum sind Sie Mitglied?
-Sie tragen dazu bei, dass die Menschen und vor allem die Kinder in Kamerun mit Grundnahrungsmitteln versorgt werden. Unsere Kinder erhalten eine Aufgabenbetreuung und werden deutlich besser in der Schule. Bildung ist wichtig! Durch den Bau zahlreicher Brunnen sind die Menschen plötzlich gesünder.
-Durch Ihre Mitgliedschaft unterstützen Sie mit den Verein.
-Durch Ihren Beitrag stärken Sie den Verein im allgemeinen, aber Ihr Beitrag wird auch für unsere Projekte dringend benötigt und auch eingesetzt. 
+
+## Warum sind Sie Pate?
+Sie tragen dazu bei, dass die Kinder in Mbouda, Kamerun, mit Grundnahrungsmitteln versorgt werden. Unsere Kinder erhalten eine Aufgabenbetreuung und werden deutlich besser in der Schule. Bildung ist wichtig!
 
 ## Welche Vorteile haben Sie
-Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie bleiben durch eine Mitgliedschaft immer informiert. Sie erhalten am Ende jeden Jahres eine Spendenquittung, die Beiträge lassen sich steuerlich absetzen.
+Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie bleiben durch Ihre Patenschaft immer informiert. Sie erhalten am Ende jeden Jahres eine Spendenquittung, die Beiträge lassen sich steuerlich absetzen.
 <br> 
 
 ## Teilen Sie uns Ihre Änderungen mit
@@ -46,7 +46,7 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
          Telefonnummer  
         <input type="tel" id="js-input-telnummer" placeholder="">  
         <br><br> 
-        <button id="js-button-mitglied-adress-aenderungen">Änderungen abschicken</button>  
+        <button id="js-button-pate-adress-aenderungen">Änderungen abschicken</button>  
         <br><br> 
     </div>
 </details>  
@@ -64,7 +64,7 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
         E-Mail Adresse*  
         <input type="email" id="js-input-email" placeholder="" required>  
         <br><br> 
-        <button id="js-button-mitglied-email-aenderung">Änderung abschicken</button>  
+        <button id="js-button-pate-email-aenderung">Änderung abschicken</button>  
         <br><br> 
     </div>
 </details>
@@ -94,14 +94,14 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
         <br><br> 
         Die Datenschutzerklärung habe ich gelesen und erkenne Sie ausdrücklich an.  
         <br>
-        <button id="js-button-mitglied-konto-aenderung">Änderung abschicken</button>  
+        <button id="js-button-pate-konto-aenderung">Änderung abschicken</button>  
         <br><br> 
     </div>
 </details>
 <details>
-    <summary class="combobox-summary">Änderung der Beitragshöhe</summary>
+    <summary class="combobox-summary">Änderung des Betrags der Patenschaft</summary>
     <div class="combobox-details">   
-        Bitte geben Sie die neue Jahres-Beitragshöhe in Euro ein und senden Sie dann die Daten ab.  
+        Bitte geben Sie den neuen Betrag für Ihre Patenschaft in Euro ein und senden Sie dann die Daten ab.  
         <br><br> 
         Vorname*  
         <input id="js-input-vorname" placeholder="" required>  
@@ -110,12 +110,12 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
         <input id="js-input-nachname" placeholder="" required>  
         <br><br> 
         Tragen Sie nur Zahlen ohne Komma oder Währung ein*  
-        <br><br> 
+        <br>
         <input id="js-input-jahresbeitrag" placeholder="Jahresbeitrag" required>  
         <br><br> 
         Bitte buchen Sie den Betrag per SEPA-Lastschriftmandat von meinem nachfolgenden Konto ab.  
         <br>
-        Zahlungsweise*  
+        Zahlungsweise* 
         <br> 
         <select id="js-zahlungsweise" name="zahlungsweise" required>
             <option value="jaehrlich">jährlich</option>
@@ -123,7 +123,7 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
             <option value="vierteljaehrlich">vierteljährlich</option>
         </select>  
         <br><br>
-        <button id="js-button-mitglied-jahresbeitrag-aenderung">Änderung abschicken</button>  
+        <button id="js-button-patenschaft-jahresbeitrag-aenderung">Änderung abschicken</button>  
         <br><br>   
     </div>
 </details>
@@ -146,14 +146,14 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
             <option value="letzteUndNachfolgendeJahre">das letzte Jahr und die nachfolgenden Jahre</option>
         </select>  
         <br><br>
-        <button id="js-button-mitglied-zuwendungsbescheinigung-aenderung">Änderung abschicken</button>  
+        <button id="js-button-patenschaft-zuwendungsbescheinigung-aenderung">Änderung abschicken</button>  
         <br><br>     
     </div>
 </details>
 <details>
-    <summary class="combobox-summary">Änderung/Beendigung der Mitgliedschaft</summary>
+    <summary class="combobox-summary">Änderung/Beendigung der Patenschaft</summary>
     <div class="combobox-details">
-        Wenn Sie Ihre Mitgliedschaft kündigen möchten, bedauern wir das sehr. Wir bedanken uns für Ihren bisherigen Beitrag und wünschen Ihnen alles Gute.
+        Wenn Sie Ihre Patenschaft kündigen möchten, bedauern wir das sehr. Wir bedanken uns für Ihren bisherigen Beitrag und wünschen Ihnen alles Gute.
         <br><br> 
         Vorname*  
         <input id="js-input-vorname" placeholder="" required>  
@@ -161,7 +161,7 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
         Nachname*  
         <input id="js-input-nachname" placeholder="" required>  
         <br><br>
-        <button id="js-button-mitgliedschaft-kuendigen">Mitgliedschaft kündigen</button>  
+        <button id="js-button-patenschaft-kuendigen">Patenschaft kündigen</button>  
         <br><br>          
     </div>
 </details>

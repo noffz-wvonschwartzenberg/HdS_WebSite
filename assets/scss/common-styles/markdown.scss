@@ -14,11 +14,14 @@
         border: 1px solid themed(logo-green-60);
         color: themed(text-white);
         cursor: pointer;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        transition: box-shadow 0.2s ease-in-out;
+        transition: transition 0.15s ease-in-out;
     }
 
     button:hover {
         transform: scale(1.01);
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
     }
 
 
@@ -189,12 +192,19 @@
         button {
             margin-left: auto;
         }
+
+        input {
+            margin-left: auto;
+        }
     }
 
     .profile-container-supplied {
         border: 2px solid themed(logo-green-60);
     }
 
+    .profile-container-selected {
+        background-color: themed(logo-green-60);
+    }
 
     // *******************************************************
     // ** Input fields
@@ -212,6 +222,26 @@
     }
 
     select {
-        max-width: 450px;
+        width: calc(90% + 10px);
+    }
+    
+    // *******************************************************
+    // ** Message Box
+    // *******************************************************
+    #message-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #f8f9fa;
+        border: 2px solid #343a40;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
     }
 }
