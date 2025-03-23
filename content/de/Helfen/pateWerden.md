@@ -131,6 +131,6 @@ Die Datenschutzerklärung habe ich gelesen und erkenne Sie ausdrücklich an.
     });
     closeMessageBtn.addEventListener('click', () => {
         messageBox.style.display = 'none';
-        window.location.href = 'http://localhost:1313/de';
+        window.location.href = 'https://hdskempen2.netlify.app';
     });
 </script>
