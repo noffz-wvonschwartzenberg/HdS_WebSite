@@ -6,6 +6,7 @@
             right: 0;
             margin-top: calc( #{$header-height} * #{$header-height-factor-gray} );
             width: calc( 100% - #{$logo-klein-width} - #{$logo-left-margin} - 25px);
+            margin-right: 8px;
             background-color: themed("logo-green");
             transition: top .4s, opacity .3s;
             z-index: 2;

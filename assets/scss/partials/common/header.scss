@@ -3,11 +3,11 @@
 
 @include themify($themes) {
     .home-main {
-
         margin: 0;
         padding: 0;
         background-color: themed("website-background");
     }
+
     .header {
         background-color: themed("website-background");
 
@@ -41,7 +41,7 @@
 
         .gray {
             font-size: calc( #{$header-height} * #{$header-height-factor-gray} * 0.25 );
-            width: 100%; //$width-percent-of-screen;
+            width: calc(100% - 16px); //$width-percent-of-screen;
             margin-top: 0px;
             height: calc( #{$header-height} * #{$header-height-factor-gray} );
             justify-content: right;
