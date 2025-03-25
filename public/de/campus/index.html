@@ -50,29 +50,29 @@
     
     
     
-  <div id = "js-list" class="light-theme">
-    <div class="list">
-      <a href="/" class="logo">
-        <img class="img-logo" src="/img/logo.png" alt="Haus der Sonne">
-        <img class="img-logo-klein" src="/img/logo-klein.png" alt="Haus der Sonne">
-      </a>
-      <div class="pagepicture">
-        <img src="/img/Campus/CampusTitle.jpg" alt="List Picture" class="img-pagepicture">
+<div id="js-theme" class="light-theme">
+  <div class="list">
+    <a href="/" class="logo">
+      <img class="img-logo" src="/img/logo.png" alt="Haus der Sonne">
+      <img class="img-logo-klein" src="/img/logo-klein.png" alt="Haus der Sonne">
+    </a>
+    <div class="pagepicture">
+      <img src="/img/Campus/CampusTitle.jpg" alt="List Picture" class="img-pagepicture">
+    </div>
+    <div>
+      <div class="pagetitle">
+        <h1 class="header-pagetitle">Campus - Haus der Sonne</h1>
       </div>
-      <div>
-        <div class="pagetitle">
-          <h1 class="header-pagetitle">Campus - Haus der Sonne</h1>
-        </div>
-        <p class="list-pagedescription">Unser großes Ziel, einen Campus mit einem Waisenhaus und einer Schule, inklusive eines Ausbildungszentrum zu bauen, verfolgen wir mit großer Leidenschaft.</p>
-        
-        
-        
-      </div>
+      <p class="list-pagedescription">Unser großes Ziel, einen Campus mit einem Waisenhaus und einer Schule, inklusive eines Ausbildungszentrum zu bauen, verfolgen wir mit großer Leidenschaft.</p>
+
+      
+      
     </div>
   </div>
+</div>
 
 
-    <div id = "js-footer" class="light-theme">
+    <div id="js-footer" class="light-theme">
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-social-buttons">
@@ -104,51 +104,31 @@
                     </div>
                     <div class="donate Patenschaft">
                         <p>Eine Patenschaft sichert einem Kind die tägliche warme Mahlzeit:</p>
-                        <button class="button-patenschaft" onclick="window.location.href='./Helfen/pateWerden';">Eine Patenschaft übernehmen</button>
-                    </div>
-                    <div class="donate Newsletter">
-                        
+                        <button class="button-patenschaft" onclick="window.location.href='./Helfen/pateWerden';">Eine
+                            Patenschaft übernehmen</button>
                     </div>
                 </div>
-                
             </div>
             <div class="footer-copyright">
                 <p>Copyright 2025. All rights reserved.</p>
             </div>
         </div>
-        <script>
-            
-            var jsFooter = document.getElementById("js-footer");
-            if (localStorage.getItem("darkMode") == "true") {
-                jsFooter.className = "light-theme";
-            } else {
-                jsFooter.className = "dark-theme";
-            }
-        </script>
+        <script src="/js/darkmode.js"></script>
     </footer>
 </div>
-
-
     
-  <script>
-    
-    var jsList = document.getElementById("js-list");
-    if (localStorage.getItem("darkMode") == "true") {
-      jsList.className = "light-theme";
-    } else {
-      jsList.className = "dark-theme";
-    }
+<script src="/js/darkmode.js"></script>
+<script>
+  
+  function updateViewableAreaList() {
+    const height = window.innerHeight;
+    document.documentElement.style.setProperty('--viewable-height-list', `${height}px`);
+    document.documentElement.style.setProperty('--viewable-height', `${height}px`);
+  }
 
-    
-    function updateViewableAreaList() {
-      const height = window.innerHeight;
-      document.documentElement.style.setProperty('--viewable-height-list', `${height}px`);
-      document.documentElement.style.setProperty('--viewable-height', `${height}px`);
-    }
-
-    window.addEventListener('resize', updateViewableAreaList);
-    updateViewableAreaList();
-  </script>
+  window.addEventListener('resize', updateViewableAreaList);
+  updateViewableAreaList();
+</script>
 >
   </body>
 </html>

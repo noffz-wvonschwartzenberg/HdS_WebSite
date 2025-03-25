@@ -45,7 +45,7 @@
             margin-top: 0px;
             height: calc( #{$header-height} * #{$header-height-factor-gray} );
             justify-content: right;
-            background-color: themed(website-background);
+            background-color: themed(textbox-background);
         }
 
         .header-gray-item {

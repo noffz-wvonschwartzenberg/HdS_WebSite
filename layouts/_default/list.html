@@ -1,63 +1,61 @@
-
 {{ define "main" }}
-  <div id = "js-list" class="light-theme">
-    <div class="list">
-      <a href="/" class="logo">
-        <img class="img-logo" src="/img/logo.png" alt="Haus der Sonne">
-        <img class="img-logo-klein" src="/img/logo-klein.png" alt="Haus der Sonne">
-      </a>
-      <div class="pagepicture">
-        <img src="{{ .Params.image }}" alt="List Picture" class="img-pagepicture">
+<div id="js-theme-list" class="light-theme">
+  <div class="list">
+    <a href="/" class="logo">
+      <img class="img-logo" src="/img/logo.png" alt="Haus der Sonne">
+      <img class="img-logo-klein" src="/img/logo-klein.png" alt="Haus der Sonne">
+    </a>
+    <div class="pagepicture">
+      <img src="{{ .Params.image }}" alt="List Picture" class="img-pagepicture">
+    </div>
+    <div>
+      <div class="pagetitle">
+        <h1 class="header-pagetitle">{{ .Title }}</h1>
       </div>
-      <div>
-        <div class="pagetitle">
-          <h1 class="header-pagetitle">{{ .Title }}</h1>
-        </div>
-        <p class="list-pagedescription">{{ .Params.Description }}</p>
-        
-        {{ .Content }}
-        {{ range .Pages }}
-        <div class="list-container" onclick="location.href='{{ .RelPermalink }}';">
-            <img src="{{ .Params.image }}" alt="List Picture" class="list-picture">
-            <div class="list-textbox">
-              <div class="list-shifted">
-                <div class="list-title">
-                  {{.Title}}
-                </div>
-                <div class="list-description">
-                  {{ .Params.description }}
-                </div>
-              </div>
-              <div class="list-date">
-                {{ dateFormat "Monday, Jan 2, 2006" .Date }}
-              </div>
+      <p class="list-pagedescription">{{ .Params.Description }}</p>
+
+      {{ .Content }}
+      {{ range .Pages }}
+      <div class="list-container" onclick="location.href='{{ .RelPermalink }}';">
+        <img src="{{ .Params.image }}" alt="List Picture" class="list-picture">
+        <div class="list-textbox">
+          <div class="list-shifted">
+            <div class="list-title">
+              {{.Title}}
             </div>
+            <div class="list-description">
+              {{ .Params.description }}
+            </div>
+          </div>
+          <div class="list-date">
+            {{ dateFormat "Monday, Jan 2, 2006" .Date }}
+          </div>
         </div>
-        {{ end }}
       </div>
+      {{ end }}
     </div>
   </div>
+</div>
 {{ end }}
 
 {{ define "scripts" }}
-  <script>
-    // Dark mode    
-    var jsList = document.getElementById("js-list");
-    if (localStorage.getItem("darkMode") == "true") {
-      jsList.className = "light-theme";
-    } else {
-      jsList.className = "dark-theme";
-    }
+<script>
+  // Darkmode
+  var jsTheme = document.getElementById("js-theme-list");
+  if (localStorage.getItem("darkMode") == "true") {
+      jsTheme.className = "light-theme";
+  } else {
+      jsTheme.className = "dark-theme";
+  }
 
-    // Viewable area
-    function updateViewableAreaList() {
-      const height = window.innerHeight;
-      document.documentElement.style.setProperty('--viewable-height-list', `${height}px`);
-      document.documentElement.style.setProperty('--viewable-height', `${height}px`);
-    }
+  // Viewable area
+  function updateViewableAreaList() {
+    const height = window.innerHeight;
+    document.documentElement.style.setProperty('--viewable-height-list', `${height}px`);
+    document.documentElement.style.setProperty('--viewable-height', `${height}px`);
+  }
 
-    window.addEventListener('resize', updateViewableAreaList);
-    updateViewableAreaList();
-  </script>
+  window.addEventListener('resize', updateViewableAreaList);
+  updateViewableAreaList();
+</script>
 {{ end }}
-

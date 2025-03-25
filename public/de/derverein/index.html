@@ -50,50 +50,46 @@
     
     
     
-  <div id = "js-list" class="light-theme">
-    <div class="list">
-      <a href="/" class="logo">
-        <img class="img-logo" src="/img/logo.png" alt="Haus der Sonne">
-        <img class="img-logo-klein" src="/img/logo-klein.png" alt="Haus der Sonne">
-      </a>
-      <div class="pagepicture">
-        <img src="/img/derVerein/derVereinTitle.jpg" alt="List Picture" class="img-pagepicture">
+<div id="js-theme" class="light-theme">
+  <div class="list">
+    <a href="/" class="logo">
+      <img class="img-logo" src="/img/logo.png" alt="Haus der Sonne">
+      <img class="img-logo-klein" src="/img/logo-klein.png" alt="Haus der Sonne">
+    </a>
+    <div class="pagepicture">
+      <img src="/img/derVerein/derVereinTitle.jpg" alt="List Picture" class="img-pagepicture">
+    </div>
+    <div>
+      <div class="pagetitle">
+        <h1 class="header-pagetitle">Der Verein</h1>
       </div>
-      <div>
-        <div class="pagetitle">
-          <h1 class="header-pagetitle">Der Verein</h1>
-        </div>
-        <p class="list-pagedescription">Christian Eloundou, der Gründer des Vereins sagt: &#34;Ich habe einen Traum und der lautet: Ich möchte ein Haus für die Kinder bauen, die das Leben führen müssen, aus dem ich entflohen bin. Es ist mein ganz großer Herzenswunsch, etwas zurück zu geben und den ärmsten Kindern und Jugendlichen in Mbouda zu helfen.&#34;</p>
-        
-        
-        
-        <div class="list-container" onclick="location.href='\/de\/derverein\/organisation\/';">
-          
-            <img src="/img/derVerein/Organisation/OrganisationTitle.jpg" alt="List Picture" class="list-picture">
-          
-            <div class="list-textbox">
-              <div class="list-shifted">
-                <div class="list-title">
-                  Der Vorstand
-                </div>
-                <div class="list-description">
-                  Der Vorstand stellt sich vor.
-                </div>
-              </div>
-              <div class="list-date">
-                Samstag, März 15, 2025
-              </div>
+      <p class="list-pagedescription">Christian Eloundou, der Gründer des Vereins sagt: &#34;Ich habe einen Traum und der lautet: Ich möchte ein Haus für die Kinder bauen, die das Leben führen müssen, aus dem ich entflohen bin. Es ist mein ganz großer Herzenswunsch, etwas zurück zu geben und den ärmsten Kindern und Jugendlichen in Mbouda zu helfen.&#34;</p>
+
+      
+      
+      <div class="list-container" onclick="location.href='\/de\/derverein\/organisation\/';">
+        <img src="/img/derVerein/Organisation/OrganisationTitle.jpg" alt="List Picture" class="list-picture">
+        <div class="list-textbox">
+          <div class="list-shifted">
+            <div class="list-title">
+              Der Vorstand
             </div>
+            <div class="list-description">
+              Der Vorstand stellt sich vor.
+            </div>
+          </div>
+          <div class="list-date">
+            Samstag, März 15, 2025
+          </div>
         </div>
-          
-          
-        
       </div>
+      
     </div>
   </div>
+</div>
 
 
-    <div id = "js-footer" class="light-theme">
+    <div id="js-footer" class="light-theme">
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-social-buttons">
@@ -125,51 +121,31 @@
                     </div>
                     <div class="donate Patenschaft">
                         <p>Eine Patenschaft sichert einem Kind die tägliche warme Mahlzeit:</p>
-                        <button class="button-patenschaft" onclick="window.location.href='./Helfen/pateWerden';">Eine Patenschaft übernehmen</button>
-                    </div>
-                    <div class="donate Newsletter">
-                        
+                        <button class="button-patenschaft" onclick="window.location.href='./Helfen/pateWerden';">Eine
+                            Patenschaft übernehmen</button>
                     </div>
                 </div>
-                
             </div>
             <div class="footer-copyright">
                 <p>Copyright 2025. All rights reserved.</p>
             </div>
         </div>
-        <script>
-            
-            var jsFooter = document.getElementById("js-footer");
-            if (localStorage.getItem("darkMode") == "true") {
-                jsFooter.className = "light-theme";
-            } else {
-                jsFooter.className = "dark-theme";
-            }
-        </script>
+        <script src="/js/darkmode.js"></script>
     </footer>
 </div>
-
-
     
-  <script>
-    
-    var jsList = document.getElementById("js-list");
-    if (localStorage.getItem("darkMode") == "true") {
-      jsList.className = "light-theme";
-    } else {
-      jsList.className = "dark-theme";
-    }
+<script src="/js/darkmode.js"></script>
+<script>
+  
+  function updateViewableAreaList() {
+    const height = window.innerHeight;
+    document.documentElement.style.setProperty('--viewable-height-list', `${height}px`);
+    document.documentElement.style.setProperty('--viewable-height', `${height}px`);
+  }
 
-    
-    function updateViewableAreaList() {
-      const height = window.innerHeight;
-      document.documentElement.style.setProperty('--viewable-height-list', `${height}px`);
-      document.documentElement.style.setProperty('--viewable-height', `${height}px`);
-    }
-
-    window.addEventListener('resize', updateViewableAreaList);
-    updateViewableAreaList();
-  </script>
+  window.addEventListener('resize', updateViewableAreaList);
+  updateViewableAreaList();
+</script>
 >
   </body>
 </html>

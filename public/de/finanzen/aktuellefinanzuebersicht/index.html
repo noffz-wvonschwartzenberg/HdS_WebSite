@@ -50,29 +50,29 @@
     
     
     
-  <div id = "js-theme" class="light-theme">
-    <div id = "js-single" class="single">
-      <a href="/" class="logo">
-        <img class="img-logo" src="/img/logo.png" alt="Haus der Sonne">
-        <img class="img-logo-klein" src="/img/logo-klein.png" alt="Haus der Sonne">
-      </a>
-      <div class="pagepicture">
-        <img src="/img/Finanzen/AktuelleFinanzuebersicht/AktuelleFinanzuebersichtTitle.jpg" alt="Single Picture" class="img-pagepicture">
+<div id="js-theme" class="light-theme">
+  <div id="js-single" class="single">
+    <a href="/" class="logo">
+      <img class="img-logo" src="/img/logo.png" alt="Haus der Sonne">
+      <img class="img-logo-klein" src="/img/logo-klein.png" alt="Haus der Sonne">
+    </a>
+    <div class="pagepicture">
+      <img src="/img/Finanzen/AktuelleFinanzuebersicht/AktuelleFinanzuebersichtTitle.jpg" alt="Single Picture" class="img-pagepicture">
+    </div>
+    <div class="single-contents">
+      <div class="pagetitle">
+        <h1 class="header-pagetitle">Aktuelle Finanzübersicht</h1>
       </div>
-      <div class="single-contents">
-        <div class="pagetitle">
-          <h1 class="header-pagetitle">Aktuelle Finanzübersicht</h1>
+      <div class="single-date-author">
+        <div class="single-author">
+          Author: WvS
         </div>
-        <div class="single-date-author">
-          <div class="single-author">
-              Author: WvS
-          </div>
-          <div class="single-date">
-              Mittwoch, März 5, 2025
-          </div>
+        <div class="single-date">
+          Mittwoch, März 5, 2025
         </div>
-        <div class="single-content">
-          <h2 id="transparenz">Transparenz</h2>
+      </div>
+      <div class="single-content">
+        <h2 id="transparenz">Transparenz</h2>
 <p>Gemeinnützigkeit braucht Transparenz!
 Die nachfolgenden Aufstellungen sind Teil unseres Versprechens auf Transparenz und sollen Ihnen die Möglichkeit der Kontrolle und Nachvollziehbarkeit geben.</p>
 <h2 id="aktuelle-finanzsituation">Aktuelle Finanzsituation</h2>
@@ -831,13 +831,13 @@ Die in rot gezeigten Unkosten setzen sich hauptsächlich aus laufenden Kosten wi
     });
   });
 </script>
-        </div>
       </div>
     </div>
   </div>
+</div>
 
 
-    <div id = "js-footer" class="light-theme">
+    <div id="js-footer" class="light-theme">
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-social-buttons">
@@ -869,110 +869,78 @@ Die in rot gezeigten Unkosten setzen sich hauptsächlich aus laufenden Kosten wi
                     </div>
                     <div class="donate Patenschaft">
                         <p>Eine Patenschaft sichert einem Kind die tägliche warme Mahlzeit:</p>
-                        <button class="button-patenschaft" onclick="window.location.href='./Helfen/pateWerden';">Eine Patenschaft übernehmen</button>
-                    </div>
-                    <div class="donate Newsletter">
-                        
+                        <button class="button-patenschaft" onclick="window.location.href='./Helfen/pateWerden';">Eine
+                            Patenschaft übernehmen</button>
                     </div>
                 </div>
-                
             </div>
             <div class="footer-copyright">
                 <p>Copyright 2025. All rights reserved.</p>
             </div>
         </div>
-        <script>
-            
-            var jsFooter = document.getElementById("js-footer");
-            if (localStorage.getItem("darkMode") == "true") {
-                jsFooter.className = "light-theme";
-            } else {
-                jsFooter.className = "dark-theme";
-            }
-        </script>
+        <script src="/js/darkmode.js"></script>
     </footer>
 </div>
-
-
     
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="/js/darkmode.js"></script>
+<script>
+  const swiper = new Swiper('.swiper-container', {
+    loop: true, 
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    slidesPerView: 1, 
+  });
 
   
+  function updateViewableArea() {
+    const height = window.innerHeight;
+    document.documentElement.style.setProperty('--viewable-height', `${height}px`);
+  }
+
   
-  <script>
-  
-    const swiper = new Swiper('.swiper-container', {
-        loop: true, 
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        slidesPerView: 1, 
-    });
+  function updateMargins() {
+    const single = document.getElementById('js-single');
+
+    const bodyMargin = 16;
+    const contentsPadding = 20;
+    const immagePadding = 10;
+    const width = single.offsetWidth;
 
     
-    Fancybox.bind("[data-fancybox]", {
-      
-    });
+    let contentsWidth = width - contentsPadding;
+    if (width > 800 + contentsPadding) {
+      contentsWidth = Math.min(width - contentsPadding, 800);
+    }
+    document.documentElement.style.setProperty('--contents-width', `${contentsWidth}px`);
+    const contentsMargin = Math.max((width - contentsWidth - contentsPadding) / 2, 0);
+    document.documentElement.style.setProperty('--contents-margin', `${contentsMargin}px`);
 
     
-    
-    var jsSingle = document.getElementById("js-theme");
-    if (localStorage.getItem("darkMode") == "true") {
-      jsSingle.className = "light-theme";
-    } else {
-      jsSingle.className = "dark-theme";
+
+    let imageWidth = contentsWidth - immagePadding;
+    if (contentsWidth >= 600 + immagePadding) {
+      imageWidth = 600;
     }
 
-    
-    function updateViewableArea() {
-      const height = window.innerHeight;
-      document.documentElement.style.setProperty('--viewable-height', `${height}px`);
-    }
+    document.documentElement.style.setProperty('--image-width', `${imageWidth}px`);
+    document.documentElement.style.setProperty('--table-width', `${imageWidth}px`);
+    const imageMargin = Math.max((contentsWidth - imageWidth) / 2, 0);
+    document.documentElement.style.setProperty('--image-margin', `${imageMargin - 1}px`);
+    document.documentElement.style.setProperty('--table-margin', `${imageMargin - 1}px`);
+  }
 
-    
-    function updateMargins() {
-      const single = document.getElementById('js-single');
-
-      const bodyMargin = 16;
-      const contentsPadding = 20;
-      const immagePadding = 10;
-      const width = single.offsetWidth;
-      
-      
-      let contentsWidth = width - contentsPadding;
-      if (width > 800 + contentsPadding) {
-        contentsWidth = Math.min(width - contentsPadding, 800);
-      }
-      document.documentElement.style.setProperty('--contents-width', `${contentsWidth}px`);
-      const contentsMargin = Math.max((width - contentsWidth - contentsPadding) / 2, 0);
-      document.documentElement.style.setProperty('--contents-margin', `${contentsMargin}px`);
-
-      
-
-      let imageWidth = contentsWidth - immagePadding;
-      if (contentsWidth >= 600 + immagePadding) {
-        imageWidth = 600;
-      }
-      
-      document.documentElement.style.setProperty('--image-width', `${imageWidth}px`);      
-      document.documentElement.style.setProperty('--table-width', `${imageWidth}px`);
-      const imageMargin = Math.max((contentsWidth- imageWidth) / 2, 0);
-      document.documentElement.style.setProperty('--image-margin', `${imageMargin-1}px`);
-      document.documentElement.style.setProperty('--table-margin', `${imageMargin-1}px`);
-    }
-
-    window.addEventListener('resize', updateMargins);
-    window.addEventListener('resize', updateViewableArea);
-    updateMargins();
-    updateViewableArea();
-
-  </script>
+  window.addEventListener('resize', updateMargins);
+  window.addEventListener('resize', updateViewableArea);
+  updateMargins();
+  updateViewableArea();
+</script>
 >
   </body>
 </html>

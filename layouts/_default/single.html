@@ -1,110 +1,99 @@
 {{ define "main" }}
-  <div id = "js-theme" class="light-theme">
-    <div id = "js-single" class="single">
-      <a href="/" class="logo">
-        <img class="img-logo" src="/img/logo.png" alt="Haus der Sonne">
-        <img class="img-logo-klein" src="/img/logo-klein.png" alt="Haus der Sonne">
-      </a>
-      <div class="pagepicture">
-        <img src="{{ .Params.image }}" alt="Single Picture" class="img-pagepicture">
+<div id="js-theme-single" class="light-theme">
+  <div id="js-single" class="single">
+    <a href="/" class="logo">
+      <img class="img-logo" src="/img/logo.png" alt="Haus der Sonne">
+      <img class="img-logo-klein" src="/img/logo-klein.png" alt="Haus der Sonne">
+    </a>
+    <div class="pagepicture">
+      <img src="{{ .Params.image }}" alt="Single Picture" class="img-pagepicture">
+    </div>
+    <div class="single-contents">
+      <div class="pagetitle">
+        <h1 class="header-pagetitle">{{ .Title }}</h1>
       </div>
-      <div class="single-contents">
-        <div class="pagetitle">
-          <h1 class="header-pagetitle">{{ .Title }}</h1>
+      <div class="single-date-author">
+        <div class="single-author">
+          {{if .Params.author}}Author: {{.Params.Author}}{{end}}
         </div>
-        <div class="single-date-author">
-          <div class="single-author">
-              {{if .Params.author}}Author: {{.Params.Author}}{{end}}
-          </div>
-          <div class="single-date">
-              {{ dateFormat "Monday, Jan 2, 2006" .Date }}
-          </div>
+        <div class="single-date">
+          {{ dateFormat "Monday, Jan 2, 2006" .Date }}
         </div>
-        <div class="single-content">
-          {{ .Content }}
-        </div>
+      </div>
+      <div class="single-content">
+        {{ .Content }}
       </div>
     </div>
   </div>
+</div>
 {{ end }}
 
 {{ define "scripts" }}
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  // Darkmode
+  var jsTheme = document.getElementById("js-theme-single");
+  if (localStorage.getItem("darkMode") == "true") {
+      jsTheme.className = "light-theme";
+  } else {
+      jsTheme.className = "dark-theme";
+  }
 
-  
-  <!-- <script type="module" src="/js/darkmode.js"></script> -->
-  <script>
-  // import { addTheme } from "/js/darkmode.js";
-    const swiper = new Swiper('.swiper-container', {
-        loop: true, // Endloses Swipen
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        slidesPerView: 1, // Ein Bild pro Swipe
-    });
+  // Swiper
+  const swiper = new Swiper('.swiper-container', {
+    loop: true, // Endloses Swipen
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    slidesPerView: 1, // Ein Bild pro Swipe
+  });
 
-    // Fancybox initialisieren
-    Fancybox.bind("[data-fancybox]", {
-      // Fancybox-Optionen hier
-    });
+  // Viewable area
+  function updateViewableArea() {
+    const height = window.innerHeight;
+    document.documentElement.style.setProperty('--viewable-height', `${height}px`);
+  }
 
-    //Dark mode
-    //addTheme();  
-    var jsSingle = document.getElementById("js-theme");
-    if (localStorage.getItem("darkMode") == "true") {
-      jsSingle.className = "light-theme";
-    } else {
-      jsSingle.className = "dark-theme";
+  // margin and tables
+  function updateMargins() {
+    const single = document.getElementById('js-single');
+
+    const bodyMargin = 16;
+    const contentsPadding = 20;
+    const immagePadding = 10;
+    const width = single.offsetWidth;
+
+    // Contents
+    let contentsWidth = width - contentsPadding;
+    if (width > 800 + contentsPadding) {
+      contentsWidth = Math.min(width - contentsPadding, 800);
+    }
+    document.documentElement.style.setProperty('--contents-width', `${contentsWidth}px`);
+    const contentsMargin = Math.max((width - contentsWidth - contentsPadding) / 2, 0);
+    document.documentElement.style.setProperty('--contents-margin', `${contentsMargin}px`);
+
+    // Images and Tables
+
+    let imageWidth = contentsWidth - immagePadding;
+    if (contentsWidth >= 600 + immagePadding) {
+      imageWidth = 600;
     }
 
-    // Viewable area
-    function updateViewableArea() {
-      const height = window.innerHeight;
-      document.documentElement.style.setProperty('--viewable-height', `${height}px`);
-    }
+    document.documentElement.style.setProperty('--image-width', `${imageWidth}px`);
+    document.documentElement.style.setProperty('--table-width', `${imageWidth}px`);
+    const imageMargin = Math.max((contentsWidth - imageWidth) / 2, 0);
+    document.documentElement.style.setProperty('--image-margin', `${imageMargin - 1}px`);
+    document.documentElement.style.setProperty('--table-margin', `${imageMargin - 1}px`);
+  }
 
-    // margin and tables
-    function updateMargins() {
-      const single = document.getElementById('js-single');
-
-      const bodyMargin = 16;
-      const contentsPadding = 20;
-      const immagePadding = 10;
-      const width = single.offsetWidth;
-      
-      // Contents
-      let contentsWidth = width - contentsPadding;
-      if (width > 800 + contentsPadding) {
-        contentsWidth = Math.min(width - contentsPadding, 800);
-      }
-      document.documentElement.style.setProperty('--contents-width', `${contentsWidth}px`);
-      const contentsMargin = Math.max((width - contentsWidth - contentsPadding) / 2, 0);
-      document.documentElement.style.setProperty('--contents-margin', `${contentsMargin}px`);
-
-      // Images and Tables
-
-      let imageWidth = contentsWidth - immagePadding;
-      if (contentsWidth >= 600 + immagePadding) {
-        imageWidth = 600;
-      }
-      
-      document.documentElement.style.setProperty('--image-width', `${imageWidth}px`);      
-      document.documentElement.style.setProperty('--table-width', `${imageWidth}px`);
-      const imageMargin = Math.max((contentsWidth- imageWidth) / 2, 0);
-      document.documentElement.style.setProperty('--image-margin', `${imageMargin-1}px`);
-      document.documentElement.style.setProperty('--table-margin', `${imageMargin-1}px`);
-    }
-
-    window.addEventListener('resize', updateMargins);
-    window.addEventListener('resize', updateViewableArea);
-    updateMargins();
-    updateViewableArea();
-
-  </script>
+  window.addEventListener('resize', updateMargins);
+  window.addEventListener('resize', updateViewableArea);
+  updateMargins();
+  updateViewableArea();
+</script>
 {{ end }}

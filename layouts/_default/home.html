@@ -1,45 +1,46 @@
 {{ define "main" }}
-<div id = "js-home" class="light-theme">
+<div id="js-theme-home" class="light-theme">
   <div class="home-main">
-  {{ partial "home/mainswiper" }}
+    {{ partial "home/mainswiper" }}
     {{.Content}}
     {{ range .Pages }}
-      <div class="home-container" onclick="location.href='{{ .RelPermalink }}';">
-            <img src="{{ .Params.image }}" alt="Home Picture" class="home-picture">
-            <div class="home-textbox">
-              <div class="home-shifted">
-                <div class="home-title">
-                  {{.Title}}
-                </div>
-                <div class="home-description">
-                  {{ .Params.description }}
-                </div>
-              </div>
-              <div class="home-date">
-                {{ dateFormat "Monday, Jan 2, 2006" .Date }}
-              </div>
-            </div>
+    <div class="list-container" onclick="location.href='{{ .RelPermalink }}';">
+      <img src="{{ .Params.image }}" alt="Home Picture" class="list-picture">
+      <div class="list-textbox">
+        <div class="list-shifted">
+          <div class="list-title">
+            {{.Title}}
+          </div>
+          <div class="list-description">
+            {{ .Params.description }}
+          </div>
+        </div>
+        <div class="list-date">
+          {{ dateFormat "Monday, Jan 2, 2006" .Date }}
+        </div>
       </div>
+    </div>
     {{ end }}
   </div>
-{{ end }}
+  {{ end }}
 
-{{ define "scripts" }}
-<script>
-  const swiper = new Swiper('.swiper', {
-    loop: true,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-  });
+  {{ define "scripts" }}
+  <script>
+    // Darkmode
+    var jsTheme = document.getElementById("js-theme-home");
+    if (localStorage.getItem("darkMode") == "true") {
+        jsTheme.className = "light-theme";
+    } else {
+        jsTheme.className = "dark-theme";
+    }
 
-  // Dark mode    
-  var jsHome = document.getElementById("js-home");
-  if (localStorage.getItem("darkMode") == "true") {
-    jsHome.className = "light-theme";
-  } else {
-    jsHome.className = "dark-theme";
-  }
-</script>
-{{ end }}
+    // Swiper
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+  {{ end }}

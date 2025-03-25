@@ -1,4 +1,4 @@
-<div id = "js-header" class="light-theme">
+<div id = "js-theme-header" class="light-theme">
     <header class="header">
         <div class="header-container">
             <nav class="header-menu gray">
@@ -21,16 +21,7 @@
                 </form>
             </div>    
         </div>
-        <!-- <link rel="stylesheet" href="main.css"> -->
         <script>
-            // // Size
-            // var jsLogo = document.getElementById("js-logo");
-            // if (window.innerWidth < 900) {
-            //     jsLogo.src = "/img/logo-klein.png";
-            // } else {
-            //     jsLogo.src = "/img/logo.png";
-            // }
-
             // Language setting
             var jsLanguageDe = document.getElementById("js-de");
             var jsLanguageEn = document.getElementById("js-en");
@@ -70,16 +61,16 @@
             })
 
             // Dark mode    
-            var jsHeader = document.getElementById("js-header");
+            var jsTheme = document.getElementById("js-theme-header");
             var jsDarkMode = document.getElementById("js-darkMode");
             if (localStorage.getItem("darkMode") == "true") {
                 jsDarkMode.classList.remove("fas", "fa-sun");
                 jsDarkMode.classList.add("far", "fa-moon");
-                jsHeader.className = "light-theme";
+                jsTheme.className = "light-theme";
             } else {
                 jsDarkMode.classList.remove("far", "fa-moon");
                 jsDarkMode.classList.add("fas", "fa-sun");
-                jsHeader.className = "dark-theme";
+                jsTheme.className = "dark-theme";
             }
             
             jsDarkMode.addEventListener("click", function() {
