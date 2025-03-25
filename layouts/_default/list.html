@@ -18,9 +18,7 @@
         {{ .Content }}
         {{ range .Pages }}
         <div class="list-container" onclick="location.href='{{ .RelPermalink }}';">
-          <!-- <div class="home-picture"> -->
             <img src="{{ .Params.image }}" alt="List Picture" class="list-picture">
-          <!-- </div> -->
             <div class="list-textbox">
               <div class="list-shifted">
                 <div class="list-title">
@@ -35,8 +33,6 @@
               </div>
             </div>
         </div>
-          <!-- <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2> -->
-          <!-- {{ .Summary }} -->
         {{ end }}
       </div>
     </div>

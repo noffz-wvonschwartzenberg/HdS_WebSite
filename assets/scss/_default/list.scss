@@ -4,15 +4,11 @@
 @include themify($themes) {
     .list {
         background-color: themed("website-background");
-        padding-bottom: calc( ( 100% - #{$width-percent-of-screen} ) );
+        padding-bottom: calc((100% - #{$width-percent-of-screen}) / 2);
         width: 100%;
         position: relative;
         font-size: $font-size;
-
-        // .list-div-main {
-        //     height: calc(var(--viewable-height) * #{$picture-list-pct-height} / 100);
-        //     position: relative;
-        // }
+        font-family: $font-family;
 
         .list-pagedescription {
             font-size: 18px;
@@ -27,7 +23,7 @@
             height: 300px;
             display: flex;
             flex-direction: row;
-            margin-bottom: calc( ( 100% - #{$width-percent-of-screen} ) );
+            margin-bottom: calc((100% - #{$width-percent-of-screen}) / 2);
         } 
 
         .list-container:hover {
@@ -48,10 +44,6 @@
             margin-bottom: 0   ;
         }
 
-        .list-picture:hover {
-            transform: scale(1.05);
-        }
-
         .list-textbox {
             flex: 1;
             display: flex;
@@ -69,7 +61,16 @@
             margin-right: 30px;
             background-color: themed(website-background);
         }
-
+        
+        .list-container:hover .list-picture {
+            transform: scale(1.05);
+        }
+        
+        .list-container:hover .list-title {
+            color: themed(logo-green);
+            font-weight: bold;
+        }
+        
         .list-title {
             flex: 0.7;
             margin-top: 10px;
@@ -77,6 +78,7 @@
             font-size: 20px;
             padding-left: 2.5%;
             color: themed(logo-red);
+            transition: all 150ms ease;
 
             &:after {
                 content: "";
@@ -100,6 +102,7 @@
             color: themed(text-black);
             white-space:inherit;
             max-height: calc( 300px / 2);
+            overflow: hidden;
         }
 
         .list-date {
@@ -115,12 +118,6 @@
             object-fit: cover;
             transition: all 150ms ease;
         }    
-
-        // .list-picture-main {
-        //     width: 100%;
-        //     height: 100%; 
-        //     object-fit: cover;
-        // }
     }
 
     @media (max-width: 840px) {
@@ -131,13 +128,13 @@
                 height: 500px;
                 display: flex;
                 flex-direction: column;
-                margin-bottom: calc( ( 100% - #{$width-percent-of-screen} ) );
+                margin-bottom: calc(( 100% - #{$width-percent-of-screen} ) / 2);
             } 
         
             .list-picture {
-                width:auto;
+                width: auto;
                 height: 250px;
-                object-fit:cover;
+                object-fit: cover;
             }
         
             .list-shifted {
@@ -147,7 +144,7 @@
                 margin-left: 20px;
                 margin-top: 20px;
                 margin-right: 20px;
-                background-color: themed(website-background);
+                background-color: themed(textbox-background);
             }
 
             .list-description {

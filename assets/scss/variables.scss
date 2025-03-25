@@ -1,6 +1,6 @@
 // ********** Sizes
 // Global
-$width-percent-of-screen: 95%;
+$width-percent-of-screen: 90%;
 $language: "DE";
 
 // Header
@@ -32,7 +32,8 @@ $themes: (
     logo-yellow-30: rgba(252, 209, 22, 0.3),
     logo-red: rgb(206, 17, 38),
     logo-red-60: rgba(206, 17, 38, 0.6),
-    website-background: rgb(227, 226, 212),
+    website-background: white,
+    textbox-background: rgb(227, 226, 212),
     footer-background: rgba(8,129,98, 1),
   ),
   dark: (
@@ -49,6 +50,7 @@ $themes: (
     logo-red: rgb(115, 11, 23),
     logo-red-60: rgba(115, 11, 23, 0.6),
     website-background: rgb(87, 86, 81),
+    textbox-background: rgb(87, 86, 81),
     footer-background: rgb(3, 44, 34),
   ),
 );

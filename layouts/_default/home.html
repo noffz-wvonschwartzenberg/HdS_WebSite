@@ -5,9 +5,7 @@
     {{.Content}}
     {{ range .Pages }}
       <div class="home-container" onclick="location.href='{{ .RelPermalink }}';">
-          <!-- <div class="home-picture"> -->
             <img src="{{ .Params.image }}" alt="Home Picture" class="home-picture">
-          <!-- </div> -->
             <div class="home-textbox">
               <div class="home-shifted">
                 <div class="home-title">

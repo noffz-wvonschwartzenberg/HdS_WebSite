@@ -1,7 +1,9 @@
  @include themify($themes) {
     .home-main {
-         padding-bottom: calc( ( 100% - #{$width-percent-of-screen} ) );
+        padding-bottom: calc((100% - #{$width-percent-of-screen}) / 2);
         background-color: themed(webpage-background);
+        font-size: $font-size;
+        font-family: $font-family;
     }
 
     .home-container {
@@ -10,7 +12,7 @@
         height: 300px;
         display: flex;
         flex-direction: row;
-        margin-bottom: calc( ( 100% - #{$width-percent-of-screen} ) );
+        margin-bottom: calc(( 100% - #{$width-percent-of-screen}) / 2);
     } 
 
     .home-container:hover {
@@ -38,18 +40,13 @@
         background-color: white;
     }
 
-    .home-picture:hover {
-        transform: scale(1.05);
-    }
-
-
     .home-textbox {
         flex: 1;
         display: flex;
         flex-direction: column;
         z-index: 3;
         transition: all 150ms ease;
-    }
+     }
 
     .home-shifted {
         flex: 2;
@@ -58,7 +55,16 @@
         margin-left: -60px;
         margin-top: 30px;
         margin-right: 30px;
-        background-color: themed(website-background);
+        background-color: themed(textbox-background);
+    }
+
+    .home-container:hover .home-picture {
+        transform: scale(1.05);
+    }
+    
+    .home-container:hover .home-title {
+        color: themed(logo-green);
+        font-weight: bold;
     }
 
     .home-title {
@@ -68,6 +74,7 @@
         font-size: 20px;
         padding-left: 2.5%;
         color: themed(logo-red);
+        transition: all 150ms ease;
         
         &:after {
             content: "";
@@ -91,6 +98,7 @@
         color: themed(text-black);
         white-space:inherit;
         max-height: calc( 300px / 2);
+        overflow: hidden;
     }
 
     .home-date {
@@ -113,13 +121,13 @@
             height: 500px;
             display: flex;
             flex-direction: column;
-            margin-bottom: calc( ( 100% - #{$width-percent-of-screen} ) );
+            margin-bottom: calc(( 100% - #{$width-percent-of-screen} ) / 2);
         } 
     
         .home-picture {
-            width:auto;
+            width: auto;
             height: 250px;
-            object-fit:cover;
+            object-fit: cover;
         }
     
         .home-shifted {
@@ -129,7 +137,7 @@
             margin-left: 20px;
             margin-top: 20px;
             margin-right: 20px;
-            background-color: themed(website-background);
+            background-color: themed(textbox-background);
         }
 
         .home-description {
