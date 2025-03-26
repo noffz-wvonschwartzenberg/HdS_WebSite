@@ -4,7 +4,7 @@
     "title": "Pate werden",
     "author": "WvS",
     "description": "Angelehnt an unser Herzensprojekt \"Eine warme Mahlzeit\" suchen wir Paten, die sich dazu bereit erklären, einem Kind für 1 Jahr eine warme Mahlzeit zu ermöglichen. Bitte helfen Sie einem Kind und werden Pate.",
-    "image": "/img/Helfen/PateWerden/PateWerdenTitle.png"
+    "image": "/img/Helfen/PateWerden/PateWerdenTitle.jpeg"
 }
 ## Die Bedeutung einer Patenschaft
 DIe Patenschaft ist angelehnt an das Herzensprojekt unseres Vereins "Eine warme Mahlzeit". Wir finden es so wichtig den Kindern eine Grundversorgung zu bieten. Nur so können sie leben und sind in der Lage, eine Schule zu besuchen und sogar einen guten Schulabschluss zu erreichen.  

@@ -6,7 +6,19 @@
     "description": "Das Projekt \"Eine warme Mahlzeit\" ist das Kernstück unseres Vereins. Die ärmsten Kinder in Mbouda, Kamerun nehmen wir auf und geben Ihnen täglich eine warme Mahlzeit und erteilen Ihnen Nachhilfenterricht.",
     "image": "/img/Versorgung/EineWarmeMahlzeit/EineWarmeMahlzeitTitle.jpg"
 }
+<!-- <div class="flexpictures">
+  <input type="checkbox" id="expand-imageMain" />
+  <label for="expand-imageMain">
+    <img class="img-flexpictures" src="/img/main-warmeMahlzeit.png" alt="EineWarmeMahlzeit" />
+  </label>
+</div> -->
 ## Eine warme Mahlzeit
+<!-- <img class="img-smallest-in-text" src="/img/main-warmeMahlzeit.png" alt="EineWarmeMahlzeit" /> -->
+<input type="checkbox" id="expand-image1" />
+<label for="expand-image1">
+  <img class="img-centered-noborder" src="/img/main-warmeMahlzeit.png" alt="EineWarmeMahlzeit" />
+</label>
+<br>
 Seit dem 01. Juli 2018 läuft unser Projekt "1 warme Mahlzeit". Was zunächst für 20 bis 25 Kinder und Jugendliche geplant war, erweiterte sich durch den dringenden Bedarf sehr schnell auf 40 zu versorgende junge Menschen. Inzwischen ist die Zahl auf über 50 Kinder und Jugendliche angewachsen.  
 Es ist das Herzensprojekt unseres Vereins. Wir finden es so wichtig den Kindern eine Grundversorgung zu bieten. Nur so können Sie leben und sind fähig eine Schule zu besuchen und sogar einen guten Schulabschluß zu erreichen.  
 Das Projekt finanziert sich über die Paten, die den nötigen Beitrag erbringen, damit "ihr" Kind täglich eine warme Mahlzeit erhält.   

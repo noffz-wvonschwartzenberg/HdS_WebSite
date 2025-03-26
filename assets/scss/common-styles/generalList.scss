@@ -89,11 +89,12 @@
     }
 
     .list-date {
-        margin-top: 30px;
+        padding-top: 10px;
         margin-right: 10px;
         height: 25px;
         text-align: right;
         vertical-align: middle;
+        font-size: 14px;
     }
 
     .list-picture {
@@ -139,11 +140,12 @@
         }
 
         .list-date {
-            margin-top: 20px;
+            padding-top: 10px;
             margin-right: 10px;
             height: 25px;
             text-align: right;
             vertical-align: middle;
+            font-size: 13px;
         }
     }
 }

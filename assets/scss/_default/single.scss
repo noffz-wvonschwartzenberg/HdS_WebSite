@@ -3,6 +3,7 @@
 @import '../common-styles/pagetitles';
 @import '../common-styles/tables';
 @import '../common-styles/markdown';
+@import '../common-styles/paypal';
 
 @include themify($themes) {
   .single {

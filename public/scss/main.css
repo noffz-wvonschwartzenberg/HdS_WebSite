@@ -1235,11 +1235,12 @@
   overflow: hidden; }
 
 .light-theme .list-date {
-  margin-top: 30px;
+  padding-top: 10px;
   margin-right: 10px;
   height: 25px;
   text-align: right;
-  vertical-align: middle; }
+  vertical-align: middle;
+  font-size: 14px; }
 
 .light-theme .list-picture {
   width: calc((90% - 4px) / 1.7);
@@ -1275,11 +1276,12 @@
     white-space: inherit;
     max-height: calc(300px / 2); }
   .light-theme .list-date {
-    margin-top: 20px;
+    padding-top: 10px;
     margin-right: 10px;
     height: 25px;
     text-align: right;
-    vertical-align: middle; } }
+    vertical-align: middle;
+    font-size: 13px; } }
 
 .dark-theme .list-container {
   margin: 0 auto;
@@ -1358,11 +1360,12 @@
   overflow: hidden; }
 
 .dark-theme .list-date {
-  margin-top: 30px;
+  padding-top: 10px;
   margin-right: 10px;
   height: 25px;
   text-align: right;
-  vertical-align: middle; }
+  vertical-align: middle;
+  font-size: 14px; }
 
 .dark-theme .list-picture {
   width: calc((90% - 4px) / 1.7);
@@ -1398,11 +1401,12 @@
     white-space: inherit;
     max-height: calc(300px / 2); }
   .dark-theme .list-date {
-    margin-top: 20px;
+    padding-top: 10px;
     margin-right: 10px;
     height: 25px;
     text-align: right;
-    vertical-align: middle; } }
+    vertical-align: middle;
+    font-size: 13px; } }
 
 .light-theme .home-main {
   padding-bottom: calc((100% - 90%) / 2);
@@ -2056,11 +2060,12 @@
   overflow: hidden; }
 
 .light-theme .list-date {
-  margin-top: 30px;
+  padding-top: 10px;
   margin-right: 10px;
   height: 25px;
   text-align: right;
-  vertical-align: middle; }
+  vertical-align: middle;
+  font-size: 14px; }
 
 .light-theme .list-picture {
   width: calc((90% - 4px) / 1.7);
@@ -2096,11 +2101,12 @@
     white-space: inherit;
     max-height: calc(300px / 2); }
   .light-theme .list-date {
-    margin-top: 20px;
+    padding-top: 10px;
     margin-right: 10px;
     height: 25px;
     text-align: right;
-    vertical-align: middle; } }
+    vertical-align: middle;
+    font-size: 13px; } }
 
 .dark-theme .list-container {
   margin: 0 auto;
@@ -2179,11 +2185,12 @@
   overflow: hidden; }
 
 .dark-theme .list-date {
-  margin-top: 30px;
+  padding-top: 10px;
   margin-right: 10px;
   height: 25px;
   text-align: right;
-  vertical-align: middle; }
+  vertical-align: middle;
+  font-size: 14px; }
 
 .dark-theme .list-picture {
   width: calc((90% - 4px) / 1.7);
@@ -2219,11 +2226,12 @@
     white-space: inherit;
     max-height: calc(300px / 2); }
   .dark-theme .list-date {
-    margin-top: 20px;
+    padding-top: 10px;
     margin-right: 10px;
     height: 25px;
     text-align: right;
-    vertical-align: middle; } }
+    vertical-align: middle;
+    font-size: 13px; } }
 
 .light-theme .list {
   background-color: white;
@@ -2839,6 +2847,14 @@
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
 
+.light-theme .img-centered-noborder {
+  width: var(--image-width);
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: var(--image-margin);
+  transition: transform 0.15s ease, z-index 0.15s;
+  cursor: pointer; }
+
 .light-theme .img-centered-half {
   width: calc(var(--image-width) / 2);
   margin-top: 10px;
@@ -3022,6 +3038,14 @@
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
 
+.dark-theme .img-centered-noborder {
+  width: var(--image-width);
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: var(--image-margin);
+  transition: transform 0.15s ease, z-index 0.15s;
+  cursor: pointer; }
+
 .dark-theme .img-centered-half {
   width: calc(var(--image-width) / 2);
   margin-top: 10px;
@@ -3157,6 +3181,22 @@
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   text-align: center; }
+
+.light-theme .div-donate-paypal {
+  width: 200px; }
+  .light-theme .div-donate-paypal .donate-paypal-hosted,
+  .light-theme .div-donate-paypal .donate-paypal-image,
+  .light-theme .div-donate-paypal .donate-paypal-img {
+    border: none;
+    background: transparent; }
+
+.dark-theme .div-donate-paypal {
+  width: 200px; }
+  .dark-theme .div-donate-paypal .donate-paypal-hosted,
+  .dark-theme .div-donate-paypal .donate-paypal-image,
+  .dark-theme .div-donate-paypal .donate-paypal-img {
+    border: none;
+    background: transparent; }
 
 .light-theme .single {
   background-color: white;

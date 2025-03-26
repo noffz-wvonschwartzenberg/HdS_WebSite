@@ -4,9 +4,8 @@
     "title": "Meine Patenschaft verwalten",
     "author": "WvS",
     "description": "Sie möchten Ihre Patenschaft ändern oder haben Fragen zu Ihrer Patenschaft?",
-    "image": "/img/Helfen/PatenschaftVerwalten/PatenschaftVerwaltenTitle.png"
+    "image": "/img/Helfen/PatenschaftVerwalten/PatenschaftVerwaltenTitle.PNG"
 }
-
 Bei Anliegen rund um Ihre Patenschaft können Sie uns gerne z. B. per E-Mail kontaktieren.
 <input type="checkbox" id="expand-image1" />
 <label for="expand-image1">

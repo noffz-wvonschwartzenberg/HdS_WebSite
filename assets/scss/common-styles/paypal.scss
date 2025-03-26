@@ -1,0 +1,20 @@
+@include themify($themes) {
+
+    .div-donate-paypal {
+        // z-index: 2;
+        // position: absolute;
+        // margin-left: calc(#{$logo-left-margin} + (#{$logo-width} - 137px) / 2); // 137px: paypal button width
+        // margin-top: $logo-height + 10px;
+        width: 200px;
+        //background-color: themed(logo-green-60);
+
+        .donate-paypal-hosted,
+        .donate-paypal-image,
+        .donate-paypal-img {
+            border: none;
+            background: transparent;
+            //background-color: themed(logo-green-60);
+        }
+    }
+
+}

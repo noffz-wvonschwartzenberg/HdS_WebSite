@@ -59,6 +59,15 @@
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
 
+    .img-centered-noborder {
+        width: var(--image-width);
+        margin-top: 10px;
+        margin-bottom: 0px;
+        margin-left: var(--image-margin);
+        transition: transform 0.15s ease, z-index 0.15s;
+        cursor: pointer;
+    }
+
     .img-centered-half {
         width: calc(var(--image-width) / 2);
         margin-top: 10px;
