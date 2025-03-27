@@ -1,5 +1,5 @@
 {
-    "date": "2025-03-01T21:11:48+01:00",
+    "date": "2025-03-07T21:11:48+01:00",
     "draft": false,
     "title": "Mitglied werden",
     "author": "WvS",
@@ -25,7 +25,6 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
 
 ## Mitgliedschaft beantragen
 ### Jahresbeitrag in €*
-Bitte tragen Sie nur Zahlen ohne Komma oder Währung ein:  
 <input id="js-input-jahresbeitrag" placeholder="Jahresbeitrag" required>  
 
 ### Persönliche Angaben

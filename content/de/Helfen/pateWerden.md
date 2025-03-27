@@ -16,13 +16,14 @@ Der Verein wurde gegründet, um den ärmsten Kindern in Mbouda, Kamerun, eine Pe
 <a href="../../Versorgung/EineWarmeMahlzeit">Eine warme Mahlzeit</a> 
 
 ## Eine Patenschaft übernehmen
-Die rot umrandeten Kinder haben aktuell keinen Paten und würden sich freuen, Sie als Paten zu gewinnen. Bitte wählen Sie ein Kind aus.
+Die rot umrandeten Kinder haben aktuell keinen Paten und würden sich freuen, Sie als Paten zu gewinnen. Bitte wählen Sie ein Patenkind aus.
 <div id="kinder-container"></div>
 
 ### Die Kosten einer Patenschaft
 Die Kosten für eine warme Mahlzeit im Jahr 2018 lagen bei ca. 0,75€ pro Kind pro Tag. 
 In den letzten Jahren sind die Preise für Grundnahrungsmittel in Kamerun u. a. durch den Ukrainekrieg aber auch durch den Krieg im eigenen Land stark gestiegen. Die Kosten sind im Jahr 2024 um ca. 60% höher als 2018. Es ergeben sich dadurch Kosten von ca. 1,20€ pro Kind pro Tag.
 Durch unser Landwirtschaftsprojekt fließt ein Teil der Erträge direkt in das Projekt “Eine warme Mahlzeit”. Dadurch ist es uns gelungen, den benötigten Betrag pro Kind auf **400€ im Jahr** zu stabilisieren.
+
 ### Meine Perönliche Angaben
 Geschlecht  
 <select id="js-gender" name="gender" required>

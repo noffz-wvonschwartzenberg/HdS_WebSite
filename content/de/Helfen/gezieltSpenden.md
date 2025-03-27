@@ -1,10 +1,10 @@
 {
-    "date": "2025-03-06T21:11:48+01:00",
+    "date": "2025-03-05T21:11:48+01:00",
     "draft": false,
-    "title": "Spenden",
+    "title": "Gezielt spenden",
     "author": "WvS",
-    "description": "Spenden Sie und unterstützen Sie die Kinder und unsere Projekte in Mbouda und Kamerun.",
-    "image": "/img/Helfen/Spenden/SpendenTitle.jpeg"
+    "description": "Spenden Sie gezielt in ein Projekt, wenn Sie sich mit einem unserer Projekt besonders identifizieren können.",
+    "image": "/img/Helfen/gezieltSpenden/GezieltSpendenTitle.png"
 }
 ## Wo geht Ihre Spende hin?
 Spenden Sie und unterstützen Sie die Kinder und unsere Projekte in Mbouda und Kamerun. Wie in unseren zahlreichen Projekten zu erkennen ist, gehen die Spenden direkt zu den Bedürftigen oder geben Hilfe zur Selbsthilfe, wie z. B. bei dem "Gemüseanbau"-Projekt. Bitte stöbern Sie durch die verschiedenen Bereiche über das was wir tun:
@@ -17,10 +17,37 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun, denn Ihre 
 Zu Beginn eines jeden Jahres werden für Spenden im Vorjahr über 100 € Spendenquittungen versandt. Bitte geben Sie zu dem Zweck in der Überweisung Ihre Anschrift an. Auf besonderen Wunsch erhalten Sie auch eine Quittung für eine Spende unter 100 €. Bitte informieren Sie uns in dem Falle per E-Mail: W.v.Schwartzenberg@HausDerSonne-Kempen.de.
 
 ## Spenden
+### Wählen Sie das Projekt für Ihre Spende aus
+Hier finden Sie eine Liste aller Projekte, um Ihre Spende gezielt zu platzieren.  
+<!-- <div id="js-projekt-spenden" class="projekt-spenden">
+    <ul>
+        <li data-value="ein-warme-mahlzeit">Eine warme Mahlzeit</li>
+        <li data-value="campus">Campus - Haus der Sonne</li>
+        <li data-value="sauberes-wasser">Sauberes Wasser</li>
+        <li data-value="medizinische-versorgung">Medizinische Versorgung</li>
+        <li data-value="gemuesegarten">Gemüsegarten</li>
+        <li data-value="nutztiere">Nutztiere</li>
+        <li data-value="umwelt">Umwelt und Müll</li>
+        <li data-value="waisenhaeuser">Waisenhäuser</li>
+    </ul>
+</div> -->
+<select id="js-projekt-spenden" name="ProjektSpenden" required>
+    <option value="ein-warme-mahlzeit">Eine warme Mahlzeit</option>
+    <option value="campus">Campus - Haus der Sonne</option>
+    <option value="sauberes-wasser">Sauberes Wasser</option>
+    <option value="medizinische-versorgung">Medizinische Versorgung</option>
+    <option value="gemuesegarten">Gemüsegarten</option>
+    <option value="nutztiere">Nutztiere</option>
+    <option value="umwelt">Umwelt und Müll</option>
+    <option value="waisenhaeuser">Waisenhäuser</option>
+</select>  
+
+### Wie möchten Sie spenden
 <details>
     <summary class="combobox-summary">Spendenkonto</summary>
     <div class="combobox-details">
-        Überweisen Sie selbstständig einen Betrag auf unser Spendenkonto. Bitte tragen Sie Ihren Namen und Ihre Adresse in den Verwendungszweck ein, damit wir Ihnen gegebenenfalls eine Spendenquittung zusenden können.
+        Überweisen Sie selbstständig einen Betrag auf unser Spendenkonto. Bitte tragen Sie Ihren Namen und Ihre Adresse in den Verwendungszweck ein, damit wir Ihnen gegebenenfalls eine Spendenquittung zusenden können.  
+        Und vergessen Sie nicht das Projekt im Verwendungszweck mit anzugeben.
         <br>
         <input type="checkbox" id="expand-image1" />
         <label for="expand-image1">
@@ -33,7 +60,8 @@ Zu Beginn eines jeden Jahres werden für Spenden im Vorjahr über 100 € Spende
 <details>
     <summary class="combobox-summary">Paypal</summary>
     <div class="combobox-details">
-        Spenden Sie auf die einfachste Art und Weise, mit Paypal.
+        Spenden Sie auf die einfachste Art und Weise, mit Paypal.  
+        Schreiben Sie uns gegebenenfalls eine kurze E-Mail, mit dem Hinweis Ihrer Spende und dem Projekt, das Sie erreichen wollen.
         <div class="div-donate-paypal">
             <!-- <button>Direkt über Paypal spenden</button> -->
             <form action="https://www.paypal.com/donate" method="post" target="_top">
@@ -47,7 +75,8 @@ Zu Beginn eines jeden Jahres werden für Spenden im Vorjahr über 100 € Spende
 <details>
     <summary class="combobox-summary">Online-Spende</summary>
     <div class="combobox-details">
-        Die Online-Spende ist für Sie eine angenehme Art der Spende. Sie teilen uns Ihre Angaben und den gewünschten Betrag mit und wir kümmern uns um den Rest.  
+        Die Online-Spende ist für Sie eine angenehme Art der Spende. Sie teilen uns Ihre Angaben und den gewünschten Betrag mit und wir kümmern uns um den Rest. Wir weisen den Betrag dem ausgewählten Projekt zu.
+        <br>
         <br>
         Spendenbetrag in Euro*  
         <input id="js-input-spendenbeitrag" placeholder="Spendenbetrag" required>  
@@ -107,23 +136,3 @@ Zu Beginn eines jeden Jahres werden für Spenden im Vorjahr über 100 € Spende
 Wenn Sie uns lieber langfristig unterstützen möchten, bieten wir Ihnen die Möglichkeit eine Patenschaft zu übernehmen oder auch eine Mitgliedschaft abzuschließen. Sie können den Betrag dann ganz einfach per Lastschrift von uns abbuchen lassen. Besuchen Sie die entsprechenden Seiten, um sich noch genauer zu informieren:
 - <a href="../pateWerden">Informationen zur Patenschaft</a>
 - <a href="../mitgliedWerden">Informationen zur Mitgliedschaft</a>
-
-### Wollen Sie gezielt spenden?
-Gezielte Spenden sind dann sinnvoll, wenn Sie sich mit einem Projekt besonders identifizieren können. Zum Beispiel spenden unsere Kooperations-Schulen immer zweckgebunden für Schulmaterial.
-- <a href="../gezieltSpenden">Hier geht es zu den gezielten Spenden</a>
-
-<script>
-    const selectButton = document.getElementById('js-button-spenden');
-    const messageBox = document.getElementById('message-box');
-    const closeMessageBtn = document.getElementById('close-message-btn');
-    selectButton.addEventListener('click', () => {
-        selectButton.textContent = 'Spende ausgelöst';
-        messageBox.style.display = '';
-    });
-    closeMessageBtn.addEventListener('click', () => {
-        messageBox.style.display = 'none';
-        window.location.href = 'https://hdskempen2.netlify.app';
-    });
-</script>
-
-
