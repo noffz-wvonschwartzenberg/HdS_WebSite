@@ -3,6 +3,6 @@
     "draft": false,
     "title": "Wir über uns",
     "author": "WvS",
-    "description": "Unser Verein wurde gegründet, um bedürftige Kinder in Kamerun, insbesondere in Mbouda, zu unterstützen. Unser zentrales Projekt, \"Eine warme Mahlzeit\", zielt darauf ab, diesen Kindern nahrhafte Mahlzeiten bereitzustellen. Als gemeinnütziger Verein arbeiten wir ausschließlich mit ehrenamtlichen Mitarbeitern, was sicherstellt, dass sämtliche Spenden direkt in unsere Projekte fließen.",
-    "image": "/img/WirUeberUns/WirUeberUnsTitle.jpg"
+    "description": "Christian Eloundou, der Gründer des Vereins sagt: \"Ich habe einen Traum und der lautet: Ich möchte ein Haus für die Kinder bauen, die das Leben führen müssen, aus dem ich entflohen bin. Es ist mein ganz großer Herzenswunsch, etwas zurück zu geben und den ärmsten Kindern und Jugendlichen in Mbouda zu helfen.\"",
+    "image": "/img/derVerein/derVereinTitle.jpg"
 }

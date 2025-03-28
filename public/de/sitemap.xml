@@ -2,8 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/de/helfen/patenschaftverwalten/</loc>
-    <lastmod>2025-03-23T20:26:54+01:00</lastmod>
+    <loc>http://localhost:1313/de/versorgung/einewarmemahlzeit/</loc>
+    <lastmod>2025-03-27T21:11:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/versorgung/einewarmemahlzeit/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/versorgung/einewarmemahlzeit/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/versorgung/einewarmemahlzeit/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/de/helfen/</loc>
+    <lastmod>2025-03-27T21:11:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/helfen/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/helfen/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/helfen/"
+                />
   </url><url>
     <loc>http://localhost:1313/de/helfen/patewerden/</loc>
     <lastmod>2025-03-21T19:14:20+01:00</lastmod>
@@ -23,7 +56,7 @@
                 href="http://localhost:1313/de/helfen/patewerden/"
                 />
   </url><url>
-    <loc>http://localhost:1313/de/derverein/organisation/</loc>
+    <loc>http://localhost:1313/de/wirueberuns/dervorstand/</loc>
     <lastmod>2025-03-15T21:11:48+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/de/versorgung/</loc>
@@ -62,23 +95,11 @@
                 href="http://localhost:1313/de/finanzen/"
                 />
   </url><url>
-    <loc>http://localhost:1313/de/helfen/</loc>
-    <lastmod>2025-03-09T21:11:48+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/helfen/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/helfen/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/helfen/"
-                />
+    <loc>http://localhost:1313/de/helfen/mitgliedwerden/</loc>
+    <lastmod>2025-03-07T21:11:48+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/de/helfen/spenden/</loc>
+    <lastmod>2025-03-06T21:11:48+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/de/finanzen/aktuellefinanzuebersicht/</loc>
     <lastmod>2025-03-05T21:11:48+01:00</lastmod>
@@ -101,44 +122,14 @@
     <loc>http://localhost:1313/de/versorgung/brunnenbauaktuell/</loc>
     <lastmod>2025-03-05T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/de/versorgung/einewarmemahlzeit/</loc>
+    <loc>http://localhost:1313/de/helfen/gezieltspenden/</loc>
     <lastmod>2025-03-05T21:11:48+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/versorgung/einewarmemahlzeit/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/versorgung/einewarmemahlzeit/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/versorgung/einewarmemahlzeit/"
-                />
   </url><url>
     <loc>http://localhost:1313/de/finanzen/2024/</loc>
     <lastmod>2025-03-02T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/de/derverein/</loc>
-    <lastmod>2025-03-01T21:11:48+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/derverein/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/derverein/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/derverein/"
-                />
+    <loc>http://localhost:1313/de/helfen/patenschaftverwalten/</loc>
+    <lastmod>2025-03-02T20:26:54+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/de/finanzen/2023/</loc>
     <lastmod>2025-03-01T21:11:48+01:00</lastmod>
@@ -159,12 +150,6 @@
                 />
   </url><url>
     <loc>http://localhost:1313/de/helfen/mitgliedschaftverwalten/</loc>
-    <lastmod>2025-03-01T21:11:48+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/de/helfen/mitgliedwerden/</loc>
-    <lastmod>2025-03-01T21:11:48+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/de/helfen/spenden/</loc>
     <lastmod>2025-03-01T21:11:48+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/de/bildung/</loc>
@@ -221,23 +206,8 @@
                 href="http://localhost:1313/de/galerie/"
                 />
   </url><url>
-    <loc>http://localhost:1313/de/hilfezursebsthilfe/</loc>
+    <loc>http://localhost:1313/de/hilfezurselbsthilfe/</loc>
     <lastmod>2025-02-19T21:11:48+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/hilfezursebsthilfe/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/hilfezursebsthilfe/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/hilfezursebsthilfe/"
-                />
   </url><url>
     <loc>http://localhost:1313/de/wirueberuns/</loc>
     <lastmod>2025-02-19T21:11:48+01:00</lastmod>

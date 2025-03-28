@@ -4,7 +4,7 @@
     "title": "Der Vorstand",
     "author": "WvS",
     "description": "Der Vorstand stellt sich vor.",
-    "image": "/img/derVerein/Organisation/OrganisationTitle.jpg"
+    "image": "/img/wirUeberUns/derVorstand/derVorstandTitle.jpg"
 }
 ## Auszug aus der Satzung
 Die Organe des Vereins sind:

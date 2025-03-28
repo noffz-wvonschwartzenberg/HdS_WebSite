@@ -114,11 +114,6 @@
     <lastmod>2025-02-19T21:11:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/derverein/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/derverein/"
                 />
@@ -184,11 +179,6 @@
   </url><url>
     <loc>http://localhost:1313/fr/hilfezursebsthilfe/</loc>
     <lastmod>2025-02-19T21:11:48+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/hilfezursebsthilfe/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

@@ -5,7 +5,7 @@ export function generateKinderHTML(showkinderOhnePaten, showButton, linkedPage)
     let kinderOhnePatenHTML = '';
 
     kinder.forEach((kind) => {
-        if (kind.HabenEinenPaten !== showkinderOhnePaten && showkinderOhnePaten && !linkedPage)
+        if (kind.HatEinenPaten !== showkinderOhnePaten && showkinderOhnePaten && !linkedPage)
         {
             const containerHTML = `<div id="profile-container-${kind.id}" class="profile-container">`;
             const geborenHTML = `geboren ${kind.Geburtsdatum}` + (kind.Geburtsort != '' ? ` in ${kind.Geburtsort}` : ``);
@@ -36,7 +36,7 @@ export function generateKinderHTML(showkinderOhnePaten, showButton, linkedPage)
             </div>`;
         }
 
-        if (kind.HabenEinenPaten !== showkinderOhnePaten && showkinderOhnePaten && linkedPage)
+        if (kind.HatEinenPaten !== showkinderOhnePaten && showkinderOhnePaten && linkedPage)
         {
             const containerHTML = `<div id="profile-container-${kind.id}" class="profile-container">`;
             const geborenHTML = `geboren ${kind.Geburtsdatum}` + (kind.Geburtsort != '' ? ` in ${kind.Geburtsort}` : ``);
@@ -58,7 +58,7 @@ export function generateKinderHTML(showkinderOhnePaten, showButton, linkedPage)
             </div>`;
         }
             
-        if (kind.HabenEinenPaten !== showkinderOhnePaten && !showkinderOhnePaten)
+        if (kind.HatEinenPaten !== showkinderOhnePaten && !showkinderOhnePaten)
         {
             const containerHTML = `<div class="profile-container profile-container-supplied">`;
             const geborenHTML = `geboren ${kind.Geburtsdatum}` + (kind.Geburtsort != '' ? ` in ${kind.Geburtsort}` : ``);
