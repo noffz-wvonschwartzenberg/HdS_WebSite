@@ -2946,7 +2946,8 @@
   margin-bottom: 2px; }
   .light-theme .profile-container img {
     padding: 2px;
-    width: 200px; }
+    width: 200px;
+    height: auto; }
   .light-theme .profile-container div {
     padding: 10px; }
     .light-theme .profile-container div p {
@@ -3138,7 +3139,8 @@
   margin-bottom: 2px; }
   .dark-theme .profile-container img {
     padding: 2px;
-    width: 200px; }
+    width: 200px;
+    height: auto; }
   .dark-theme .profile-container div {
     padding: 10px; }
     .dark-theme .profile-container div p {

@@ -33,14 +33,12 @@ export function generateKinderHTML(showkinderOhnePaten, showButton, linkedPage)
                     </label>
                 </div>            
                 <div>
-                    <p>Text</p>
                     <p>${kind.Name}</p>
                     <p>${geborenHTML} </p>  
                     <p>${kind.KurzeBeschreibung}</p>
                 </div>
                 ${buttonHTML}
             </div>`;
-            console.log("war da");
         }
 
         if (kind.HatEinenPaten !== showkinderOhnePaten && showkinderOhnePaten && linkedPage)
@@ -55,7 +53,12 @@ export function generateKinderHTML(showkinderOhnePaten, showButton, linkedPage)
                 
             kinderOhnePatenHTML += `
             ${containerHTML}
-                <img src="${kind.Bild}">
+                <div class="flexpictures">
+                    <input type="checkbox" id="expand-image${kind.id}" />
+                    <label for="expand-image${kind.id}">
+                    <img class="img-flexpictures" src="${kind.Bild}">
+                    </label>
+                </div>            
                 <div>
                     <p>${kind.Name}</p>
                     <p>${geborenHTML} </p>  
@@ -72,7 +75,12 @@ export function generateKinderHTML(showkinderOhnePaten, showButton, linkedPage)
             
             kinderOhnePatenHTML += `
             ${containerHTML}
-                <img src="${kind.Bild}">
+                <div class="flexpictures">
+                    <input type="checkbox" id="expand-image${kind.id}" />
+                    <label for="expand-image${kind.id}">
+                    <img class="img-flexpictures" src="${kind.Bild}">
+                    </label>
+                </div>            
                 <div>
                     <p>${kind.Name}</p>
                         <p>${geborenHTML} </p>  
