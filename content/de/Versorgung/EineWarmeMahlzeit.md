@@ -6,14 +6,7 @@
     "description": "Das Projekt \"Eine warme Mahlzeit\" ist das Kernstück unseres Vereins. Die ärmsten Kinder in Mbouda, Kamerun nehmen wir auf und geben Ihnen täglich eine warme Mahlzeit und erteilen Ihnen Nachhilfenterricht.",
     "image": "/img/Versorgung/EineWarmeMahlzeit/EineWarmeMahlzeitTitle.jpg"
 }
-<!-- <div class="flexpictures">
-  <input type="checkbox" id="expand-imageMain" />
-  <label for="expand-imageMain">
-    <img class="img-flexpictures" src="/img/main-warmeMahlzeit.png" alt="EineWarmeMahlzeit" />
-  </label>
-</div> -->
 ## Eine warme Mahlzeit
-<!-- <img class="img-smallest-in-text" src="/img/main-warmeMahlzeit.png" alt="EineWarmeMahlzeit" /> -->
 <input type="checkbox" id="expand-image1" />
 <label for="expand-image1">
   <img class="img-centered-noborder" src="/img/main-warmeMahlzeit.png" alt="EineWarmeMahlzeit" />
@@ -141,24 +134,7 @@ Diese Kinder haben noch keinen Paten gefunden. Wenn es Ihnen möglich ist, helfe
 <br>
 <details>
     <summary class="combobox-summary">Diese Kinder sind bereits versorgt</summary>
-    <div class="combobox-details">        
-        <div class="profile-container profile-container-supplied">
-            <img src="/img/Versorgung/EineWarmeMahlzeit/Kinder/Aurine.png">
-            <div>
-                <p>Aurine</p>
-                <p>geboren in 2006</p>  
-                <p>Waisenkind, lebt bei Ihrer Tante</p>
-            </div>
-        </div>
-        <div class="profile-container profile-container-supplied">
-            <img src="/img/Versorgung/EineWarmeMahlzeit/Kinder/Aurine.png">
-            <div>
-                <p>Aurine</p>
-                <p>geboren in 2006</p>  
-                <p>Waisenkind, lebt bei Ihrer Tante</p>
-            </div>
-        </div>
-    </div>
+    <div id="kinder-container-versorgt"></div> 
 </details>
 
 <script type="module" src="/js/patenschaft/generateKinderHTML.js"></script>
@@ -170,5 +146,15 @@ Diese Kinder haben noch keinen Paten gefunden. Wenn es Ihnen möglich ist, helfe
         const showButton = false;
         const linkedPage = true;
         container.innerHTML = generateKinderHTML(showkinderOhnePaten, showButton, linkedPage);
+    });
+</script>
+<script type="module">
+    import { generateKinderHTML } from '/js/patenschaft/generateKinderHTML.js';
+    document.addEventListener('DOMContentLoaded', () => {
+        const containerVersorgt = document.getElementById('kinder-container-versorgt');
+        const showkinderOhnePaten = false;
+        const showButton = false;
+        const linkedPage = false;
+        containerVersorgt.innerHTML = generateKinderHTML(showkinderOhnePaten, showButton, linkedPage);
     });
 </script>

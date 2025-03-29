@@ -10,7 +10,7 @@
 DIe Patenschaft ist angelehnt an das Herzensprojekt unseres Vereins "Eine warme Mahlzeit". Wir finden es so wichtig den Kindern eine Grundversorgung zu bieten. Nur so können sie leben und sind in der Lage, eine Schule zu besuchen und sogar einen guten Schulabschluss zu erreichen.  
 Das Projekt finanziert sich über die Paten, die den nötigen Beitrag erbringen, damit "ihr" Kind täglich eine warme Mahlzeit erhält.  
 Wir sehen aus unserer bereits 7-jährigen Erfahrung, dass die Kinder deutlich gesünder sind und deutlich bessere Noten in der Schule schreiben. Ihr Beitrag als Pate hilft!
-
+  
 ## Wie stärkt die Patenschaft den Verein
 Der Verein wurde gegründet, um den ärmsten Kindern in Mbouda, Kamerun, eine Perspektive zu geben. Sie stärken den Verein durch Ihre Patenschaft, denn Sie unterstützen unser Kernprojekt "Eine warme Mahlzeit". Hier ist der Link zu unserem Projekt: 
 <a href="../../Versorgung/EineWarmeMahlzeit">Eine warme Mahlzeit</a> 
