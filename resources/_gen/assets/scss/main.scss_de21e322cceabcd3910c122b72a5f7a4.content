@@ -3225,6 +3225,12 @@
   .light-theme .single p {
     padding-top: 10px; }
 
+.light-theme iframe {
+  height: calc(var(--viewable-height) - 100px);
+  border: 1px solid #007a5e;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); }
+
 .dark-theme .single {
   background-color: #575651;
   font-family: "Calibri", sans-serif;
@@ -3247,3 +3253,9 @@
     padding-top: 20px; }
   .dark-theme .single p {
     padding-top: 10px; }
+
+.dark-theme iframe {
+  height: calc(var(--viewable-height) - 100px);
+  border: 1px solid #032c22;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); }

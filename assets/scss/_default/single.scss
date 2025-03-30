@@ -47,4 +47,12 @@
       padding-top: 10px;
     }
   }
+  
+  // pdfs
+  iframe {
+    height: calc(var(--viewable-height) - 100px);
+    border: 1px solid themed(logo-green);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
 }
