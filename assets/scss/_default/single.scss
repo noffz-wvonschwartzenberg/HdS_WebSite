@@ -4,6 +4,7 @@
 @import '../common-styles/tables';
 @import '../common-styles/markdown';
 @import '../common-styles/paypal';
+@import '../common-styles/articles';
 
 @include themify($themes) {
   .single {
@@ -47,7 +48,7 @@
       padding-top: 10px;
     }
   }
-  
+
   // pdfs
   iframe {
     height: calc(var(--viewable-height) - 100px);

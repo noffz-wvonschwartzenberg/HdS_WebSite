@@ -37,6 +37,13 @@
       <description>&lt;iframe src=&#34;http://localhost:1313/img/wirUeberUns/dieSatzung/SatzungHausderSonnee.V..pdf&#34; title=&#34;Die Satzung&#34; width=&#34;100%&#34;&gt;&#xD;&#xA;    Ihr Browser unterstützt keine PDF-Anzeige.&#xD;&#xA;&lt;/iframe&gt;</description>
     </item>
     <item>
+      <title>Presse</title>
+      <link>http://localhost:1313/de/wirueberuns/presse/</link>
+      <pubDate>Sat, 15 Mar 2025 21:11:48 +0100</pubDate>
+      <guid>http://localhost:1313/de/wirueberuns/presse/</guid>
+      <description>&lt;p&gt;Bitte informieren Sie sich in der öffentlichen Presse über uns. Hier finden Sie eine Liste der Beiträge.&lt;br&gt;&#xA;&lt;br&gt;&lt;/p&gt;&#xA;&lt;div id=&#34;article-container&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;details&gt;&#xD;&#xA;    &lt;summary class=&#34;combobox-summary&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;/p&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:1313/img/wirUeberUns/Presse/Rheinische_Post.svg&#34; alt=&#34;text&#34; class=&#34;image-logo&#34; &#xD;&#xA;    style=&#34;width: auto; max-width: 100px; height: auto; max-height: 35px;&#34;&gt;&#xD;&#xA;    &lt;p class=&#34;article-date&#34; style=&#34;font-size: 12px;&#34;&gt;Date: 10.1.1000&lt;/p&gt;&#xD;&#xA;    Der Traum des Königs der Sonne&#xD;&#xA;    &lt;/summary&gt;&#xD;&#xA;    &lt;div class=&#34;combobox-details&#34;&gt;  &#xD;&#xA;        &lt;iframe src=&#34;http://localhost:1313/img/wirUeberUns/Presse/DerTraumDesKönigsDerSonne.pdf&#34; title=&#34;DerTraumDesKönigsDerSonne&#34; width=&#34;100%&#34;&gt;&#xD;&#xA;        Ihr Browser unterstützt keine PDF-Anzeige.&#xD;&#xA;        &lt;/iframe&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/details&gt;&#xD;&#xA;&lt;script type=&#34;module&#34; src=&#34;http://localhost:1313/js/presse/generatePresseHTML.js&#34;&gt;&lt;/script&gt;&#xD;&#xA;&lt;script type=&#34;module&#34;&gt;&#xD;&#xA;    import { generatePresseHTML } from &#39;/js/presse/generatePresseHTML.js&#39;;&#xD;&#xA;    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; {&#xD;&#xA;        const container = document.getElementById(&#39;article-container&#39;);&#xD;&#xA;        container.innerHTML = generatePresseHTML();&#xD;&#xA;    });&#xD;&#xA;&lt;/script&gt;</description>
+    </item>
+    <item>
       <title>Mitglied werden</title>
       <link>http://localhost:1313/de/helfen/mitgliedwerden/</link>
       <pubDate>Fri, 07 Mar 2025 21:11:48 +0100</pubDate>

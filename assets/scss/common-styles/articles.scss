@@ -1,0 +1,55 @@
+@include themify($themes) {
+    .article-line {
+        display: flex;
+        align-items: center;
+        border: 2px solid themed(logo-yellow);
+        border-radius: 10px;
+        padding: 10px 20px;
+        background-color: themed(website-background);
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        transition: all 0.25s ease;
+        margin-bottom: 5px;
+
+        .article-column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 60px;
+            width: 150px;
+
+            .image-logo {
+                margin-top: 5px;
+                width: auto;
+                max-width: 100px;
+                height: auto;
+                max-height: 35px;
+            }
+
+            .article-date {
+                font-size: 12px;
+                padding-top: 5px;
+            }
+        }
+
+        .article-title {
+            padding: 10px;
+            margin-left: 10px;
+            color: themed(text-black);
+        }
+    }
+
+    .article-title:hover {
+        cursor: pointer;
+        color: blue
+    }
+
+    @media (max-width: 580px) {
+        .article-line {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+    }
+}
