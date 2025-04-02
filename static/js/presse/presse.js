@@ -5,7 +5,7 @@
   "LogoText": "Rheinische Post Logo",
   "ArticleDate": "22.10.2019",
   "ArticleTitle": "Hilfe für arme Kinder in Kamerun",
-  "ArticlePdf": "/img/wirUeberUns/Presse/",
+  "ArticlePdf": "",
   "ArticleLink": "https://rp-online.de/nrw/staedte/kempen/verein-haus-der-sonne-aus-kempen-sorgt-in-kamerun-fuer-bildung-und-warme-mahlzeiten_aid-46663058",
  },{
   "id": "Article2",
@@ -13,7 +13,7 @@
   "LogoText": "Rheinische Post Logo",
   "ArticleDate": "7.10.2019",
   "ArticleTitle": "Schüler übernehmen soziale Verantwortung",
-  "ArticlePdf": "/img/wirUeberUns/Presse/",
+  "ArticlePdf": "",
   "ArticleLink": "https://rp-online.de/nrw/staedte/kempen/kempen-schueler-arbeiteten-am-sozialen-tag_aid-46295829",
  },{
   "id": "Article3",
@@ -21,7 +21,7 @@
   "LogoText": "Westdeutsche Zeitung",
   "ArticleDate": "7.10.2019",
   "ArticleTitle": "Gesamtschüler erarbeiten 5600 € für gute Zwecke",
-  "ArticlePdf": "/img/wirUeberUns/Presse/",
+  "ArticlePdf": "",
   "ArticleLink": "https://www.wz.de/nrw/kreis-viersen/kempen-und-grefrath/kempen-schueler-arbeiteten-am-sozialen-tag_aid-46341567",
  },{
   "id": "Article4",
@@ -29,7 +29,7 @@
   "LogoText": "Westdeutsche Zeitung",
   "ArticleDate": "10.5.2019",
   "ArticleTitle": "Gesamtschüler spenden Arbeitslohn",
-  "ArticlePdf": "/img/wirUeberUns/Presse/",
+  "ArticlePdf": "",
   "ArticleLink": "https://www.wz.de/nrw/kreis-viersen/kempen-und-grefrath/sozialer-tag-in-der-gesamtschule_aid-38687313",
  },{
   "id": "Article5",
@@ -37,7 +37,7 @@
   "LogoText": "Rheinische Post Logo",
   "ArticleDate": "9.5.2019",
   "ArticleTitle": "Schüler zeigen soziale Verantwortung",
-  "ArticlePdf": "/img/wirUeberUns/Presse/",
+  "ArticlePdf": "",
   "ArticleLink": "https://rp-online.de/nrw/staedte/kempen/sozialer-tag-in-der-gesamtschule_aid-38675193",
  },{
   "id": "Article6",
@@ -53,7 +53,7 @@
   "LogoText": "Westdeutsche Zeitung",
   "ArticleDate": "4.5.2018",
   "ArticleTitle": "Kamerun: Große Hilfe aus Kempen",
-  "ArticlePdf": "/img/wirUeberUns/Presse/",
+  "ArticlePdf": "",
   "ArticleLink": "http://www.wz.de/lokales/kreis-viersen/lokales-kreis-viersen-kempen/kamerun-grosse-hilfe-aus-kempen-1.2674675",
  },{
   "id": "Article8",
@@ -61,7 +61,7 @@
   "LogoText": "Rheinische Post Logo",
   "ArticleDate": "28.4.2018",
   "ArticleTitle": "Kempener helfen in Kamerun",
-  "ArticlePdf": "/img/wirUeberUns/Presse/",
+  "ArticlePdf": "",
   "ArticleLink": "https://rp-online.de/nrw/staedte/kempen/kempener-helfen-in-kamerun_aid-20905591",
  },{
   "id": "Article9",
@@ -69,7 +69,7 @@
   "LogoText": "Rheinische Post Logo",
   "ArticleDate": "10.1.2018",
   "ArticleTitle": "Kempener wollen Kindern in Kamerun helfen",
-  "ArticlePdf": "/img/wirUeberUns/Presse/",
+  "ArticlePdf": "",
   "ArticleLink": "http://www.rp-online.de/nrw/staedte/kempen/kempener-wollen-strassenkindern-in-kamerun-helfen-aid-1.7310224",
  },{
   "id": "Article10",
@@ -77,7 +77,7 @@
   "LogoText": "Rheinische Post Logo",
   "ArticleDate": "30.3.2017",
   "ArticleTitle": "Verein will Kindern in Kamerun helfen",
-  "ArticlePdf": "/img/wirUeberUns/Presse/",
+  "ArticlePdf": "",
   "ArticleLink": "http://www.rp-online.de/nrw/staedte/kempen/verein-will-kindern-in-kamerun-helfen-aid-1.6721693",
  },{
   "id": "Article11",
@@ -85,7 +85,7 @@
   "LogoText": "Westdeutsche Zeitung",
   "ArticleDate": "24.3.2017",
   "ArticleTitle": "Grenzen im Ring überwinden",
-  "ArticlePdf": "/img/wirUeberUns/Presse/",
+  "ArticlePdf": "",
   "ArticleLink": "http://www.wz.de/lokales/kreis-viersen/kempen/grenzen-im-ring-ueberwinden-1.2404158",
  },{
   "id": "Article12",
@@ -93,7 +93,7 @@
   "LogoText": "Stadtspiegel",
   "ArticleDate": "15.3.2017",
   "ArticleTitle": "Eine warme Mahlzeit am Tag für Straßenkinder",
-  "ArticlePdf": "/img/wirUeberUns/Presse/MahlzeitStraßenkinder.pdf",
+  "ArticlePdf": "/img/wirUeberUns/Presse/MahlzeitStrassenkinder.pdf",
   "ArticleLink": "",
  },{
   "id": "Article13",
