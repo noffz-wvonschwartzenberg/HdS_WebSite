@@ -9,6 +9,7 @@
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
         transition: all 0.25s ease;
         margin-bottom: 5px;
+        color: themed(text-black);
 
         .article-column {
             display: flex;
@@ -29,6 +30,7 @@
             .article-date {
                 font-size: 12px;
                 padding-top: 5px;
+                color: themed(text-black);
             }
         }
 
@@ -39,9 +41,10 @@
         }
     }
 
-    .article-title:hover {
+    .article-line:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        scale: 1.01;
         cursor: pointer;
-        color: blue
     }
 
     @media (max-width: 580px) {

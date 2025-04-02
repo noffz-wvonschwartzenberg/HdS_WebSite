@@ -6,8 +6,15 @@
     <description>Recent content on Haus der Sonne</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <lastBuildDate>Thu, 27 Mar 2025 21:11:48 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 01 Apr 2025 21:11:48 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gemüsegarten</title>
+      <link>http://localhost:1313/de/hilfezurselbsthilfe/gemuesegarten/</link>
+      <pubDate>Tue, 01 Apr 2025 21:11:48 +0100</pubDate>
+      <guid>http://localhost:1313/de/hilfezurselbsthilfe/gemuesegarten/</guid>
+      <description>&lt;h2 id=&#34;ziel-des-projektes-gemüsegarten&#34;&gt;Ziel des Projektes Gemüsegarten&lt;/h2&gt;&#xA;&lt;h2 id=&#34;projektkosten&#34;&gt;Projektkosten&lt;/h2&gt;&#xA;&lt;h2 id=&#34;gemüsegarten-orte&#34;&gt;Gemüsegarten Orte&lt;/h2&gt;&#xA;&lt;h2 id=&#34;nahrungsmittel-für-das-projekt-eine-warme-mahlzeit&#34;&gt;Nahrungsmittel für das Projekt &amp;ldquo;Eine warme Mahlzeit&amp;rdquo;&lt;/h2&gt;&#xA;&lt;br&gt; &#xD;&#xA;&lt;details&gt;&#xD;&#xA;    &lt;summary class=&#34;combobox-summary&#34;&gt;Ort1 - Projektchronik&lt;/summary&gt;&#xD;&#xA;    &lt;div class=&#34;combobox-details&#34;&gt;      &#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/details&gt;&#xD;&#xA;&lt;details&gt;&#xD;&#xA;    &lt;summary class=&#34;combobox-summary&#34;&gt;Ort2 - Projektchronik&lt;/summary&gt;&#xD;&#xA;    &lt;div class=&#34;combobox-details&#34;&gt;      &#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&lt;/details&gt;</description>
+    </item>
     <item>
       <title>Eine warme Mahlzeit</title>
       <link>http://localhost:1313/de/versorgung/einewarmemahlzeit/</link>
