@@ -13,7 +13,6 @@ export function generatePresseHTML()
                 </div>
                 <a class="article-title" href="${press.ArticleLink}">${press.ArticleTitle}</a>
             </div>`;
-            console.log("1"); // + press);
         } else {
             presseHTML += `
             <details style="margin 10px;">
@@ -29,11 +28,9 @@ export function generatePresseHTML()
                     </iframe>
                 </div>
             </details>`;
-            console.log("2"); // + press);
         }
     });
 
-    console.log("3");
     return presseHTML;
 }
 
