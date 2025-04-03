@@ -23,7 +23,7 @@ Der neue Brunnen wird im Stadtviertel Yaoundé/Essos gebohrt.
 Die Gesamtkosten belaufen sich auf 5.245.700 CFA. Das entspricht einem Betrag von 7.994 €.
 ## Der Baufortschritt
 In den Bilder können Sie den Baufortschritt verfolgen.
-<div class="swiper-container">
+<div class="swiper-container swiper-container-portrait">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
         <img src="/img/Versorgung/BrunnenbauAktuell/Fortschritt (1).jpg" alt="Bild 1" />
