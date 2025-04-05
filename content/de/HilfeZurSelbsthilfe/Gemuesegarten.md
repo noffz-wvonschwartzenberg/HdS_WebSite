@@ -38,19 +38,19 @@ Für das Projekt "eine warme Mahlzeit" werden die Lebensmittel vor Ort in den Ge
       <div class="swiper-container swiper-container-landscape">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Bameboro/Schulgarten (1).jpeg" alt="Bild 1" />
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Bameboro/Schulgarten (1).jpeg" alt="Bild 1" class="img-combobox"  />
           </div>
           <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Bameboro/Schulgarten (2).jpeg" alt="Bild 2" />
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Bameboro/Schulgarten (2).jpeg" alt="Bild 2" class="img-combobox" />
           </div>
           <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Bameboro/Schulgarten (3).jpeg" alt="Bild 3" />
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Bameboro/Schulgarten (3).jpeg" alt="Bild 3" class="img-combobox" />
           </div>
           <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Bameboro/Schulgarten (4).jpeg" alt="Bild 4" />
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Bameboro/Schulgarten (4).jpeg" alt="Bild 4" class="img-combobox" />
           </div>
           <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Bameboro/Schulgarten (5).jpeg" alt="Bild 5" />
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Bameboro/Schulgarten (5).jpeg" alt="Bild 5" class="img-combobox" />
           </div>
         </div>
         <!-- Navigation -->
@@ -77,3 +77,15 @@ Für das Projekt "eine warme Mahlzeit" werden die Lebensmittel vor Ort in den Ge
     </div>
 </details>
 
+<script>
+  const container = document.querySelector('.combobox-details');
+  const containerWidth = container.clientWidth - 20;
+  const imgElements = document.querySelectorAll('.swiper-container');
+  imgElements.forEach((img) => {
+    img.style.width = `${containerWidth}px`;
+  });
+  const captionElements = document.querySelectorAll('.img-caption');
+  captionElements.forEach((caption) => {
+    caption.style.width = `${containerWidth}px`;
+  });
+</script>
