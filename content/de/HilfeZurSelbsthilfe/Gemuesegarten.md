@@ -60,32 +60,88 @@ Für das Projekt "eine warme Mahlzeit" werden die Lebensmittel vor Ort in den Ge
       </div>
       <p class="img-caption">Bilder 2023, Schule Bameboro</p>
       <h3>Fortführung des Projekts 2024</h3>
-      Text
       <h3>Was passiert 2025</h3>
-      Text
     </div>
 </details>
 <details>
     <summary class="combobox-summary">Schulgarten École Catholique Saint-Pierre de Bamougoung - Projektchronik</summary>
     <div class="combobox-details">      
       <h3>Initierung des Projekts 2023</h3>
-      Text
+      Ein paar Impressionen zur Größe des Gartens.
+      <div class="swiper-container swiper-container-landscape">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Bamougoung/Schulgarten (1).jpeg" alt="Bild 1" class="img-combobox"  />
+          </div>
+        </div>
+        <!-- Navigation -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <p class="img-caption">Bilder 2023, Schule Bamougoung</p>
       <h3>Fortführung des Projekts 2024</h3>
-      TExt
       <h3>Was passiert 2025</h3>
-      Text
+    </div>
+</details>
+<details>
+    <summary class="combobox-summary">Das Feld in Nkongtock - Projektchronik</summary>
+    <div class="combobox-details">      
+      <h3>Initierung des Projekts 2023</h3>
+      Ein paar Impressionen zur Größe des Feldes.
+      <div class="swiper-container swiper-container-landscape">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Nkongtock/Garten (1).jpeg" alt="Bild 1" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Nkongtock/Garten (2).jpeg" alt="Bild 2" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Nkongtock/Garten (3).jpeg" alt="Bild 3" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Nkongtock/Garten (4).jpeg" alt="Bild 4" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Nkongtock/Garten (5).jpeg" alt="Bild 5" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Nkongtock/Garten (6).jpeg" alt="Bild 6" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Nkongtock/Garten (7).jpeg" alt="Bild 7" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Nkongtock/Garten (8).jpeg" alt="Bild 8" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Nkongtock/Garten (9).jpeg" alt="Bild 9" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Nkongtock/Garten (10).jpeg" alt="Bild 10" class="img-combobox"  />
+          </div>
+        </div>
+        <!-- Navigation -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <p class="img-caption">Bilder 2023, das Feld in Nkongtock</p>
+      <h3>Fortführung des Projekts 2024</h3>
+      <h3>Was passiert 2025</h3>
     </div>
 </details>
 
 <script>
-  const container = document.querySelector('.combobox-details');
-  const containerWidth = container.clientWidth - 20;
+  // const container = document.querySelector('.combobox-details');
+  // const containerWidth = container.clientWidth - 20;
   const imgElements = document.querySelectorAll('.swiper-container');
   imgElements.forEach((img) => {
-    img.style.width = `${containerWidth}px`;
+    img.style.width = `90%`; //`${containerWidth}px`;
   });
   const captionElements = document.querySelectorAll('.img-caption');
   captionElements.forEach((caption) => {
-    caption.style.width = `${containerWidth}px`;
+    caption.style.width = `90%`; //`${containerWidth}px`;
   });
 </script>
