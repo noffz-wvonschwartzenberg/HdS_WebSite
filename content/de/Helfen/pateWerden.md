@@ -7,7 +7,7 @@
     "image": "/img/Helfen/PateWerden/PateWerdenTitle.jpeg"
 }
 ## Die Bedeutung einer Patenschaft
-DIe Patenschaft ist angelehnt an das Herzensprojekt unseres Vereins "Eine warme Mahlzeit". Wir finden es so wichtig den Kindern eine Grundversorgung zu bieten. Nur so können sie leben und sind in der Lage, eine Schule zu besuchen und sogar einen guten Schulabschluss zu erreichen.  
+Die Patenschaft ist angelehnt an das Herzensprojekt unseres Vereins "Eine warme Mahlzeit". Wir finden es so wichtig den Kindern eine Grundversorgung zu bieten. Nur so können sie leben und sind in der Lage, eine Schule zu besuchen und sogar einen guten Schulabschluss zu erreichen.  
 Das Projekt finanziert sich über die Paten, die den nötigen Beitrag erbringen, damit "ihr" Kind täglich eine warme Mahlzeit erhält.  
 Wir sehen aus unserer bereits 7-jährigen Erfahrung, dass die Kinder deutlich gesünder sind und deutlich bessere Noten in der Schule schreiben. Ihr Beitrag als Pate hilft!
   
@@ -24,7 +24,7 @@ Die Kosten für eine warme Mahlzeit im Jahr 2018 lagen bei ca. 0,75€ pro Kind 
 In den letzten Jahren sind die Preise für Grundnahrungsmittel in Kamerun u. a. durch den Ukrainekrieg aber auch durch den Krieg im eigenen Land stark gestiegen. Die Kosten sind im Jahr 2024 um ca. 60% höher als 2018. Es ergeben sich dadurch Kosten von ca. 1,20€ pro Kind pro Tag.
 Durch unser Landwirtschaftsprojekt fließt ein Teil der Erträge direkt in das Projekt “Eine warme Mahlzeit”. Dadurch ist es uns gelungen, den benötigten Betrag pro Kind auf **400€ im Jahr** zu stabilisieren.
 
-### Meine Perönliche Angaben
+### Meine Persönliche Angaben
 Geschlecht  
 <select id="js-gender" name="gender" required>
     <option value="male">Mann</option>

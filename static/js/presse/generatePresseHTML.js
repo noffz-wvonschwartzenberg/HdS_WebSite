@@ -6,12 +6,12 @@ export function generatePresseHTML()
     presse.forEach((press) => {
         if(press.ArticlePdf === "") {
             presseHTML += `
-            <div class="article-line"> 
+            <div class="article-line" onclick="window.location.href='${press.ArticleLink}'">
                 <div class="article-column">
                     <img src="${press.Logo}" alt="${press.LogoText}" class="image-logo">
                     <p class="article-date">${press.ArticleDate}</p>
                 </div>
-                <a class="article-title" href="${press.ArticleLink}">${press.ArticleTitle}</a>
+                <a class="article-title">${press.ArticleTitle}</a>
             </div>`;
         } else {
             presseHTML += `

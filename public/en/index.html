@@ -56,7 +56,7 @@
                 <a href="" id="js-de" class="header-gray-item">DE</a>
                 <a href="" id="js-en" class="header-gray-item">EN</a>
                 <a href="" id="js-fr" class="header-gray-item">FR</a>
-                <a href="" class="header-gray-item"><i id="js-darkMode" class="fas fa-sun"></i></a>
+                <a href="" class="header-gray-item"><i id="js-darkMode" class="far fa-moon"></i></a>
             </nav>
             <a href="/" class="logo">
                 <img class="img-logo" src="/img/logo.png" alt="Haus der Sonne">
@@ -280,14 +280,18 @@
             
             var jsTheme = document.getElementById("js-theme-header");
             var jsDarkMode = document.getElementById("js-darkMode");
-            if (localStorage.getItem("darkMode") == "true") {
-                jsDarkMode.classList.remove("fas", "fa-sun");
-                jsDarkMode.classList.add("far", "fa-moon");
-                jsTheme.className = "light-theme";
+            if (localStorage.getItem("darkMode")) {
+                if (localStorage.getItem("darkMode") == "false") {
+                    jsDarkMode.classList.remove("fas", "fa-sun");
+                    jsDarkMode.classList.add("far", "fa-moon");
+                    jsTheme.className = "light-theme";
+                } else {
+                    jsDarkMode.classList.remove("far", "fa-moon");
+                    jsDarkMode.classList.add("fas", "fa-sun");
+                    jsTheme.className = "dark-theme";
+                }
             } else {
-                jsDarkMode.classList.remove("far", "fa-moon");
-                jsDarkMode.classList.add("fas", "fa-sun");
-                jsTheme.className = "dark-theme";
+                localStorage.setItem("darkMode", "false");
             }
             
             jsDarkMode.addEventListener("click", function() {
@@ -328,7 +332,7 @@
     <script>
         
         var jsSwipers = document.getElementById("js-theme-swipers");
-        if (localStorage.getItem("darkMode") == "true") {
+        if (localStorage.getItem("darkMode") == "false") {
             jsSwipers.className = "light-theme";
         } else {
             jsSwipers.className = "dark-theme";
@@ -630,7 +634,7 @@
         <script>
             
             var jsTheme = document.getElementById("js-theme-footer");
-            if (localStorage.getItem("darkMode") == "true") {
+            if (localStorage.getItem("darkMode") == "false") {
                 jsTheme.className = "light-theme";
             } else {
                 jsTheme.className = "dark-theme";
@@ -643,7 +647,7 @@
   <script>
     
     var jsTheme = document.getElementById("js-theme-home");
-    if (localStorage.getItem("darkMode") == "true") {
+    if (localStorage.getItem("darkMode") == "false") {
         jsTheme.className = "light-theme";
     } else {
         jsTheme.className = "dark-theme";
