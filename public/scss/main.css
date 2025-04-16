@@ -1420,6 +1420,14 @@
   margin-bottom: 20px;
   margin-top: 0px; }
 
+@media (max-width: 840px) {
+  .light-theme .home-introduction h1 {
+    font-size: 22px;
+    /* Schriftgröße ändern */ }
+  .light-theme .home-introduction h3 {
+    font-size: 17px;
+    /* Schriftgröße ändern */ } }
+
 .dark-theme .home-main {
   padding-bottom: calc((100% - 90%) / 2);
   font-size: 18px;
@@ -1431,6 +1439,14 @@
   padding: 20px;
   margin-bottom: 20px;
   margin-top: 0px; }
+
+@media (max-width: 840px) {
+  .dark-theme .home-introduction h1 {
+    font-size: 22px;
+    /* Schriftgröße ändern */ }
+  .dark-theme .home-introduction h3 {
+    font-size: 17px;
+    /* Schriftgröße ändern */ } }
 
 .light-theme .swipers {
   background-color: #e3e2d4;

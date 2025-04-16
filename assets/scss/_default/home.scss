@@ -15,4 +15,15 @@
         margin-bottom: 20px;
         margin-top: 0px;
     }
+
+    @media (max-width: 840px) {
+        .home-introduction {
+            h1 {
+                font-size: 22px; /* Schriftgröße ändern */
+            }
+            h3 {
+                font-size: 17px; /* Schriftgröße ändern */
+            }
+        }
+    }
 }
