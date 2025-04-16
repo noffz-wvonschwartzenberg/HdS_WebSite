@@ -1,7 +1,7 @@
 @include themify($themes) {
     .swipers {
-        background-color: themed("website-background");
-        height: calc(var(--viewable-height) - #{$logo-height} + 50px);
+        background-color: themed("textbox-background");
+        height: calc(var(--viewable-height) - #{$logo-height} + 0px);
     }
 
     .mainswiper {

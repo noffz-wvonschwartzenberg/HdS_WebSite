@@ -2,25 +2,56 @@
 <div id="js-theme-home" class="light-theme">
   <div class="home-main">
     {{ partial "home/mainswiper" }}
-    {{.Content}}
+    {{ .Content }}
+
+    <br>
+    <h1 style="text-align: center;">Aktuelle Berichte</h1>
+    <br>
     {{ range .Pages }}
-    <div class="list-container" onclick="location.href='{{ .RelPermalink }}';">
-      <img src="{{ .Params.image }}" alt="Home Picture" class="list-picture">
-      <div class="list-textbox">
-        <div class="list-shifted">
-          <div class="list-title">
-            {{.Title}}
-          </div>
-          <div class="list-description">
-            {{ .Params.description }}
+      {{ if lt (sub now.YearDay .Lastmod.YearDay) 30 }}  
+        <div class="list-container" onclick="location.href='{{ .RelPermalink }}';">
+          <img src="{{ .Params.image }}" alt="Home Picture" class="list-picture">
+          <div class="list-textbox">
+            <div class="list-shifted">
+              <div class="list-title">
+                {{.Title}}
+              </div>
+              <div class="list-description">
+                {{ .Params.description }}
+              </div>
+            </div>
+            <div class="list-date">
+              {{ dateFormat "Monday, Jan 2, 2006" .Date }}
+            </div>
           </div>
         </div>
-        <div class="list-date">
-          {{ dateFormat "Monday, Jan 2, 2006" .Date }}
-        </div>
-      </div>
-    </div>
+      {{ end }}
     {{ end }}
+
+    <br>
+    <h1 style="text-align: center;">Unsere Themen und Projekte</h1>
+    <br>
+    {{ range .Pages }}
+      {{ if ge (sub now.YearDay .Lastmod.YearDay) 30 }}  
+        <div class="list-container" onclick="location.href='{{ .RelPermalink }}';">
+          <img src="{{ .Params.image }}" alt="Home Picture" class="list-picture">
+          <div class="list-textbox">
+            <div class="list-shifted">
+              <div class="list-title">
+                {{.Title}}
+              </div>
+              <div class="list-description">
+                {{ .Params.description }}
+              </div>
+            </div>
+            <div class="list-date">
+              {{ dateFormat "Monday, Jan 2, 2006" .Date }}
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
+
   </div>
   {{ end }}
 

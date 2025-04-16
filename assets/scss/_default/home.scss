@@ -7,4 +7,12 @@
         font-size: $font-size;
         font-family: $font-family;
     }
+
+    .home-introduction {
+        text-align: center;
+        background-color: themed("textbox-background");
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
 }

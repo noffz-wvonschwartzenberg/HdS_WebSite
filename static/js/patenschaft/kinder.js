@@ -391,13 +391,5 @@
   "Geburtsort": "Mbouda",
   "KurzeBeschreibung": "",
   "HatEinenPaten": false
- },{
-  "id": "Kind50",
-  "Bild": "/img/Versorgung/EineWarmeMahlzeit/Kinder/Landry.png",
-  "Name": "Landry",
-  "Geburtsdatum": "2001",
-  "Geburtsort": "Mbouda",
-  "KurzeBeschreibung": "",
-  "HatEinenPaten": false
  }
 ];
