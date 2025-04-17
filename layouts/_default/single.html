@@ -54,8 +54,11 @@
   });
 
   // Viewable area
+  let height = window.innerHeight;
   function updateViewableArea() {
-    const height = window.innerHeight;
+    if (window.innerHeight < height || window.innerHeight > height * 1.2) {
+        height = window.innerHeight;
+    }
     document.documentElement.style.setProperty('--viewable-height', `${height}px`);
   }
 

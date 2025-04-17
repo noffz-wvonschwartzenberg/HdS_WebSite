@@ -8,5 +8,5 @@
   <h3>Ein warme Mahlzeit am Tag ändert viel.</h3>  
   <h3>Sauberes Wasser hilft der ganzen Gemeinschaft.</h3>  
   <br>
-  <button id="js-button-helfen" onclick="window.location.href='./Helfen';">Helfen Sie auch</button>  
+  <button id="js-button-helfen" onclick="window.location.href='./Helfen';">→ Helfen auch Sie</button>  
 </div>
