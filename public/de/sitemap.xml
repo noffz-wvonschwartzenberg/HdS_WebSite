@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/de/versorgung/brunnenbau_5/</loc>
+    <lastmod>2025-05-02T16:11:48+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/de/hilfezurselbsthilfe/gemuesegarten/</loc>
     <lastmod>2025-04-01T21:11:48+01:00</lastmod>
   </url><url>
@@ -130,9 +133,6 @@
                 hreflang="de"
                 href="http://localhost:1313/de/finanzen/aktuellefinanzuebersicht/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/de/versorgung/brunnenbauaktuell/</loc>
-    <lastmod>2025-03-05T21:11:48+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/de/helfen/gezieltspenden/</loc>
     <lastmod>2025-03-05T21:11:48+01:00</lastmod>

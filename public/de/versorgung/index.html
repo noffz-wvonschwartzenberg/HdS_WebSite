@@ -67,6 +67,23 @@
 
       
       
+      <div class="list-container" onclick="location.href='\/de\/versorgung\/brunnenbau_5\/';">
+        <img src="/img/Versorgung/Brunnenbau_5/Brunnenbau_5_Title.jpeg" alt="List Picture" class="list-picture">
+        <div class="list-textbox">
+          <div class="list-shifted">
+            <div class="list-title">
+              Der 5. Brunnen
+            </div>
+            <div class="list-description">
+              Das Projekt &#34;Brunnenbau&#34; lebt von der Unterstützung eines dem Haus der Sonne sehr zugetanen und sehr großzügigen Menschen. Wir sind in der Lage, jedes Jahr einen neuen Brunnen zu bauen. Hier finden Sie die Angaben zum 5. Brunnens.
+            </div>
+          </div>
+          <div class="list-date">
+            Freitag, Mai 2, 2025
+          </div>
+        </div>
+      </div>
+      
       <div class="list-container" onclick="location.href='\/de\/versorgung\/einewarmemahlzeit\/';">
         <img src="/img/Versorgung/EineWarmeMahlzeit/EineWarmeMahlzeitTitle.jpg" alt="List Picture" class="list-picture">
         <div class="list-textbox">
@@ -80,23 +97,6 @@
           </div>
           <div class="list-date">
             Donnerstag, März 27, 2025
-          </div>
-        </div>
-      </div>
-      
-      <div class="list-container" onclick="location.href='\/de\/versorgung\/brunnenbauaktuell\/';">
-        <img src="/img/Versorgung/BrunnenbauAktuell/BrunnenbauAktuellTitle.jpeg" alt="List Picture" class="list-picture">
-        <div class="list-textbox">
-          <div class="list-shifted">
-            <div class="list-title">
-              Der neue Brunnen
-            </div>
-            <div class="list-description">
-              Das Projekt &#34;Brunnenbau&#34; lebt von der Unterstützung eines dem Haus der Sonne sehr zugetanen und sehr großzügigen Menschen. Wir sind in der Lage, jedes Jahr einen neuen Brunnen zu bauen. Hier finden Sie die aktuellen Angaben für dieses Jahr.
-            </div>
-          </div>
-          <div class="list-date">
-            Mittwoch, März 5, 2025
           </div>
         </div>
       </div>
@@ -170,9 +170,11 @@
   }
 
   
-  function updateViewableAreaList() {
-    const height = window.innerHeight;
-    document.documentElement.style.setProperty('--viewable-height-list', `${height}px`);
+  let height = window.innerHeight;
+  function updateViewableArea() {
+    if (window.innerHeight < height || window.innerHeight > height * 1.2) {
+        height = window.innerHeight;
+    }
     document.documentElement.style.setProperty('--viewable-height', `${height}px`);
   }
 

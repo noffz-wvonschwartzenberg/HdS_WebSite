@@ -7,24 +7,27 @@
     <br>
     <h1 style="text-align: center;">Aktuelle Berichte</h1>
     <br>
-    {{ range .Pages }}
+
+    {{ range .Site.Pages }}
       {{ if lt (sub now.YearDay .Lastmod.YearDay) 30 }}  
-        <div class="list-container" onclick="location.href='{{ .RelPermalink }}';">
-          <img src="{{ .Params.image }}" alt="Home Picture" class="list-picture">
-          <div class="list-textbox">
-            <div class="list-shifted">
-              <div class="list-title">
-                {{.Title}}
+        {{ if strings.HasSuffix .File.LogicalName ".md" }}
+          <div class="list-container" onclick="location.href='{{ .RelPermalink }}';">
+            <img src="{{ .Params.image }}" alt="Home Picture" class="list-picture">
+            <div class="list-textbox">
+              <div class="list-shifted">
+                <div class="list-title">
+                  {{.Title}}
+                </div>
+                <div class="list-description">
+                  {{ .Params.description }}
+                </div>
               </div>
-              <div class="list-description">
-                {{ .Params.description }}
+              <div class="list-date">
+                {{ dateFormat "Monday, Jan 2, 2006" .Date }}
               </div>
-            </div>
-            <div class="list-date">
-              {{ dateFormat "Monday, Jan 2, 2006" .Date }}
             </div>
           </div>
-        </div>
+        {{ end }}
       {{ end }}
     {{ end }}
 

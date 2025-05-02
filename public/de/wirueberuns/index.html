@@ -187,9 +187,11 @@
   }
 
   
-  function updateViewableAreaList() {
-    const height = window.innerHeight;
-    document.documentElement.style.setProperty('--viewable-height-list', `${height}px`);
+  let height = window.innerHeight;
+  function updateViewableArea() {
+    if (window.innerHeight < height || window.innerHeight > height * 1.2) {
+        height = window.innerHeight;
+    }
     document.documentElement.style.setProperty('--viewable-height', `${height}px`);
   }
 
