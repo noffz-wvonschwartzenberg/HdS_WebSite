@@ -3,7 +3,7 @@
     "draft": false,
     "title": "Der 5. Brunnen",
     "author": "Christian",
-    "description": "Das Projekt \"Brunnenbau\" lebt von der Unterstützung eines dem Haus der Sonne sehr zugetanen und sehr großzügigen Menschen. Wir sind in der Lage, jedes Jahr einen neuen Brunnen zu bauen. Hier finden Sie die Angaben zum 5. Brunnens.",
+    "description": "Das Projekt \"Brunnenbau\" lebt von der Unterstützung eines dem Haus der Sonne sehr zugetanen und sehr großzügigen Menschen. Wir sind in der Lage, jedes Jahr einen neuen Brunnen zu bauen. Hier finden Sie die Angaben zum fünften Brunnens.",
     "image": "/img/Versorgung/Brunnenbau_5/Brunnenbau_5_Title.jpeg"
 }
 ## Update Mai-2025
@@ -79,7 +79,6 @@ In den Bilder können Sie den Bauablauf nachvollziehen.
     <div class="swiper-slide">
         <img src="/img/Versorgung/Brunnenbau_5/Fortschritt (5).jpeg" alt="Bild 5" />
     </div>
-
   </div>
   <!-- Navigation -->
   <div class="swiper-button-prev"></div>

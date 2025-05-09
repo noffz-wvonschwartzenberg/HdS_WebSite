@@ -30,9 +30,9 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
 ### Persönliche Angaben
 Geschlecht  
 <select id="js-gender" name="gender" required>
-    <option value="male">Mann</option>
-    <option value="female">Frau</option>
-    <option value="diverse">Divers</option>
+    <option value="Mann">Mann</option>
+    <option value="Frau">Frau</option>
+    <option value="Divers">Divers</option>
 </select>  
   
 Vorname*  
@@ -53,40 +53,139 @@ Wohnort*
 Telefonnummer  
 <input type="tel" id="js-input-telnummer" placeholder="">  
 
-Geburtsdatum*  
+Geburtsdatum* 
 <input type="date" id="js-input-geburtsdatum" placeholder="" required>  
 
 E-Mail Adresse*  
 <input type="email" id="js-input-email" placeholder="" required>  
 
 ### Bezahlung
-Bitte buchen Sie den Betrag per SEPA-Lastschriftmandat von meinem nachfolgenden Konto ab.  
-<br>
-Zahlungsweise  
-<select id="js-zahlungsweise" name="zahlungsweise" required>
-    <option value="jaehrlich">jährlich</option>
-    <option value="halbjaehrlich">halbjährlich</option>
-    <option value="vierteljaehrlich">vierteljährlich</option>
-</select>  
-<br>
-Bankverbindung  
-
-Kontoinhaber*  
-<input id="js-input-kontoinhaber" placeholder="">  
-  
-IBAN*  
-<input id="js-input-iban" placeholder="">  
-  
-BIC*  
-<input id="js-input-bic" placeholder="">  
+Möchten Sie den Betrag selber überweisen oder sollen wir den Betrag von Ihrem Konto abbuchen?  
+<select id="js-abbuchung" name="abbuchung" required>
+    <option value="perSEPA">Das Haus der Sonne übernimmt die Abbuchung von Ihrem Konto.</option>
+    <option value="selberUeberweisen">Ich überweise den Betrag selbstständig</option>
+</select>
+<div id="js-html-per-SEPA"> 
+    <br>
+    Bitte buchen Sie den Betrag per SEPA-Lastschriftmandat von meinem nachfolgenden Konto ab.  
+    <br>
+    Zahlungsweise* 
+    <br>
+    <select id="js-zahlungsweise" name="zahlungsweise" required>
+        <option value="jaehrlich">jährlich</option>
+        <option value="halbjaehrlich">halbjährlich</option>
+        <option value="vierteljaehrlich">vierteljährlich</option>
+    </select>  
+    <br>
+    <br>
+    Bankverbindung  
+    <br>
+    Kontoinhaber*  
+    <br>
+    <input id="js-input-kontoinhaber" placeholder="">  
+    <br>
+    IBAN*  
+    <br>
+    <input id="js-input-iban" placeholder="">  
+    <br>
+    BIC  
+    <br>
+    <input id="js-input-bic" placeholder="">  
+</div>
 <br>
 Die Datenschutzerklärung habe ich gelesen und erkenne Sie ausdrücklich an.  
 <br>
 <button id="js-button-mitglied-werden">Mitgliedsantrag abschicken</button>  
-
 <br>
-  
+<div id="message-box" style="display: none;">
+    <span id="message-box-text">
+    Die Mitgliedschaft wurde beantragt. Das Haus der Sonne überprüft Ihre Angaben und wird sich so schnell wie möglich mit Ihnen in Verbindung setzen. Vielen Dank!</span>
+    <button id="close-message-btn">Zurück zur Homepage</button>
+</div>
+<div id="message-box-fehler" style="display: none;">
+    <span id="message-box-fehler-text">text</span>
+    <button id="close-message-fehler-btn">Ok</button>
+</div>
 
+<script>
+    const selectElement = document.getElementById('js-abbuchung');
+    const selectDiv = document.getElementById('js-html-per-SEPA');
+    selectElement.addEventListener('change', (event) => {
+        const selectedValue = event.target.value;
+        if (selectedValue === 'selberUeberweisen') {
+            selectDiv.style.display = 'none';
+        } else if (selectedValue === 'perSEPA') {
+            selectDiv.style.display = '';
+        }
+    });
+    const selectButton = document.getElementById('js-button-mitglied-werden');
+    const messageBox = document.getElementById('message-box');
+    const messageBoxText = document.getElementById('message-box-text');
+    const messageBoxFehler = document.getElementById('message-box-fehler');
+    const messageBoxTextFehler = document.getElementById('message-box-fehler-text');
+    const closeMessageBtn = document.getElementById('close-message-btn');
+    const closeMessageFehlerBtn = document.getElementById('close-message-fehler-btn');
+    selectButton.addEventListener('click', () => {
+        const jahresbeitrag = document.getElementById("js-input-jahresbeitrag").value;
+        const geschlecht = document.getElementById("js-gender").value;
+        const vorname = document.getElementById("js-input-vorname").value;
+        const nachname = document.getElementById("js-input-nachname").value;
+        const strasse = document.getElementById("js-input-strasse").value;
+        const plz = document.getElementById("js-input-plz").value;
+        const wohnort = document.getElementById("js-input-wohnort").value;
+        const telnummer = document.getElementById("js-input-telnummer").value;
+        const geburtsdatum = document.getElementById("js-input-geburtsdatum").value;
+        const email = document.getElementById("js-input-email").value;
+        const abbuchung = document.getElementById("js-abbuchung").value;
+        const zahlungsweise = document.getElementById("js-zahlungsweise").value;
+        const kontoinhaber = document.getElementById("js-input-kontoinhaber").value;
+        const iban = document.getElementById("js-input-iban").value;
+        const bic = document.getElementById("js-input-bic").value;
 
+        fetch("http://localhost:8000/mitgliedsantrag/", {
+            method: "POST",
+            headers: {
+                "Accept": "application/json",
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                vorname: vorname,
+                nachname: nachname,
+                jahresbeitrag: jahresbeitrag,
+                geschlecht: geschlecht,
+                strasse: strasse,
+                plz: plz,
+                wohnort: wohnort,
+                telefonnummer: telnummer,
+                geburtsdatum: geburtsdatum,
+                email: email,
+                abbuchung: abbuchung,
+                zahlungsweise: zahlungsweise,
+                kontoinhaber: kontoinhaber,
+                iban: iban,
+                bic: bic
+            })
+        })
+        .then(async response => {
+            const data = await response.json();
 
+            if (!response.ok) {
+                messageBoxTextFehler.textContent = data.detail;
+                messageBoxFehler.style.display = '';
+            } else {
+                messageBoxText.textContent = data.message;
+                selectButton.textContent = 'Mitgliedschaft beantragt';
+                messageBox.style.display = '';
+            }
+        })
+        .catch(error => console.error("Fehler:", error));
 
+    });
+    closeMessageBtn.addEventListener('click', () => {
+        messageBox.style.display = 'none';
+        window.location.href = 'https://hdskempen2.netlify.app';
+    });
+    closeMessageFehlerBtn.addEventListener('click', () => {
+        messageBoxFehler.style.display = 'none';
+    });
+</script>

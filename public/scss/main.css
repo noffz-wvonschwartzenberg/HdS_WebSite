@@ -3167,7 +3167,7 @@
 .light-theme select {
   width: calc(90% + 10px); }
 
-.light-theme #message-box {
+.light-theme #message-box, .light-theme #message-box-fehler {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -3360,7 +3360,7 @@
 .dark-theme select {
   width: calc(90% + 10px); }
 
-.dark-theme #message-box {
+.dark-theme #message-box, .dark-theme #message-box-fehler {
   display: flex;
   flex-direction: column;
   align-items: center;

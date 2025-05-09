@@ -85,7 +85,7 @@ Möchten Sie den Betrag selber überweisen oder sollen wir den Betrag von Ihrem 
     <br>
     <input id="js-input-iban" placeholder="">  
     <br>
-    BIC*  
+    BIC  
     <br>
     <input id="js-input-bic" placeholder="">  
 </div>
@@ -116,10 +116,8 @@ Die Datenschutzerklärung habe ich gelesen und erkenne Sie ausdrücklich an.
     selectElement.addEventListener('change', (event) => {
         const selectedValue = event.target.value;
         if (selectedValue === 'selberUeberweisen') {
-            console.log("selber");
             selectDiv.style.display = 'none';
         } else if (selectedValue === 'perSEPA') {
-            console.log("sepa");
             selectDiv.style.display = '';
         }
     });
