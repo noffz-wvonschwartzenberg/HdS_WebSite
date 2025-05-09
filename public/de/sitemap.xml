@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/de/versorgung/brunnenbau_1/</loc>
+    <lastmod>2025-05-06T22:11:48+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/de/versorgung/brunnenbau_2/</loc>
+    <lastmod>2025-05-05T22:10:48+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/de/versorgung/brunnenbau_3/</loc>
+    <lastmod>2025-05-04T22:08:48+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/de/versorgung/brunnenbau_4/</loc>
+    <lastmod>2025-05-03T22:07:48+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/de/versorgung/brunnenbau_5/</loc>
     <lastmod>2025-05-02T16:11:48+01:00</lastmod>
   </url><url>

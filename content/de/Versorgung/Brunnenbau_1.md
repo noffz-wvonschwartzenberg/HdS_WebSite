@@ -1,5 +1,5 @@
 {
-    "date": "2025-05-09T22:11:48+01:00",
+    "date": "2025-05-06T22:11:48+01:00",
     "draft": false,
     "title": "Der 1. Brunnen",
     "author": "Christian",

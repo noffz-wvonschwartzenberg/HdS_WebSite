@@ -1,5 +1,5 @@
 {
-    "date": "2025-05-09T22:08:48+01:00",
+    "date": "2025-05-04T22:08:48+01:00",
     "draft": false,
     "title": "Der 3. Brunnen",
     "author": "Christian",
