@@ -19,23 +19,11 @@ Zu Beginn eines jeden Jahres werden für Spenden im Vorjahr über 100 € Spende
 ## Spenden
 ### Wählen Sie das Projekt für Ihre Spende aus
 Hier finden Sie eine Liste aller Projekte, um Ihre Spende gezielt zu platzieren.  
-<!-- <div id="js-projekt-spenden" class="projekt-spenden">
-    <ul>
-        <li data-value="ein-warme-mahlzeit">Eine warme Mahlzeit</li>
-        <li data-value="campus">Campus - Haus der Sonne</li>
-        <li data-value="sauberes-wasser">Sauberes Wasser</li>
-        <li data-value="medizinische-versorgung">Medizinische Versorgung</li>
-        <li data-value="gemuesegarten">Gemüsegarten</li>
-        <li data-value="nutztiere">Nutztiere</li>
-        <li data-value="umwelt">Umwelt und Müll</li>
-        <li data-value="waisenhaeuser">Waisenhäuser</li>
-    </ul>
-</div> -->
 <select id="js-projekt-spenden" name="ProjektSpenden" required>
-    <option value="ein-warme-mahlzeit">Eine warme Mahlzeit</option>
+    <option value="eineWarmeMahlzeit">Eine warme Mahlzeit</option>
     <option value="campus">Campus - Haus der Sonne</option>
-    <option value="sauberes-wasser">Sauberes Wasser</option>
-    <option value="medizinische-versorgung">Medizinische Versorgung</option>
+    <option value="sauberesWasser">Sauberes Wasser</option>
+    <option value="medizinischeVersorgung">Medizinische Versorgung</option>
     <option value="gemuesegarten">Gemüsegarten</option>
     <option value="nutztiere">Nutztiere</option>
     <option value="umwelt">Umwelt und Müll</option>
@@ -79,7 +67,7 @@ Hier finden Sie eine Liste aller Projekte, um Ihre Spende gezielt zu platzieren.
         <br>
         <br>
         Spendenbetrag in Euro*  
-        <input id="js-input-spendenbeitrag" placeholder="Spendenbetrag" required>  
+        <input id="js-input-spendenbetrag" placeholder="Spendenbetrag" required>  
         <br>
         Vorname*  
         <input id="js-input-vorname" placeholder="" required>  
@@ -100,7 +88,7 @@ Hier finden Sie eine Liste aller Projekte, um Ihre Spende gezielt zu platzieren.
         Telefonnummer  
         <input type="tel" id="js-input-telnummer" placeholder="">  
         <br>
-        E-Mail Adresse  
+        E-Mail Adresse*  
         <input type="email" id="js-input-email" placeholder="" required>  
         <br>
         <div id="js-html-per-SEPA"> 
@@ -115,7 +103,7 @@ Hier finden Sie eine Liste aller Projekte, um Ihre Spende gezielt zu platzieren.
             <br>
             <input id="js-input-iban" placeholder="">  
             <br>
-            BIC*  
+            BIC  
             <br>
             <input id="js-input-bic" placeholder="">  
         </div>
@@ -126,9 +114,14 @@ Hier finden Sie eine Liste aller Projekte, um Ihre Spende gezielt zu platzieren.
         <br>
         <br>
         <div id="message-box" style="display: none;">
-            Die Angaben für Ihre Spende wurde übertragen. Das Haus der Sonne überprüft Ihre Angaben und wird sich so schnell wie möglich mit Ihnen in Verbindung setzen. Vielen Dank!
+            <span id="message-box-text">
+            Die Mitgliedschaft wurde beantragt. Das Haus der Sonne überprüft Ihre Angaben und wird sich so schnell wie möglich mit Ihnen in Verbindung setzen. Vielen Dank!</span>
             <button id="close-message-btn">Zurück zur Homepage</button>
-        </div>      
+        </div>
+        <div id="message-box-fehler" style="display: none;">
+            <span id="message-box-fehler-text">text</span>
+            <button id="close-message-fehler-btn">Ok</button>
+        </div>     
     </div>
 </details>
   
@@ -136,3 +129,71 @@ Hier finden Sie eine Liste aller Projekte, um Ihre Spende gezielt zu platzieren.
 Wenn Sie uns lieber langfristig unterstützen möchten, bieten wir Ihnen die Möglichkeit eine Patenschaft zu übernehmen oder auch eine Mitgliedschaft abzuschließen. Sie können den Betrag dann ganz einfach per Lastschrift von uns abbuchen lassen. Besuchen Sie die entsprechenden Seiten, um sich noch genauer zu informieren:
 - <a href="../pateWerden">Informationen zur Patenschaft</a>
 - <a href="../mitgliedWerden">Informationen zur Mitgliedschaft</a>
+
+<script>
+    const selectButton = document.getElementById('js-button-spenden');
+    const messageBox = document.getElementById('message-box');
+    const messageBoxText = document.getElementById('message-box-text');
+    const messageBoxFehler = document.getElementById('message-box-fehler');
+    const messageBoxTextFehler = document.getElementById('message-box-fehler-text');
+    const closeMessageBtn = document.getElementById('close-message-btn');
+    const closeMessageFehlerBtn = document.getElementById('close-message-fehler-btn');
+    selectButton.addEventListener('click', () => {
+        console.log("test");
+        const projekt = document.getElementById("js-projekt-spenden").value;
+        const spendenbetrag = document.getElementById("js-input-spendenbetrag").value;
+        const vorname = document.getElementById("js-input-vorname").value;
+        const nachname = document.getElementById("js-input-nachname").value;
+        const strasse = document.getElementById("js-input-strasse").value;
+        const plz = document.getElementById("js-input-plz").value;
+        const wohnort = document.getElementById("js-input-wohnort").value;
+        const telnummer = document.getElementById("js-input-telnummer").value;
+        const email = document.getElementById("js-input-email").value;
+        const kontoinhaber = document.getElementById("js-input-kontoinhaber").value;
+        const iban = document.getElementById("js-input-iban").value;
+        const bic = document.getElementById("js-input-bic").value;
+
+        fetch("http://localhost:8000/gezieltSpenden/", {
+            method: "POST",
+            headers: {
+                "Accept": "application/json",
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                vorname: vorname,
+                nachname: nachname,
+                projekt: projekt,
+                spendenbetrag: spendenbetrag,
+                strasse: strasse,
+                plz: plz,
+                wohnort: wohnort,
+                telefonnummer: telnummer,
+                email: email,
+                kontoinhaber: kontoinhaber,
+                iban: iban,
+                bic: bic,
+            })
+        })
+        .then(async response => {
+            const data = await response.json();
+
+            if (!response.ok) {
+                messageBoxTextFehler.textContent = data.detail;
+                messageBoxFehler.style.display = '';
+            } else {
+                messageBoxText.textContent = data.message;
+                selectButton.textContent = 'Spende ausgelöst';
+                messageBox.style.display = '';
+            }
+        })
+        .catch(error => console.error("Fehler:", error));
+
+    });
+    closeMessageBtn.addEventListener('click', () => {
+        messageBox.style.display = 'none';
+        window.location.href = 'https://hdskempen2.netlify.app';
+    });
+    closeMessageFehlerBtn.addEventListener('click', () => {
+        messageBoxFehler.style.display = 'none';
+    });
+</script>

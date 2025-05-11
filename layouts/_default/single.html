@@ -55,6 +55,9 @@
 
   // Viewable area
   let height = window.innerHeight;
+  console.log("test");
+  document.documentElement.style.setProperty('--viewable-height', `${height}px`);
+
   function updateViewableArea() {
     if (window.innerHeight < height || window.innerHeight > height * 1.2) {
         height = window.innerHeight;

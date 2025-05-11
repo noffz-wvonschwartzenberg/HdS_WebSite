@@ -12,7 +12,7 @@ Werden Sie Mitglied und unterstützen Sie mit Ihrer Mitgliedschaft den Verein.
 
 ### Was macht das Haus der Sonne
 - Wir versorgen derzeit bis zu 60 Kindern mit einer täglichen warmen Mahlzeit.
-- Bereits 4 Brunnen wurden gebaut.
+- Bereits 5 Brunnen wurden gebaut.
 - Ein Nutztierprojekt ist ins Leben gerufen worden.
 - Das Projekt \"Gemüsegarten\" ist ein voller Erfolg.
 - viele weitere Projekte und Aktionen für unsere Kinder finden Sie auf unserer Webseite. 
@@ -163,7 +163,8 @@ Die Datenschutzerklärung habe ich gelesen und erkenne Sie ausdrücklich an.
                 zahlungsweise: zahlungsweise,
                 kontoinhaber: kontoinhaber,
                 iban: iban,
-                bic: bic
+                bic: bic,
+                zuwendungsbescheinigung: "wieSatzung"
             })
         })
         .then(async response => {

@@ -17,6 +17,7 @@ Der Verein wurde gegründet, um den ärmsten Kindern in Mbouda, Kamerun, eine Pe
 
 ## Eine Patenschaft übernehmen
 Die rot umrandeten Kinder haben aktuell keinen Paten und würden sich freuen, Sie als Paten zu gewinnen. Bitte wählen Sie ein Patenkind aus.
+<script>let kindName = '';</script>
 <div id="kinder-container"></div>
 
 ### Die Kosten einer Patenschaft
@@ -27,9 +28,9 @@ Durch unser Landwirtschaftsprojekt fließt ein Teil der Erträge direkt in das P
 ### Meine Persönliche Angaben
 Geschlecht  
 <select id="js-gender" name="gender" required>
-    <option value="male">Mann</option>
-    <option value="female">Frau</option>
-    <option value="diverse">Divers</option>
+    <option value="Mann">Mann</option>
+    <option value="Frau">Frau</option>
+    <option value="Divers">Divers</option>
 </select>  
   
 Vorname*  
@@ -95,8 +96,13 @@ Die Datenschutzerklärung habe ich gelesen und erkenne Sie ausdrücklich an.
 <button id="js-button-patenschaft-beantragen">Patenschaft beantragen</button>  
 <br>
 <div id="message-box" style="display: none;">
-    Die Patenschaft wurde beantragt. Das Haus der Sonne überprüft Ihre Angaben und wird sich so schnell wie möglich mit Ihnen in Verbindung setzen. Vielen Dank!
+    <span id="message-box-text">
+    Die Patenschaft wurde beantragt. Das Haus der Sonne überprüft Ihre Angaben und wird sich so schnell wie möglich mit Ihnen in Verbindung setzen. Vielen Dank!</span>
     <button id="close-message-btn">Zurück zur Homepage</button>
+</div>
+<div id="message-box-fehler" style="display: none;">
+    <span id="message-box-fehler-text">text</span>
+    <button id="close-message-fehler-btn">Ok</button>
 </div>
 
 <script type="module" src="/js/patenschaft/generateKinderHTML.js"></script>
@@ -109,8 +115,6 @@ Die Datenschutzerklärung habe ich gelesen und erkenne Sie ausdrücklich an.
         const linkedPage = false;
         container.innerHTML = generateKinderHTML(showkinderOhnePaten, showButton, linkedPage);
     });
-</script>
-<script>
     const selectElement = document.getElementById('js-abbuchung');
     const selectDiv = document.getElementById('js-html-per-SEPA');
     selectElement.addEventListener('change', (event) => {
@@ -123,13 +127,72 @@ Die Datenschutzerklärung habe ich gelesen und erkenne Sie ausdrücklich an.
     });
     const selectButton = document.getElementById('js-button-patenschaft-beantragen');
     const messageBox = document.getElementById('message-box');
+    const messageBoxText = document.getElementById('message-box-text');
+    const messageBoxFehler = document.getElementById('message-box-fehler');
+    const messageBoxTextFehler = document.getElementById('message-box-fehler-text');
     const closeMessageBtn = document.getElementById('close-message-btn');
+    const closeMessageFehlerBtn = document.getElementById('close-message-fehler-btn');
     selectButton.addEventListener('click', () => {
-        selectButton.textContent = 'Patenschaft beantragt';
-        messageBox.style.display = '';
+        console.log("kind: " + kindName);
+        const kind = kindName;
+        const geschlecht = document.getElementById("js-gender").value;
+        const vorname = document.getElementById("js-input-vorname").value;
+        const nachname = document.getElementById("js-input-nachname").value;
+        const strasse = document.getElementById("js-input-strasse").value;
+        const plz = document.getElementById("js-input-plz").value;
+        const wohnort = document.getElementById("js-input-wohnort").value;
+        const telnummer = document.getElementById("js-input-telnummer").value;
+        const geburtsdatum = document.getElementById("js-input-geburtsdatum").value;
+        const email = document.getElementById("js-input-email").value;
+        const abbuchung = document.getElementById("js-abbuchung").value;
+        const zahlungsweise = document.getElementById("js-zahlungsweise").value;
+        const kontoinhaber = document.getElementById("js-input-kontoinhaber").value;
+        const iban = document.getElementById("js-input-iban").value;
+        const bic = document.getElementById("js-input-bic").value;
+        fetch("http://localhost:8000/patenschaftsantrag/", {
+            method: "POST",
+            headers: {
+                "Accept": "application/json",
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                kind: kind,
+                jahresbeitrag: "default",
+                vorname: vorname,
+                nachname: nachname,
+                geschlecht: geschlecht,
+                strasse: strasse,
+                plz: plz,
+                wohnort: wohnort,
+                telefonnummer: telnummer,
+                geburtsdatum: geburtsdatum,
+                email: email,
+                abbuchung: abbuchung,
+                zahlungsweise: zahlungsweise,
+                kontoinhaber: kontoinhaber,
+                iban: iban,
+                bic: bic,
+                zuwendungsbescheinigung: "wieSatzung"
+            })
+        })
+        .then(async response => {
+            const data = await response.json();
+            if (!response.ok) {
+                messageBoxTextFehler.textContent = data.detail;
+                messageBoxFehler.style.display = '';
+            } else {
+                messageBoxText.textContent = data.message;
+                selectButton.textContent = 'Patenschaft beantragt';
+                messageBox.style.display = '';
+            }
+        })
+        .catch(error => console.error("Fehler:", error));
     });
     closeMessageBtn.addEventListener('click', () => {
         messageBox.style.display = 'none';
         window.location.href = 'https://hdskempen2.netlify.app';
+    });
+    closeMessageFehlerBtn.addEventListener('click', () => {
+        messageBoxFehler.style.display = 'none';
     });
 </script>
