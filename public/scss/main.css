@@ -3100,6 +3100,11 @@
   width: auto;
   cursor: pointer; }
 
+.light-theme .img-flexpictures-width {
+  height: auto;
+  width: 80%;
+  cursor: pointer; }
+
 .light-theme .img-smallest-in-text {
   float: left;
   margin: 10px 10px 10px 0;
@@ -3291,6 +3296,11 @@
 .dark-theme .img-flexpictures {
   height: 50vh;
   width: auto;
+  cursor: pointer; }
+
+.dark-theme .img-flexpictures-width {
+  height: auto;
+  width: 80%;
   cursor: pointer; }
 
 .dark-theme .img-smallest-in-text {

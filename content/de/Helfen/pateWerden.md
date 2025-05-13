@@ -149,7 +149,7 @@ Die Datenschutzerklärung habe ich gelesen und erkenne Sie ausdrücklich an.
         const kontoinhaber = document.getElementById("js-input-kontoinhaber").value;
         const iban = document.getElementById("js-input-iban").value;
         const bic = document.getElementById("js-input-bic").value;
-        fetch("http://localhost:8000/patenschaftsantrag/", {
+        fetch("http://cloud.schwartzies.de:65432/patenschaftsantrag/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",

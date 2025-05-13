@@ -142,7 +142,7 @@ Die Datenschutzerklärung habe ich gelesen und erkenne Sie ausdrücklich an.
         const iban = document.getElementById("js-input-iban").value;
         const bic = document.getElementById("js-input-bic").value;
 
-        fetch("http://localhost:8000/mitgliedsantrag/", {
+        fetch("http://cloud.schwartzies.de:65432/mitgliedsantrag/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",

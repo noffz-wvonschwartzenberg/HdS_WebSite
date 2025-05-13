@@ -138,7 +138,7 @@ Gezielte Spenden sind dann sinnvoll, wenn Sie sich mit einem Projekt besonders i
         const iban = document.getElementById("js-input-iban").value;
         const bic = document.getElementById("js-input-bic").value;
 
-        fetch("http://localhost:8000/spenden/", {
+        fetch("http://cloud.schwartzies.de:65432/spenden/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
