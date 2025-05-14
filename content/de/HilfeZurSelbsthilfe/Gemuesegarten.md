@@ -1,5 +1,5 @@
 {
-    "date": "2025-04-01T21:11:48+01:00",
+    "date": "2025-05-14T21:11:48+01:00",
     "draft": false,
     "title": "Gemüsegarten",
     "author": "Christian",
@@ -15,10 +15,10 @@ Kameruns Böden und Klima bieten ideale Voraussetzungen für die Landwirtschaft,
 
 ## Kosten und Investitionen
 In den Jahren 2023 und 2024 konnten dank gezielter Spenden und Projektmittel jeweils 5.000 € investiert werden. Damit wurden unter anderem folgende Maßnahmen umgesetzt:
-	•	Die Anstellung eines Fachmanns, der sowohl in den Schulen als auch in den umliegenden Dörfern tätig ist. Er führte zu Beginn des Projekts umfangreiche Schulungen durch und begleitet seither dauerhaft die Umsetzung und Weiterentwicklung der Landwirtschafts- und Schulgartenprojekte.
-	•	Anschaffung von Saatgut (u.a. Mais, Bohnen, Kartoffeln, Tomaten, Salat)
-	•	Kauf von Werkzeugen für den Gartenbau
-	•	Beschaffung von Kompostmaterial und Düngemitteln
+- Die Anstellung eines Fachmanns, der sowohl in den Schulen als auch in den umliegenden Dörfern tätig ist. Er führte zu Beginn des Projekts umfangreiche Schulungen durch und begleitet seither dauerhaft die Umsetzung und Weiterentwicklung der Landwirtschafts- und Schulgartenprojekte.
+- Anschaffung von Saatgut (u.a. Mais, Bohnen, Kartoffeln, Tomaten, Salat)
+- Kauf von Werkzeugen für den Gartenbau
+- Beschaffung von Kompostmaterial und Düngemitteln
 
 Für das Jahr 2025 wurden 1.500 € zur Verfügung gestellt – gezielt für die Pflege und Weiterführung der Schulgartenprojekte.
 
@@ -27,11 +27,55 @@ Das Projekt wurde an mehreren Standorten realisiert: in Mbouda, Yaoundé, Nkongt
 
 ## Ergebnisse
 Bereits nach kurzer Zeit konnten folgende Erfolge erzielt werden:
-	•	Die Schüler erlernten Grundlagen der nachhaltigen Landwirtschaft.
-	•	Erste Ernten wurden eingebracht und teilweise für die Speisung im Projekt „Eine warme Mahlzeit“ im Haus der Sonne verwendet.
-	•	Das Projekt stärkt das Verantwortungsgefühl, die Eigeninitiative und die Teamfähigkeit der Kinder und Jugendlichen.
-	•	Auch viele Dorfbewohner beteiligen sich aktiv am Landwirtschaftsprojekt. Sie nehmen an Schulungen teil, nutzen das neu erworbene Wissen auf ihren eigenen Feldern und tragen so zur nachhaltigen Entwicklung ihrer Gemeinden bei.
-<br>
+- Die Schüler erlernten Grundlagen der nachhaltigen Landwirtschaft.
+- Erste Ernten wurden eingebracht und teilweise für die Speisung im Projekt „Eine warme Mahlzeit“ im Haus der Sonne verwendet.
+- Das Projekt stärkt das Verantwortungsgefühl, die Eigeninitiative und die Teamfähigkeit der Kinder und Jugendlichen.
+- Auch viele Dorfbewohner beteiligen sich aktiv am Landwirtschaftsprojekt. Sie nehmen an Schulungen teil, nutzen das neu erworbene Wissen auf ihren eigenen Feldern und tragen so zur nachhaltigen Entwicklung ihrer Gemeinden bei.  
+
+Hier sind einige Beispiele der unterstützten Schulen und Familien:
+<details>
+    <summary class="combobox-summary">Schulgarten unseres Vereinsheims</summary>
+    <div class="combobox-details">   
+      <h3>Standort</h3>
+      Der Garten ist direkt an unserem Vereinsheim, hier seht ihr nochmals die genaue Lage:
+      <div class="flexpictures">
+        <input type="checkbox" id="expand-image1" />
+        <label for="expand-image1">
+          <img class="img-flexpictures-width" src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Vereinsheim/GeographischeLage_Kamerun.png#imagemd" alt="Geographische Lage" />
+        </label>
+        <br>
+        <input type="checkbox" id="expand-image2" />
+        <label for="expand-image2">
+          <img class="img-flexpictures-width" src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Vereinsheim/GeographischeLage_Details.png#imagemd" alt="Geographische Lage - Details" />
+        </label>
+      </div>
+      <br>
+      <h3>Fortführung des Projekts 2025</h3>
+      Die Bilder zeigen unseren Schulgarten 2025. 
+      <div class="swiper-container swiper-container-landscape">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Vereinsheim/2025/Schulgarten (1).jpg" alt="Bild 1" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Vereinsheim/2025/Schulgarten (1).jpeg" alt="Bild 2" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Vereinsheim/2025/Schulgarten (2).jpeg" alt="Bild 3" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Vereinsheim/2025/Schulgarten (3).jpeg" alt="Bild 4" class="img-combobox"  />
+          </div>
+        </div>
+        <!-- Navigation -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <p class="img-caption">Bilder 2025, der Garten unseres Vereinsheims</p>
+      <br>
+    </div>
+</details>
 <details>
     <summary class="combobox-summary">Schulgarten École publique de Bameboro</summary>
     <div class="combobox-details">   
@@ -86,8 +130,118 @@ Bereits nach kurzer Zeit konnten folgende Erfolge erzielt werden:
         <div class="swiper-pagination"></div>
       </div>
       <p class="img-caption">Bilder 2025, Schule École publique de Bameboro</p>
+      <br>
     </div>
-    <br>
+</details>
+<details>
+    <summary class="combobox-summary">Schulgarten der École catholique Saint-Pierre de Bamougong</summary>
+    <div class="combobox-details">   
+      <h3>Standort</h3>
+      Die geographische Lage ist in den nachfolgenden Bildern zu sehen:
+      <div class="flexpictures">
+        <input type="checkbox" id="expand-image1" />
+        <label for="expand-image1">
+          <img class="img-flexpictures-width" src="/img/HilfeZurSelbsthilfe/Gemuesegarten/EcoleCatholiqueStPierre/GeographischeLage_Kamerun.png#imagemd" alt="Geographische Lage" />
+        </label>
+        <br>
+        <input type="checkbox" id="expand-image2" />
+        <label for="expand-image2">
+          <img class="img-flexpictures-width" src="/img/HilfeZurSelbsthilfe/Gemuesegarten/EcoleCatholiqueStPierre/GeographischeLage_Details.png#imagemd" alt="Geographische Lage - Details" />
+        </label>
+      </div>
+      <br>
+      <h3>Fortführung des Projekts 2025</h3>
+      Die Bilder zeigen den Schulgarten 2025. 
+      <div class="swiper-container swiper-container-portrait">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/EcoleCatholiqueStPierre/2025/Schulgarten (1).jpg" alt="Bild 1" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/EcoleCatholiqueStPierre/2025/Schulgarten (2).jpg" alt="Bild 2" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/EcoleCatholiqueStPierre/2025/Schulgarten (3).jpg" alt="Bild 3" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/EcoleCatholiqueStPierre/2025/Schulgarten (4).jpg" alt="Bild 4" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/EcoleCatholiqueStPierre/2025/Schulgarten (1).jpeg" alt="Bild 5" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/EcoleCatholiqueStPierre/2025/Schulgarten (2).jpeg" alt="Bild 6" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/EcoleCatholiqueStPierre/2025/Schulgarten (3).jpeg" alt="Bild 7" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/EcoleCatholiqueStPierre/2025/Schulgarten (4).jpeg" alt="Bild 8" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/EcoleCatholiqueStPierre/2025/Schulgarten (5).jpeg" alt="Bild 9" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/EcoleCatholiqueStPierre/2025/Schulgarten (6).jpeg" alt="Bild 10" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/EcoleCatholiqueStPierre/2025/Schulgarten (7).jpeg" alt="Bild 11" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/EcoleCatholiqueStPierre/2025/Schulgarten (8).jpeg" alt="Bild 12" class="img-combobox"  />
+          </div>
+        </div>
+        <!-- Navigation -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <p class="img-caption">Bilder 2025, Schule École catholique Saint-Pierre de Bamougong</p>
+      <br>
+    </div>
+</details>
+<details>
+    <summary class="combobox-summary">Garten der Familie Zigi</summary>
+    <div class="combobox-details"> 
+      Eine bedürftige Familie, die wir mit der Finanzierung eines Gemüsegartens unterstützen. Sie bauen hauptsächlich Mais, Bohnen und Kartoffeln an. Die Bilder zeigen deutlich, dass diese Grundnahrungsmittel die Basis ihrer Selbstversorgung bilden.  
+      Durch unsere Hilfe können sie ihren Anbau verbessern, ihre Erträge steigern und damit ihre Ernährung nachhaltig sichern.  
+      Auf den Bildern erkennt man auch, dass die Familie dünne Maiskolben in weißen Säcken lagert – ein Ergebnis unserer finanziellen Unterstützung in den vergangenen Jahren. Ohne diese Hilfe hätten sie ihre Ernte kaum sichern können. So tragen wir dazu bei, ihre Ernährung und ihr Überleben nachhaltig zu sichern.
+      <h3>Standort</h3>
+      Die geographische Lage ist in den nachfolgenden Bildern zu sehen:
+      <div class="flexpictures">
+        <input type="checkbox" id="expand-image1" />
+        <label for="expand-image1">
+          <img class="img-flexpictures-width" src="/img/HilfeZurSelbsthilfe/Gemuesegarten/FamilieZigi/GeographischeLage_Kamerun.png#imagemd" alt="Geographische Lage" />
+        </label>
+        <br>
+        <input type="checkbox" id="expand-image2" />
+        <label for="expand-image2">
+          <img class="img-flexpictures-width" src="/img/HilfeZurSelbsthilfe/Gemuesegarten/FamilieZigi/GeographischeLage_Details.png#imagemd" alt="Geographische Lage - Details" />
+        </label>
+      </div>
+      <br>
+      <h3>Fortführung des Projekts 2025</h3>
+      Die Bilder zeigen den Garten der Familie Zigi 2025. 
+      <div class="swiper-container swiper-container-portrait">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/FamilieZigi/2025/Garten (1).jpg" alt="Bild 1" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/FamilieZigi/2025/Garten (1).jpeg" alt="Bild 2" class="img-combobox"  />
+          </div>
+          <div class="swiper-slide">
+              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/FamilieZigi/2025/Garten (2).jpeg" alt="Bild 3" class="img-combobox"  />
+          </div>
+        </div>
+        <!-- Navigation -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <p class="img-caption">Bilder 2025, Garten der Familie Zigi</p>
+      <br>
+    </div>
 </details>
 
 ## Ausblick
@@ -97,113 +251,9 @@ Langfristig könnte das Projekt zu einem Modell für weitere Schulen und Gemeind
 ## Rolle des Vereins
 Der Verein Haus der Sonne begleitet, finanziert und koordiniert das Projekt mit viel Herzblut und in enger Zusammenarbeit mit den Menschen vor Ort. Unser Ziel ist es, nicht nur Hilfe zu leisten, sondern nachhaltige Entwicklung zu ermöglichen – mit den Menschen, für die Menschen.  
 Zitat:
-„Wenn Kinder lernen, wie man ein Feld bestellt, und Familien sehen, dass ihre Arbeit Früchte trägt, dann wächst nicht nur Nahrung – sondern Hoffnung.“
-Christian
-
-<br> 
-<details>
-    <summary class="combobox-summary">Schulgarten École Publique Bameboro - Projektchronik</summary>
-    <div class="combobox-details">   
-      <h3>Start des Projekts 2023</h3>
-      Die Bilder zeigen, wie der Schulgarten bepflanzt wird und das Gemüse gut gedeiht. Christian klärt die Kinder auch über Europa auf. 
-      <div class="swiper-container swiper-container-landscape">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Bameboro/Schulgarten (1).jpeg" alt="Bild 1" class="img-combobox"  />
-          </div>
-          <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Bameboro/Schulgarten (2).jpeg" alt="Bild 2" class="img-combobox" />
-          </div>
-          <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Bameboro/Schulgarten (3).jpeg" alt="Bild 3" class="img-combobox" />
-          </div>
-          <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Bameboro/Schulgarten (4).jpeg" alt="Bild 4" class="img-combobox" />
-          </div>
-          <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Bameboro/Schulgarten (5).jpeg" alt="Bild 5" class="img-combobox" />
-          </div>
-        </div>
-        <!-- Navigation -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-pagination"></div>
-      </div>
-      <p class="img-caption">Bilder 2023, Schule Bameboro</p>
-      <h3>Fortführung des Projekts 2024</h3>
-      <h3>Was passiert 2025</h3>
-    </div>
-</details>
-<details>
-    <summary class="combobox-summary">Schulgarten École Catholique Saint-Pierre de Bamougoung - Projektchronik</summary>
-    <div class="combobox-details">      
-      <h3>Initierung des Projekts 2023</h3>
-      Ein paar Impressionen zur Größe des Gartens.
-      <div class="swiper-container swiper-container-landscape">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Bamougoung/Schulgarten (1).jpeg" alt="Bild 1" class="img-combobox"  />
-          </div>
-        </div>
-        <!-- Navigation -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-pagination"></div>
-      </div>
-      <p class="img-caption">Bilder 2023, Schule Bamougoung</p>
-      <h3>Fortführung des Projekts 2024</h3>
-      <h3>Was passiert 2025</h3>
-    </div>
-</details>
-<details>
-    <summary class="combobox-summary">Das Feld in Nkongtock - Projektchronik</summary>
-    <div class="combobox-details">      
-      <h3>Initierung des Projekts 2023</h3>
-      Ein paar Impressionen zur Größe des Feldes.
-      <div class="swiper-container swiper-container-landscape">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Nkongtock/Garten (1).jpeg" alt="Bild 1" class="img-combobox"  />
-          </div>
-          <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Nkongtock/Garten (2).jpeg" alt="Bild 2" class="img-combobox"  />
-          </div>
-          <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Nkongtock/Garten (3).jpeg" alt="Bild 3" class="img-combobox"  />
-          </div>
-          <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Nkongtock/Garten (4).jpeg" alt="Bild 4" class="img-combobox"  />
-          </div>
-          <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Nkongtock/Garten (5).jpeg" alt="Bild 5" class="img-combobox"  />
-          </div>
-          <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Nkongtock/Garten (6).jpeg" alt="Bild 6" class="img-combobox"  />
-          </div>
-          <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Nkongtock/Garten (7).jpeg" alt="Bild 7" class="img-combobox"  />
-          </div>
-          <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Nkongtock/Garten (8).jpeg" alt="Bild 8" class="img-combobox"  />
-          </div>
-          <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Nkongtock/Garten (9).jpeg" alt="Bild 9" class="img-combobox"  />
-          </div>
-          <div class="swiper-slide">
-              <img src="/img/HilfeZurSelbsthilfe/Gemuesegarten/Nkongtock/Garten (10).jpeg" alt="Bild 10" class="img-combobox"  />
-          </div>
-        </div>
-        <!-- Navigation -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-pagination"></div>
-      </div>
-      <p class="img-caption">Bilder 2023, das Feld in Nkongtock</p>
-      <h3>Fortführung des Projekts 2024</h3>
-      <h3>Was passiert 2025</h3>
-    </div>
-</details>
-
+„Wenn Kinder lernen, wie man ein Feld bestellt, und Familien sehen, dass ihre Arbeit Früchte trägt, dann wächst nicht nur Nahrung – sondern Hoffnung.“  
+Christian  
+<br>
 <script>
   // const container = document.querySelector('.combobox-details');
   // const containerWidth = container.clientWidth - 20;
