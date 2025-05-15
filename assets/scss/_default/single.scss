@@ -5,6 +5,7 @@
 @import '../common-styles/markdown';
 @import '../common-styles/paypal';
 @import '../common-styles/articles';
+@import '../common-styles/gallery';
 
 @include themify($themes) {
   .single {

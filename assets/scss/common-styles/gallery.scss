@@ -1,0 +1,43 @@
+@include themify($themes) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 Spalten */
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .gallery img, .gallery video {
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        cursor: pointer;
+    }
+    
+    .gallery img.portrait {
+        height: 100%;
+        object-fit: contain;
+    }
+
+    /* Lightbox für Fullscreen-Anzeige */
+    .lightbox {
+        display: none;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        margin: 0px;
+        width: calc(100vw);
+        height: calc(100vh);
+        object-fit: contain;
+        z-index: 1000;
+        transition: all 0.15s ease, z-index 0.15s;
+        border: none;
+        justify-content: center;
+    }
+    
+    .lightbox video {
+        max-width: 90vw;
+        max-height: 90vh;
+        z-index: 1000;
+    }
+    
+}

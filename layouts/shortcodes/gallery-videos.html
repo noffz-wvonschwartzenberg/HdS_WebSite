@@ -1,0 +1,22 @@
+{{ $baseFolder := "static/img/Galerie" }}
+{{ $folders := readDir $baseFolder }}
+
+{{ range $folders }}
+    {{ if .IsDir }}
+        {{ $folderName := .Name }}
+        <h2>{{ $folderName }}</h2>
+        {{ $subPath := printf "%s/%s" $baseFolder $folderName }}
+        {{ $files := readDir $subPath }}
+        <div id="gallery" class="gallery">
+            {{ range $files }}
+                {{ if findRE "\\.mp4$" .Name }}
+                    <video src="{{ printf "/img/Galerie/%s/%s" $folderName .Name }}"  controls title="{{ .Name }}"></video>
+                {{ end }}
+            {{ end }}
+        </div>
+    {{ end }}
+{{ end }}
+
+<div id="lightbox" class="lightbox" onclick="this.style.display='none'">
+    <video id="lightbox-video" controls></video>
+</div>

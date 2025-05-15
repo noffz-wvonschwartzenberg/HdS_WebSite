@@ -6,6 +6,13 @@
     "description": "Den ärmsten Familien wird durch die Spende eines Nutztieres und durch die Schulung in Aufzucht und Pflege eine Chance gegeben, tierische Produkte wie Eier, Milch und Fleisch selber zu erzeugen und sich zu ernähren oder sich sogar ein nachhaltiges Einbekommen zu sichern.",
     "image": "/img/HilfeZurSelbsthilfe/Nutztiere/NutztiereTitle.jpeg"
 }
+
+## Update 2025
+In Yaoundé und Mbouda haben die Begünstigten unseres Nutztierprojekts bereits sehr gute Ergebnisse erzielt.
+Die meisten Tiere haben Nachwuchs bekommen, und es ist sehr ermutigend zu sehen, wie verantwortungsvoll die Menschen mit den Tieren umgehen und wie dankbar sie für die Unterstützung sind.  
+Besonders schön ist, dass sich auch viele Kinder und Jugendliche aktiv beteiligen: Sie helfen mit, versorgen die Tiere und lernen dabei wichtige Fähigkeiten für ihr späteres Leben.  
+Wir sind überzeugt, dass dieses Projekt das Leben vieler Familien nachhaltig verbessern kann. Durch bessere Ernährung, Einkommen und Bildung im Umgang mit Tieren und Verantwortung.
+
 ## Ziel des Projektes Nutztiere
 Den ärmsten Familien wird durch die Spende eines Nutztieres und durch die Schulung in Aufzucht und Pflege eine Chance gegeben, tierische Produkte wie Eier, Milch und Fleisch selber zu erzeugen und sich zu ernähren oder sich sogar ein nachhaltiges Einbekommen zu sichern.
 Die Nutztiere bilden eine Lebensgrundlage für die lokale Bevölkerung in Mbouda.
@@ -20,6 +27,17 @@ Das Projekt startete am 24. März 2023. Die ersten Tiere, die wir gekauft haben,
 Sie schreien öfters ganz laut und immer wieder auf meiner Stammessprache, "Ich solle den Menschen in Deutschland und dem Verein Haus der Sonne, in deren Namen danken." Und wiederholten "Gott soll uns alle segnen und 100 Mal zurück geben, was wir für sie und die Kinder tun."
 Im Dezember 2023 gibt es bereits Nachwuchs zu vermelden! Die von unserem Verein Haus der Sonne gespendeten Tiere vermehren sich und Haus der Sonne kontrolliert auch die artgerechte Haltung vor Ort.
 Die Finanzierung des Projekts Landwirtschaft und Nutztiere war insgesamt eine gute Entscheidung!
+
+## Die Futterherstellung
+Hier wird das Futter für die Tiere im Gemeinschaftsprojekt „Nutztiere“ in Mbouda hergestellt.
+Mit einfachen Mitteln und viel Engagement sichern wir so die Versorgung der Tiere und stärken die Selbstständigkeit der Beteiligten.  
+Durch unsere finanzielle Unterstützung konnte die Bauern neue Möglichkeiten schaffen und wichtige Maschinen anschaffen.
+Das verbessert nicht nur die Futterproduktion, sondern stärkt auch die lokale Landwirtschaft und Eigenständigkeit.
+
+## Das Ergebnis
+Das Ergebnis ist eindeutig: Unser Nutztierprojekt ist ein voller Erfolg.
+Es verbessert die Lebensbedingungen vieler Familien, fördert Eigenverantwortung  und zeigt, wie viel nachhaltige Wirkung mit gemeinsamer Hilfe möglich ist.
+
 
 <div class="swiper-container swiper-container-landscape">
   <div class="swiper-wrapper">
