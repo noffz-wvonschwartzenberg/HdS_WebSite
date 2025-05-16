@@ -18,6 +18,25 @@
         object-fit: contain;
     }
 
+    .gallery img::after, .gallery video::after {
+        content: attr(title);
+        position: absolute;
+        bottom: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 5px;
+        font-size: 14px;
+        border-radius: 5px;
+        white-space: nowrap;
+        display: none;
+    }
+    
+    .gallery img:active::after, .gallery video:active::after {
+        display: block;
+    }
+    
     /* Lightbox für Fullscreen-Anzeige */
     .lightbox {
         display: none;

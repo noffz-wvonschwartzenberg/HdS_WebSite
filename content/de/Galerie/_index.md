@@ -4,6 +4,6 @@
     "title": "Galerie",
     "author": "WvS",
     "description": "Hier finden Sie zahlreiche Bilder, die das Leben des Vereins widerspiegeln.",
-    "image": "/img/Galerie/GalerieTitle.jpeg"
+    "image": "/img/Galerie/GalerieTitle.jpg"
 }
 

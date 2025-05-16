@@ -59,7 +59,6 @@ Auch das Team in Kamerun arbeitet ehrenamtlich.
 <label for="expand-image2">
   <img class="img-centered" src="/img/Finanzen/AktuelleFinanzuebersicht/MitgliedsbeiträgeHistorisch.png#imagemd" alt="Mitgliedsbeiträge seit Vereinsgründung" />
 </label>
-<div>
 </div>
 <input type="checkbox" id="expand-image3" />
 <label for="expand-image3">
