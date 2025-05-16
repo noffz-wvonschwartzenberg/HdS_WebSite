@@ -9,8 +9,12 @@
         {{ $files := readDir $subPath }}
         <div id="gallery" class="gallery">
             {{ range $files }}
+                {{ $cleanName := replaceRE "\\.(jpg|jpeg|png|gif|mp4)$" "" .Name }}
                 {{ if findRE "\\.(jpg|jpeg|png|gif)$" .Name }}
-                    <img src="{{ printf "/img/Galerie/%s/%s" $folderName .Name }}" title="{{ .Name }}">
+                    <div class="media-container">
+                        <div class="media-title">{{ $cleanName }}</div>
+                        <img src="{{ printf "/img/Galerie/%s/%s" $folderName .Name }}" title="{{ .Name }}">
+                    </div>
                 {{ end }}
             {{ end }}
         </div>

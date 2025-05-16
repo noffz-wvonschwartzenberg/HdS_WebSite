@@ -18,25 +18,25 @@
         object-fit: contain;
     }
 
-    .gallery img::after, .gallery video::after {
-        content: attr(title);
+    .media-container {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .media-title {
         position: absolute;
-        bottom: 5px;
+        top: 5px;
         left: 50%;
         transform: translateX(-50%);
         background: rgba(0, 0, 0, 0.7);
         color: white;
-        padding: 5px;
+        padding: 5px 10px;
         font-size: 14px;
         border-radius: 5px;
         white-space: nowrap;
-        display: none;
-    }
-    
-    .gallery img:active::after, .gallery video:active::after {
-        display: block;
-    }
-    
+    }    
+
     /* Lightbox für Fullscreen-Anzeige */
     .lightbox {
         display: none;
@@ -58,5 +58,10 @@
         max-height: 90vh;
         z-index: 1000;
     }
-    
+
+    @media (max-width: 600px) {
+        .gallery {
+            grid-template-columns: repeat(2, 1fr); /* 2 Spalten */
+        }
+    }
 }

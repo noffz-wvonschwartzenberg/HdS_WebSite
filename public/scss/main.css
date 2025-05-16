@@ -3508,21 +3508,21 @@
   .light-theme .gallery img.portrait {
     height: 100%;
     object-fit: contain; }
-  .light-theme .gallery img::after, .light-theme .gallery video::after {
-    content: attr(title);
+  .light-theme .media-container {
+    position: relative;
+    display: inline-block;
+    width: 100%; }
+  .light-theme .media-title {
     position: absolute;
-    bottom: 5px;
+    top: 5px;
     left: 50%;
     transform: translateX(-50%);
     background: rgba(0, 0, 0, 0.7);
     color: white;
-    padding: 5px;
+    padding: 5px 10px;
     font-size: 14px;
     border-radius: 5px;
-    white-space: nowrap;
-    display: none; }
-  .light-theme .gallery img:active::after, .light-theme .gallery video:active::after {
-    display: block; }
+    white-space: nowrap; }
   .light-theme .lightbox {
     display: none;
     position: fixed;
@@ -3540,7 +3540,10 @@
     max-width: 90vw;
     max-height: 90vh;
     z-index: 1000; }
-
+  @media (max-width: 600px) {
+    .light-theme .gallery {
+      grid-template-columns: repeat(2, 1fr);
+      /* 2 Spalten */ } }
 .dark-theme {
   /* Lightbox für Fullscreen-Anzeige */ }
   .dark-theme .gallery {
@@ -3557,21 +3560,21 @@
   .dark-theme .gallery img.portrait {
     height: 100%;
     object-fit: contain; }
-  .dark-theme .gallery img::after, .dark-theme .gallery video::after {
-    content: attr(title);
+  .dark-theme .media-container {
+    position: relative;
+    display: inline-block;
+    width: 100%; }
+  .dark-theme .media-title {
     position: absolute;
-    bottom: 5px;
+    top: 5px;
     left: 50%;
     transform: translateX(-50%);
     background: rgba(0, 0, 0, 0.7);
     color: white;
-    padding: 5px;
+    padding: 5px 10px;
     font-size: 14px;
     border-radius: 5px;
-    white-space: nowrap;
-    display: none; }
-  .dark-theme .gallery img:active::after, .dark-theme .gallery video:active::after {
-    display: block; }
+    white-space: nowrap; }
   .dark-theme .lightbox {
     display: none;
     position: fixed;
@@ -3589,7 +3592,10 @@
     max-width: 90vw;
     max-height: 90vh;
     z-index: 1000; }
-
+  @media (max-width: 600px) {
+    .dark-theme .gallery {
+      grid-template-columns: repeat(2, 1fr);
+      /* 2 Spalten */ } }
 .light-theme .single {
   background-color: white;
   font-family: "Calibri", sans-serif;
