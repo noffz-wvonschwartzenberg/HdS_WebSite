@@ -4,7 +4,7 @@
     // ** Page Picture
     // *******************************************************
     .pagepicture {
-        height: calc(var(--viewable-height) * #{$picture-pct-height} / 100);
+        height: calc(var(--pagepicture-height) * #{$picture-pct-height} / 100);
         position: relative;
 
         .img-pagepicture {

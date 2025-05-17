@@ -12,11 +12,6 @@
         object-fit: cover;
         cursor: pointer;
     }
-    
-    .gallery img.portrait {
-        height: 100%;
-        object-fit: contain;
-    }
 
     .media-container {
         position: relative;
@@ -51,6 +46,18 @@
         transition: all 0.15s ease, z-index 0.15s;
         border: none;
         justify-content: center;
+    }
+    
+    #lightbox-img.landscape {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    #lightbox-img.portrait {
+        height: calc(var(--viewable-height));
+        width: auto;
+        object-fit: contain;
     }
     
     .lightbox video {

@@ -341,10 +341,11 @@
         
         let height = window.innerHeight;
         function updateViewableArea() {
+            document.documentElement.style.setProperty('--viewable-height', `${window.innerHeight}px`);
             if (window.innerHeight < height || window.innerHeight > height * 1.2) {
                 height = window.innerHeight;
             }
-            document.documentElement.style.setProperty('--viewable-height', `${height}px`);
+            document.documentElement.style.setProperty('--pagepicture-height', `${height}px`);
         }
 
         window.addEventListener('resize', updateViewableArea);

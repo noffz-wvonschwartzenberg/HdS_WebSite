@@ -10,6 +10,17 @@
 {{< gallery-fotos >}}
 
 <script>
+document.querySelectorAll('img').forEach(img => {
+    img.onload = () => {
+        if (img.naturalWidth > img.naturalHeight) {
+            img.classList.add("landscape");
+            img.classList.remove("portrait");
+        } else {
+            img.classList.add("portrait");
+            img.classList.remove("landscape");
+        }
+    };
+});
 document.querySelectorAll('.gallery img').forEach(img => {
     img.onclick = () => {
         document.getElementById('lightbox-img').src = img.src;

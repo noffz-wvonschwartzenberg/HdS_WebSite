@@ -1920,7 +1920,7 @@
     display: inline; } }
 
 .light-theme .pagepicture {
-  height: calc(var(--viewable-height) * 70 / 100);
+  height: calc(var(--pagepicture-height) * 70 / 100);
   position: relative; }
   .light-theme .pagepicture .img-pagepicture {
     width: 100%;
@@ -2007,7 +2007,7 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
 
 .dark-theme .pagepicture {
-  height: calc(var(--viewable-height) * 70 / 100);
+  height: calc(var(--pagepicture-height) * 70 / 100);
   position: relative; }
   .dark-theme .pagepicture .img-pagepicture {
     width: 100%;
@@ -2441,7 +2441,7 @@
     display: inline; } }
 
 .light-theme .pagepicture {
-  height: calc(var(--viewable-height) * 70 / 100);
+  height: calc(var(--pagepicture-height) * 70 / 100);
   position: relative; }
   .light-theme .pagepicture .img-pagepicture {
     width: 100%;
@@ -2528,7 +2528,7 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
 
 .dark-theme .pagepicture {
-  height: calc(var(--viewable-height) * 70 / 100);
+  height: calc(var(--pagepicture-height) * 70 / 100);
   position: relative; }
   .dark-theme .pagepicture .img-pagepicture {
     width: 100%;
@@ -3505,9 +3505,6 @@
     aspect-ratio: 1/1;
     object-fit: cover;
     cursor: pointer; }
-  .light-theme .gallery img.portrait {
-    height: 100%;
-    object-fit: contain; }
   .light-theme .media-container {
     position: relative;
     display: inline-block;
@@ -3536,6 +3533,14 @@
     transition: all 0.15s ease, z-index 0.15s;
     border: none;
     justify-content: center; }
+  .light-theme #lightbox-img.landscape {
+    width: 100%;
+    height: auto;
+    object-fit: contain; }
+  .light-theme #lightbox-img.portrait {
+    height: calc(var(--viewable-height));
+    width: auto;
+    object-fit: contain; }
   .light-theme .lightbox video {
     max-width: 90vw;
     max-height: 90vh;
@@ -3557,9 +3562,6 @@
     aspect-ratio: 1/1;
     object-fit: cover;
     cursor: pointer; }
-  .dark-theme .gallery img.portrait {
-    height: 100%;
-    object-fit: contain; }
   .dark-theme .media-container {
     position: relative;
     display: inline-block;
@@ -3588,6 +3590,14 @@
     transition: all 0.15s ease, z-index 0.15s;
     border: none;
     justify-content: center; }
+  .dark-theme #lightbox-img.landscape {
+    width: 100%;
+    height: auto;
+    object-fit: contain; }
+  .dark-theme #lightbox-img.portrait {
+    height: calc(var(--viewable-height));
+    width: auto;
+    object-fit: contain; }
   .dark-theme .lightbox video {
     max-width: 90vw;
     max-height: 90vh;
