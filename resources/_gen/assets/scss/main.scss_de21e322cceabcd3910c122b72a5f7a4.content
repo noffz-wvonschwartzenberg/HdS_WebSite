@@ -1450,12 +1450,12 @@
 
 .light-theme .swipers {
   background-color: #e3e2d4;
-  height: calc(var(--viewable-height) - 120px + 0px); }
+  height: calc(var(--pagepicture-height) - 120px + 0px); }
 
 .light-theme .mainswiper {
   max-width: 100%;
   margin: 0 auto;
-  height: calc((var(--viewable-height) * 100 / 100 ) - 120px); }
+  height: calc((var(--pagepicture-height) * 100 / 100 ) - 120px); }
   .light-theme .mainswiper .swiper-pagination {
     position: absolute;
     bottom: 10px;
@@ -1610,12 +1610,12 @@
 
 .dark-theme .swipers {
   background-color: #575651;
-  height: calc(var(--viewable-height) - 120px + 0px); }
+  height: calc(var(--pagepicture-height) - 120px + 0px); }
 
 .dark-theme .mainswiper {
   max-width: 100%;
   margin: 0 auto;
-  height: calc((var(--viewable-height) * 100 / 100 ) - 120px); }
+  height: calc((var(--pagepicture-height) * 100 / 100 ) - 120px); }
   .dark-theme .mainswiper .swiper-pagination {
     position: absolute;
     bottom: 10px;

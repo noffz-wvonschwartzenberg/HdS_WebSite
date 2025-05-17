@@ -1,13 +1,13 @@
 @include themify($themes) {
     .swipers {
         background-color: themed("textbox-background");
-        height: calc(var(--viewable-height) - #{$logo-height} + 0px);
+        height: calc(var(--pagepicture-height) - #{$logo-height} + 0px);
     }
 
     .mainswiper {
         max-width: 100%; //$width-percent-of-screen;
         margin: 0 auto;
-        height: calc((var(--viewable-height) * #{$picture-home-pct-height} / 100 ) - #{$logo-height});
+        height: calc((var(--pagepicture-height) * #{$picture-home-pct-height} / 100 ) - #{$logo-height});
 
         .swiper-pagination {
             position: absolute;
