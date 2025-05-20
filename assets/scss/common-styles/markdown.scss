@@ -45,6 +45,88 @@
         transition: all 0.15s ease, z-index 0.15s;
         border: none;
     }
+    
+    .image-ziel {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+
+        img {
+            width: 100%;
+            border-color: themed(table-line);
+            border-width: 2px;
+            //border-style: solid;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+        }
+    }
+    
+    .hover-area {
+        position: absolute;
+        cursor: pointer;
+        background: rgba(255, 0, 0, 0.3);
+    }
+
+    .explanation-box {
+        position: absolute;
+        background: themed(logo-green);
+        color: themed(text-white);
+        padding: 10px;
+        border-radius: 5px;
+        white-space: nowrap;
+        font-size: 14px;
+        z-index: 1001;
+        width: 150px;
+
+        img {
+            width: 60px;
+            height: auto;
+            border: none;
+            box-shadow: none;
+        }
+
+        p {
+            white-space: normal;
+        }
+
+        .h3-explanationbox {
+            padding-top: 0px;
+            color: themed(logo-red);
+        }
+    }
+
+    .tabelle-ziel {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 20px; /* Abstand zwischen Spalten */
+        width: 90%;
+        margin-left: 5%;
+    
+        .tabelle-ziel-spalte {
+            flex: 1;
+            text-align: center;
+            border-right: 2px solid #ccc; /* Vertikale Trennung */
+            padding: 10px;
+        }
+        
+        .tabelle-ziel-spalte:last-child {
+            border-right: none; /* Keine Linie am Ende */
+        }
+        
+        img {
+            width: 100px; /* Bildgröße anpassen */
+            height: auto;
+        }
+
+        li {
+            text-align: left;
+        }
+
+        .h3-ziel {
+            padding-top: 0px;
+            color: themed(logo-red);
+        }
+    }
 
     .img-centered {
         width: var(--image-width);

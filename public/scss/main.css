@@ -3025,6 +3025,69 @@
   transition: all 0.15s ease, z-index 0.15s;
   border: none; }
 
+.light-theme .image-ziel {
+  position: relative;
+  display: inline-block;
+  width: 100%; }
+  .light-theme .image-ziel img {
+    width: 100%;
+    border-color: grey;
+    border-width: 2px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
+
+.light-theme .hover-area {
+  position: absolute;
+  cursor: pointer;
+  background: rgba(255, 0, 0, 0.3); }
+
+.light-theme .explanation-box {
+  position: absolute;
+  background: #007a5e;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  font-size: 14px;
+  z-index: 1001;
+  width: 150px; }
+  .light-theme .explanation-box img {
+    width: 60px;
+    height: auto;
+    border: none;
+    box-shadow: none; }
+  .light-theme .explanation-box p {
+    white-space: normal; }
+  .light-theme .explanation-box .h3-explanationbox {
+    padding-top: 0px;
+    color: #ce1126; }
+
+.light-theme .tabelle-ziel {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  /* Abstand zwischen Spalten */
+  width: 90%;
+  margin-left: 5%; }
+  .light-theme .tabelle-ziel .tabelle-ziel-spalte {
+    flex: 1;
+    text-align: center;
+    border-right: 2px solid #ccc;
+    /* Vertikale Trennung */
+    padding: 10px; }
+  .light-theme .tabelle-ziel .tabelle-ziel-spalte:last-child {
+    border-right: none;
+    /* Keine Linie am Ende */ }
+  .light-theme .tabelle-ziel img {
+    width: 100px;
+    /* Bildgröße anpassen */
+    height: auto; }
+  .light-theme .tabelle-ziel li {
+    text-align: left; }
+  .light-theme .tabelle-ziel .h3-ziel {
+    padding-top: 0px;
+    color: #ce1126; }
+
 .light-theme .img-centered {
   width: var(--image-width);
   margin-top: 10px;
@@ -3222,6 +3285,69 @@
   background-color: #575651;
   transition: all 0.15s ease, z-index 0.15s;
   border: none; }
+
+.dark-theme .image-ziel {
+  position: relative;
+  display: inline-block;
+  width: 100%; }
+  .dark-theme .image-ziel img {
+    width: 100%;
+    border-color: lightgrey;
+    border-width: 2px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
+
+.dark-theme .hover-area {
+  position: absolute;
+  cursor: pointer;
+  background: rgba(255, 0, 0, 0.3); }
+
+.dark-theme .explanation-box {
+  position: absolute;
+  background: #032c22;
+  color: grey;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  font-size: 14px;
+  z-index: 1001;
+  width: 150px; }
+  .dark-theme .explanation-box img {
+    width: 60px;
+    height: auto;
+    border: none;
+    box-shadow: none; }
+  .dark-theme .explanation-box p {
+    white-space: normal; }
+  .dark-theme .explanation-box .h3-explanationbox {
+    padding-top: 0px;
+    color: #730b17; }
+
+.dark-theme .tabelle-ziel {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  /* Abstand zwischen Spalten */
+  width: 90%;
+  margin-left: 5%; }
+  .dark-theme .tabelle-ziel .tabelle-ziel-spalte {
+    flex: 1;
+    text-align: center;
+    border-right: 2px solid #ccc;
+    /* Vertikale Trennung */
+    padding: 10px; }
+  .dark-theme .tabelle-ziel .tabelle-ziel-spalte:last-child {
+    border-right: none;
+    /* Keine Linie am Ende */ }
+  .dark-theme .tabelle-ziel img {
+    width: 100px;
+    /* Bildgröße anpassen */
+    height: auto; }
+  .dark-theme .tabelle-ziel li {
+    text-align: left; }
+  .dark-theme .tabelle-ziel .h3-ziel {
+    padding-top: 0px;
+    color: #730b17; }
 
 .dark-theme .img-centered {
   width: var(--image-width);
