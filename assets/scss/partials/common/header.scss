@@ -79,7 +79,7 @@
         }
     }
 
-    @media (max-width: 1080px) {
+    @media (max-width: 1150px) {
         .header .mega-menu {
             margin-left: calc( #{$logo-klein-width} + #{$logo-left-margin} + 5px);
             max-width: 100%;

@@ -63,7 +63,7 @@
     .hover-area {
         position: absolute;
         cursor: pointer;
-        background: rgba(255, 0, 0, 0.3);
+        // background: rgba(255, 0, 0, 0.3);
     }
 
     .explanation-box {
@@ -75,7 +75,7 @@
         white-space: nowrap;
         font-size: 14px;
         z-index: 1001;
-        width: 150px;
+        width: 180px;
 
         img {
             width: 60px;
@@ -90,8 +90,23 @@
 
         .h3-explanationbox {
             padding-top: 0px;
-            color: themed(logo-red);
+            //color: themed(logo-red);
+            font-weight: bold;
+            font-size: medium;
         }
+
+        .p-explanationbox {
+            //padding-top: 0px;
+            color: themed(logo-yellow);
+            font-weight: bold;
+            font-size: medium;
+        }
+    }
+
+    .red-text {
+        color: themed(logo-yellow);
+        background-color: themed(logo-green);
+        // font-weight: bold;
     }
 
     .tabelle-ziel {
@@ -114,8 +129,8 @@
         }
         
         img {
-            width: 100px; /* Bildgröße anpassen */
-            height: auto;
+            width: auto;
+            height: 100px;
         }
 
         li {
@@ -124,7 +139,19 @@
 
         .h3-ziel {
             padding-top: 0px;
-            color: themed(logo-red);
+            color: themed(logo-green);
+        }
+    }
+
+    @media (max-width: 680px) {
+        .tabelle-ziel {
+            flex-direction: column;
+            align-items: center;
+
+            .tabelle-ziel-spalte {
+                border-right: none;
+                border-bottom: 2px solid #ccc;
+            }
         }
     }
 

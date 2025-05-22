@@ -114,6 +114,13 @@
         width: $logo-klein-width/2;
     }
 
+    .submenu .colums .img-wide {
+        vertical-align: bottom;
+        margin-top: 0px;
+        height: $logo-height/3;
+        width: auto;
+    }
+
     .mega-menu .has-submenu:hover .submenu-container-colLeft {
         opacity: 1;
         pointer-events: auto;
