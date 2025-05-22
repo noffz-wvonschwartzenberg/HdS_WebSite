@@ -116,7 +116,9 @@
 
     .submenu .colums .img-wide {
         vertical-align: bottom;
-        margin-top: 0px;
+        //margin-top: 0px;
+        margin-top: $logo-height/12;
+        margin-bottom: $logo-height/12;
         height: $logo-height/3;
         width: auto;
     }

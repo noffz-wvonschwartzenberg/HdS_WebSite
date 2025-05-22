@@ -9,6 +9,8 @@
             margin-right: 8px;
             background-color: themed("logo-green");
             transition: top .4s, opacity .3s;
+            // border-right: 1px solid black;
+            // border-left: 1px solid black;
             z-index: 2;
         }
 
@@ -17,9 +19,17 @@
         }
         
         .mega-menu-container h4 {
-            display: none;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            height: 1rem;
+            padding-top: 5px;
+            padding-right: 20px;
+            padding-left: 5px;
+            border-right: 1px solid themed("text-black");;
+            border-left: 1px solid themed("text-black");;
+            background-color: rgba(255, 255, 255, 0.956);
         }
-
+        
         .mega-menu-container h3 {
             display: none;
         }
@@ -76,10 +86,11 @@
             color: themed("text-black");
             border-width: 1px;
             border-style: solid;
+            border-top: 1px;
         }
 
         .mega-menu ul li ul{
-            padding-bottom: 0px;
+            padding-bottom: 5px;
             margin: 0px;
         }
 
@@ -152,7 +163,8 @@
     
         .submenu .colums ul li {
             padding-left: 0px;
-            margin: 5px 10px;
+            // margin: 5px 10px;
+            margin: 0px 10px;
             position:inherit;
         }
 
