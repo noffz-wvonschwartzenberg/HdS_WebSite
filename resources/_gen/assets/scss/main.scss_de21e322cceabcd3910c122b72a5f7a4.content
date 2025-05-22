@@ -581,8 +581,8 @@
   .light-theme .mega-menu-container h4 {
     margin-top: 0px;
     margin-bottom: 0px;
-    height: 1rem;
-    padding-top: 5px;
+    height: 2rem;
+    padding-top: 14px;
     padding-right: 20px;
     padding-left: 5px;
     border-right: 1px solid black;
@@ -719,8 +719,8 @@
   .dark-theme .mega-menu-container h4 {
     margin-top: 0px;
     margin-bottom: 0px;
-    height: 1rem;
-    padding-top: 5px;
+    height: 2rem;
+    padding-top: 14px;
     padding-right: 20px;
     padding-left: 5px;
     border-right: 1px solid lightgrey;
