@@ -26,37 +26,37 @@ Im folgenden <u>interaktiven</u> Bild sind unsere Aktivitäten und unser Herzens
     <!-- Brunnen -->
     <div class="hover-area" id="id-hover-area" onclick="showExplanation('Versorgung','/img/WirUeberUns/Ziel/weizen.png','Gesunderhaltung und Brunnen für sauberes Wasser.','Selbstständigkeit für die Zukunft')" 
          style="top: 37%; left: 21%; width: 20px; height: 20px;">
-      <img class="img-hover-area" src="/img/wirUeberUns/Ziel/check.png" style="top: 37%; left: 21%; width: 20px; height: 20px;">
+      <img class="img-hover-area" src="/img/wirUeberUns/Ziel/check.jpg" style="top: 37%; left: 21%; width: 20px; height: 20px;">
     </div>
     <!-- Müll -->
     <div class="hover-area" id="id-hover-area" onclick="showExplanation('Hilfe zur Selbsthilfe','/img/WirUeberUns/Ziel/help.png','Umwelt- und Müllprojekte.', 'Selbstständigkeit für die Zukunft')" 
          style="top: 64%; left: 7%; width: 20px; height: 20px;">
-      <img class="img-hover-area" src="/img/wirUeberUns/Ziel/check.png" style="top: 64%; left: 7%; width: 20px; height: 20px;">
+      <img class="img-hover-area" src="/img/wirUeberUns/Ziel/check.jpg" style="top: 64%; left: 7%; width: 20px; height: 20px;">
     </div>
     <!-- Nachhilfe -->
     <div class="hover-area" id="id-hover-area" onclick="showExplanation('Bildung','/img/WirUeberUns/Ziel/educationMan.png','Nachhilfe, Hausaufgaben- und Betreuungsraum.', 'Berufliche Perspektiven und Multiplikatoren für nachhaltige Hilfe')" 
          style="top: 63%; left: 39%; width: 20px; height: 20px;">
-      <img class="img-hover-area" src="/img/wirUeberUns/Ziel/check.png" style="top: 63%; left: 39%; width: 20px; height: 20px;">
+      <img class="img-hover-area" src="/img/wirUeberUns/Ziel/check.jpg" style="top: 63%; left: 39%; width: 20px; height: 20px;">
     </div>
     <!-- Eine warme Mahlzeit -->
     <div class="hover-area" id="id-hover-area" onclick="showExplanation('Versorgung','/img/WirUeberUns/Ziel/weizen.png','Küche/Einrichtung mit einer Tafel für tägliche Mahlzeiten für hilfsbedürftige Kinder und Jugendliche.', 'Selbstständigkeit für die Zukunft')" 
          style="top: 52%; left: 57%; width: 20px; height: 20px;">
-      <img class="img-hover-area" src="/img/wirUeberUns/Ziel/check.png" style="top: 52%; left: 57%; width: 20px; height: 20px;">
+      <img class="img-hover-area" src="/img/wirUeberUns/Ziel/check.jpg" style="top: 52%; left: 57%; width: 20px; height: 20px;">
     </div>
     <!-- Eine warme Mahlzeit -->
     <div class="hover-area" id="id-hover-area" onclick="showExplanation('Campus - Haus der Sonne','/img/WirUeberUns/Ziel/campusSmall.png','Ein Waisenhaus für Kinder und Jugendliche, mit Klassenräumen und Ausbildungswerkstätten.', 'Berufliche Perspektiven, aber auch alle anderen Ziele.')" 
          style="top: 30%; left: 43%; width: 20px; height: 20px;">
-      <img class="img-hover-area" src="/img/wirUeberUns/Ziel/check.png" style="top: 30%; left: 43%; width: 20px; height: 20px;">
+      <img class="img-hover-area" src="/img/wirUeberUns/Ziel/check.jpg" style="top: 30%; left: 43%; width: 20px; height: 20px;">
     </div>
     <!-- Gemüsegarten -->
     <div class="hover-area" id="id-hover-area" onclick="showExplanation('Hilfe zur Selbsthilfe','/img/WirUeberUns/Ziel/weizen.png','Praxisnahe Projekte wie Gemüseanbau.', 'Selbsthilfe und Eigenständigkeit.')" 
          style="top: 45%; left: 83%; width: 20px; height: 20px;">
-      <img class="img-hover-area" src="/img/wirUeberUns/Ziel/check.png" style="top: 45%; left: 83%; width: 20px; height: 20px;">
+      <img class="img-hover-area" src="/img/wirUeberUns/Ziel/check.jpg" style="top: 45%; left: 83%; width: 20px; height: 20px;">
     </div>
     <!-- Nutztiere -->
     <div class="hover-area" id="id-hover-area" onclick="showExplanation('Hilfe zur Selbsthilfe','/img/WirUeberUns/Ziel/weizen.png','Familienhilfe mit Nutztieren.', 'Selbsthilfe und Eigenständigkeit.')" 
          style="top: 70%; left: 73%; width: 20px; height: 20px;">
-      <img class="img-hover-area" src="/img/wirUeberUns/Ziel/check.png" style="top: 70%; left: 73%; width: 20px; height: 20px;">
+      <img class="img-hover-area" src="/img/wirUeberUns/Ziel/check.jpg" style="top: 70%; left: 73%; width: 20px; height: 20px;">
     </div>
 </div>
 <br>
