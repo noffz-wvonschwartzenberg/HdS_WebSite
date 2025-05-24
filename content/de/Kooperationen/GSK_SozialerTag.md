@@ -7,6 +7,8 @@
     "image": "/img/Kooperationen/GSK/SozialerTagTitle.jpg"
 }
 
+## Kalender
+
 ## Der soziale Tag in der Gesamtschule Kempen
 Was zunächst mit einer Spende im Oktober 2019 begann, entwickelte sich im Laufe der Jahre trotz Pandemie zu einer Kooperation zwischen unserem Verein und der Gesamtschule Kempen. Damals erhielt "Haus der Sonne e. V." aus den Einkünften, die die Schülerinnen und Schüler der Gesamtschule Kempen am "Sozialen Tag" erzielten, eine Spende in Höhe von 2800 €.  
 Mit diesem Geld konnten Schulbücher und Schulmaterial für unsere Schützlinge in Mbouda angeschafft werden. Der Zuschuss zum Schulgeld konnte aufgestockt werden und darüber hinaus unterhält die Gesamtschule Kempen 3 Patenschaften.  
@@ -15,9 +17,14 @@ Im Juli 2021 starten nun im Rathaus der Stadt Kempen am Buttermarkt eine Ausstel
 Für die Bewerbungen zum sozialen Tag wurde ein Vorstellungsvideo des Vereins erstellt und mit Sequenzen der Gesamtschule zusamengeschnitten. Das Video starten Sie auf YouTube in dem nachfolgenden Fenster.  
 
 ## Ein besonderes Jahr 2025
-
+tbd...
 
 ## Seit mehreren Jahre pflegen wir diese Kooperation
+tbd..
 
 ## Gesammelten Erlöse
+tbd..
 - Erlöse aus den vergangenen Jahren, Prozentsätze, Zusammenfassung, vielleicht ein paar Fotos
+- HAG: Tag der offenen Türe, besonderer Weihnachtsmarkt, Sponsorenlauf
+- Unterricht/AG
+- Galerie

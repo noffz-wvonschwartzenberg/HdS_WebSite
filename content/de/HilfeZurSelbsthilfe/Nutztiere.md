@@ -6,8 +6,11 @@
     "description": "Den ärmsten Familien wird durch die Spende eines Nutztieres und durch die Schulung in Aufzucht und Pflege eine Chance gegeben, tierische Produkte wie Eier, Milch und Fleisch selber zu erzeugen und sich zu ernähren oder sich sogar ein nachhaltiges Einbekommen zu sichern.",
     "image": "/img/HilfeZurSelbsthilfe/Nutztiere/NutztiereTitle.jpeg"
 }
+<div class="div-gezielt-spenden">
+    <button class="button-gezielt-spenden" id="button-gezielt-spenden">GEZIELT SPENDEN</button>
+</div>
 
-## Ziel des Projektes Nutztiere
+## Ziel des Projektes \"Nutztiere\"
 Den ärmsten Familien wird durch die Spende eines Nutztieres und durch die Schulung in Aufzucht und Pflege eine Chance gegeben, tierische Produkte wie Eier, Milch und Fleisch selber zu erzeugen und sich zu ernähren oder sich sogar ein nachhaltiges Einbekommen zu sichern.
 Die Nutztiere bilden eine Lebensgrundlage für die lokale Bevölkerung in Mbouda.
 
@@ -130,3 +133,13 @@ Es verbessert die Lebensbedingungen vieler Familien, fördert Eigenverantwortung
   <div class="swiper-pagination"></div>
 </div>
 <p class="img-caption">Bilder 2025, Projekt: Nutztiere</p>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        let baseUrl = document.querySelector("meta[name='baseurl']").content;
+        let siteLanguage = document.querySelector("meta[name='siteLanguage']").content;
+        document.getElementById("button-gezielt-spenden").onclick = () => {
+            window.location.href = `${baseUrl}/${siteLanguage}/Helfen/gezieltSpenden`;
+        };
+    });
+</script>

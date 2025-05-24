@@ -6,12 +6,16 @@
     "description": "Mit diesem Projekt werden insbesondere Schulkinder und Frauen gefördert. Geplant sind der Anbau von Tomaten, Mais, Bohnen, Erdnüssen und Kartoffeln.",
     "image": "/img/HilfeZurSelbsthilfe/Gemuesegarten/GemuesegartenTitle.jpeg"
 }
+<div class="div-gezielt-spenden">
+    <button class="button-gezielt-spenden" id="button-gezielt-spenden">GEZIELT SPENDEN</button>
+</div>
+
 ## Ausgangslage
 Vor Beginn des Projekts fehlten vielen bedürftigen Familien sowie den beteiligten Schulen grundlegende Mittel – insbesondere das notwendige Saatgut. Es mangelte sowohl an finanziellen Ressourcen als auch an praktischem Wissen, um eine nachhaltige Landwirtschaft oder einen funktionierenden Schulgarten aufzubauen.
 
-## Ziel des Projektes Gemüsegarten
+## Ziel des Projektes \"Gemüsegarten\"
 Unser Ziel ist es, die Lebensbedingungen benachteiligter Bevölkerungsgruppen in Kamerun nachhaltig zu verbessern und die Selbständigkeit und sozialen Kompetenzen wie Verantwortungsbewusstsein und Teamfähigkeit zu stärken. Mit diesem Projekt werden insbesondere Schulkinder und Frauen gefördert.
-Kameruns Böden und Klima bieten ideale Voraussetzungen für die Landwirtschaft, so sind im Jahr 2 Ernten möglich. 
+Kameruns Böden und Klima bieten ideale Voraussetzungen für die Landwirtschaft. 
 
 ## Kosten und Investitionen
 In den Jahren 2023 und 2024 konnten dank gezielter Spenden und Projektmittel jeweils 5.000 € investiert werden. Damit wurden unter anderem folgende Maßnahmen umgesetzt:
@@ -264,5 +268,12 @@ Christian
   const captionElements = document.querySelectorAll('.img-caption');
   captionElements.forEach((caption) => {
     caption.style.width = `90%`; //`${containerWidth}px`;
+  });
+  document.addEventListener("DOMContentLoaded", () => {
+      let baseUrl = document.querySelector("meta[name='baseurl']").content;
+      let siteLanguage = document.querySelector("meta[name='siteLanguage']").content;
+      document.getElementById("button-gezielt-spenden").onclick = () => {
+          window.location.href = `${baseUrl}/${siteLanguage}/Helfen/gezieltSpenden`;
+      };
   });
 </script>
