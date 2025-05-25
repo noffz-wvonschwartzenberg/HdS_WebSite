@@ -55,7 +55,7 @@ Hier sind einige Beispiele der unterstützten Schulen und Familien:
       </div>
       <br>
       <h3>Fortführung des Projekts 2025</h3>
-      Die Bilder zeigen unseren Schulgarten 2025. 
+      Bei meinen Besuchen konnte ich sehen, mit wie viel Ernsthaftigkeit und Engagement die Familien mitarbeiten. Sie sehen die Gärten nicht nur als Nahrungsquelle, sondern als Chance für Selbstversorgung, Bildung und Zukunft. Die Bilder zeigen unseren Schulgarten 2025. 
       <div class="swiper-container swiper-container-landscape">
         <div class="swiper-wrapper">
           <div class="swiper-slide">

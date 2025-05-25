@@ -219,4 +219,117 @@
             text-align: left;
         }
     }
+
+    // *******************************************************
+    // ** Left Table
+    // *******************************************************
+
+    .left-table {
+        margin-top: 10px;
+        width: var(--table-width);
+        overflow-x: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-left: var(--table-margin);
+    }
+
+    .left-table table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .left-table thead,
+    .left-table tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: auto;
+    }
+
+    .left-table thead {
+        margin-bottom: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .left-table thead th {
+        background: themed(logo-yellow-60);
+        padding: 5px 16px;
+        border-bottom: 0px solid themed(logo-yellow-60);
+        position: sticky;
+        text-align: left;
+        top: 0;
+        z-index: 1;
+    }
+
+    .left-table thead th:first-child {
+        width: 110px;
+    }
+
+    .left-table thead th:last-child {
+        width: 150px;
+    }
+
+    .left-table tbody {
+        display: block;
+        overflow: hidden;
+        border: 2px solid themed(table-line);
+    }
+
+    .left-table tbody td {
+        padding: 8px 16px;
+        border: 1px solid themed(table-line);
+        text-align: left;
+        vertical-align: middle;
+        background-color: themed(website-background-60);
+    }
+
+    .left-table tbody td:first-child {
+        width: 110px;
+    }
+
+    .left-table tbody td:last-child {
+        width: 150px;
+    }
+
+    @media (max-width: 550px) {
+        .left-table table,
+        .left-table thead,
+        .left-table tbody,
+        .left-table tr,
+        .left-table td,
+        .left-table th {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: left;
+        }
+
+        .left-table thead th:first-child {
+            width: auto;
+            text-align: left;
+        }
+
+        .left-table thead th:last-child {
+            width: auto;
+            text-align: left;
+        }
+
+        .left-table tbody td:first-child {
+            width: auto;
+            border-bottom: 0;
+            text-align: left;
+        }
+
+        .left-table tbody td:last-child {
+            width: auto;
+            border-top: 0;
+            border-bottom: 3px solid themed(table-line);
+            text-align: left;
+        }
+
+        .left-table thead th {
+            border-top: 0;
+            border-bottom: 0;
+            width: auto;
+            text-align: left;
+        }
+    }
 }

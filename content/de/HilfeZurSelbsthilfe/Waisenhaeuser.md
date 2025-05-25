@@ -56,7 +56,7 @@ Wir haben den ganzen Nachmittag mit ihnen verbracht nicht nur, um Dinge zu über
 
 ## Waisenhaus: \"Christliches Haus\"
 ### 2025 - Besuch im \"Christlichen Haus\" in Yaoundé 
-Hier sind einige Fotos vom Besuch des Waisenhauses.
+Hier sind einige Fotos vom Besuch des \"Christlichen Hauses\" Orphelinat Famille Chrétienne.
 <div class="swiper-container swiper-container-portrait">
   <div class="swiper-wrapper">
     <div class="swiper-slide">

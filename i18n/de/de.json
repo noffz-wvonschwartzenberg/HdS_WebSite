@@ -2,7 +2,6 @@
   "campus": "Campus - Haus der Sonne",
   "about": "Wir über uns",
   "whatWeDo": "Was wir tun",
-  "cooperations": "Kooperationen",
   "toHelp": "Helfen",
   
   "aboutSubHead": "Wir über uns im Überblick",
@@ -14,7 +13,13 @@
   "AStatute": "Die Satzung",
   "APress": "Presse",
   "AChronicle": "Chronik",
-    
+  "AEvents": "Veranstaltungen",
+
+  "aboutSubCol2": "Kooperationen",
+  "AGesamtSchKempen": "Gesamtschule Kempen",
+  "AHAGymnKrefeld": "Hannah-Arendt-Gymnasium Krefeld",
+  "AGesamtSchMühlheim": "Gesamtschule Mühlheim",
+
   "whatWeDoSubHead": "Was wir tun im Überblick",
   "whatWeDoSubCol1": "Versorgung",
   "wwDOneMeal": "Eine warme Mahlzeit",
@@ -24,6 +29,7 @@
 
   "whatWeDoSubCol2": "Bildung",
   "wwDTutoring": "Nachhilfe",
+  "wwDTraining": "Ausbildung",
   "wwDEnlightenment": "Aufklärung",
 
   "whatWeDoSubCol3": "Hilfe zur Selbsthilfe",
@@ -37,24 +43,6 @@
   "wwDVideos": "Videos",
   "wwDChronicle": "Chronik",
   
-  "CooperationSubHead": "Unsere Kooperationen",
-  "CoopSubCol1": "Gesamtschule Kempen",
-  "CoopGSKEvents": "Veranstaltungen",
-  "CoopGSKLessons": "Unterricht/AG",
-  "CoopGSKGalerie": "Galerie",
-  "CoopGSKLink": "Link zur Homepage",
-
-  "CoopSubCol2": "Hannah-Arendt-Gymnasium",
-  "CoopHAGEvents": "Veranstaltungen",
-  "CoopHAGLessons": "Unterricht/AG",
-  "CoopHAGGalerie": "Galerie",
-  "CoopHAGLink": "Link zur Homepage",
-  
-  "CoopSubCol3": "Gesamtschule Mühlheim",
-  "CoopGSMEvents": "Veranstaltungen",
-  "CoopGSMGalerie": "Galerie",
-  "CoopGSMLink": "Link zur Homepage",
-
   "toHelpSubHead": "Wie kann ich dem Haus der Sonne helfen?",
   "toHelpSubCol1": "Spenden",
   "tHPatenschaften": "Pate werden",
