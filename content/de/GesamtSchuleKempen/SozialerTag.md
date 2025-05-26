@@ -4,7 +4,7 @@
     "title": "Gesamtschule Kempen - Sozialer Tag",
     "author": "Christian",
     "description": "Verschiedene Vereine und Einrichtungen aus Kempen, die sich Hilfe für andere Menschen auf die Fahne geschrieben haben, bewerben sich, um einen Teil des von den Schülern erwirtschafteten Erlöses zu erhalten.",
-    "image": "/img/wirUeberUns/Kooperationen/GesamtSchKempen/SozialerTagTitle.jpg"
+    "image": "/img/wirUeberUns/Kooperationen/GesamtSchKempen/SozialerTag/SozialerTagTitle.jpg"
 }
 ## Der soziale Tag in der Gesamtschule Kempen
 Was zunächst mit einer Spende im Oktober 2019 begann, entwickelte sich im Laufe der Jahre trotz Pandemie zu einer Kooperation zwischen unserem Verein und der Gesamtschule Kempen. Damals erhielt "Haus der Sonne e. V." aus den Einkünften, die die Schülerinnen und Schüler der Gesamtschule Kempen am "Sozialen Tag" erzielten, eine Spende in Höhe von 2800 €.  

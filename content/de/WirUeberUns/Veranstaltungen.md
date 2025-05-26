@@ -9,6 +9,6 @@
 ## Unsere Veranstaltungen 2025
 <div class="left-table"> 
 {{< csv-table >}}
-{{< include-file csv="static/img/wirUeberUns/Veranstaltungen/Veranstaltungen.csv" >}}
+{{< include-file csv="static/img/wirUeberUns/Veranstaltungen/Veranstaltungen.csv">}}
 {{< /csv-table >}}
 </div>  
