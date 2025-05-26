@@ -7,7 +7,7 @@
     "image": "/img/wirUeberUns/Veranstaltungen/VeranstaltungenTitle.png"
 }
 ## Unsere Veranstaltungen 2025
-<div class="left-table"> 
+<div class="default-table"> 
 {{< csv-table >}}
 {{< include-file csv="static/img/wirUeberUns/Veranstaltungen/Veranstaltungen.csv">}}
 {{< /csv-table >}}
