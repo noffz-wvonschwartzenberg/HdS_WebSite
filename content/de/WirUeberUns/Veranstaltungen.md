@@ -12,9 +12,5 @@
 {{< include-file csv="static/img/WirUeberUns/Veranstaltungen/Veranstaltungen.csv" >}}
 {{< /csv-table >}}
 </div>  
-<div class="default-table">
-{{< csv-table >}}
-{{< include-file csv="static/img/Finanzen/AktuelleFinanzuebersicht/AktuellerKontostand.csv" >}}
-{{< /csv-table >}}
-</div>  
+
 
