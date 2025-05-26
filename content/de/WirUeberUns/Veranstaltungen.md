@@ -6,10 +6,11 @@
     "description": "Hier finden Sie alle geplanten Veranstltungen diesen Jahres.",
     "image": "/img/wirUeberUns/Veranstaltungen/VeranstaltungenTitle.png"
 }
+<!-- {{< include-file csv="static/img/wirUeberUns/Veranstaltungen/Veranstaltungen.csv">}} -->
 ## Unsere Veranstaltungen 2025
 <div class="left-table"> 
 {{< csv-table >}}
-{{< include-file csv="static/img/wirUeberUns/Veranstaltungen/Veranstaltungen.csv">}}
+{{< include-file csv="static/img/Finanzen/AktuelleFinanzuebersicht/Veranstaltungen.csv" >}}
 {{< /csv-table >}}
 </div>  
 <div class="default-table">
