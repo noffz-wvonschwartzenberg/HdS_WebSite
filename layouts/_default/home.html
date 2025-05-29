@@ -3,23 +3,17 @@
   <div class="home-main">
     {{ partial "home/mainswiper" }}
     {{ .Content }}
-
     <br>
     <h1 style="text-align: center;">Aktuelle Berichte</h1>
     <br>
-
-
     <!-- Swiper Container -->
     <div class="swiper blog-swiper">
       <div class="swiper-wrapper">
         {{ range .Site.Pages }}
           {{ if lt (sub now.YearDay .Lastmod.YearDay) 30 }}  
             {{ if strings.HasSuffix .File.LogicalName ".md" }}
-            <!-- <div class="swiper-slide">
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-            </div> -->
               <div class="swiper-slide">
-                <div class="list-container" onclick="location.href='{{ .RelPermalink }}';">
+                <div class="list-container list-container-swiper" onclick="location.href='{{ .RelPermalink }}';">
                   <img src="{{ .Params.image }}" alt="Home Picture" class="list-picture">
                   <div class="list-textbox">
                     <div class="list-shifted">
@@ -45,10 +39,14 @@
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
     </div>
-
-    <!-- {{ range .Site.Pages }}
-      {{ if lt (sub now.YearDay .Lastmod.YearDay) 30 }}  
-        {{ if strings.HasSuffix .File.LogicalName ".md" }}
+    <br>
+    <br>
+    <br>
+    <h1 style="text-align: center;">Helfen</h1>
+    <br>
+    {{ range .Pages }}
+        <!-- Helfen -->
+        {{ if eq .Title "Helfen" }}
           <div class="list-container" onclick="location.href='{{ .RelPermalink }}';">
             <img src="{{ .Params.image }}" alt="Home Picture" class="list-picture">
             <div class="list-textbox">
@@ -66,31 +64,60 @@
             </div>
           </div>
         {{ end }}
-      {{ end }}
-    {{ end }} -->
+    {{ end }}
 
-    <br>
-    <h1 style="text-align: center;">Unsere Themen und Projekte</h1>
+    <h1 style="text-align: center;">Was wir tun</h1>
     <br>
     {{ range .Pages }}
-      {{ if ge (sub now.YearDay .Lastmod.YearDay) 30 }}  
-        <div class="list-container" onclick="location.href='{{ .RelPermalink }}';">
-          <img src="{{ .Params.image }}" alt="Home Picture" class="list-picture">
-          <div class="list-textbox">
-            <div class="list-shifted">
-              <div class="list-title">
-                {{.Title}}
+        <!-- Was wir tun -->
+        {{ if or (eq .Title "Versorgung")
+                 (eq .Title "Bildung") 
+                 (eq .Title "Hilfe zur Selbsthilfe") 
+                 (eq .Title "Galerie") }}
+          <div class="list-container" onclick="location.href='{{ .RelPermalink }}';">
+            <img src="{{ .Params.image }}" alt="Home Picture" class="list-picture">
+            <div class="list-textbox">
+              <div class="list-shifted">
+                <div class="list-title">
+                  {{.Title}}
+                </div>
+                <div class="list-description">
+                  {{ .Params.description }}
+                </div>
               </div>
-              <div class="list-description">
-                {{ .Params.description }}
+              <div class="list-date">
+                {{ dateFormat "Monday, Jan 2, 2006" .Date }}
               </div>
-            </div>
-            <div class="list-date">
-              {{ dateFormat "Monday, Jan 2, 2006" .Date }}
             </div>
           </div>
-        </div>
-      {{ end }}
+        {{ end }}
+    {{ end }}
+
+    <h1 style="text-align: center;">Wir über uns</h1>
+    <br>
+    {{ range .Pages }}
+        <!-- Wir über uns -->
+        {{ if or (eq .Title "Finanzen") 
+                 (eq .Title "Gesamtschule Kempen") 
+                 (eq .Title "Hannah-Arendt-Gymnasium Krefeld")
+                 (eq .Title "Wir über uns") }}
+          <div class="list-container" onclick="location.href='{{ .RelPermalink }}';">
+            <img src="{{ .Params.image }}" alt="Home Picture" class="list-picture">
+            <div class="list-textbox">
+              <div class="list-shifted">
+                <div class="list-title">
+                  {{.Title}}
+                </div>
+                <div class="list-description">
+                  {{ .Params.description }}
+                </div>
+              </div>
+              <div class="list-date">
+                {{ dateFormat "Monday, Jan 2, 2006" .Date }}
+              </div>
+            </div>
+          </div>
+        {{ end }}
     {{ end }}
   </div>
 

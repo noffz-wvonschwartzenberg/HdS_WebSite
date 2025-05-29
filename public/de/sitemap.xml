@@ -282,24 +282,6 @@
                 href="http://localhost:1313/de/campus/"
                 />
   </url><url>
-    <loc>http://localhost:1313/de/galerie/</loc>
-    <lastmod>2025-02-19T21:11:48+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/galerie/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/galerie/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/galerie/"
-                />
-  </url><url>
     <loc>http://localhost:1313/de/hilfezurselbsthilfe/</loc>
     <lastmod>2025-02-19T21:11:48+01:00</lastmod>
   </url><url>
@@ -337,6 +319,24 @@
                 rel="alternate"
                 hreflang="de"
                 href="http://localhost:1313/de/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/de/galerie/</loc>
+    <lastmod>2025-02-18T21:11:48+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/galerie/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/galerie/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/galerie/"
                 />
   </url><url>
     <loc>http://localhost:1313/de/finanzen/2022/</loc>

@@ -2,9 +2,17 @@
     .swipers {
         background-color: themed("textbox-background");
         height: calc(var(--pagepicture-height) - #{$logo-height} + 0px);
+        position: relative; 
     }
 
     .blog-swiper {
+        text-align: center;
+        width: 93%;
+
+        .swiper-slide {
+            text-align: left;
+        }
+        
         .swiper-button-prev, .swiper-button-next {
             display: block;
             color: themed(logo-green);
@@ -15,6 +23,21 @@
         max-width: 100%; //$width-percent-of-screen;
         margin: 0 auto;
         height: calc((var(--pagepicture-height) * #{$picture-home-pct-height} / 100 ) - #{$logo-height});
+
+        .swiper-button-prev, .swiper-button-next {
+            position: absolute;
+            margin-top: 0px;
+            //display: block;
+            color: themed(website-background);
+            text-shadow: 
+                -1px -1px 0 black, /* Oben links */
+                1px -1px 0 black, /* Oben rechts */
+                -1px  1px 0 black, /* Unten links */
+                1px  1px 0 black; /* Unten rechts */
+            opacity: 0.3;
+            
+            top: 53%;
+         }
 
         .swiper-pagination {
             position: absolute;
@@ -296,6 +319,10 @@
         height: 90px;
         width: 90px;
     }
+
+    .mainswiper .swiper-button-prev, .mainswiper .swiper-button-next {
+        top: 73%;
+     }
 }
     
     @media (max-width: 580px) {
@@ -324,5 +351,9 @@
             height: 90px;
             width: 90px;
         }
+
+        .mainswiper .swiper-button-prev, .mainswiper .swiper-button-next {
+            top: 73%;
+         }
     }
 }

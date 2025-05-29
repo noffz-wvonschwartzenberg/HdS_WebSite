@@ -103,6 +103,23 @@
         transition: all 150ms ease;
     }
 
+    .list-container-swiper {
+        width: 80%;
+        height: 450px;
+
+        .list-title {
+            flex: 0.2;
+    
+            &:after {
+                bottom: 10px;
+            }
+        }
+
+        .list-description {
+            max-height: calc(450px / 2);
+        }
+    }
+
     @media (max-width: 840px) {
         .list-container {
             margin: 0 auto;
@@ -146,6 +163,28 @@
             text-align: right;
             vertical-align: middle;
             font-size: 13px;
+        }
+
+        .list-container-swiper {
+            width: calc(#{$width-percent-of-screen} - 50px);
+            height: 600px;
+
+            .list-picture {
+                width: auto;
+                height: 350px;
+                object-fit: cover;
+            }
+
+            .list-title {
+                flex: 0.8;
+                &:after {
+                    bottom: 10px;
+                }
+            }
+    
+            .list-description {
+                max-height: calc(650px / 2);
+            }
         }
     }
 }
