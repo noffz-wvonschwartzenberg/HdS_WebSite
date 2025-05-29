@@ -1484,6 +1484,10 @@
   background-color: #e3e2d4;
   height: calc(var(--pagepicture-height) - 120px + 0px); }
 
+.light-theme .blog-swiper .swiper-button-prev, .light-theme .blog-swiper .swiper-button-next {
+  display: block;
+  color: #007a5e; }
+
 .light-theme .mainswiper {
   max-width: 100%;
   margin: 0 auto;
@@ -1643,6 +1647,10 @@
 .dark-theme .swipers {
   background-color: #575651;
   height: calc(var(--pagepicture-height) - 120px + 0px); }
+
+.dark-theme .blog-swiper .swiper-button-prev, .dark-theme .blog-swiper .swiper-button-next {
+  display: block;
+  color: #032c22; }
 
 .dark-theme .mainswiper {
   max-width: 100%;

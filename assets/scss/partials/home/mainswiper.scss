@@ -4,6 +4,13 @@
         height: calc(var(--pagepicture-height) - #{$logo-height} + 0px);
     }
 
+    .blog-swiper {
+        .swiper-button-prev, .swiper-button-next {
+            display: block;
+            color: themed(logo-green);
+         }
+    } 
+
     .mainswiper {
         max-width: 100%; //$width-percent-of-screen;
         margin: 0 auto;

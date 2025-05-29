@@ -8,7 +8,45 @@
     <h1 style="text-align: center;">Aktuelle Berichte</h1>
     <br>
 
-    {{ range .Site.Pages }}
+
+    <!-- Swiper Container -->
+    <div class="swiper blog-swiper">
+      <div class="swiper-wrapper">
+        {{ range .Site.Pages }}
+          {{ if lt (sub now.YearDay .Lastmod.YearDay) 30 }}  
+            {{ if strings.HasSuffix .File.LogicalName ".md" }}
+            <!-- <div class="swiper-slide">
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </div> -->
+              <div class="swiper-slide">
+                <div class="list-container" onclick="location.href='{{ .RelPermalink }}';">
+                  <img src="{{ .Params.image }}" alt="Home Picture" class="list-picture">
+                  <div class="list-textbox">
+                    <div class="list-shifted">
+                      <div class="list-title">
+                        {{.Title}}
+                      </div>
+                      <div class="list-description">
+                        {{ .Params.description }}
+                      </div>
+                    </div>
+                    <div class="list-date">
+                      {{ dateFormat "Monday, Jan 2, 2006" .Date }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+      
+      <!-- Navigation Pfeile -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <!-- {{ range .Site.Pages }}
       {{ if lt (sub now.YearDay .Lastmod.YearDay) 30 }}  
         {{ if strings.HasSuffix .File.LogicalName ".md" }}
           <div class="list-container" onclick="location.href='{{ .RelPermalink }}';">
@@ -29,7 +67,7 @@
           </div>
         {{ end }}
       {{ end }}
-    {{ end }}
+    {{ end }} -->
 
     <br>
     <h1 style="text-align: center;">Unsere Themen und Projekte</h1>
@@ -54,8 +92,12 @@
         </div>
       {{ end }}
     {{ end }}
-
   </div>
+
+  <!-- Einbindung von Swiper.js -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
   {{ end }}
 
   {{ define "scripts" }}
@@ -70,11 +112,25 @@
 
     // Swiper
     const swiper = new Swiper('.swiper', {
+      navigation: {
+          nextEl: '.swiper .swiper-button-next',
+          prevEl: '.swiper .swiper-button-prev',
+      },
       loop: true,
       pagination: {
-        el: '.swiper-pagination',
+        //el: '.swiper-pagination',
         clickable: true,
+        wrapperClass: 'swiper-wrapper',
       },
+    });
+    var blogSwiper = new Swiper('.blog-swiper', {
+      navigation: {
+          nextEl: '.blog-swiper .swiper-button-next',
+          prevEl: '.blog-swiper .swiper-button-prev',
+      },
+      loop: true,
+      wrapperClass: 'swiper-wrapper',
+      slidesPerView: 1
     });
   </script>
   {{ end }}
