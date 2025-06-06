@@ -20,6 +20,7 @@ export function generateKinderHTML(showkinderOhnePaten, showButton, linkedPage)
                 } else {
                     container.classList.add('profile-container-selected');
                     button.textContent = 'Ausgewählt';
+                    kindName = 'Id: ${kind.id}, Name: ${kind.Name}';
                 }
                 "
                 >Auswählen</button>` : ``);
