@@ -1,5 +1,5 @@
 {
-    "date": "2025-06-05T21:06:26+01:00",
+    "date": "2025-06-06T21:28:43+01:00",
     "draft": false,
     "title": "Presse",
     "author": "WvS",
@@ -29,5 +29,6 @@ Bitte informieren Sie sich in der öffentlichen Presse über uns. Hier finden Si
         container.innerHTML = generatePresseHTML();
     });
 </script>
+
 
 

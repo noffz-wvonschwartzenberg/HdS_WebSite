@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://hds.milchtanker.de/de/WirUeberUns/presse/</loc>
+    <lastmod>2025-06-06T21:28:43+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://hds.milchtanker.de/en/WirUeberUns/presse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://hds.milchtanker.de/fr/WirUeberUns/presse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://hds.milchtanker.de/de/WirUeberUns/presse/"
+                />
+  </url><url>
     <loc>http://hds.milchtanker.de/de/Finanzen/aktuelleFinanzuebersicht/</loc>
     <lastmod>2025-06-05T21:06:51+01:00</lastmod>
     <xhtml:link
@@ -18,24 +36,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="http://hds.milchtanker.de/de/Finanzen/aktuelleFinanzuebersicht/"
-                />
-  </url><url>
-    <loc>http://hds.milchtanker.de/de/WirUeberUns/presse/</loc>
-    <lastmod>2025-06-05T21:06:26+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://hds.milchtanker.de/en/WirUeberUns/presse/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://hds.milchtanker.de/fr/WirUeberUns/presse/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://hds.milchtanker.de/de/WirUeberUns/presse/"
                 />
   </url><url>
     <loc>http://hds.milchtanker.de/de/WirUeberUns/veranstaltungen/</loc>

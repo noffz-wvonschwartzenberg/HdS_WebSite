@@ -4,7 +4,7 @@
     "title": "Gezielt spenden",
     "author": "WvS",
     "description": "Spenden Sie gezielt in ein Projekt, wenn Sie sich mit einem unserer Projekt besonders identifizieren können.",
-    "image": "/img/Helfen/gezieltSpenden/GezieltSpendenTitle.png"
+    "image": "/img/Helfen/GezieltSpenden/GezieltSpendenTitle.png"
 }
 ## Wo geht Ihre Spende hin?
 Spenden Sie und unterstützen Sie die Kinder und unsere Projekte in Mbouda und Kamerun. Wie in unseren zahlreichen Projekten zu erkennen ist, gehen die Spenden direkt zu den Bedürftigen oder geben Hilfe zur Selbsthilfe, wie z. B. bei dem "Gemüseanbau"-Projekt. Bitte stöbern Sie durch die verschiedenen Bereiche über das was wir tun:
@@ -39,7 +39,7 @@ Hier finden Sie eine Liste aller Projekte, um Ihre Spende gezielt zu platzieren.
         <br>
         <input type="checkbox" id="expand-image1" />
         <label for="expand-image1">
-        <img class="img-centered-half" src="/img/Spendenkonto.png" alt="Spendenkonto" />
+        <img class="img-centered-half" src="/img/spendenkonto.png" alt="Spendenkonto" />
         </label>
         <div class="img-caption-half">Spendenkonto</div>
         <br>    
