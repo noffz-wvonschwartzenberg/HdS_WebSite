@@ -221,7 +221,7 @@ Zu Beginn eines jeden Jahres werden für Spenden im Vorjahr über 100 € Spende
         const iban = document.getElementById("js-input-iban").value;
         const bic = document.getElementById("js-input-bic").value;
 
-        fetch("http://cloud.schwartzies.de:65432/gezieltSpenden/", {
+        fetch("https://hds.milchtanker.de/api/gezieltSpenden/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
