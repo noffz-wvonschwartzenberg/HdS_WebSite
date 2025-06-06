@@ -1,0 +1,14 @@
+Vorname: ssss
+Nachname: Mustermann
+jahresbeitrag: 100
+geschlecht: Geschlecht.MANN
+strasse: Musterstraße 1
+plz: 12345
+wohnort: Musterstadt
+telefonnummer: 0123456789
+geburtsdatum: 1990-01-01
+email: max@example.com
+zahlungsweise: Zahlungsweise.SEPA
+kontoinhaber: Max Mustermann
+iban: DE12345678901234567890
+bic: DEUTDEFF

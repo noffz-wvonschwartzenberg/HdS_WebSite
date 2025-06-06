@@ -1,0 +1,17 @@
+Kind: 3
+Vorname: 1
+Nachname: 2
+Jahresbeitrag: 4
+Geschlecht: Geschlecht.MANN
+Strasse: 5
+PLZ: 6
+Wohnort: 7
+Telefonnummer: 8
+Geburtsdatum: 9
+Email: 0
+Abbuchung: Abbuchung.SEPA
+Zahlungsweise: Zahlungsweise.JAEHRLICH
+Kontoinhaber: 11
+IBAN: 12
+BIC: 13
+Zuwendungsbescheinigung: Zuwendungsbescheinigung.WIESATZUNG

@@ -1,0 +1,14 @@
+Vorname: string
+Nachname: string
+jahresbeitrag: string
+geschlecht: Geschlecht.MANN
+strasse: string
+plz: string
+wohnort: string
+telefonnummer: string
+geburtsdatum: string
+email: string
+zahlungsweise: Zahlungsweise.SEPA
+kontoinhaber: string
+iban: string
+bic: string

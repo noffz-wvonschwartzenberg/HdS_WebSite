@@ -1,0 +1,15 @@
+Vorname: 
+Nachname: 
+jahresbeitrag: 
+geschlecht: Geschlecht.MANN
+strasse: string
+plz: string
+wohnort: string
+telefonnummer: string
+geburtsdatum: 
+email: 
+Abbuchung: Abbuchung.SEPA
+zahlungsweise: Zahlungsweise.VIERTELJAEHRLICH
+kontoinhaber: 
+iban: 
+bic: 
