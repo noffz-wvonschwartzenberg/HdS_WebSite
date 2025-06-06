@@ -1,5 +1,5 @@
 {
-    "date": "2025-03-05T21:11:48+01:00",
+    "date": "2025-06-05T21:06:51+01:00",
     "draft": false,
     "title": "Aktuelle Finanzübersicht",
     "author": "WvS",
@@ -70,8 +70,8 @@ Auch das Team in Kamerun arbeitet ehrenamtlich.
 <label for="expand-image4">
   <img class="img-centered" src="/img/Finanzen/AktuelleFinanzuebersicht/SpendenHistorisch.png#imagemd" alt="Spenden seit Vereinsgründung" />
 </label>
-</div>
-<p class="img-caption">Gesamtertrag seit Vereinsgründung</p>
+<div class="img-caption">Gesamtertrag seit Vereinsgründung</div>
+<!-- <p class="img-caption">Gesamtertrag seit Vereinsgründung</p> -->
 
 ## Ausgaben
 Alle Tätigkeiten werden ausschließlich von Ehrenamtlichen ausgeführt, wodurch die Vereinskosten minimal bleiben. Die beigefügte Grafik zeigt, wie viel Prozent der Ausgaben direkt den Kindern und Projekten zugutekommen und wie gering der Kostenanteil ist.
@@ -122,3 +122,14 @@ Die in rot gezeigten Unkosten setzen sich hauptsächlich aus laufenden Kosten wi
     });
   });
 </script>
+
+
+
+
+
+
+
+
+
+
+

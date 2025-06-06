@@ -2,8 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/en/finanzen/aktuellefinanzuebersicht/</loc>
+    <lastmod>2025-06-05T21:06:51+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/finanzen/aktuellefinanzuebersicht/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/finanzen/aktuellefinanzuebersicht/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/finanzen/aktuellefinanzuebersicht/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/wirueberuns/presse/</loc>
+    <lastmod>2025-06-05T21:06:26+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost:1313/de/wirueberuns/presse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/wirueberuns/presse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/wirueberuns/presse/"
+                />
+  </url><url>
     <loc>http://localhost:1313/en/wirueberuns/veranstaltungen/</loc>
-    <lastmod>2025-05-18T11:11:48+01:00</lastmod>
+    <lastmod>2025-06-05T21:00:28+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -70,24 +106,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/versorgung/einewarmemahlzeit/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/finanzen/aktuellefinanzuebersicht/</loc>
-    <lastmod>2025-03-01T21:11:48+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://localhost:1313/de/finanzen/aktuellefinanzuebersicht/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/finanzen/aktuellefinanzuebersicht/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/finanzen/aktuellefinanzuebersicht/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/finanzen/2023/</loc>
