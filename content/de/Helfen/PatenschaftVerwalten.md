@@ -209,7 +209,7 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
         const plz = document.getElementById("js-input-adress-aenderungen-plz").value;
         const wohnort = document.getElementById("js-input-adress-aenderungen-wohnort").value;
         const telnummer = document.getElementById("js-input-adress-aenderungen-telnummer").value;
-        fetch("http://cloud.schwartzies.de:65432/patenschaftAdressAenderung/", {
+        fetch("https://hds.milchtanker.de/api/patenschaftAdressAenderung/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
@@ -236,7 +236,7 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
         const vorname = document.getElementById("js-input-email-aenderung-vorname").value;
         const nachname = document.getElementById("js-input-email-aenderung-nachname").value;
         const email = document.getElementById("js-input-email-aenderung-email").value;
-        fetch("http://cloud.schwartzies.de:65432/patenschaftEmailAenderung/", {
+        fetch("https://hds.milchtanker.de/api/patenschaftEmailAenderung/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
@@ -262,7 +262,7 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
         const kontoinhaber = document.getElementById("js-input-konto-aenderung-kontoinhaber").value;
         const iban = document.getElementById("js-input-konto-aenderung-iban").value;
         const bic = document.getElementById("js-input-konto-aenderung-bic").value;
-        fetch("http://cloud.schwartzies.de:65432/patenschaftKontoAenderung/", {
+        fetch("https://hds.milchtanker.de/api/patenschaftKontoAenderung/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
@@ -293,7 +293,7 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
         const kontoinhaber = document.getElementById("js-input-jahresbeitrag-aenderung-kontoinhaber").value;
         const iban = document.getElementById("js-input-jahresbeitrag-aenderung-iban").value;
         const bic = document.getElementById("js-input-jahresbeitrag-aenderung-bic").value;
-        fetch("http://cloud.schwartzies.de:65432/patenschaftJahresbeitragAenderung/", {
+        fetch("https://hds.milchtanker.de/api/patenschaftJahresbeitragAenderung/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
@@ -322,7 +322,7 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
         const vorname = document.getElementById("js-input-zuwendungsbescheinigung-aenderung-vorname").value;
         const nachname = document.getElementById("js-input-zuwendungsbescheinigung-aenderung-nachname").value;
         const zuwendungsbescheinigung = document.getElementById("js-zuwendungsbescheinigung-aenderung").value;
-        fetch("http://cloud.schwartzies.de:65432/patenschaftZuwendungsbescheinigungAenderung/", {
+        fetch("https://hds.milchtanker.de/api/patenschaftZuwendungsbescheinigungAenderung/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
@@ -345,7 +345,7 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
     btnPatenschaftKuendigen.addEventListener('click', () => {
         const vorname = document.getElementById("js-input-patenschaft-kuendigen-vorname").value;
         const nachname = document.getElementById("js-input-patenschaft-kuendigen-nachname").value;
-        fetch("http://cloud.schwartzies.de:65432/patenschaftKuendigen/", {
+        fetch("https://hds.milchtanker.de/api/patenschaftKuendigen/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",

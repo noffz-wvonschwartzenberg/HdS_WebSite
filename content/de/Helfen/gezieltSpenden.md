@@ -153,7 +153,7 @@ Wenn Sie uns lieber langfristig unterstützen möchten, bieten wir Ihnen die Mö
         const iban = document.getElementById("js-input-iban").value;
         const bic = document.getElementById("js-input-bic").value;
 
-        fetch("http://cloud.schwartzies.de:65432/gezieltSpenden/", {
+        fetch("https://hds.milchtanker.de/api/gezieltSpenden/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
