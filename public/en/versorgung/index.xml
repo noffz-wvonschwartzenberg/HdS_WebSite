@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Versorgung on Haus der Sonne</title>
-    <link>http://hds.milchtanker.de/en/versorgung/</link>
+    <link>http://hds.milchtanker.de/en/Versorgung/</link>
     <description>Recent content in Versorgung on Haus der Sonne</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 02 Apr 2025 21:11:48 +0100</lastBuildDate>
-    <atom:link href="http://hds.milchtanker.de/en/versorgung/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://hds.milchtanker.de/en/Versorgung/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gemüsegarten</title>
-      <link>http://hds.milchtanker.de/en/versorgung/gemuesegarten/</link>
+      <link>http://hds.milchtanker.de/en/Versorgung/Gemuesegarten/</link>
       <pubDate>Wed, 02 Apr 2025 21:11:48 +0100</pubDate>
-      <guid>http://hds.milchtanker.de/en/versorgung/gemuesegarten/</guid>
+      <guid>http://hds.milchtanker.de/en/Versorgung/Gemuesegarten/</guid>
       <description>&lt;h2 id=&#34;ziel-des-gemüsegarten-projekt&#34;&gt;Ziel des Gemüsegarten Projekt&lt;/h2&gt;</description>
     </item>
     <item>
       <title>Eine warme Mahlzeit</title>
-      <link>http://hds.milchtanker.de/en/versorgung/einewarmemahlzeit/</link>
+      <link>http://hds.milchtanker.de/en/Versorgung/EineWarmeMahlzeit/</link>
       <pubDate>Wed, 05 Mar 2025 21:11:48 +0100</pubDate>
-      <guid>http://hds.milchtanker.de/en/versorgung/einewarmemahlzeit/</guid>
+      <guid>http://hds.milchtanker.de/en/Versorgung/EineWarmeMahlzeit/</guid>
       <description>&lt;h2 id=&#34;eine-warme-mahlzeit&#34;&gt;Eine warme Mahlzeit&lt;/h2&gt;</description>
     </item>
   </channel>

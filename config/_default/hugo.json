@@ -2,6 +2,7 @@
   "baseURL": "http://hds.milchtanker.de",
   "defaultContentLanguage": "de",
   "defaultContentLanguageInSubdir": true,
+  "disablePathToLower": true,
   "title": "Haus der Sonne", 
   "markup": {
     "goldmark": {
