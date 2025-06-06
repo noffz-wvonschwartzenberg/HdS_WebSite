@@ -9,7 +9,7 @@
 Bei Anliegen rund um Ihre Patenschaft können Sie uns gerne z. B. per E-Mail kontaktieren.
 <input type="checkbox" id="expand-image1" />
 <label for="expand-image1">
-  <img class="img-centered-half" src="/img/Kontakt.png" alt="Kontakt" />
+  <img class="img-centered-half" src="/img/kontakt.png" alt="Kontakt" />
 </label>
 <div class="img-caption-half">Kontaktdaten</div>
 <br>
@@ -367,6 +367,6 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
     closeMessageBtn.addEventListener('click', () => {
         console.log("test");
         messageBox.style.display = 'none';
-        window.location.href = 'https://hdskempen2.netlify.app';
+        window.location.href = 'https://hds.milchtanker.de';
     });
 </script>

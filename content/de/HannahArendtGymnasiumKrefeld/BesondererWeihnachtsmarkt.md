@@ -4,7 +4,7 @@
     "title": "Der besondere Weihnachtsmarkt",
     "author": "WvS",
     "description": "Der Besondere Weihnachtsmarkt ist ein Markt, der sich auf wichtige Themen wie soziale Gerechtigkeit, Umweltschutz und Frieden konzentriert. Das Hannah-Arendt-Gymnasium hat hier jährlich einen Stand.",
-    "image": "/img/wirUeberUns/Kooperationen/HannahArendtGymKrefeld/DerBesondereWeihnachtsmarkt/DerBesondereWeihnachtsmarktTitle.jpg"
+    "image": "/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/DerBesondereWeihnachtsmarkt/DerBesondereWeihnachtsmarktTitle.jpg"
 }
 
 ## Der besondere Weihnachtsmarkt 2025
@@ -12,13 +12,13 @@ Das Hannah-Arendt-Gymnasium war am Samstag, 3. Dezember, mit einem Stand auf dem
 Ein herzliches Dankeschön an dieser Stelle.  
 <input type="checkbox" id="expand-image1" />
 <label for="expand-image1">
-  <img class="img-centered" src="/img/wirUeberUns/Kooperationen/HannahArendtGymKrefeld/DerBesondereWeihnachtsmarkt/StandVerpixelt.jpeg#imagemd"     alt="Stand" />
+  <img class="img-centered" src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/DerBesondereWeihnachtsmarkt/StandVerpixelt.jpeg#imagemd"     alt="Stand" />
 </label>
 <p class="img-caption">Unser Stand inklusive des Vereinsplakats</p>
 
 <br>
 <br>
-<img class="img-centered-quarter" src="/img/wirUeberUns/Kooperationen/HannahArendtGymKrefeld/Danke.png#imagemd"     alt="Danke" />
+<img class="img-centered-quarter" src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/Danke.png#imagemd"     alt="Danke" />
 <br>
 <div class="container-button-link">
   <a href="https://hag-krefeld.de/" class="button-link">Link zum Hannah-Arendt-Gymnasium Krefeld</a>

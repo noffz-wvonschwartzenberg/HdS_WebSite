@@ -191,7 +191,7 @@ Wenn Sie uns lieber langfristig unterstützen möchten, bieten wir Ihnen die Mö
     });
     closeMessageBtn.addEventListener('click', () => {
         messageBox.style.display = 'none';
-        window.location.href = 'https://hdskempen2.netlify.app';
+        window.location.href = 'https://hds.milchtanker.de';
     });
     closeMessageFehlerBtn.addEventListener('click', () => {
         messageBoxFehler.style.display = 'none';

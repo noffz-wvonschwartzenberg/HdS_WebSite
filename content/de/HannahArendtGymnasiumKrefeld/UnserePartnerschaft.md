@@ -4,7 +4,7 @@
     "title": "Unsere Partnerschaft",
     "author": "HAG",
     "description": "Am 11. Januar 2023 wurde der Partnerschaftsvertrag zwischen dem Haus der Sonne e.V. – Kinder- und Jugendhilfe in Kamerun und dem Hannah-Arendt-Gymnasium im Rahmen einer Feierstunde unterzeichnet.",
-    "image": "/img/wirUeberUns/Kooperationen/HannahArendtGymKrefeld/UnserePartnerschaft/UnserePartnerschaftTitle.jpg"
+    "image": "/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/UnserePartnerschaft/UnserePartnerschaftTitle.jpg"
 }
 
 Der Text wurde von der Homepage (Link, siehe unten) des Hannah-Arendt-Gymnasiums kopiert.  
@@ -18,22 +18,22 @@ Der Verein \"Haus der Sonne e.V. – Kinder- und Jugendhilfe in Kamerun\" wird d
 <div class="swiper-container swiper-container-landscape">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-        <img src="/img/wirUeberUns/Kooperationen/HannahArendtGymKrefeld/UnserePartnerschaft/UnserePartnerschaft (6).jpg" alt="Bild 1" class="img-combobox"/>
+        <img src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/UnserePartnerschaft/UnserePartnerschaft (6).jpg" alt="Bild 1" class="img-combobox"/>
     </div>
     <div class="swiper-slide">
-        <img src="/img/wirUeberUns/Kooperationen/HannahArendtGymKrefeld/UnserePartnerschaft/UnserePartnerschaft (2).jpg" alt="Bild 2" class="img-combobox"/>
+        <img src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/UnserePartnerschaft/UnserePartnerschaft (2).jpg" alt="Bild 2" class="img-combobox"/>
     </div>
     <div class="swiper-slide">
-        <img src="/img/wirUeberUns/Kooperationen/HannahArendtGymKrefeld/UnserePartnerschaft/UnserePartnerschaft (3).jpg" alt="Bild 3" class="img-combobox"/>
+        <img src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/UnserePartnerschaft/UnserePartnerschaft (3).jpg" alt="Bild 3" class="img-combobox"/>
     </div>
     <div class="swiper-slide">
-        <img src="/img/wirUeberUns/Kooperationen/HannahArendtGymKrefeld/UnserePartnerschaft/UnserePartnerschaft (4).jpg" alt="Bild 4" class="img-combobox"/>
+        <img src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/UnserePartnerschaft/UnserePartnerschaft (4).jpg" alt="Bild 4" class="img-combobox"/>
     </div>
     <div class="swiper-slide">
-        <img src="/img/wirUeberUns/Kooperationen/HannahArendtGymKrefeld/UnserePartnerschaft/UnserePartnerschaft (5).jpg" alt="Bild 5" class="img-combobox"/>
+        <img src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/UnserePartnerschaft/UnserePartnerschaft (5).jpg" alt="Bild 5" class="img-combobox"/>
     </div>
     <div class="swiper-slide">
-        <img src="/img/wirUeberUns/Kooperationen/HannahArendtGymKrefeld/UnserePartnerschaft/UnserePartnerschaft (1).jpg" alt="Bild 6" class="img-combobox"/>
+        <img src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/UnserePartnerschaft/UnserePartnerschaft (1).jpg" alt="Bild 6" class="img-combobox"/>
     </div>
   </div>
   <!-- Navigation -->
@@ -45,7 +45,7 @@ Der Verein \"Haus der Sonne e.V. – Kinder- und Jugendhilfe in Kamerun\" wird d
 
 <br>
 <br>
-<img class="img-centered-quarter" src="/img/wirUeberUns/Kooperationen/HannahArendtGymKrefeld/Danke.png#imagemd"     alt="Danke" />
+<img class="img-centered-quarter" src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/Danke.png#imagemd"     alt="Danke" />
 <br>
 <div class="container-button-link">
   <a href="https://hag-krefeld.de/" class="button-link">Link zum Hannah-Arendt-Gymnasium Krefeld</a>

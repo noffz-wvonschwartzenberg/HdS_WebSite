@@ -4,7 +4,7 @@
     "title": "Der Sponsorenlauf",
     "author": "WvS",
     "description": "Der Sponsorenlauf ist eine ganztägige sportliche Aktion am Hannah-Arendt-Gymnasium, bei der viel Geld erlaufen wird.",
-    "image": "/img/wirUeberUns/Kooperationen/HannahArendtGymKrefeld/Sponsorenlauf/SponsorenlaufTitle.jpg"
+    "image": "/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/Sponsorenlauf/SponsorenlaufTitle.jpg"
 }
 
 ## Der Sponsorenlauf 2024
@@ -16,16 +16,16 @@ Auf der Homepage der Schule (Link, siehe unten) finden Sie weitere Fotos.
 <div class="swiper-container swiper-container-portrait">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-        <img src="/img/wirUeberUns/Kooperationen/HannahArendtGymKrefeld/Sponsorenlauf/Sponsorenlauf (2).jpg" alt="Bild 1" class="img-combobox"/>
+        <img src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/Sponsorenlauf/Sponsorenlauf (2).jpg" alt="Bild 1" class="img-combobox"/>
     </div>
     <div class="swiper-slide">
-        <img src="/img/wirUeberUns/Kooperationen/HannahArendtGymKrefeld/Sponsorenlauf/Sponsorenlauf (1).jpg" alt="Bild 2" class="img-combobox"/>
+        <img src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/Sponsorenlauf/Sponsorenlauf (1).jpg" alt="Bild 2" class="img-combobox"/>
     </div>
     <div class="swiper-slide">
-        <img src="/img/wirUeberUns/Kooperationen/HannahArendtGymKrefeld/Sponsorenlauf/Sponsorenlauf (3).jpg" alt="Bild 3" class="img-combobox"/>
+        <img src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/Sponsorenlauf/Sponsorenlauf (3).jpg" alt="Bild 3" class="img-combobox"/>
     </div>
     <div class="swiper-slide">
-        <img src="/img/wirUeberUns/Kooperationen/HannahArendtGymKrefeld/Sponsorenlauf/Sponsorenlauf (4).jpg" alt="Bild 4" class="img-combobox"/>
+        <img src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/Sponsorenlauf/Sponsorenlauf (4).jpg" alt="Bild 4" class="img-combobox"/>
     </div>
   </div>
   <!-- Navigation -->
@@ -37,7 +37,7 @@ Auf der Homepage der Schule (Link, siehe unten) finden Sie weitere Fotos.
 
 <br>
 <br>
-<img class="img-centered-quarter" src="/img/wirUeberUns/Kooperationen/HannahArendtGymKrefeld/Danke.png#imagemd"     alt="Danke" />
+<img class="img-centered-quarter" src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/Danke.png#imagemd"     alt="Danke" />
 <br>
 <div class="container-button-link">
   <a href="https://hag-krefeld.de/" class="button-link">Link zum Hannah-Arendt-Gymnasium Krefeld</a>

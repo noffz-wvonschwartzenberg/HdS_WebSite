@@ -4,7 +4,7 @@
     "title": "Der Vorstand",
     "author": "WvS",
     "description": "Der Vorstand stellt sich vor.",
-    "image": "/img/wirUeberUns/derVorstand/derVorstandTitle.jpg"
+    "image": "/img/WirUeberUns/DerVorstand/DerVorstandTitle.jpg"
 }
 ## Auszug aus der Satzung
 Die Organe des Vereins sind:
@@ -18,7 +18,7 @@ Der Vorstand besteht aus:
 <details>
     <summary class="combobox-summary">Dem 1. Vorsitzenden: Christian Eloundou</summary>
     <div class="combobox-details">
-      <img class="img-smallest-in-text" src="/img/wirUeberUns/derVorstand/Christian.png#imagemd" alt="Christian" />
+      <img class="img-smallest-in-text" src="/img/WirUeberUns/DerVorstand/Christian.png#imagemd" alt="Christian" />
       Mein Name ist Christian Eloundou. Ich bin 43 Jahre alt und komme aus Kamerun.  
       Ich bin Drucker und Kampsportlehrer von Beruf. Seit 2003 Jahren lebe ich in Deutschland, in Kempen am Niederrhein.  
       <br>
@@ -33,7 +33,7 @@ Der Vorstand besteht aus:
 <details>
     <summary class="combobox-summary">Dem 2. Vorsitzenden: Jürgen Brockmeyer</summary>
     <div class="combobox-details">
-      <img class="img-smallest-in-text" src="/img/wirUeberUns/derVorstand/Jürgen.png#imagemd" alt="Jürgen" />
+      <img class="img-smallest-in-text" src="/img/WirUeberUns/DerVorstand/Jürgen.png#imagemd" alt="Jürgen" />
       Mein Name ist Jürgen Brockmeyer, geboren 1962.  
       <br>
       Beruflich bin ich als sogenannter Interims-Manager tätig. Seit einigen Jahren konzentrieren sich meine Tätigkeiten auf Kempen und Berlin als geschäftsführender Vorstandsvorsitzender zweier Stiftungen. Die Aufgabenfelder liegen in den vielfältigen Bereichen der sozialen Arbeit mit und für Menschen. Es ist mein grundsätzlicher Ansatz, dass wir soziale Arbeit so gestalten müssen, dass „Betroffene“ zu "Beteiligten" werden.  
@@ -46,7 +46,7 @@ Der Vorstand besteht aus:
 <details>
     <summary class="combobox-summary">Dem Kassenwart: Wolfgang von Schwartzenberg</summary>
     <div class="combobox-details">
-      <img class="img-smallest-in-text" src="/img/wirUeberUns/derVorstand/Wolfgang.png#imagemd" alt="Wolfgang" />
+      <img class="img-smallest-in-text" src="/img/WirUeberUns/DerVorstand/Wolfgang.png#imagemd" alt="Wolfgang" />
       Mein Name ist Wolfgang von Schwartzenberg. Ich wurde am 28. Mai 1972 in Belgien geboren. Nach meinem Abitur studierte ich Elektrotechnik in Aachen, lebe und arbeite nun seit ca. 20 Jahren in Deutschland. Die Jahre 2004 und 2005 verbrachte ich zusammen mit meiner Familie in Schweden.  
       <br>
       In meiner Freizeit betreibe ich Taekwondo. Dort lernte ich Christian, meinen Trainer, kennen.
@@ -61,7 +61,7 @@ Zusätzlich zum Vorstand im Sinne §26 BGB enthält der erweiterte Vorstand:
 <details>
     <summary class="combobox-summary">Eine Schriftführerin: Mireille Lassig</summary>
     <div class="combobox-details">
-      <img class="img-smallest-in-text" src="/img/wirUeberUns/derVorstand/Mireille.png#imagemd" alt="Mireille" />
+      <img class="img-smallest-in-text" src="/img/WirUeberUns/DerVorstand/Mireille.png#imagemd" alt="Mireille" />
       Mein Name ist Mireille Lassig, ich bin 49 Jahre alt und Mutter zwei erwachsener Kinder. Ich lebe in einer Partnerschaft inmitten von Kempen.
       <br>
       Beruflich tätig bin ich im St. Peter-Stift, eines von zwei Senioreneinrichtungen, welche der Stiftung "Hospital zum Hl. Geist" Kempen angehören. Mein Aufgabengebiet bezieht sich u. a. auf die Vermietung unserer seniorengerechten Appartements und die damit verbundene Öffentlichkeitsarbeit. Ich fungiere als Ansprechpartnerin für die Senioren vor Ort und bin mit der Planung sozial-kultureller Aktivitäten innerhalb des Hauses betraut. Parallel dazu plane ich die internen Ausstellungen von Künstlern für beide Häuser sowie unsere Live-Sonntage.
@@ -72,7 +72,7 @@ Zusätzlich zum Vorstand im Sinne §26 BGB enthält der erweiterte Vorstand:
 <details>
     <summary class="combobox-summary">Den 1. Beisitzer: Erdal Icer</summary>
     <div class="combobox-details">
-      <img class="img-smallest-in-text" src="/img/wirUeberUns/derVorstand/Erdal.png#imagemd" alt="Erdal" />
+      <img class="img-smallest-in-text" src="/img/WirUeberUns/DerVorstand/Erdal.png#imagemd" alt="Erdal" />
       Ich bin Erdal Icer aus Kempen. Als Betriebswirt und Berufspädagoge bin ich als Schulleiter tätig.
       <br>
       Mit Christian Eloundou bin ich langjährig befreundet. Nicht nur vor dem Hintergrund habe ich mich ohne zu zögern bereit erklärt, ihn bei der Verwirklichung seines Herzenswunsches zu unterstützen. 

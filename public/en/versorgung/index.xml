@@ -10,16 +10,16 @@
     <atom:link href="http://hds.milchtanker.de/en/Versorgung/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gemüsegarten</title>
-      <link>http://hds.milchtanker.de/en/Versorgung/Gemuesegarten/</link>
+      <link>http://hds.milchtanker.de/en/Versorgung/gemuesegarten/</link>
       <pubDate>Wed, 02 Apr 2025 21:11:48 +0100</pubDate>
-      <guid>http://hds.milchtanker.de/en/Versorgung/Gemuesegarten/</guid>
+      <guid>http://hds.milchtanker.de/en/Versorgung/gemuesegarten/</guid>
       <description>&lt;h2 id=&#34;ziel-des-gemüsegarten-projekt&#34;&gt;Ziel des Gemüsegarten Projekt&lt;/h2&gt;</description>
     </item>
     <item>
       <title>Eine warme Mahlzeit</title>
-      <link>http://hds.milchtanker.de/en/Versorgung/EineWarmeMahlzeit/</link>
+      <link>http://hds.milchtanker.de/en/Versorgung/eineWarmeMahlzeit/</link>
       <pubDate>Wed, 05 Mar 2025 21:11:48 +0100</pubDate>
-      <guid>http://hds.milchtanker.de/en/Versorgung/EineWarmeMahlzeit/</guid>
+      <guid>http://hds.milchtanker.de/en/Versorgung/eineWarmeMahlzeit/</guid>
       <description>&lt;h2 id=&#34;eine-warme-mahlzeit&#34;&gt;Eine warme Mahlzeit&lt;/h2&gt;</description>
     </item>
   </channel>

@@ -4,9 +4,9 @@
     "title": "Die Satzung",
     "author": "WvS",
     "description": "Die Satzung ist sozusagen die \"Verfassung\" unseres Vereins und regelt seine Organisation und Handlungsweisen. Eine Satzung ist erforderlich, damit der Verein rechtsgültig gegründet werden kann und den Status eines eingetragenen Vereins (e. V.) erhält.",
-    "image": "/img/wirUeberUns/dieSatzung/dieSatzungTitle.png"
+    "image": "/img/WirUeberUns/DieSatzung/DieSatzungTitle.png"
 }
 
-<iframe src="/img/wirUeberUns/dieSatzung/SatzungHausderSonnee.V..pdf" title="Die Satzung" width="100%">
+<iframe src="/img/WirUeberUns/DieSatzung/SatzungHausderSonnee.V..pdf" title="Die Satzung" width="100%">
     Ihr Browser unterstützt keine PDF-Anzeige.
 </iframe>

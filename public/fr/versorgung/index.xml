@@ -10,9 +10,9 @@
     <atom:link href="http://hds.milchtanker.de/fr/Versorgung/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Eine warme Mahlzeit</title>
-      <link>http://hds.milchtanker.de/fr/Versorgung/EineWarmeMahlzeit/</link>
+      <link>http://hds.milchtanker.de/fr/Versorgung/eineWarmeMahlzeit/</link>
       <pubDate>Wed, 05 Mar 2025 21:11:48 +0100</pubDate>
-      <guid>http://hds.milchtanker.de/fr/Versorgung/EineWarmeMahlzeit/</guid>
+      <guid>http://hds.milchtanker.de/fr/Versorgung/eineWarmeMahlzeit/</guid>
       <description>&lt;h2 id=&#34;eine-warme-mahlzeit&#34;&gt;Eine warme Mahlzeit&lt;/h2&gt;</description>
     </item>
   </channel>

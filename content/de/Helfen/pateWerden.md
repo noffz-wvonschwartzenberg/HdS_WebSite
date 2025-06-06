@@ -13,7 +13,7 @@ Wir sehen aus unserer bereits 7-jährigen Erfahrung, dass die Kinder deutlich ge
   
 ## Wie stärkt die Patenschaft den Verein
 Der Verein wurde gegründet, um den ärmsten Kindern in Mbouda, Kamerun, eine Perspektive zu geben. Sie stärken den Verein durch Ihre Patenschaft, denn Sie unterstützen unser Kernprojekt "Eine warme Mahlzeit". Hier ist der Link zu unserem Projekt: 
-<a href="../../Versorgung/EineWarmeMahlzeit">Eine warme Mahlzeit</a> 
+<a href="../../Versorgung/eineWarmeMahlzeit">Eine warme Mahlzeit</a> 
 
 ## Eine Patenschaft übernehmen
 Die rot umrandeten Kinder haben aktuell keinen Paten und würden sich freuen, Sie als Paten zu gewinnen. Bitte wählen Sie ein Patenkind aus.
@@ -190,7 +190,7 @@ Die Datenschutzerklärung habe ich gelesen und erkenne Sie ausdrücklich an.
     });
     closeMessageBtn.addEventListener('click', () => {
         messageBox.style.display = 'none';
-        window.location.href = 'https://hdskempen2.netlify.app';
+        window.location.href = 'https://hds.milchtanker.de';
     });
     closeMessageFehlerBtn.addEventListener('click', () => {
         messageBoxFehler.style.display = 'none';

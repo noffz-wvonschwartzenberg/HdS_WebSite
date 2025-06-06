@@ -184,7 +184,7 @@ Die Datenschutzerklärung habe ich gelesen und erkenne Sie ausdrücklich an.
     });
     closeMessageBtn.addEventListener('click', () => {
         messageBox.style.display = 'none';
-        window.location.href = 'https://hdskempen2.netlify.app';
+        window.location.href = 'https://hds.milchtanker.de';
     });
     closeMessageFehlerBtn.addEventListener('click', () => {
         messageBoxFehler.style.display = 'none';

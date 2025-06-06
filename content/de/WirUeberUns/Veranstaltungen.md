@@ -4,7 +4,7 @@
     "title": "Veranstaltungen",
     "author": "WvS",
     "description": "Hier finden Sie alle geplanten Veranstltungen diesen Jahres.",
-    "image": "/img/wirUeberUns/Veranstaltungen/VeranstaltungenTitle.png"
+    "image": "/img/WirUeberUns/Veranstaltungen/VeranstaltungenTitle.png"
 }
 ## Unsere Veranstaltungen 2025
 <div class="left-table"> 
