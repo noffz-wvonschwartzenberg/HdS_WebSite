@@ -54,6 +54,7 @@
         <div class="header-container">
             <nav class="header-menu gray">
                 
+                <a href="" class="header-gray-item"><i id="js-darkMode" class="far fa-moon"></i></a>
             </nav>
             <a href="/" class="logo">
                 <img class="img-logo" src="/img/logo.png" alt="Haus der Sonne">
@@ -253,42 +254,42 @@
         </div>
         <script>
             
-            var jsLanguageDe = document.getElementById("js-de");
-            var jsLanguageEn = document.getElementById("js-en");
-            var jsLanguageFr = document.getElementById("js-fr");
-            jsLanguageDe.style.fontWeight = "normal";
-            jsLanguageEn.style.fontWeight = "normal";
-            jsLanguageFr.style.fontWeight = "normal";
+            
+            
+            
+            
+            
+            
 
-            const language = document.documentElement.lang;
-            if (language == "de") {
-                jsLanguageDe.style.fontWeight = "bolder";
-                jsLanguageDe.href = "";
-                jsLanguageEn.href = "http:\/\/hds.milchtanker.de\/de\/";
-                jsLanguageFr.href = "http:\/\/hds.milchtanker.de\/en\/";
-            }
-            if (language == "en") {
-                jsLanguageEn.style.fontWeight = "bolder";
-                jsLanguageDe.href = "http:\/\/hds.milchtanker.de\/de\/";
-                jsLanguageEn.href = "";
-                jsLanguageFr.href = "http:\/\/hds.milchtanker.de\/en\/";
-            }
-            if (language == "fr") {
-                jsLanguageFr.style.fontWeight = "bolder";
-                jsLanguageDe.href = "http:\/\/hds.milchtanker.de\/de\/";
-                jsLanguageEn.href = "http:\/\/hds.milchtanker.de\/en\/";
-                jsLanguageFr.href = "";
-            }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
 
-            jsLanguageDe.addEventListener("click", function() {
-                document.documentElement.lang = "de";
-            })
-            jsLanguageEn.addEventListener("click", function() {
-                document.documentElement.lang = "en";
-            })
-            jsLanguageFr.addEventListener("click", function() {
-                document.documentElement.lang = "fr";
-            })
+            
+            
+            
+            
+            
+            
+            
+            
+            
 
             
             var jsTheme = document.getElementById("js-theme-header");
@@ -305,6 +306,9 @@
                 }
             } else {
                 localStorage.setItem("darkMode", "false");
+                jsDarkMode.classList.remove("fas", "fa-sun");
+                jsDarkMode.classList.add("far", "fa-moon");
+                jsTheme.className = "light-theme";
             }
             
             jsDarkMode.addEventListener("click", function() {

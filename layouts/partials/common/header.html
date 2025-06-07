@@ -4,8 +4,8 @@
             <nav class="header-menu gray">
                 <!-- <a href="" id="js-de" class="header-gray-item">DE</a>
                 <a href="" id="js-en" class="header-gray-item">EN</a>
-                <a href="" id="js-fr" class="header-gray-item">FR</a>
-                <a href="" class="header-gray-item"><i id="js-darkMode" class="far fa-moon"></i></a> -->
+                <a href="" id="js-fr" class="header-gray-item">FR</a> -->
+                <a href="" class="header-gray-item"><i id="js-darkMode" class="far fa-moon"></i></a>
             </nav>
             <a href="/" class="logo">
                 <img class="img-logo" src="/img/logo.png" alt="Haus der Sonne">
@@ -22,43 +22,43 @@
             </div>    
         </div>
         <script>
-            // Language setting
-            var jsLanguageDe = document.getElementById("js-de");
-            var jsLanguageEn = document.getElementById("js-en");
-            var jsLanguageFr = document.getElementById("js-fr");
-            jsLanguageDe.style.fontWeight = "normal";
-            jsLanguageEn.style.fontWeight = "normal";
-            jsLanguageFr.style.fontWeight = "normal";
+            // // Language setting
+            // var jsLanguageDe = document.getElementById("js-de");
+            // var jsLanguageEn = document.getElementById("js-en");
+            // var jsLanguageFr = document.getElementById("js-fr");
+            // jsLanguageDe.style.fontWeight = "normal";
+            // jsLanguageEn.style.fontWeight = "normal";
+            // jsLanguageFr.style.fontWeight = "normal";
 
-            const language = document.documentElement.lang;
-            if (language == "de") {
-                jsLanguageDe.style.fontWeight = "bolder";
-                jsLanguageDe.href = "";
-                jsLanguageEn.href = "{{( index .Translations 0).Permalink }}";
-                jsLanguageFr.href = "{{( index .Translations 1).Permalink }}";
-            }
-            if (language == "en") {
-                jsLanguageEn.style.fontWeight = "bolder";
-                jsLanguageDe.href = "{{( index .Translations 0).Permalink }}";
-                jsLanguageEn.href = "";
-                jsLanguageFr.href = "{{( index .Translations 1).Permalink }}";
-            }
-            if (language == "fr") {
-                jsLanguageFr.style.fontWeight = "bolder";
-                jsLanguageDe.href = "{{( index .Translations 0).Permalink }}";
-                jsLanguageEn.href = "{{( index .Translations 1).Permalink }}";
-                jsLanguageFr.href = "";
-            }
+            // const language = document.documentElement.lang;
+            // if (language == "de") {
+            //     jsLanguageDe.style.fontWeight = "bolder";
+            //     jsLanguageDe.href = "";
+            //     jsLanguageEn.href = "{{( index .Translations 0).Permalink }}";
+            //     jsLanguageFr.href = "{{( index .Translations 1).Permalink }}";
+            // }
+            // if (language == "en") {
+            //     jsLanguageEn.style.fontWeight = "bolder";
+            //     jsLanguageDe.href = "{{( index .Translations 0).Permalink }}";
+            //     jsLanguageEn.href = "";
+            //     jsLanguageFr.href = "{{( index .Translations 1).Permalink }}";
+            // }
+            // if (language == "fr") {
+            //     jsLanguageFr.style.fontWeight = "bolder";
+            //     jsLanguageDe.href = "{{( index .Translations 0).Permalink }}";
+            //     jsLanguageEn.href = "{{( index .Translations 1).Permalink }}";
+            //     jsLanguageFr.href = "";
+            // }
 
-            jsLanguageDe.addEventListener("click", function() {
-                document.documentElement.lang = "de";
-            })
-            jsLanguageEn.addEventListener("click", function() {
-                document.documentElement.lang = "en";
-            })
-            jsLanguageFr.addEventListener("click", function() {
-                document.documentElement.lang = "fr";
-            })
+            // jsLanguageDe.addEventListener("click", function() {
+            //     document.documentElement.lang = "de";
+            // })
+            // jsLanguageEn.addEventListener("click", function() {
+            //     document.documentElement.lang = "en";
+            // })
+            // jsLanguageFr.addEventListener("click", function() {
+            //     document.documentElement.lang = "fr";
+            // })
 
             // Dark mode    
             var jsTheme = document.getElementById("js-theme-header");
@@ -75,6 +75,9 @@
                 }
             } else {
                 localStorage.setItem("darkMode", "false");
+                jsDarkMode.classList.remove("fas", "fa-sun");
+                jsDarkMode.classList.add("far", "fa-moon");
+                jsTheme.className = "light-theme";
             }
             
             jsDarkMode.addEventListener("click", function() {
