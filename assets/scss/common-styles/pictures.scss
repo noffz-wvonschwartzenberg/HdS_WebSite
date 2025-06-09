@@ -20,6 +20,7 @@
     .swiper-container-landscape {
         display: flex;
         height: auto;
+        //max-height: 650px;
         width: var(--image-width);
         overflow: hidden;
         margin: 10px auto;

@@ -3,12 +3,12 @@
     "draft": false,
     "title": "Der 4. Brunnen",
     "author": "Christian",
-    "description": "Entschieden haben wir uns letztendlich für ein sehr armes Wohnviertel. Für die Menschen dort ist es sehr schwierig an sauberes Trinkwasser zu gelangen.",
+    "description": "Entschieden haben wir uns letztendlich für ein sehr armes Wohnviertel. Für die Menschen dort ist es sehr schwierig, an sauberes Trinkwasser zu gelangen.",
     "image": "/img/Versorgung/Brunnenbau_4/Brunnenbau_4_Title.jpeg"
 }
 
 ## Die geographische Lage
-Der Brunnen steht im Norden Yaoundes. Entschieden haben wir uns letztendlich für ein sehr armes Wohnviertel. Für die Menschen dort ist es sehr schwierig an sauberes Trinkwasser zu gelangen.
+Der Brunnen steht im Norden Yaoundes. Entschieden haben wir uns letztendlich für ein sehr armes Wohnviertel. Für die Menschen dort ist es sehr schwierig, an sauberes Trinkwasser zu gelangen.
 https://maps.google.com/?q=3.930901,11.535408
 <input type="checkbox" id="expand-image1" />
 <label for="expand-image1">

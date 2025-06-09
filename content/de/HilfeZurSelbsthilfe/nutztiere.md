@@ -3,7 +3,7 @@
     "draft": false,
     "title": "Nutztiere",
     "author": "Christian",
-    "description": "Den ärmsten Familien wird durch die Spende eines Nutztieres und durch die Schulung in Aufzucht und Pflege eine Chance gegeben, tierische Produkte wie Eier, Milch und Fleisch selber zu erzeugen und sich zu ernähren oder sich sogar ein nachhaltiges Einbekommen zu sichern.",
+    "description": "Den ärmsten Familien wird durch die Spende eines Nutztieres und durch die Schulung in Aufzucht und Pflege eine Chance gegeben, tierische Produkte wie Eier, Milch und Fleisch selber zu erzeugen und sich zu ernähren oder sich sogar ein nachhaltiges Einkommen zu sichern.",
     "image": "/img/HilfeZurSelbsthilfe/Nutztiere/NutztiereTitle.jpeg"
 }
 <div class="div-gezielt-spenden">
@@ -11,11 +11,11 @@
 </div>
 
 ## Ziel des Projektes \"Nutztiere\"
-Den ärmsten Familien wird durch die Spende eines Nutztieres und durch die Schulung in Aufzucht und Pflege eine Chance gegeben, tierische Produkte wie Eier, Milch und Fleisch selber zu erzeugen und sich zu ernähren oder sich sogar ein nachhaltiges Einbekommen zu sichern.
+Den ärmsten Familien wird durch die Spende eines Nutztieres und durch die Schulung in Aufzucht und Pflege eine Chance gegeben, tierische Produkte wie Eier, Milch und Fleisch selber zu erzeugen und sich zu ernähren oder sich sogar ein nachhaltiges Einkommen zu sichern.
 Die Nutztiere bilden eine Lebensgrundlage für die lokale Bevölkerung in Mbouda.
 
 ## Projektkosten
-Die Projektkosten verstehen sich als eine Anschubfinanzierung. Das Projekt läuft jetzt seit fast 3 Jahren und die Erfolge waren bereits nach einem halben Jahr zu sehen: Der erste Nachwuchs war da!
+Die Projektkosten verstehen sich als eine Anschubfinanzierung. Das Projekt läuft jetzt seit fast drei Jahren und die Erfolge waren bereits nach einem halben Jahr zu sehen: Der erste Nachwuchs war da!
 Es wurden Schweine, Ziegen und afrikanisches Geflügel von insgesamt 5000€ an ausgewählte Familien gespendet.
 Wir haben 2023 und 2024 jeweils 5000€ in das Projekt "Nutztiere" investiert.
 
@@ -45,9 +45,9 @@ Das verbessert nicht nur die Futterproduktion, sondern stärkt auch die lokale L
 <div class="img-caption">Futtermittelherstellung</div>
 
 ## Update für 2023
-Das Projekt startete am 24. März 2023. Die ersten Tiere, die wir gekauft haben, wurden durch Christian an die Familien aus Mbouda gegeben. Beim Start des Projekts Nutztiere kamen mehr Menschen für die erste Phase des Projekts als geplant, sodass wir noch schnell auf den Markt in die Stadt fahren mussten, um mehr Tiere zu kaufen. Das zeigte mir noch einmal, wie wichtig die Menschen hier auf eine Hilfe zur Selbsthilfe angewiesen sind. Alle waren glücklich und sehr dankbar.
+Das Projekt startete am 24. März 2023. Die ersten Tiere, die wir gekauft haben, wurden durch Christian an die Familien aus Mbouda übergeben. Beim Start des Projekts Nutztiere kamen mehr Menschen für die erste Phase des Projekts als geplant, sodass wir noch schnell auf den Markt in die Stadt fahren mussten, um mehr Tiere zu kaufen. Das zeigte mir noch einmal, wie dringend die Menschen hier auf eine Hilfe zur Selbsthilfe angewiesen sind. Alle waren glücklich und sehr dankbar.
 Sie schreien öfters ganz laut und immer wieder auf meiner Stammessprache, "Ich solle den Menschen in Deutschland und dem Verein Haus der Sonne, in deren Namen danken." Und wiederholten "Gott soll uns alle segnen und 100 Mal zurück geben, was wir für sie und die Kinder tun."
-Im Dezember 2023 gab es bereits Nachwuchs zu vermelden! Die von unserem Verein Haus der Sonne gespendeten Tiere vermehren sich und Haus der Sonne kontrolliert auch die artgerechte Haltung vor Ort.
+Im Dezember 2023 gab es bereits Nachwuchs zu vermelden! Die von unserem Verein Haus der Sonne gespendeten Tiere vermehren sich und das Haus der Sonne kontrolliert auch die artgerechte Haltung vor Ort.
 Die Finanzierung des Projekts Landwirtschaft und Nutztiere war insgesamt eine gute Entscheidung!
 
 ## Das Ergebnis

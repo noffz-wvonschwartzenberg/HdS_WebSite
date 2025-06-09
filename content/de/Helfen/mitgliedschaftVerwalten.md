@@ -15,9 +15,9 @@ Bei Anliegen rund um Ihre Mitgliedschaft können Sie uns gerne z. B. per E-Mail 
 <br>
 
 ## Warum sind Sie Mitglied?
-Sie tragen dazu bei, dass die Menschen und vor allem die Kinder in Kamerun mit Grundnahrungsmitteln versorgt werden. Unsere Kinder erhalten eine Aufgabenbetreuung und werden deutlich besser in der Schule. Bildung ist wichtig! Durch den Bau zahlreicher Brunnen sind die Menschen plötzlich gesünder.
-Durch Ihre Mitgliedschaft unterstützen Sie mit den Verein.
-Durch Ihren Beitrag stärken Sie den Verein im allgemeinen, aber Ihr Beitrag wird auch für unsere Projekte dringend benötigt und auch eingesetzt. 
+Sie tragen dazu bei, dass die Menschen und vor allem die Kinder in Kamerun mit Grundnahrungsmitteln versorgt werden. Unsere Kinder erhalten eine Hausaufgabenbetreuung und werden deutlich besser in der Schule. Bildung ist wichtig! Durch den Bau zahlreicher Brunnen sind die Menschen plötzlich gesünder.
+Durch Ihre Mitgliedschaft unterstützen Sie den Verein.
+Durch Ihren Beitrag stärken Sie den Verein im Allgemeinen, aber Ihr Beitrag wird auch für unsere Projekte dringend benötigt und eingesetzt. 
 
 ## Welche Vorteile haben Sie
 Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie bleiben durch eine Mitgliedschaft immer informiert. Sie erhalten am Ende jeden Jahres eine Spendenquittung, die Beiträge lassen sich steuerlich absetzen.

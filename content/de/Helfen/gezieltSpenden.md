@@ -7,7 +7,7 @@
     "image": "/img/Helfen/GezieltSpenden/GezieltSpendenTitle.png"
 }
 ## Wo geht Ihre Spende hin?
-Spenden Sie und unterstützen Sie die Kinder und unsere Projekte in Mbouda und Kamerun. Wie in unseren zahlreichen Projekten zu erkennen ist, gehen die Spenden direkt zu den Bedürftigen oder geben Hilfe zur Selbsthilfe, wie z. B. bei dem "Gemüseanbau"-Projekt. Bitte stöbern Sie durch die verschiedenen Bereiche über das was wir tun:
+Spenden Sie und unterstützen Sie die Kinder und unsere Projekte in Mbouda und Kamerun. Wie in unseren zahlreichen Projekten zu erkennen ist, gehen die Spenden direkt zu den Bedürftigen oder geben Hilfe zur Selbsthilfe, wie z. B. bei dem "Gemüseanbau"-Projekt. Bitte stöbern Sie durch die verschiedenen Bereiche:
 - <a href="../../Versorgung">Auflistung der Projekte zur Versorgung</a>
 - <a href="../../HilfeZurSelbsthilfe">Hilfe zur Selbsthilfe</a>
 - <a href="../../Bildung">Informationen zu unseren Bildungsprojekten</a>
@@ -49,7 +49,7 @@ Hier finden Sie eine Liste aller Projekte, um Ihre Spende gezielt zu platzieren.
     <summary class="combobox-summary">Paypal</summary>
     <div class="combobox-details">
         Spenden Sie auf die einfachste Art und Weise, mit Paypal.  
-        Schreiben Sie uns gegebenenfalls eine kurze E-Mail, mit dem Hinweis Ihrer Spende und dem Projekt, das Sie erreichen wollen.
+        Schreiben Sie uns gegebenenfalls eine kurze E-Mail, mit dem Hinweis auf Ihre Spende und auf das Projekt, das Sie erreichen wollen.
         <div class="div-donate-paypal">
             <!-- <button>Direkt über Paypal spenden</button> -->
             <form action="https://www.paypal.com/donate" method="post" target="_top">

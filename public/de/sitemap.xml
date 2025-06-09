@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://hds.milchtanker.de/de/Reisetagebuch/2025/</loc>
+    <lastmod>2025-06-07T22:06:51+01:00</lastmod>
+  </url><url>
+    <loc>http://hds.milchtanker.de/de/Reisetagebuch/2024/</loc>
+    <lastmod>2025-06-07T21:06:51+01:00</lastmod>
+  </url><url>
+    <loc>http://hds.milchtanker.de/de/Reisetagebuch/2023/</loc>
+    <lastmod>2025-06-07T20:06:51+01:00</lastmod>
+  </url><url>
+    <loc>http://hds.milchtanker.de/de/Reisetagebuch/2022/</loc>
+    <lastmod>2025-06-07T19:06:51+01:00</lastmod>
+  </url><url>
+    <loc>http://hds.milchtanker.de/de/Reisetagebuch/2019/</loc>
+    <lastmod>2025-06-07T18:06:51+01:00</lastmod>
+  </url><url>
+    <loc>http://hds.milchtanker.de/de/Reisetagebuch/2018/</loc>
+    <lastmod>2025-06-07T17:06:51+01:00</lastmod>
+  </url><url>
     <loc>http://hds.milchtanker.de/de/WirUeberUns/presse/</loc>
     <lastmod>2025-06-06T21:28:43+01:00</lastmod>
     <xhtml:link
@@ -146,6 +164,9 @@
   </url><url>
     <loc>http://hds.milchtanker.de/de/Versorgung/brunnenbau_5/</loc>
     <lastmod>2025-05-02T16:11:48+01:00</lastmod>
+  </url><url>
+    <loc>http://hds.milchtanker.de/de/Reisetagebuch/</loc>
+    <lastmod>2025-04-07T21:11:48+01:00</lastmod>
   </url><url>
     <loc>http://hds.milchtanker.de/de/Helfen/</loc>
     <lastmod>2025-03-27T21:11:48+01:00</lastmod>

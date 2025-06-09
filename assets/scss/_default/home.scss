@@ -8,16 +8,24 @@
         font-family: $font-family;
     }
 
-    .home-introduction {
+    .home-introduction, .home-travel {
         text-align: center;
         background-color: themed("textbox-background");
         padding: 20px;
         margin-bottom: 20px;
         margin-top: 0px;
     }
+    
+    .home-travel {
+        text-align: center;
+        background-color: themed("logo-red-20");
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
 
     @media (max-width: 840px) {
-        .home-introduction {
+        .home-introduction, .home-travel {
             h1 {
                 font-size: 22px; /* Schriftgröße ändern */
             }

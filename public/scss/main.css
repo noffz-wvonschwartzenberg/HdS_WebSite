@@ -1491,18 +1491,25 @@
   font-size: 18px;
   font-family: "Calibri", sans-serif; }
 
-.light-theme .home-introduction {
+.light-theme .home-introduction, .light-theme .home-travel {
   text-align: center;
   background-color: #e3e2d4;
   padding: 20px;
   margin-bottom: 20px;
   margin-top: 0px; }
 
+.light-theme .home-travel {
+  text-align: center;
+  background-color: rgba(206, 17, 38, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 0px; }
+
 @media (max-width: 840px) {
-  .light-theme .home-introduction h1 {
+  .light-theme .home-introduction h1, .light-theme .home-travel h1 {
     font-size: 22px;
     /* Schriftgröße ändern */ }
-  .light-theme .home-introduction h3 {
+  .light-theme .home-introduction h3, .light-theme .home-travel h3 {
     font-size: 17px;
     /* Schriftgröße ändern */ } }
 
@@ -1511,18 +1518,25 @@
   font-size: 18px;
   font-family: "Calibri", sans-serif; }
 
-.dark-theme .home-introduction {
+.dark-theme .home-introduction, .dark-theme .home-travel {
   text-align: center;
   background-color: #797872;
   padding: 20px;
   margin-bottom: 20px;
   margin-top: 0px; }
 
+.dark-theme .home-travel {
+  text-align: center;
+  background-color: rgba(115, 11, 23, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 0px; }
+
 @media (max-width: 840px) {
-  .dark-theme .home-introduction h1 {
+  .dark-theme .home-introduction h1, .dark-theme .home-travel h1 {
     font-size: 22px;
     /* Schriftgröße ändern */ }
-  .dark-theme .home-introduction h3 {
+  .dark-theme .home-introduction h3, .dark-theme .home-travel h3 {
     font-size: 17px;
     /* Schriftgröße ändern */ } }
 
@@ -4121,6 +4135,10 @@
     position: relative;
     display: inline-block;
     width: 100%; }
+  .light-theme .media-container video {
+    width: 60%;
+    height: auto;
+    object-fit: contain; }
   .light-theme .media-title {
     position: absolute;
     top: 5px;
@@ -4178,6 +4196,10 @@
     position: relative;
     display: inline-block;
     width: 100%; }
+  .dark-theme .media-container video {
+    width: 60%;
+    height: auto;
+    object-fit: contain; }
   .dark-theme .media-title {
     position: absolute;
     top: 5px;

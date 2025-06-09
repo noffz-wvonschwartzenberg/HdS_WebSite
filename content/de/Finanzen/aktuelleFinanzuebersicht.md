@@ -3,7 +3,7 @@
     "draft": false,
     "title": "Aktuelle Finanzübersicht",
     "author": "WvS",
-    "description": "Hier finden Sie alle Informationen rund um die aktuellen Ein- und Ausgaben. Ein paar nette Diagramme sind auch zu sehen.",
+    "description": "Hier finden Sie alle Informationen rund um die aktuellen Ein- und Ausgaben. Ein paar Diagramme sind auch zu sehen.",
     "image": "/img/Finanzen/AktuelleFinanzuebersicht/AktuelleFinanzuebersichtTitle.jpg"
 }
 ## Transparenz
@@ -12,7 +12,7 @@ Die nachfolgenden Aufstellungen sind Teil unseres Versprechens auf Transparenz u
 
 ## Aktuelle Finanzsituation
 ### Kontostand  
-Der aktuelle Kontostand spiegelt die Differenz zwischen den Einnahmen und der Ausgaben seit der Vereinsgründung wider. 
+Der aktuelle Kontostand spiegelt die Differenz zwischen den Einnahmen und den Ausgaben seit der Vereinsgründung wider. 
 <div class="default-table">
 {{< csv-table >}}
 {{< include-file csv="static/img/Finanzen/AktuelleFinanzuebersicht/AktuellerKontostand.csv" >}}
@@ -28,7 +28,7 @@ Die aufgeführte Summe für \"Eine warme Mahlzeit\" soll lt. Vorstandsbeschluss 
 </div>  
 
 ### Verfügbare Summe
-Der zur Verfügung stehende Betrag errechnet sich aus dem aktuellen Kontostand und der nötigen Rücklagen. 
+Der zur Verfügung stehende Betrag errechnet sich aus dem aktuellen Kontostand und den nötigen Rücklagen. 
 <div class="default-table">
 {{< csv-table >}}
 {{< include-file csv="static/img/Finanzen/AktuelleFinanzuebersicht/VerfuegbareSumme.csv" >}}

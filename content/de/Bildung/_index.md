@@ -3,7 +3,7 @@
     "draft": false,
     "title": "Bildung",
     "author": "WvS",
-    "description": "Bildung ändert alles! Wir begleiten die Kinder nach der warmen Mahlzeit mit einer Hausaufgabenbetreuung. Das widerspiegelt sich in ihren Schulnoten. Nach der Schule haben wir bereits mehere Jugendliche eine Ausbildung finanzieren können.",
+    "description": "Bildung ändert alles! Wir begleiten die Kinder nach der warmen Mahlzeit mit einer Hausaufgabenbetreuung. Das spiegelt sich in ihren Schulnoten wider. Außerdem haben wir bereits mehreren Jugendlichen im Anschluss an die Schule eine Ausbildung finanzieren können.",
     "image": "/img/Bildung/BildungTitle.jpeg"
 }
 

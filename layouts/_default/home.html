@@ -73,6 +73,7 @@
         {{ if or (eq .Title "Versorgung")
                  (eq .Title "Bildung") 
                  (eq .Title "Hilfe zur Selbsthilfe") 
+                 (eq .Title "Reisetagebuch")
                  (eq .Title "Galerie") }}
           <div class="list-container" onclick="location.href='{{ .RelPermalink }}';">
             <img src="{{ .Params.image }}" alt="Home Picture" class="list-picture">

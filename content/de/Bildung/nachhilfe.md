@@ -73,7 +73,7 @@ Nach der Schule erhalten die Kinder nicht nur regelmäßige Nachhilfe und Unters
 </div>
 <p class="img-caption">Nachhilfestunden im Vereinsheim</p>
 <br>
-Doch all das ist nur möglich dank Menschen, die an unsere Vision glauben. Wie könnt ihr uns unterstützen? Mit Vertrauen, Motivation und – wo möglich – mit Spenden für Schulmaterialien, Uniformen und Lernangebote.
+Doch all das ist nur möglich dank der Menschen, die an unsere Vision glauben. Wie könnt ihr uns unterstützen? Mit Vertrauen, Motivation und – wo möglich – mit Spenden für Schulmaterialien, Uniformen und Lernangebote.
 <br>
 <br>
 Danke, dass ihr an unserer Seite steht. Zusammen schenken wir Bildung, Hoffnung und Zukunft.

@@ -3,7 +3,7 @@
     "draft": false,
     "title": "Pate werden",
     "author": "WvS",
-    "description": "Angelehnt an unser Herzensprojekt \"Eine warme Mahlzeit\" suchen wir Paten, die sich dazu bereit erklären, einem Kind für 1 Jahr eine warme Mahlzeit zu ermöglichen. Bitte helfen Sie einem Kind und werden Pate.",
+    "description": "Angelehnt an unser Herzensprojekt \"Eine warme Mahlzeit\" suchen wir Paten, die sich dazu bereit erklären, einem Kind für 1 Jahr eine warme Mahlzeit zu ermöglichen. Bitte helfen Sie einem Kind und werden Sie Pate.",
     "image": "/img/Helfen/PateWerden/PateWerdenTitle.jpeg"
 }
 ## Die Bedeutung einer Patenschaft

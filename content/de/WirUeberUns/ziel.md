@@ -17,7 +17,7 @@ Ein schulischer Abschluss oder eine abgeschlossene Ausbildung eröffnet Kindern 
 - <span class="red-text">Multiplikatoren für nachhaltige Hilfe</span>  
 Wer selbst als mittelloser Waise Hilfe erfahren hat, kann später als ausgebildete Fachkraft wiederum anderen helfen – so wird Unterstützung weitergegeben und vervielfacht.  
 
-Der Vorstand des Haus der Sonne arbeitet ehrenamtlich für die Unterstützung von Kindern und Jugendlichen, die mittellos oder in auswegloser Lage und auf Hilfe anderer angewiesen sind, in Zusammenarbeit mit unserern Kooperationspartnern vor Ort, wie unserem Parnterverein, Schulen und Ausbildungsstätten.
+Der Vorstand des Haus der Sonne arbeitet ehrenamtlich für die Unterstützung von Kindern und Jugendlichen, die mittellos oder in auswegloser Lage und auf Hilfe anderer angewiesen sind, in Zusammenarbeit mit unseren Kooperationspartnern vor Ort, wie unserem Parnterverein, Schulen und Ausbildungsstätten.
 Im folgenden <u>interaktiven</u> Bild sind unsere Aktivitäten und unser Herzensprojekt dargestellt, den Campus \"Haus der Sonne\" zu bauen.
 <br>
 <br>
@@ -43,18 +43,18 @@ Im folgenden <u>interaktiven</u> Bild sind unsere Aktivitäten und unser Herzens
          style="top: 52%; left: 57%; width: 20px; height: 20px;">
       <img class="img-hover-area" src="/img/WirUeberUns/Ziel/check.jpg" style="top: 52%; left: 57%; width: 20px; height: 20px;">
     </div>
-    <!-- Eine warme Mahlzeit -->
-    <div class="hover-area" id="id-hover-area" onclick="showExplanation('Campus - Haus der Sonne','/img/WirUeberUns/Ziel/campusSmall.png','Ein Waisenhaus für Kinder und Jugendliche, mit Klassenräumen und Ausbildungswerkstätten.', 'Berufliche Perspektiven, aber auch alle anderen Ziele.')" 
+    <!-- Campus -->
+    <div class="hover-area" id="id-hover-area" onclick="showExplanation('Campus - Haus der Sonne','/img/WirUeberUns/Ziel/campusSmall.png','Ein Waisenhaus für Kinder und Jugendliche, mit Klassenräumen und Ausbildungswerkstätten.', 'Berufliche Perspektiven, aber auch alle anderen Ziele')" 
          style="top: 30%; left: 43%; width: 20px; height: 20px;">
       <img class="img-hover-area" src="/img/WirUeberUns/Ziel/check.jpg" style="top: 30%; left: 43%; width: 20px; height: 20px;">
     </div>
     <!-- Gemüsegarten -->
-    <div class="hover-area" id="id-hover-area" onclick="showExplanation('Hilfe zur Selbsthilfe','/img/WirUeberUns/Ziel/weizen.png','Praxisnahe Projekte wie Gemüseanbau.', 'Selbsthilfe und Eigenständigkeit.')" 
+    <div class="hover-area" id="id-hover-area" onclick="showExplanation('Hilfe zur Selbsthilfe','/img/WirUeberUns/Ziel/weizen.png','Praxisnahe Projekte wie Gemüseanbau.', 'Selbsthilfe und Eigenständigkeit')" 
          style="top: 45%; left: 83%; width: 20px; height: 20px;">
       <img class="img-hover-area" src="/img/WirUeberUns/Ziel/check.jpg" style="top: 45%; left: 83%; width: 20px; height: 20px;">
     </div>
     <!-- Nutztiere -->
-    <div class="hover-area" id="id-hover-area" onclick="showExplanation('Hilfe zur Selbsthilfe','/img/WirUeberUns/Ziel/weizen.png','Familienhilfe mit Nutztieren.', 'Selbsthilfe und Eigenständigkeit.')" 
+    <div class="hover-area" id="id-hover-area" onclick="showExplanation('Hilfe zur Selbsthilfe','/img/WirUeberUns/Ziel/weizen.png','Familienhilfe mit Nutztieren.', 'Selbsthilfe und Eigenständigkeit')" 
          style="top: 70%; left: 73%; width: 20px; height: 20px;">
       <img class="img-hover-area" src="/img/WirUeberUns/Ziel/check.jpg" style="top: 70%; left: 73%; width: 20px; height: 20px;">
     </div>
@@ -96,7 +96,7 @@ Unser großes Herzensprojekt, der Campus \"Haus der Sonne\", wird unser Angebot 
 <ul>
   <li>Es wird ein Waisenhaus für die Kinder und Jugendlichen gebaut.</li>
   <li>Angrenzend bauen wir eine Bildungsstätte mit Klassenräumen und Ausbildungswerkstätten.</li>
-  <li>Für die Versorgung der Anwesenden wird es eine große Kantine geben und eine Brunnen wird auf dem Gelände auch bebohrt.</li>
+  <li>Für die Versorgung der Anwesenden wird es eine große Kantine geben und auch ein Brunnen wird auf dem Gelände gebohrt.</li>
   <li>Eine Sanitätshaus ist auch geplant.</li>
 </ul>
 

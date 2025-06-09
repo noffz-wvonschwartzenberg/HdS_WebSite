@@ -13,13 +13,13 @@
 </label>
 <br>
 Seit dem 01. Juli 2018 läuft unser Projekt "1 warme Mahlzeit". Was zunächst für 20 bis 25 Kinder und Jugendliche geplant war, erweiterte sich durch den dringenden Bedarf sehr schnell auf 40 zu versorgende junge Menschen. Inzwischen ist die Zahl auf über 50 Kinder und Jugendliche angewachsen.  
-Es ist das Herzensprojekt unseres Vereins. Wir finden es so wichtig den Kindern eine Grundversorgung zu bieten. Nur so können Sie leben und sind fähig eine Schule zu besuchen und sogar einen guten Schulabschluss zu erreichen.  
+Es ist das Herzensprojekt unseres Vereins. Wir finden es so wichtig, den Kindern eine Grundversorgung zu bieten. Nur so können Sie leben und sind fähig, eine Schule zu besuchen und sogar einen guten Schulabschluss zu erreichen.  
 Das Projekt finanziert sich über die Paten, die den nötigen Beitrag erbringen, damit "ihr" Kind täglich eine warme Mahlzeit erhält.   
 <br> 
 <details>
     <summary class="combobox-summary">Was wir erreicht haben.</summary>
     <div class="combobox-details">      
-          Im Jahr 2018 wurde das Projekt ins Leben gerufen. Anfangs wurden ca. 20 Kinder und Jugendliche mit Essen versorgt und erhielten eine Aufgabenbetreuung. Es wurde noch lange Zeit auf dem offenen Feuer gekocht. Im Jahr 2020 konnten wir endlich eine Küche finanzieren. Die ehrenamtlich arbeitenden Frauen sind sehr glücklich darüber.
+          Im Jahr 2018 wurde das Projekt ins Leben gerufen. Anfangs wurden ca. 20 Kinder und Jugendliche mit Essen versorgt und erhielten eine Hausaufgabenbetreuung. Es wurde noch lange Zeit auf dem offenen Feuer gekocht. Im Jahr 2020 konnten wir endlich eine Küche finanzieren. Die ehrenamtlich arbeitenden Frauen sind sehr glücklich darüber.
           <div class="flexpictures">
             <input type="checkbox" id="expand-image1" />
             <label for="expand-image1">
@@ -99,7 +99,7 @@ Das Projekt finanziert sich über die Paten, die den nötigen Beitrag erbringen,
 <details>
     <summary class="combobox-summary">Wie geht es für die Kinder nach der Schule weiter?</summary>
     <div class="combobox-details">        
-        Wir haben bereits mehrere Jugendliche nach dem Schulabschluss während der Ausbildung begleitet. Es ist für den Verein nicht einfach für jedes Kind eine Ausbildung zu finanzieren. Aber meistens finden wir eine gute Lösung.  
+        Wir haben bereits mehrere Jugendliche nach dem Schulabschluss während der Ausbildung begleitet. Es ist für den Verein nicht einfach, für jedes Kind eine Ausbildung zu finanzieren. Aber meistens finden wir eine gute Lösung.  
         Bertin hat als schüchternes krankes Kind bei uns angefangen. Jetzt ist er Schneider und bildet weitere Jugendliche aus:
         <div class="flexpictures">
             <input type="checkbox" id="expand-image11" />

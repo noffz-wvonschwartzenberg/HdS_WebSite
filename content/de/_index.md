@@ -4,9 +4,17 @@
   "draft": false
 }
 <div class="home-introduction">
-  <h1>Wir helfen den ärmsten Kindern in Mbouda, Kamerun</h1>.  
+  <h1>Wir helfen den ärmsten Kindern in Mbouda, Kamerun</h1>  
   <h3>Ein warme Mahlzeit am Tag ändert viel.</h3>  
   <h3>Sauberes Wasser hilft der ganzen Gemeinschaft.</h3>  
   <br>
   <button id="js-button-helfen" onclick="window.location.href='./Helfen';">→ Helfen auch Sie</button>  
+</div>
+
+<div class="home-travel">
+  <h1>Gemeinsam für eine bessere Zukunft</h1>  
+  <h3>Wir sind vor Ort – jedes Jahr in Kamerun, um unsere Projekte aktiv zu begleiten.</h3>  
+  <h3>Bitte werfen Sie einen Blick in die Reisetagebücher und in die aktualisierten Beiträge.</h3>  
+  <br>
+  <button id="js-button-travel" onclick="window.location.href='./Reisetagebuch';">→ Zu den Reisetagebüchern</button>  
 </div>

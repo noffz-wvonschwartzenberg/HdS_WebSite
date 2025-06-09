@@ -3,7 +3,7 @@
     "draft": false,
     "title": "Presse",
     "author": "WvS",
-    "description": "Eine gute Presse ist wichtig für uns. Der Verein kommt dadurch in alle Munde und viele Menschen lernen uns und unsere Proejkte kennen. Hier geht es zu den bereits veröffentlichten Artikeln.",
+    "description": "Eine gute Presse ist wichtig für uns. Der Verein kommt dadurch in aller Munde und viele Menschen lernen uns und unsere Projekte kennen. Hier geht es zu den bereits veröffentlichten Artikeln.",
     "image": "/img/WirUeberUns/Presse/PresseTitle.png"
 }
 

@@ -114,7 +114,7 @@ Wenn Sie uns lieber langfristig unterstützen möchten, bieten wir Ihnen die Mö
 - <a href="../mitgliedWerden">Informationen zur Mitgliedschaft</a>
 
 ### Wollen Sie gezielt spenden?
-Gezielte Spenden sind dann sinnvoll, wenn Sie sich mit einem Projekt besonders identifizieren können. Zum Beispiel spenden unsere Kooperations-Schulen immer zweckgebunden für Schulmaterial.
+Gezielte Spenden sind dann sinnvoll, wenn Sie sich mit einem Projekt besonders identifizieren können. Unsere Kooperations-Schulen spenden beispielsweise immer zweckgebunden für Schulmaterial.
 - <a href="../gezieltSpenden">Hier geht es zu den gezielten Spenden</a>
 
 <script>

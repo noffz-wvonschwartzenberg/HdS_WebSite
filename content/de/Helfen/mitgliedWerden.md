@@ -7,7 +7,7 @@
     "image": "/img/Helfen/MitgliedWerden/MitgliedWerdenTitle.jpg"
 }
 ## Warum Mitglied werden?
-Tragen Sie dazu bei, dass die Menschen und vor allem die Kinder in Kamerun mit Grundnahrungsmitteln versorgt werden. Unsere Kinder erhalten eine Aufgabenbetreuung und werden deutlich besser in der Schule. Bildung ist wichtig! Durch den Bau zahlreicher Brunnen sind die Menschen plötzlich gesünder.
+Tragen Sie dazu bei, dass die Menschen und vor allem die Kinder in Kamerun mit Grundnahrungsmitteln versorgt werden. Unsere Kinder erhalten eine Hausaufgabenbetreuung und werden deutlich besser in der Schule. Bildung ist wichtig! Durch den Bau zahlreicher Brunnen sind die Menschen plötzlich gesünder.
 Werden Sie Mitglied und unterstützen Sie mit Ihrer Mitgliedschaft den Verein.
 
 ### Was macht das Haus der Sonne

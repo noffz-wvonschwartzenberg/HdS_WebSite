@@ -89,7 +89,7 @@ In den Bilder können Sie den Bauablauf nachvollziehen.
 
 ## Das Ergebnis
 Der Brunnen ist jetzt fertiggestellt und wird in den kommenden Tagen in Betrieb genommen (Stand 28. Juli 2024). Die Menschen in dem Stadtviertel Yaoundé/Essos sind sehr glücklich und begeistert über den neuen Brunnen. Auch wir sind sehr zufrieden und zuversichtlich, dass die Situation und die  Gesundheit der Menschen dort sich zum positiven verbessern wird.
-Der Bau hat etwas länger gedauert als geplant, auf Grund von starken Regenfällen in den letzten Wochen in Yaoundé. 
+Der Bau hat aufgrund von starken Regenfällen in den letzten Wochen in Yaoundé etwas länger gedauert als geplant. 
 Das saubere Trinkwasser wird die Lebensqualität von mindestens 2000 Menschen deutlich verbessern.
 An dieser Stelle möchten wir uns noch einmal herzlich bei unserem großzügigen Spender bedanken. Ohne seine Hilfe wäre dieses Projekt nicht möglich gewesen.
 

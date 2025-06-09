@@ -14,7 +14,7 @@
 Vor Beginn des Projekts fehlten vielen bedürftigen Familien sowie den beteiligten Schulen grundlegende Mittel – insbesondere das notwendige Saatgut. Es mangelte sowohl an finanziellen Ressourcen als auch an praktischem Wissen, um eine nachhaltige Landwirtschaft oder einen funktionierenden Schulgarten aufzubauen.
 
 ## Ziel des Projektes \"Gemüsegarten\"
-Unser Ziel ist es, die Lebensbedingungen benachteiligter Bevölkerungsgruppen in Kamerun nachhaltig zu verbessern und die Selbständigkeit und sozialen Kompetenzen wie Verantwortungsbewusstsein und Teamfähigkeit zu stärken. Mit diesem Projekt werden insbesondere Schulkinder und Frauen gefördert.
+Unser Ziel ist es, die Lebensbedingungen benachteiligter Bevölkerungsgruppen in Kamerun nachhaltig zu verbessern und die Selbständigkeit und sozialen Kompetenzen, wie Verantwortungsbewusstsein und Teamfähigkeit, zu stärken. Mit diesem Projekt werden insbesondere Schulkinder und Frauen gefördert.
 Kameruns Böden und Klima bieten ideale Voraussetzungen für die Landwirtschaft. 
 
 ## Kosten und Investitionen
@@ -41,7 +41,7 @@ Hier sind einige Beispiele der unterstützten Schulen und Familien:
     <summary class="combobox-summary">Schulgarten unseres Vereinsheims</summary>
     <div class="combobox-details">   
       <h3>Standort</h3>
-      Der Garten ist direkt an unserem Vereinsheim, hier seht ihr nochmals die genaue Lage:
+      Der Garten liegt direkt an unserem Vereinsheim, hier sieht man nochmals die genaue Lage:
       <div class="flexpictures">
         <input type="checkbox" id="expand-image1" />
         <label for="expand-image1">

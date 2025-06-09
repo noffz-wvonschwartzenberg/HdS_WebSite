@@ -12,8 +12,8 @@ Mit diesem Geld konnten Schulbücher und Schulmaterial für unsere Schützlinge 
 Seitdem ist Christian regeläßiger Gast im Schulunterricht, um über sein Dorf, die Bewohner (vor allem Kinder und Jugendliche) und deren Lebensumstände, das Land und seine Flucht zu berichten.   
 
 ## Die Spende 2025
-Am Donnerstag, den 8. Mai 2025 wurde es wieder spannend in der Gesamtschule Kempen. Der Erlös des diesjährigen "Sozialen Tags" sollte gespendet werden. Verschiedene Vereine und Einrichtungen aus Kempen, die sich Hilfe für andere Menschen auf die Fahne geschrieben haben, hatten sich beworben, um einen Teil des von den Schülerinnen und Schülern erwirtschafteten Erlöses zu erhalten.
-Christian war zu dem Zeitpunkt in Mbouda. Er hat ein Video vorbereitet, das zusaätzlich zu der vorbereiteten Präsentation gezeigt wurde.  
+Am Donnerstag, dem 8. Mai 2025 wurde es wieder spannend in der Gesamtschule Kempen. Der Erlös des diesjährigen "Sozialen Tags" sollte gespendet werden. Verschiedene Vereine und Einrichtungen aus Kempen, die sich Hilfe für andere Menschen auf die Fahne geschrieben haben, hatten sich beworben, um einen Teil des von den Schülerinnen und Schülern erwirtschafteten Erlöses zu erhalten.
+Christian war zu dem Zeitpunkt in Mbouda. Er hatte ein Video vorbereitet, das zusätzlich zu der vorbereiteten Präsentation gezeigt wurde.  
 Wahrscheinlich war es die Authentizität, die Christian mit dem Video vermittelt hat, die zum ersten Platz bei der Wahl welcher Verein welchen Anteil bekommen würde, führte. Wir haben somit 50% der Gesamtfördersumme erhalten. Vielen Dank! 
 
 Hier ist das Video, das u.a. unsere Kinder beim Nachhilfeunterricht zeigt.

@@ -3,7 +3,7 @@
     "draft": false,
     "title": "Der 1. Brunnen",
     "author": "Christian",
-    "description": "Den ersten Brunnen haben wir direkt an unserem Vereinsheim gebohrt. Unsere Kinder, aber auch die Dorfgemeinschaft profitieren daven.",
+    "description": "Den ersten Brunnen haben wir direkt an unserem Vereinsheim gebohrt. Unsere Kinder, aber auch die Dorfgemeinschaft profitieren davon.",
     "image": "/img/Versorgung/Brunnenbau_1/Brunnenbau_1_Title.jpeg"
 }
 
