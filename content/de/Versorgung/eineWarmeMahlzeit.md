@@ -6,6 +6,10 @@
     "description": "Das Projekt \"Eine warme Mahlzeit\" ist das Kernstück unseres Vereins. Die ärmsten Kinder in Mbouda, Kamerun nehmen wir auf und geben Ihnen täglich eine warme Mahlzeit und erteilen Ihnen Nachhilfenterricht.",
     "image": "/img/Versorgung/EineWarmeMahlzeit/EineWarmeMahlzeitTitle.jpg"
 }
+<div class="div-gezielt-spenden">
+    <button class="button-gezielt-spenden" id="button-gezielt-spenden">GEZIELT SPENDEN</button>
+</div>
+
 ## Eine warme Mahlzeit
 <input type="checkbox" id="expand-image1" />
 <label for="expand-image1">
@@ -127,7 +131,9 @@ Das Projekt finanziert sich über die Paten, die den nötigen Beitrag erbringen,
 </details>
 <br>
 <br>
-Diese Kinder haben noch keinen Paten gefunden. Wenn es Ihnen möglich ist, helfen Sie bitte und schließen Sie eine Patenschaft ab. Hier geht es zum Antrag: 
+Diese Kinder haben noch keinen Paten gefunden. Wenn es Ihnen möglich ist, helfen Sie bitte und schließen Sie eine Patenschaft ab.  
+<br>
+Hier geht es zum Antrag: 
 <a href="../../Helfen/pateWerden">Pate werden</a> 
 
 <div id="kinder-container"></div> 
@@ -156,5 +162,14 @@ Diese Kinder haben noch keinen Paten gefunden. Wenn es Ihnen möglich ist, helfe
         const showButton = false;
         const linkedPage = false;
         containerVersorgt.innerHTML = generateKinderHTML(showkinderOhnePaten, showButton, linkedPage);
+    });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        let baseUrl = document.querySelector("meta[name='baseurl']").content;
+        let siteLanguage = document.querySelector("meta[name='siteLanguage']").content;
+        document.getElementById("button-gezielt-spenden").onclick = () => {
+            window.location.href = `${baseUrl}/${siteLanguage}/Helfen/gezieltSpenden`;
+        };
     });
 </script>
