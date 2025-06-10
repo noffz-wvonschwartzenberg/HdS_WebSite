@@ -13,6 +13,10 @@
 ## Vorwort
 Im Juli 2018 konnten wir das Projekt "Eine warme Mahlzeit" für 25 Kinder und Jugendliche starten. Inzwischen helfen uns so viele Menschen, Unternehmen und Schulen durch die Übernahme von Patenschaften, dass wir inzwischen 50 Kinder täglich ernähren können.  
 Zunehmend kommen in Kempen Hilferufe nach medizinischer Versorgung an. Ärzte und Medikamente gibt es in Mbouda. Wie immer sind es aber die finanziellen Mittel, die den Menschen auf dem afrikanischen Kontinent fehlen.  
+  
+Dieser Spendenaufruf richtet sich an Ärztinnen und Ärzte, Apothekerinnen und Apotheker, Entscheidungsträger in der Pharmaindustrie sowie an alle, die uns helfen möchten, die medizinische Betreuung auszubauen und nachhaltig zu sichern.  
+Unser Ziel: Alle Kinder unseres Projekts sollen einmal im Jahr eine ärztliche und zahnärztliche Untersuchung erhalten. So lassen sich Krankheiten frühzeitig erkennen und behandeln – bevor sie unnötige Schmerzen und Leid verursachen.  
+Um dies zu ermöglichen, sind wir auf regelmäßige finanzielle Unterstützung angewiesen. Jeder Beitrag hilft, diesen wichtigen Schutz zu gewährleisten.
 
 ## Medizinische Behandlungen
 In den folgenden Abschnitten stellen wir einige medizinische Fälle unserer Schützlinge vor. Dank Ihrer gezielten Spenden konnten wir bisher jedem Kind die notwendige Hilfe ermöglichen:  
