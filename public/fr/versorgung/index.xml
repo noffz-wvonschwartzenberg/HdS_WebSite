@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Versorgung on Haus der Sonne</title>
-    <link>http://hds.milchtanker.de/fr/Versorgung/</link>
+    <link>https://www.hausdersonne-kempen.de/fr/Versorgung/</link>
     <description>Recent content in Versorgung on Haus der Sonne</description>
     <generator>Hugo</generator>
     <language>fr</language>
     <lastBuildDate>Wed, 05 Mar 2025 21:11:48 +0100</lastBuildDate>
-    <atom:link href="http://hds.milchtanker.de/fr/Versorgung/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.hausdersonne-kempen.de/fr/Versorgung/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Eine warme Mahlzeit</title>
-      <link>http://hds.milchtanker.de/fr/Versorgung/eineWarmeMahlzeit/</link>
+      <link>https://www.hausdersonne-kempen.de/fr/Versorgung/eineWarmeMahlzeit/</link>
       <pubDate>Wed, 05 Mar 2025 21:11:48 +0100</pubDate>
-      <guid>http://hds.milchtanker.de/fr/Versorgung/eineWarmeMahlzeit/</guid>
+      <guid>https://www.hausdersonne-kempen.de/fr/Versorgung/eineWarmeMahlzeit/</guid>
       <description>&lt;h2 id=&#34;eine-warme-mahlzeit&#34;&gt;Eine warme Mahlzeit&lt;/h2&gt;</description>
     </item>
   </channel>

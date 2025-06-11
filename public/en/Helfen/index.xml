@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Helfen on Haus der Sonne</title>
-    <link>http://hds.milchtanker.de/en/Helfen/</link>
+    <link>https://www.hausdersonne-kempen.de/en/Helfen/</link>
     <description>Recent content in Helfen on Haus der Sonne</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 21 Mar 2025 19:14:20 +0100</lastBuildDate>
-    <atom:link href="http://hds.milchtanker.de/en/Helfen/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.hausdersonne-kempen.de/en/Helfen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PateWerden</title>
-      <link>http://hds.milchtanker.de/en/Helfen/pateWerden/</link>
+      <link>https://www.hausdersonne-kempen.de/en/Helfen/pateWerden/</link>
       <pubDate>Fri, 21 Mar 2025 19:14:20 +0100</pubDate>
-      <guid>http://hds.milchtanker.de/en/Helfen/pateWerden/</guid>
+      <guid>https://www.hausdersonne-kempen.de/en/Helfen/pateWerden/</guid>
       <description></description>
     </item>
   </channel>
