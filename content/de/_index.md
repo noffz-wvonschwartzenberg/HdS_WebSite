@@ -12,8 +12,8 @@
 </div>
 
 <div class="home-travel">
-  <h1>Gemeinsam für eine bessere Zukunft</h1>  
-  <h3>Wir sind vor Ort – jedes Jahr in Kamerun, um unsere Projekte aktiv zu begleiten.</h3>  
+  <h1>Wir sind vor Ort</h1>  
+  <h3>Jedes Jahr sind wir in Kamerun, um unsere Projekte aktiv zu begleiten.</h3>  
   <h3>Bitte werfen Sie einen Blick in die Reisetagebücher und in die aktualisierten Beiträge.</h3>  
   <br>
   <button id="js-button-travel" onclick="window.location.href='./Reisetagebuch';">→ Zu den Reisetagebüchern</button>  

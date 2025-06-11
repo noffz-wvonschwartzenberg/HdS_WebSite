@@ -3591,6 +3591,9 @@
 .light-theme .profile-container-supplied {
   border: 2px solid rgba(0, 122, 94, 0.6); }
 
+.light-theme .profile-container-listed {
+  border: 2px solid rgba(252, 209, 22, 0.6); }
+
 .light-theme .profile-container-selected {
   background-color: rgba(0, 122, 94, 0.6); }
 
@@ -3925,6 +3928,9 @@
 
 .dark-theme .profile-container-supplied {
   border: 2px solid rgba(5, 65, 50, 0.6); }
+
+.dark-theme .profile-container-listed {
+  border: 2px solid rgba(115, 95, 7, 0.6); }
 
 .dark-theme .profile-container-selected {
   background-color: rgba(5, 65, 50, 0.6); }
