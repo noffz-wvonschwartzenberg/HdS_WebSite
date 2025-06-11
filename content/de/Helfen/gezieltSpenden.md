@@ -153,7 +153,7 @@ Wenn Sie uns lieber langfristig unterstützen möchten, bieten wir Ihnen die Mö
         const iban = document.getElementById("js-input-iban").value;
         const bic = document.getElementById("js-input-bic").value;
 
-        fetch("https://hds.milchtanker.de/api/gezieltSpenden/", {
+        fetch("https://hausdersonne-kempen.de/api/gezieltSpenden/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
@@ -191,7 +191,7 @@ Wenn Sie uns lieber langfristig unterstützen möchten, bieten wir Ihnen die Mö
     });
     closeMessageBtn.addEventListener('click', () => {
         messageBox.style.display = 'none';
-        window.location.href = 'https://hds.milchtanker.de';
+        window.location.href = 'https://hausdersonne-kempen.de';
     });
     closeMessageFehlerBtn.addEventListener('click', () => {
         messageBoxFehler.style.display = 'none';

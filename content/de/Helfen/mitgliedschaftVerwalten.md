@@ -211,7 +211,7 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
         const plz = document.getElementById("js-input-adress-aenderungen-plz").value;
         const wohnort = document.getElementById("js-input-adress-aenderungen-wohnort").value;
         const telnummer = document.getElementById("js-input-adress-aenderungen-telnummer").value;
-        fetch("https://hds.milchtanker.de/api/mitgliedschaftAdressAenderung/", {
+        fetch("https://hausdersonne-kempen.de/api/mitgliedschaftAdressAenderung/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
@@ -238,7 +238,7 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
         const vorname = document.getElementById("js-input-email-aenderung-vorname").value;
         const nachname = document.getElementById("js-input-email-aenderung-nachname").value;
         const email = document.getElementById("js-input-email-aenderung-email").value;
-        fetch("https://hds.milchtanker.de/api/mitgliedschaftEmailAenderung/", {
+        fetch("https://hausdersonne-kempen.de/api/mitgliedschaftEmailAenderung/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
@@ -264,7 +264,7 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
         const kontoinhaber = document.getElementById("js-input-konto-aenderung-kontoinhaber").value;
         const iban = document.getElementById("js-input-konto-aenderung-iban").value;
         const bic = document.getElementById("js-input-konto-aenderung-bic").value;
-        fetch("https://hds.milchtanker.de/api/mitgliedschaftKontoAenderung/", {
+        fetch("https://hausdersonne-kempen.de/api/mitgliedschaftKontoAenderung/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
@@ -295,7 +295,7 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
         const kontoinhaber = document.getElementById("js-input-jahresbeitrag-aenderung-kontoinhaber").value;
         const iban = document.getElementById("js-input-jahresbeitrag-aenderung-iban").value;
         const bic = document.getElementById("js-input-jahresbeitrag-aenderung-bic").value;
-        fetch("https://hds.milchtanker.de/api/mitgliedschaftJahresbeitragAenderung/", {
+        fetch("https://hausdersonne-kempen.de/api/mitgliedschaftJahresbeitragAenderung/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
@@ -324,7 +324,7 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
         const vorname = document.getElementById("js-input-zuwendungsbescheinigung-aenderung-vorname").value;
         const nachname = document.getElementById("js-input-zuwendungsbescheinigung-aenderung-nachname").value;
         const zuwendungsbescheinigung = document.getElementById("js-zuwendungsbescheinigung-aenderung").value;
-        fetch("https://hds.milchtanker.de/api/mitgliedschaftZuwendungsbescheinigungAenderung/", {
+        fetch("https://hausdersonne-kempen.de/api/mitgliedschaftZuwendungsbescheinigungAenderung/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
@@ -347,7 +347,7 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
     btnMitgliedschaftKuendigen.addEventListener('click', () => {
         const vorname = document.getElementById("js-input-mitgliedschaft-kuendigen-vorname").value;
         const nachname = document.getElementById("js-input-mitgliedschaft-kuendigen-nachname").value;
-        fetch("https://hds.milchtanker.de/api/mitgliedschaftKuendigen/", {
+        fetch("https://hausdersonne-kempen.de/api/mitgliedschaftKuendigen/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
@@ -368,6 +368,6 @@ Sie haben auf jeden Fall den Dank der Kinder und Menschen in Kamerun. Aber Sie b
     });
     closeMessageBtn.addEventListener('click', () => {
         messageBox.style.display = 'none';
-        window.location.href = 'https://hds.milchtanker.de';
+        window.location.href = 'https://hausdersonne-kempen.de';
     });
 </script>

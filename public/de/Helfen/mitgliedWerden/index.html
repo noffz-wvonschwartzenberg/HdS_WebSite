@@ -198,7 +198,7 @@ Die Datenschutzerklärung habe ich gelesen und erkenne Sie ausdrücklich an.
         const iban = document.getElementById("js-input-iban").value;
         const bic = document.getElementById("js-input-bic").value;
 
-        fetch("https://hds.milchtanker.de/api/mitgliedsantrag/", {
+        fetch("https://hausdersonne-kempen.de/api/mitgliedsantrag/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
@@ -240,7 +240,7 @@ Die Datenschutzerklärung habe ich gelesen und erkenne Sie ausdrücklich an.
     });
     closeMessageBtn.addEventListener('click', () => {
         messageBox.style.display = 'none';
-        window.location.href = 'https://hds.milchtanker.de';
+        window.location.href = 'https://hausdersonne-kempen.de';
     });
     closeMessageFehlerBtn.addEventListener('click', () => {
         messageBoxFehler.style.display = 'none';

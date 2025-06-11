@@ -138,7 +138,7 @@ Gezielte Spenden sind dann sinnvoll, wenn Sie sich mit einem Projekt besonders i
         const iban = document.getElementById("js-input-iban").value;
         const bic = document.getElementById("js-input-bic").value;
 
-        fetch("https://hds.milchtanker.de/api/spenden/", {
+        fetch("https://hausdersonne-kempen.de/api/spenden/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
@@ -175,7 +175,7 @@ Gezielte Spenden sind dann sinnvoll, wenn Sie sich mit einem Projekt besonders i
     });
     closeMessageBtn.addEventListener('click', () => {
         messageBox.style.display = 'none';
-        window.location.href = 'https://hds.milchtanker.de';
+        window.location.href = 'https://hausdersonne-kempen.de';
     });
     closeMessageFehlerBtn.addEventListener('click', () => {
         messageBoxFehler.style.display = 'none';

@@ -221,7 +221,7 @@ Zu Beginn eines jeden Jahres werden für Spenden im Vorjahr über 100 € Spende
         const iban = document.getElementById("js-input-iban").value;
         const bic = document.getElementById("js-input-bic").value;
 
-        fetch("https://hds.milchtanker.de/api/gezieltSpenden/", {
+        fetch("https://hausdersonne-kempen.de/api/gezieltSpenden/", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
@@ -259,7 +259,7 @@ Zu Beginn eines jeden Jahres werden für Spenden im Vorjahr über 100 € Spende
     });
     closeMessageBtn.addEventListener('click', () => {
         messageBox.style.display = 'none';
-        window.location.href = 'https://hds.milchtanker.de';
+        window.location.href = 'https://hausdersonne-kempen.de';
     });
     closeMessageFehlerBtn.addEventListener('click', () => {
         messageBoxFehler.style.display = 'none';
