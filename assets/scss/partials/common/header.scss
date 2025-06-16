@@ -47,6 +47,20 @@
             justify-content: right;
             background-color: themed(textbox-background);
         }
+        
+        
+        .header-gray-message {
+            display: flex;
+            margin: 0 3px;
+            padding: 0 0;
+            place-items: center;
+            font-weight: bolder;
+            color: themed("logo-red");
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
 
         .header-gray-item {
             display: flex;

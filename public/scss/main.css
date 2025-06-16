@@ -138,6 +138,15 @@
     height: calc( 100px * 0.6);
     justify-content: right;
     background-color: #e3e2d4; }
+  .light-theme .header .header-gray-message {
+    display: flex;
+    margin: 0 3px;
+    padding: 0 0;
+    place-items: center;
+    font-weight: bolder;
+    color: #ce1126; }
+    .light-theme .header .header-gray-message:hover {
+      text-decoration: underline; }
   .light-theme .header .header-gray-item {
     display: flex;
     margin: 0 3px;
@@ -200,6 +209,15 @@
     height: calc( 100px * 0.6);
     justify-content: right;
     background-color: #797872; }
+  .dark-theme .header .header-gray-message {
+    display: flex;
+    margin: 0 3px;
+    padding: 0 0;
+    place-items: center;
+    font-weight: bolder;
+    color: #730b17; }
+    .dark-theme .header .header-gray-message:hover {
+      text-decoration: underline; }
   .dark-theme .header .header-gray-item {
     display: flex;
     margin: 0 3px;
@@ -2089,7 +2107,9 @@
     opacity: 1; }
   .light-theme .swiper-container-landscape .swiper-button-prev,
   .light-theme .swiper-container-landscape .swiper-button-next {
-    opacity: 0; }
+    display: block;
+    color: #007a5e;
+    opacity: 0.5; }
   .light-theme .swiper-container-landscape .swiper-slide {
     display: flex;
     align-items: center;
@@ -2128,7 +2148,13 @@
     opacity: 1; }
   .light-theme .swiper-container-portrait .swiper-button-prev,
   .light-theme .swiper-container-portrait .swiper-button-next {
-    opacity: 0; }
+    display: block;
+    color: #007a5e;
+    opacity: 0.5; }
+  .light-theme .swiper-container-portrait .swiper-button-prev {
+    margin-left: var(--image-margin); }
+  .light-theme .swiper-container-portrait .swiper-button-next {
+    margin-right: var(--image-margin); }
   .light-theme .swiper-container-portrait .swiper-slide {
     display: flex;
     align-items: center;
@@ -2176,7 +2202,9 @@
     opacity: 1; }
   .dark-theme .swiper-container-landscape .swiper-button-prev,
   .dark-theme .swiper-container-landscape .swiper-button-next {
-    opacity: 0; }
+    display: block;
+    color: #054132;
+    opacity: 0.5; }
   .dark-theme .swiper-container-landscape .swiper-slide {
     display: flex;
     align-items: center;
@@ -2215,7 +2243,13 @@
     opacity: 1; }
   .dark-theme .swiper-container-portrait .swiper-button-prev,
   .dark-theme .swiper-container-portrait .swiper-button-next {
-    opacity: 0; }
+    display: block;
+    color: #054132;
+    opacity: 0.5; }
+  .dark-theme .swiper-container-portrait .swiper-button-prev {
+    margin-left: var(--image-margin); }
+  .dark-theme .swiper-container-portrait .swiper-button-next {
+    margin-right: var(--image-margin); }
   .dark-theme .swiper-container-portrait .swiper-slide {
     display: flex;
     align-items: center;
@@ -2656,7 +2690,9 @@
     opacity: 1; }
   .light-theme .swiper-container-landscape .swiper-button-prev,
   .light-theme .swiper-container-landscape .swiper-button-next {
-    opacity: 0; }
+    display: block;
+    color: #007a5e;
+    opacity: 0.5; }
   .light-theme .swiper-container-landscape .swiper-slide {
     display: flex;
     align-items: center;
@@ -2695,7 +2731,13 @@
     opacity: 1; }
   .light-theme .swiper-container-portrait .swiper-button-prev,
   .light-theme .swiper-container-portrait .swiper-button-next {
-    opacity: 0; }
+    display: block;
+    color: #007a5e;
+    opacity: 0.5; }
+  .light-theme .swiper-container-portrait .swiper-button-prev {
+    margin-left: var(--image-margin); }
+  .light-theme .swiper-container-portrait .swiper-button-next {
+    margin-right: var(--image-margin); }
   .light-theme .swiper-container-portrait .swiper-slide {
     display: flex;
     align-items: center;
@@ -2743,7 +2785,9 @@
     opacity: 1; }
   .dark-theme .swiper-container-landscape .swiper-button-prev,
   .dark-theme .swiper-container-landscape .swiper-button-next {
-    opacity: 0; }
+    display: block;
+    color: #054132;
+    opacity: 0.5; }
   .dark-theme .swiper-container-landscape .swiper-slide {
     display: flex;
     align-items: center;
@@ -2782,7 +2826,13 @@
     opacity: 1; }
   .dark-theme .swiper-container-portrait .swiper-button-prev,
   .dark-theme .swiper-container-portrait .swiper-button-next {
-    opacity: 0; }
+    display: block;
+    color: #054132;
+    opacity: 0.5; }
+  .dark-theme .swiper-container-portrait .swiper-button-prev {
+    margin-left: var(--image-margin); }
+  .dark-theme .swiper-container-portrait .swiper-button-next {
+    margin-right: var(--image-margin); }
   .dark-theme .swiper-container-portrait .swiper-slide {
     display: flex;
     align-items: center;
