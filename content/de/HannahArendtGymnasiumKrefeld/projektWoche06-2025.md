@@ -4,7 +4,7 @@
     "title": "Projektwoche im Juni 2025",
     "author": "WvS",
     "description": "Das Haus der Sonne ist nun eng verbunden mit dem Hannah-Arendt-Gymnasium. Bertin, unser Schneider und Schützling der ersten Stunde, hat eine Mädchen- und eine Jungen-Schuluniform geschneidert. Christian hat Sie während der Projektwoche übergeben. Lesen Sie mehr darüber.",
-    "image": "/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/ProjektWoche06-2025/ProjektWoche06-2025Title.jpeg"
+    "image": "/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/Projektwoche06-2025/Projektwoche06-2025Title.jpeg"
 }
 
 ## Die Projektwoche
@@ -16,7 +16,7 @@ Eine viergeteilte Fensterscheibe, an die Schülerinfos geklebt werden und die vo
 Klappbare Türen in einer der schönen Schulfarben sollen von der Flurseite mit Informationen über das "Haus der Sonne" und von der Fensterseite mit Pinwänden für die Schülerinfos versehen werden.
 <input type="checkbox" id="expand-image1" />
 <label for="expand-image1">
-  <img class="img-centered" src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/ProjektWoche06-2025/Projektwoche_06-2025 vorher.jpeg#imagemd" />
+  <img class="img-centered" src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/Projektwoche06-2025/Projektwoche_06-2025 vorher.jpeg#imagemd" />
 </label>
 <div class="img-caption">Situation vor dem Projektstart</div>
 
@@ -25,12 +25,12 @@ Christian wirkt schon alleine durch seine Erscheinung authentisch. Er wurde am e
 Die Schule hatte bei Bertin, unserem Schneider aus Mbouda, eine Mädchen- und eine Jungen-Schuluniform bestellt. Christian brachte die Uniformen von seiner Reise im April mit. Beim Anprobieren der Kleidung haben die Kinder die Verbindung erst richtig realisiert.
 <input type="checkbox" id="expand-image2a" />
 <label for="expand-image2a">
-  <img class="img-centered" src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/ProjektWoche06-2025/Projektwoche_06-2025 (2).jpeg#imagemd" />
+  <img class="img-centered" src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/Projektwoche06-2025/Projektwoche_06-2025 (2).jpeg#imagemd" />
 </label>
 <div class="img-caption">Christian im Kreis der Schüler</div>
 <input type="checkbox" id="expand-image2" />
 <label for="expand-image2">
-  <img class="img-centered" src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/ProjektWoche06-2025/Projektwoche_06-2025 (3).jpeg#imagemd" />
+  <img class="img-centered" src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/Projektwoche06-2025/Projektwoche_06-2025 (3).jpeg#imagemd" />
 </label>
 <div class="img-caption">Die Schuluniformen, direkt aus Kamerun, geschneidert von Bertin</div>
 
@@ -47,7 +47,7 @@ Es wurden folgende Themen aufgegriffen:
 
 <input type="checkbox" id="expand-image3" />
 <label for="expand-image3">
-  <img class="img-centered" src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/ProjektWoche06-2025/Projektwoche_06-2025 (5).jpeg#imagemd" />
+  <img class="img-centered" src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/Projektwoche06-2025/Projektwoche_06-2025 (5).jpeg#imagemd" />
 </label>
 <div class="img-caption">Die Schüler bei der Recherche</div>
 
@@ -57,7 +57,7 @@ D. h. die Bretter, die die Türen bilden, dürfen nicht zu schwer sein, müssem 
 Es wurde gebohrt und angestrichen, bis alles perfekt passte.
 <input type="checkbox" id="expand-image2" />
 <label for="expand-image2">
-  <img class="img-centered" src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/ProjektWoche06-2025/Projektwoche_06-2025 (1).jpeg#imagemd" />
+  <img class="img-centered" src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/Projektwoche06-2025/Projektwoche_06-2025 (1).jpeg#imagemd" />
 </label>
 <div class="img-caption">Die Schüler bei der Gestaltung der Türen</div>
 
@@ -66,14 +66,14 @@ Das Ergebnis kann sich sehen lassen.
 Man sieht die unterschiedlichen Projekte und Themen unseres Vereins auf der Vorderseite. Diese Seite ist für die Schüler sichtbar und strategisch optimal direkt neben der Essensausgabe platziert.
 <input type="checkbox" id="expand-image4" />
 <label for="expand-image4">
-  <img class="img-centered" src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/ProjektWoche06-2025/Projektwoche_06-2025 (4).jpeg#imagemd" />
+  <img class="img-centered" src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/Projektwoche06-2025/Projektwoche_06-2025 (4).jpeg#imagemd" />
 </label>
 <div class="img-caption">Das Ergebnis - Vorderseite</div>
 
 Die Rückseite kann man von außen erkennen. Vier Pinnwände können mit Aushängen bestückt werden.  
 <input type="checkbox" id="expand-image5" />
 <label for="expand-image5">
-  <img class="img-centered" src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/ProjektWoche06-2025/Projektwoche_06-2025 Fenster.jpeg#imagemd" />
+  <img class="img-centered" src="/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/Projektwoche06-2025/Projektwoche_06-2025 Fenster.jpeg#imagemd" />
 </label>
 <div class="img-caption">Das Ergebnis - Rückseite</div>
 
