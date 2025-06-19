@@ -1,0 +1,19 @@
+{{ $baseFolder := "static/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/ProjektWoche06-2025" }}
+{{ $folders := readDir $baseFolder }}
+
+
+{{ $files := readDir $baseFolder }}
+<div id="gallery-small" class="gallery-small">
+    {{ range $files }}
+        {{ if findRE "\\.(jpg|jpeg|png|gif)$" .Name }}
+            <div class="media-container">
+                <div class="media-title"></div>
+                <img src="{{ printf "/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/ProjektWoche06-2025/%s" .Name }}" title="{{ .Name }}">
+            </div>
+        {{ end }}
+    {{ end }}
+</div>
+
+<div id="lightbox" class="lightbox" onclick="this.style.display='none'">
+    <img id="lightbox-img">
+</div>

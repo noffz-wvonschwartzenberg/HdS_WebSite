@@ -13,6 +13,20 @@
         cursor: pointer;
     }
 
+    .gallery-small {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr); /* 3 Spalten */
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .gallery-small img, .gallery-small video {
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        cursor: pointer;
+    }
+
     .media-container {
         position: relative;
         display: inline-block;
@@ -72,7 +86,7 @@
     }
 
     @media (max-width: 600px) {
-        .gallery {
+        .gallery .gallery-small{
             grid-template-columns: repeat(2, 1fr); /* 2 Spalten */
         }
     }
