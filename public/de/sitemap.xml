@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.hausdersonne-kempen.de/de/Finanzen/aktuelleFinanzuebersicht/</loc>
+    <lastmod>2025-07-03T20:17:07+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.hausdersonne-kempen.de/en/Finanzen/aktuelleFinanzuebersicht/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.hausdersonne-kempen.de/fr/Finanzen/aktuelleFinanzuebersicht/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.hausdersonne-kempen.de/de/Finanzen/aktuelleFinanzuebersicht/"
+                />
+  </url><url>
     <loc>https://www.hausdersonne-kempen.de/de/Helfen/unterst%C3%BCtzungHausDerSonne/</loc>
     <lastmod>2025-06-26T21:11:48+01:00</lastmod>
   </url><url>
@@ -48,24 +66,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://www.hausdersonne-kempen.de/de/WirUeberUns/presse/"
-                />
-  </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Finanzen/aktuelleFinanzuebersicht/</loc>
-    <lastmod>2025-06-05T21:06:51+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/Finanzen/aktuelleFinanzuebersicht/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/Finanzen/aktuelleFinanzuebersicht/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/Finanzen/aktuelleFinanzuebersicht/"
                 />
   </url><url>
     <loc>https://www.hausdersonne-kempen.de/de/WirUeberUns/veranstaltungen/</loc>
