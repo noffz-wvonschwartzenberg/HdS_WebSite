@@ -6,6 +6,7 @@
     "description": "Sie möchten sich aktiv an unserer Vereinsarbeit beteiligen. Im Moment suchen wir jemanden, gerne auch mehrere Personen, die uns ehrenamtlich bei unserem Instagram Account unterstützen.",
     "image": "/img/Helfen/UnterstützungHausDerSonne/UnterstützungHausDerSonneTitle.jpg"
 }
+
 ## Instagram Account
 Nachdem unsere Webseite einen neuen Look erfahren hat, suchen wir jemanden, gerne auch mehrere Personen, die uns ehrenamtlich bei unserem Instagram Account unterstützen.  
 Die Person/en sollte/n aus der Kempener Umgebung stammen, damit ein persönlicher Kontakt möglich ist.
