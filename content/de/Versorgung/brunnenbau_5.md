@@ -3,7 +3,7 @@
     "draft": false,
     "title": "Der 5. Brunnen",
     "author": "Christian",
-    "description": "Das Projekt \"Brunnenbau\" lebt von der Unterstützung eines dem Haus der Sonne sehr zugetanen und sehr großzügigen Menschen. Wir sind in der Lage, jedes Jahr einen neuen Brunnen zu bauen. Hier finden Sie die Angaben zum fünften Brunnens.",
+    "description": "Das Projekt \"Brunnenbau\" lebt von der Unterstützung eines dem Haus der Sonne sehr zugetanen und sehr großzügigen Menschen. Wir sind in der Lage, jedes Jahr einen neuen Brunnen zu bauen. Hier finden Sie die Angaben zum fünften Brunnen.",
     "image": "/img/Versorgung/Brunnenbau_5/Brunnenbau_5_Title.jpeg"
 }
 ## Update Mai-2025
@@ -97,4 +97,4 @@ An dieser Stelle möchten wir uns noch einmal herzlich bei unserem großzügigen
 Mehr als 2.000 Menschen profitieren täglich vom sauberen Wasser. Der Brunnen ist auch ein beeindruckendes Beispiel dafür, wie konkrete Hilfe direkt bei den Menschen ankommt.
 
 ## Wartungsvertrag
-Die Wartung wird in unserem vierteljährigen Betrag von 150 € eingebunden.
+Die Wartung wird in unserem vierteljährigen Betrag von 186 € eingebunden.

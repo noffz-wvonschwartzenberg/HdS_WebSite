@@ -93,6 +93,6 @@ Im Namen des Vereins Haus der Sonne und der Bevölkerung von 'Emana/Yaoundé sag
 Entschieden haben wir uns letztendlich für ein sehr armes Wohnviertel. Für die Menschen dort ist es sehr schwierig an sauberes Trinkwasser zu gelangen. Die staatlichen Leitungen gehen nicht bis dorthin und die nächste Wasserquelle ist weiter weg und verfügt auch nicht über genügend Trinkwasser für alle.
 
 ## Wartungsvertrag
-Die Wartung ist in unserem vierteljährigen Betrag von 150 € eingebunden.
+Die Wartung ist in unserem vierteljährigen Betrag von 186 € eingebunden.
 <br>
 <br>

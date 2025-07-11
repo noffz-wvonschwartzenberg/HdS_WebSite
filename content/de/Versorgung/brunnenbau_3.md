@@ -48,6 +48,6 @@ Bevor wir ihn gebaut haben, kamen zu viele Menschen – darunter viele Schüleri
 Mit dem dritten Brunnen konnten wir die Situation deutlich entspannen und die Versorgung mit sauberem Wasser in der Umgebung verbessern.
 
 ## Wartungsvertrag
-Die Wartung ist in unserem vierteljährigen Betrag von 150 € eingebunden.
+Die Wartung ist in unserem vierteljährigen Betrag von 186 € eingebunden.
 <br>
 <br>

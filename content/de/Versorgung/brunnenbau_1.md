@@ -51,6 +51,6 @@ So haben alle unserer hilfsbedürftigen Kinder, die sonst kilometerweit laufen m
 Auch die Nachbarsfamilien und viele Menschen aus dem Viertel können den Brunnen mitbenutzen. Er ist eine große Erleichterung für den Alltag und verbessert die Lebensbedingungen spürbar.
 
 ## Wartungsvertrag
-Die Wartung ist in unserem vierteljährigen Betrag von 150 € eingebunden.
+Die Wartung ist in unserem vierteljährigen Betrag von 186 € eingebunden.
 <br>
 <br>

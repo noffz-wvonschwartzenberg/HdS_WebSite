@@ -44,6 +44,6 @@ Unser Besuch am zweiten Brunnen fand zwar außerhalb der regulären Öffnungszei
 doch wir konnten uns überzeugen: Der Brunnen funktioniert einwandfrei und versorgt zuverlässig die Menschen im Dorf mit sauberem Trinkwasser.
 
 ## Wartungsvertrag
-Die Wartung ist in unserem vierteljährigen Betrag von 150 € eingebunden.
+Die Wartung ist in unserem vierteljährigen Betrag von 186 € eingebunden.
 <br>
 <br>
