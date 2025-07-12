@@ -1,5 +1,5 @@
 {
-    "date": "2025-07-03T20:18:07+01:00",
+    "date": "2025-07-11T20:18:07+01:00",
     "draft": false,
     "title": "Aktive Unterstützung",
     "author": "WvS",
