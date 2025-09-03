@@ -1,5 +1,5 @@
 {
-    "date": "2025-09-03T19:13:07+01:00",
+    "date": "2025-09-03T18:13:07+01:00",
     "draft": false,
     "title": "Veranstaltung - gemütliches Beisammensein",
     "author": "WvS",
