@@ -21,5 +21,5 @@ Es werden Snacks und eine warme Suppe serviert. Angelehnt an unsere "warme Mahlz
 Bitte meldet euch unter der Email-Adresse info@hausdersonne-kempen.de für das gemütliche Beisammensein an.
 Wir freuen uns auf zahlreiches Erscheinen.  
   
-Herzliche Grüße
+Herzliche Grüße  
 Der Vorstand Haus der Sonne e. V.
