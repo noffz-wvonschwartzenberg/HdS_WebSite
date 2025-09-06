@@ -4,7 +4,7 @@
     "title": "Veranstaltung - gemütliches Beisammensein",
     "author": "WvS",
     "description": "Wir möchten alle Paten und Mitglieder zu einem gemütlichen Beisammensein am 25. September 2025 einladen.",
-    "image": "/img/Helfen/AktuelleVeranstaltung/AktuelleVeranstaltungTitle.jpg"
+    "image": "/img/Helfen/AktuelleVeranstaltung/AktuelleVeranstaltungTitle.jpeg"
 }
 
 ## An alle Paten, Mitglieder und Unterstützer von Haus der Sonne e. V.
