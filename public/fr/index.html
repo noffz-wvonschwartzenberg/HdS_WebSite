@@ -354,8 +354,9 @@
             </div>
             
             
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            
+            <div class="swiper-button-prev mainswiper-prev"></div>
+            <div class="swiper-button-next mainswiper-next"></div>
         </div>
     </section>
     <script>
@@ -488,7 +489,7 @@
                       </div>
                     </div>
                     <div class="list-date">
-                      mercredi, sept. 3, 2025
+                      dimanche, sept. 21, 2025
                     </div>
                   </div>
                 </div>
@@ -553,9 +554,8 @@
         
       </div>
       
-      
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev blogswiper-prev"></div>
+      <div class="swiper-button-next blogswiper-next"></div>
     </div>
     <br>
     <br>
@@ -842,26 +842,24 @@
         jsTheme.className = "dark-theme";
     }
 
-    
+    Swiper
     const swiper = new Swiper('.swiper', {
       navigation: {
-          nextEl: '.swiper .swiper-button-next',
-          prevEl: '.swiper .swiper-button-prev',
+          nextEl: '.mainswiper-next',
+          prevEl: '.mainswiper-prev',
       },
       loop: true,
       pagination: {
-        
+        el: '.swiper-pagination',
         clickable: true,
-        wrapperClass: 'swiper-wrapper',
       },
     });
     var blogSwiper = new Swiper('.blog-swiper', {
       navigation: {
-          nextEl: '.blog-swiper .swiper-button-next',
-          prevEl: '.blog-swiper .swiper-button-prev',
+          nextEl: '.blogswiper-next',
+          prevEl: '.blogswiper-prev',
       },
       loop: true,
-      wrapperClass: 'swiper-wrapper',
       slidesPerView: 1
     });
   </script>

@@ -1,4 +1,5 @@
 @include themify($themes) {
+
     .swipers {
         background-color: themed("textbox-background");
         height: calc(var(--pagepicture-height) - #{$logo-height} + 0px);
@@ -13,6 +14,11 @@
             text-align: left;
         }
         
+        .swiper-button-next::after,
+        .swiper-button-prev::after {
+            display: none;
+        }  
+
         .swiper-button-prev, .swiper-button-next {
             display: block;
             color: themed(logo-green);
@@ -23,6 +29,11 @@
         max-width: 100%; //$width-percent-of-screen;
         margin: 0 auto;
         height: calc((var(--pagepicture-height) * #{$picture-home-pct-height} / 100 ) - #{$logo-height});
+
+        .swiper-button-next::after,
+        .swiper-button-prev::after {
+            display: none;
+        } 
 
         .swiper-button-prev, .swiper-button-next {
             position: absolute;

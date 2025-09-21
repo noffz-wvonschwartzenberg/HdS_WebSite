@@ -1,9 +1,9 @@
 {
-    "date": "2025-07-10T16:11:48+01:00",
+    "date": "2025-09-21T14:11:48+01:00",
     "draft": false,
     "title": "Der 6. (aktuelle) Brunnen",
     "author": "Christian",
-    "description": "Es gibt ein Update zum 6. Brunnen! Das Projekt \"Brunnenbau\" lebt von der Unterstützung eines dem Haus der Sonne sehr zugetanen und sehr großzügigen Menschen. Wir sind in der Lage, jedes Jahr einen neuen Brunnen zu bauen. Hier finden Sie die Angaben zum sechsten Brunnen.",
+    "description": "Der 6. Brunnen ist einsatzbereit! Das Projekt \"Brunnenbau\" lebt von der Unterstützung eines dem Haus der Sonne sehr zugetanen und sehr großzügigen Menschen. Wir sind in der Lage, jedes Jahr einen neuen Brunnen zu bauen. Hier finden Sie die Angaben zum sechsten Brunnen.",
     "image": "/img/Versorgung/Brunnenbau_6/Brunnenbau_6_Title.jpeg"
 }
 ## Die geographische Lage
@@ -19,6 +19,49 @@ https://maps.google.com/?q=3.742151,11.451468
   <img class="img-centered" src="/img/Versorgung/Brunnenbau_6/GeographischeLage_Details.png#imagemd"     alt="Geographische Lage - Details" />
 </label>
 <p class="img-caption">Detaillierte geographische Lage</p>
+
+## Die Fertigstellung des Brunnens im September 2025
+Dank der erneuten großzügigen Unterstützung eines unserer Mitglieder konnte der Brunnen im vergangenen Monat fertiggestellt und in Betrieb genommen werden. Für viele Familien und Kinder im Dorf Mekoumbou in der Nähe von Yaoundé, bedeutet dieses saubere Wasser ein großer Schritt hin zu Gesundheit und Lebensqualität.
+
+<div class="swiper-container swiper-container-portrait">
+  <div class="swiper-wrapper"> 
+    <div class="swiper-slide">
+        <img src="/img/Versorgung/Brunnenbau_6/Brunnenbau_6_Sept2025 (1).jpeg" />
+    </div>
+    <div class="swiper-slide">
+        <img src="/img/Versorgung/Brunnenbau_6/Brunnenbau_6_Sept2025 (2).jpeg" />
+    </div>
+    <div class="swiper-slide">
+        <img src="/img/Versorgung/Brunnenbau_6/Brunnenbau_6_Sept2025 (3).jpeg" />
+    </div>
+    <div class="swiper-slide">
+        <img src="/img/Versorgung/Brunnenbau_6/Brunnenbau_6_Sept2025 (4).jpeg" />
+    </div>
+    <div class="swiper-slide">
+        <img src="/img/Versorgung/Brunnenbau_6/Brunnenbau_6_Sept2025 (5).jpeg" />
+    </div>
+    <div class="swiper-slide">
+        <img src="/img/Versorgung/Brunnenbau_6/Brunnenbau_6_Sept2025 (6).jpeg" />
+    </div>
+    <div class="swiper-slide">
+        <img src="/img/Versorgung/Brunnenbau_6/Brunnenbau_6_Sept2025 (7).jpeg" />
+    </div>
+    <div class="swiper-slide">
+        <img src="/img/Versorgung/Brunnenbau_6/Brunnenbau_6_Sept2025 (8).jpeg" />
+    </div>
+    <div class="swiper-slide">
+        <img src="/img/Versorgung/Brunnenbau_6/Brunnenbau_6_Sept2025 (9).png" />
+    </div>
+    <div class="swiper-slide">
+        <img src="/img/Versorgung/Brunnenbau_6/Brunnenbau_6_Sept2025 (10).png" />
+    </div>
+  </div>
+  <!-- Navigation -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-pagination"></div>
+</div>
+<p class="img-caption">September 2025 - Bilder des fertigen Brunnens</p>
 
 ## Der Bauablauf
 ### Neuestes Update - Juli 2025
@@ -50,12 +93,6 @@ Die gute Nachricht: Trotz der Herausforderungen schreiten die Arbeiten sichtbar 
     </div>
     <div class="swiper-slide">
         <img src="/img/Versorgung/Brunnenbau_6/Brunnenbau_6_Juli2025 (8).jpeg" />
-    </div>
-    <div class="swiper-slide">
-        <img src="/img/Versorgung/Brunnenbau_6/Brunnenbau_6_Juli2025 (1).png" />
-    </div>
-    <div class="swiper-slide">
-        <img src="/img/Versorgung/Brunnenbau_6/Brunnenbau_6_Juli2025 (2).png" />
     </div>
   </div>
   <!-- Navigation -->

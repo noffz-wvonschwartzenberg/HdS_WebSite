@@ -1,5 +1,5 @@
 {
-    "date": "2025-09-03T19:12:09+01:00",
+    "date": "2025-09-21T13:26:23+01:00",
     "draft": false,
     "title": "Veranstaltungen",
     "author": "WvS",
@@ -12,6 +12,7 @@
 {{< include-file csv="static/img/WirUeberUns/Veranstaltungen/Veranstaltungen.csv" >}}
 {{< /csv-table >}}
 </div>  
+
 
 
 
