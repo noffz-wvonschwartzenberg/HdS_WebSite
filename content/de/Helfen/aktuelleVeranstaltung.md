@@ -1,6 +1,6 @@
 {
     "date": "2025-09-03T19:13:07+01:00",
-    "draft": false,
+    "draft": true,
     "title": "Veranstaltung - gemütliches Beisammensein",
     "author": "WvS",
     "description": "Wir möchten alle Paten und Mitglieder zu einem gemütlichen Beisammensein am 25. September 2025 einladen.",
