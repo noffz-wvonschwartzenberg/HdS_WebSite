@@ -26,6 +26,9 @@ Dank der erneuten großzügigen Unterstützung eines unserer Mitglieder konnte d
 <div class="swiper-container swiper-container-portrait">
   <div class="swiper-wrapper"> 
     <div class="swiper-slide">
+        <img src="/img/Versorgung/Brunnenbau_6/Brunnen_6_Fertigstellung 2025-10.jpg" />
+    </div>
+    <div class="swiper-slide">
         <img src="/img/Versorgung/Brunnenbau_6/Brunnenbau_6_Sept2025 (1).jpeg" />
     </div>
     <div class="swiper-slide">

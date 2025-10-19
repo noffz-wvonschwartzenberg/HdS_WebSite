@@ -1,5 +1,5 @@
 {
-    "date": "2025-06-09T21:11:48+01:00",
+    "date": "2025-10-18T17:11:48+01:00",
     "draft": false,
     "title": "Medizinische Versorgung",
     "author": "WvS",
@@ -9,6 +9,14 @@
 <div class="div-gezielt-spenden">
     <button class="button-gezielt-spenden" id="button-gezielt-spenden">GEZIELT SPENDEN</button>
 </div>
+
+### Update Oktober 2025
+Wie jedes Halbjahr bekommen die Kinder ihre Zahnhygiene-Artikel von unserem Verein überreicht. Hier ist ein aktuelles Bild darüber, wie Christian vor Ort die Spenden überreicht.  
+<input type="checkbox" id="expand-image2" />
+<label for="expand-image3">
+  <img class="img-centered" src="/img/Versorgung/MedizinischeVersorgung/ZahnhygieneArtikel 2025_10.jpg#imagemd" alt="Zahnhygiene-Artikel im Oktober 2025" />
+</label>
+<div class="img-caption">Zahnhygiene-Artikel im Oktober 2025</div>
 
 ## Vorwort
 Im Juli 2018 konnten wir das Projekt "Eine warme Mahlzeit" für 25 Kinder und Jugendliche starten. Inzwischen helfen uns so viele Menschen, Unternehmen und Schulen durch die Übernahme von Patenschaften, dass wir inzwischen 50 Kinder täglich ernähren können.  

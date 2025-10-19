@@ -1,5 +1,5 @@
 {
-    "date": "2025-05-09T17:11:48+01:00",
+    "date": "2025-10-18T17:11:48+01:00",
     "draft": false,
     "title": "Nachhilfe",
     "author": "WvS",
@@ -8,6 +8,14 @@
 }
 
 ## Nachhilfe
+
+### Update Oktober 2025
+Wie jedes Halbjahr bekommen die Kinder ihre Schulmaterialien von unserem Verein überreicht. Hier ist ein aktuelles Bild, das die besondere Freude der Kinder darüber widerspiegelt.  
+<input type="checkbox" id="expand-image2" />
+<label for="expand-image3">
+  <img class="img-centered" src="/img/Bildung/Nachhilfe/Nachhilfe 2025_10.jpg#imagemd" alt="Neues Schulmaterial im Oktober 2025" />
+</label>
+<div class="img-caption">Schulmaterial im Oktober 2025</div>
 
 ### Gib den Kindern eine Chance
 Jedes Kind verdient eine Chance auf Bildung, Wissen und eine selbstbestimmte Zukunft. Doch für viele Kinder ist der Schulweg voller Hindernisse – sei es fehlendes Schulmaterial, finanzielle Sorgen oder der Mangel an Unterstützung beim Lernen. Genau hier setzen wir an.

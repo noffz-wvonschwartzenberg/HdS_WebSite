@@ -57,6 +57,9 @@ Bertin ist ein inspirierendes Beispiel dafür, was möglich ist, wenn man an sic
 <div class="swiper-container swiper-container-portrait">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
+        <img src="/img/Bildung/Ausbildung/Bertin 2025_10 (1).jpg" />
+    </div>
+    <div class="swiper-slide">
         <img src="/img/Bildung/Ausbildung/Bertin 2025 (5).jpeg" />
     </div>
     <div class="swiper-slide">
