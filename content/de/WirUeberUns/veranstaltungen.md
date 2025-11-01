@@ -1,5 +1,5 @@
 {
-    "date": "2025-11-01T17:48:57+01:00",
+    "date": "2025-10-25T17:48:57+01:00",
     "draft": false,
     "title": "Veranstaltungen",
     "author": "WvS",

@@ -2,24 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.hausdersonne-kempen.de/de/WirUeberUns/veranstaltungen/</loc>
-    <lastmod>2025-11-01T17:48:57+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/WirUeberUns/veranstaltungen/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/WirUeberUns/veranstaltungen/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/WirUeberUns/veranstaltungen/"
-                />
-  </url><url>
     <loc>https://www.hausdersonne-kempen.de/de/Finanzen/aktuelleFinanzuebersicht/</loc>
     <lastmod>2025-11-01T17:48:17+01:00</lastmod>
     <xhtml:link
@@ -36,6 +18,24 @@
                 rel="alternate"
                 hreflang="de"
                 href="https://www.hausdersonne-kempen.de/de/Finanzen/aktuelleFinanzuebersicht/"
+                />
+  </url><url>
+    <loc>https://www.hausdersonne-kempen.de/de/WirUeberUns/veranstaltungen/</loc>
+    <lastmod>2025-10-25T17:48:57+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.hausdersonne-kempen.de/en/WirUeberUns/veranstaltungen/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.hausdersonne-kempen.de/fr/WirUeberUns/veranstaltungen/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.hausdersonne-kempen.de/de/WirUeberUns/veranstaltungen/"
                 />
   </url><url>
     <loc>https://www.hausdersonne-kempen.de/de/Reisetagebuch/2025_10/</loc>
