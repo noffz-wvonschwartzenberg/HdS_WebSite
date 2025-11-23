@@ -1,7 +1,7 @@
 {
-    "date": "2025-11-23T18:11:48+01:00",
+    "date": "2025-11-23T18:12:48+01:00",
     "draft": false,
-    "title": "Mitgliderversammlung",
+    "title": "Mitgliederversammlung",
     "author": "WvS",
     "description": "Die Agenda für die Mitgliederversammlung am 27. November 2025, um 19:30Uhr im St. Peter-Stift, Auguste-Tibus-Straße 9, 47906 Kempen.",
     "image": "/img/WirUeberUns/Mitgliederversammlung/MitgliederversammlungTitle.png"
