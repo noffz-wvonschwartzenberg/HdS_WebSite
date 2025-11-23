@@ -3,7 +3,7 @@
     "draft": false,
     "title": "Mitgliderversammlung",
     "author": "WvS",
-    "description": "Die Agenda für die Mitgliederversammlung\r\nam 27. November 2025, um 19:30Uhr im St. Peter-Stift, Auguste-Tibus-Straße 9, 47906 Kempen.",
+    "description": "Die Agenda für die Mitgliederversammlung\r\nam 27. November 2025\r\num 19:30Uhr\r\nim St. Peter-Stift, Auguste-Tibus-Straße 9, 47906 Kempen.",
     "image": "/img/WirUeberUns/Mitgliederversammlung/MitgliederversammlungTitle.png"
 }
 ## Tagesordnungspunkte
