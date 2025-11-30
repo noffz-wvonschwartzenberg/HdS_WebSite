@@ -17,7 +17,7 @@ Wir hoffen, Sie haben die Karte bereits persönlich erhalten. Für alle neuen Be
     </label>
     <input type="checkbox" id="expand-image2" />
     <label for="expand-image2">
-        <img class="img-flexpictures" src="/img/Helfen/Informationen/Weihnachtskarte_Rückseite.png#imagemd" alt="Weihnachtskarte_back" />
+        <img class="img-flexpictures" src="/img/Helfen/Informationen/Weihnachtskarte_Rueckseite.png#imagemd" alt="Weihnachtskarte_back" />
     </label>
 </div>
 
