@@ -1,5 +1,5 @@
 {
-    "date": "2025-05-22T21:11:48+01:00",
+    "date": "2025-11-27T21:11:48+01:00",
     "draft": false,
     "title": "Gesamtschule Kempen - Sozialer Tag",
     "author": "Christian",
@@ -24,4 +24,18 @@ Hier ist das Video, das u.a. unsere Kinder beim Nachhilfeunterricht zeigt.
     <video id="lightbox-video" controls></video>
 </div>
 
+<br>
+<br>
+<img class="img-centered-quarter" src="/img/WirUeberUns/Kooperationen/GesamtSchKempen/Danke.png#imagemd"     alt="Danke" />
+<br>
+<div class="container-button-link">
+  <a href="https://www.gesamtschule-kempen.de/" class="button-link">Link zur Gesamtschule Kempen</a>
+</div>
+<p class="p-width">
+Im Jahr 2025 erhielten wir von der Gesamtschule Kempen insgesamt eine Spende in Höhe von 3.400 €. Diese Mittel werden gezielt eingesetzt, um die Bildung von Kindern in Mbouda, Kamerun, zu fördern.
+<br>
+Dank dieser Unterstützung können die Schulgebühren für zahlreiche Kinder übernommen werden, sodass ihnen der Zugang zu Bildung ermöglicht wird – eine entscheidende Chance, denn der Schulbesuch in Kamerun ist nicht kostenlos. Darüber hinaus wird die Spende auch für die Anschaffung von Schulmaterialien sowie die Finanzierung von Schuluniformen verwendet, um den Kindern optimale Lernbedingungen zu bieten.  
+<br>
+Ein herzliches Dankeschön an die Gesamtschule Kempen für dieses bedeutende Engagement! 
+</p> 
 
