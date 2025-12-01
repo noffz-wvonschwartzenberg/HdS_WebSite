@@ -2,14 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.hausdersonne-kempen.de/de/Helfen/weihnachtsgruss/</loc>
-    <lastmod>2025-11-29T19:13:07+01:00</lastmod>
-  </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/WirUeberUns/mitgliederversammlung/</loc>
-    <lastmod>2025-11-23T18:12:48+01:00</lastmod>
-  </url><url>
     <loc>https://www.hausdersonne-kempen.de/de/Finanzen/aktuelleFinanzuebersicht/</loc>
-    <lastmod>2025-11-01T17:48:17+01:00</lastmod>
+    <lastmod>2025-12-01T20:51:34+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -25,6 +19,15 @@
                 hreflang="de"
                 href="https://www.hausdersonne-kempen.de/de/Finanzen/aktuelleFinanzuebersicht/"
                 />
+  </url><url>
+    <loc>https://www.hausdersonne-kempen.de/de/Helfen/weihnachtsgruss/</loc>
+    <lastmod>2025-11-29T19:13:07+01:00</lastmod>
+  </url><url>
+    <loc>https://www.hausdersonne-kempen.de/de/GesamtSchuleKempen/sozialerTag/</loc>
+    <lastmod>2025-11-28T18:11:48+01:00</lastmod>
+  </url><url>
+    <loc>https://www.hausdersonne-kempen.de/de/WirUeberUns/mitgliederversammlung/</loc>
+    <lastmod>2025-11-23T18:12:48+01:00</lastmod>
   </url><url>
     <loc>https://www.hausdersonne-kempen.de/de/WirUeberUns/veranstaltungen/</loc>
     <lastmod>2025-10-25T17:48:57+01:00</lastmod>
@@ -144,9 +147,6 @@
     <lastmod>2025-05-23T21:11:48+01:00</lastmod>
   </url><url>
     <loc>https://www.hausdersonne-kempen.de/de/GesamtSchuleKempen/</loc>
-    <lastmod>2025-05-22T21:11:48+01:00</lastmod>
-  </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/GesamtSchuleKempen/sozialerTag/</loc>
     <lastmod>2025-05-22T21:11:48+01:00</lastmod>
   </url><url>
     <loc>https://www.hausdersonne-kempen.de/de/HannahArendtGymnasiumKrefeld/</loc>

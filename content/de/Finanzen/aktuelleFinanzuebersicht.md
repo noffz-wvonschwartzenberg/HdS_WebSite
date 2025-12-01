@@ -1,5 +1,5 @@
 {
-    "date": "2025-11-01T17:48:17+01:00",
+    "date": "2025-12-01T20:51:34+01:00",
     "draft": false,
     "title": "Aktuelle Finanzübersicht",
     "author": "WvS",
@@ -122,6 +122,8 @@ Die in rot gezeigten Unkosten setzen sich hauptsächlich aus laufenden Kosten wi
     });
   });
 </script>
+
+
 
 
 

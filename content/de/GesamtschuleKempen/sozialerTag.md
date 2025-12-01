@@ -1,5 +1,5 @@
 {
-    "date": "2025-11-27T21:11:48+01:00",
+    "date": "2025-11-28T18:11:48+01:00",
     "draft": false,
     "title": "Gesamtschule Kempen - Sozialer Tag",
     "author": "Christian",
