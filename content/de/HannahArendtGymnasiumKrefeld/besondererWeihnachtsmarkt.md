@@ -7,8 +7,8 @@
     "image": "/img/WirUeberUns/Kooperationen/HannahArendtGymKrefeld/DerBesondereWeihnachtsmarkt/DerBesondereWeihnachtsmarktTitle.jpg"
 }
 
-## Der besondere Weihnachtsmarkt 2025
-Das Hannah-Arendt-Gymnasium war am Samstag, 3. Dezember, mit einem Stand auf dem Besonderen Weihnachtsmarkt vertreten. Durch das Engagement vieler Eltern, Schülerinnen und Schülern sowie Lehrerinnen und Lehrern konnte ein buntes Angebot an weihnachtlichen Leckereien angeboten werden. Der Erlös des Verkaufs ist für unseren Verein \"Haus der Sonne\" bestimmt.  
+## Der besondere Weihnachtsmarkt 2024
+Das Hannah-Arendt-Gymnasium war am Samstag, 3. Dezember 2024, mit einem Stand auf dem Besonderen Weihnachtsmarkt vertreten. Durch das Engagement vieler Eltern, Schülerinnen und Schülern sowie Lehrerinnen und Lehrern konnte ein buntes Angebot an weihnachtlichen Leckereien angeboten werden. Der Erlös des Verkaufs ist für unseren Verein \"Haus der Sonne\" bestimmt.  
 Ein herzliches Dankeschön an dieser Stelle.  
 <input type="checkbox" id="expand-image1" />
 <label for="expand-image1">

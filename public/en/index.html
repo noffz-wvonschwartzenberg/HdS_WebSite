@@ -54,9 +54,12 @@
     <header class="header">
         <div class="header-container">
             <nav class="header-menu gray">
-                <a class="header-gray-message" href="Helfen/unterstützungHausDerSonne">
-                    → Wir brauchen Unterstützung bei unserem Instagram Account   
+                
+                <a class="header-gray-flyer" href="#"
+                    onclick="document.getElementById('overlay').style.display='flex'; return false;">
+                    → Unser neuer Flyer
                 </a>
+
                 
                 <a href="" class="header-gray-item"><i id="js-darkMode" class="far fa-moon"></i></a>
             </nav>
@@ -337,6 +340,17 @@
 <div id="js-theme-home" class="light-theme">
   <div class="home-main">
     <div id = "js-theme-swipers" class="light-theme">
+    
+    <div id="overlay" 
+        style="display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+                background-color:rgba(0,0,0,0.95); justify-content:center; align-items:center;
+                z-index:200000;">
+    <img src="/img/WirUeberUns/neuerFlyer.png" 
+        alt="neuer Flyer" 
+        style="max-width:100%; max-height:100%; object-fit:contain; cursor:pointer;"
+        onclick="document.getElementById('overlay').style.display='none';">
+    </div>
+    
     <section class="swipers">
         <div class="mainswiper swiper">
             <div id="js-img11" class="swiper-wrapper">

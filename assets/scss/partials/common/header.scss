@@ -62,6 +62,20 @@
             }
         }
 
+        .header-gray-flyer {
+            display: flex;
+            margin: 20px 5px;
+            padding: 0 0;
+            place-items: center;
+            font-weight: bolder;
+            color: themed("logo-green");
+            background-color: themed("logo-yellow");
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
         .header-gray-item {
             display: flex;
             margin: 0 3px;

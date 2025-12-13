@@ -147,6 +147,16 @@
     color: #ce1126; }
     .light-theme .header .header-gray-message:hover {
       text-decoration: underline; }
+  .light-theme .header .header-gray-flyer {
+    display: flex;
+    margin: 20px 5px;
+    padding: 0 0;
+    place-items: center;
+    font-weight: bolder;
+    color: #007a5e;
+    background-color: #fcd116; }
+    .light-theme .header .header-gray-flyer:hover {
+      text-decoration: underline; }
   .light-theme .header .header-gray-item {
     display: flex;
     margin: 0 3px;
@@ -217,6 +227,16 @@
     font-weight: bolder;
     color: #730b17; }
     .dark-theme .header .header-gray-message:hover {
+      text-decoration: underline; }
+  .dark-theme .header .header-gray-flyer {
+    display: flex;
+    margin: 20px 5px;
+    padding: 0 0;
+    place-items: center;
+    font-weight: bolder;
+    color: #054132;
+    background-color: #735f07; }
+    .dark-theme .header .header-gray-flyer:hover {
       text-decoration: underline; }
   .dark-theme .header .header-gray-item {
     display: flex;
