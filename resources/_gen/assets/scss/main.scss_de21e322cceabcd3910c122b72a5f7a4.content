@@ -150,7 +150,7 @@
   .light-theme .header .header-gray-flyer {
     display: flex;
     margin: 20px 5px;
-    padding: 0 0;
+    padding: 20px 5px;
     place-items: center;
     font-weight: bolder;
     color: #007a5e;
@@ -231,7 +231,7 @@
   .dark-theme .header .header-gray-flyer {
     display: flex;
     margin: 20px 5px;
-    padding: 0 0;
+    padding: 20px 5px;
     place-items: center;
     font-weight: bolder;
     color: #054132;
