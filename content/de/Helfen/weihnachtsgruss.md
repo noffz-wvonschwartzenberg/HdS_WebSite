@@ -1,5 +1,5 @@
 {
-    "date": "2025-11-29T19:13:07+01:00",
+    "date": "2025-12-15T19:13:07+01:00",
     "draft": false,
     "title": "Weihnachtsgrüße 2025",
     "author": "WvS",
@@ -7,8 +7,18 @@
     "image": "/img/Helfen/Informationen/WeihnachtsgrussTitle.jpg"
 }
 
+## Christian's Weihnachtsbotschaft
+Bitte schauen Sie sich die bewegende Weihnachtsbotschaft unseres Vorsitzenden Christian Eloundou an. 
+<br>
+<div class="media-container" style="display: flex; justify-content: center; height: 600px;">
+    <video src="/img/Galerie/Wir über uns/Weihnachtsbotschaft_2025.mp4" controls title="Weihnachtsbotschaft"></video>
+</div>
+<div id="lightbox" class="lightbox" onclick="this.style.display='none'">
+    <video id="lightbox-video" controls></video>
+</div>
+
 ## Die Weihnachtskarte 2025
-Wir hoffen, Sie haben die Karte bereits persönlich erhalten. Für alle neuen Besucher ist Sie hier nochmals abgebildet.  
+Wir hoffen, Sie haben die Karte bereits persönlich erhalten. Für alle neuen Besucher ist die Karte hier nochmals abgebildet.  
 <br>
 <div class="flexpictures">
     <input type="checkbox" id="expand-image1" />
@@ -20,13 +30,3 @@ Wir hoffen, Sie haben die Karte bereits persönlich erhalten. Für alle neuen Be
         <img class="img-flexpictures" src="/img/Helfen/Informationen/Weihnachtskarte_Rueckseite.png#imagemd" alt="Weihnachtskarte_back" />
     </label>
 </div>
-
-## Christian's Weihnachtsbotschaft
-Bitte schauen Sie sich die bewegende Weihnachtsbotschaft unseres Vorsitzenden Christian Eloundou an. Diese folgt in Kürze. 
-<br>
-<!-- <div class="media-container" style="display: flex; justify-content: center; height: 600px;">
-    <video src="/img/Galerie/Wir über uns/Weihnachtsbotschaft_2025.mp4" controls title="Weihnachtsbotschaft"></video>
-</div>
-<div id="lightbox" class="lightbox" onclick="this.style.display='none'">
-    <video id="lightbox-video" controls></video>
-</div> -->
