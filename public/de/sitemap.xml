@@ -2,444 +2,444 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.hausdersonne-kempen.de/de/Helfen/weihnachtsgruss/</loc>
+    <loc>http://localhost:1313/de/Helfen/weihnachtsgruss/</loc>
     <lastmod>2025-12-15T19:13:07+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/HannahArendtGymnasiumKrefeld/sponsorenlauf/</loc>
+    <loc>http://localhost:1313/de/HannahArendtGymnasiumKrefeld/sponsorenlauf/</loc>
     <lastmod>2025-12-12T21:12:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Finanzen/aktuelleFinanzuebersicht/</loc>
+    <loc>http://localhost:1313/de/Finanzen/aktuelleFinanzuebersicht/</loc>
     <lastmod>2025-12-01T20:51:34+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/Finanzen/aktuelleFinanzuebersicht/"
+                href="http://localhost:1313/en/Finanzen/aktuelleFinanzuebersicht/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/Finanzen/aktuelleFinanzuebersicht/"
+                href="http://localhost:1313/fr/Finanzen/aktuelleFinanzuebersicht/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/Finanzen/aktuelleFinanzuebersicht/"
+                href="http://localhost:1313/de/Finanzen/aktuelleFinanzuebersicht/"
                 />
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/GesamtSchuleKempen/sozialerTag/</loc>
+    <loc>http://localhost:1313/de/GesamtSchuleKempen/sozialerTag/</loc>
     <lastmod>2025-11-28T18:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/WirUeberUns/mitgliederversammlung/</loc>
+    <loc>http://localhost:1313/de/WirUeberUns/mitgliederversammlung/</loc>
     <lastmod>2025-11-23T18:12:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/WirUeberUns/veranstaltungen/</loc>
+    <loc>http://localhost:1313/de/WirUeberUns/veranstaltungen/</loc>
     <lastmod>2025-10-25T17:48:57+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/WirUeberUns/veranstaltungen/"
+                href="http://localhost:1313/en/WirUeberUns/veranstaltungen/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/WirUeberUns/veranstaltungen/"
+                href="http://localhost:1313/fr/WirUeberUns/veranstaltungen/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/WirUeberUns/veranstaltungen/"
+                href="http://localhost:1313/de/WirUeberUns/veranstaltungen/"
                 />
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Reisetagebuch/2025_10/</loc>
+    <loc>http://localhost:1313/de/Reisetagebuch/2025_10/</loc>
     <lastmod>2025-10-18T22:06:51+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Versorgung/medizinischeVersorgung/</loc>
+    <loc>http://localhost:1313/de/Versorgung/medizinischeVersorgung/</loc>
     <lastmod>2025-10-18T17:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Bildung/nachhilfe/</loc>
+    <loc>http://localhost:1313/de/Bildung/nachhilfe/</loc>
     <lastmod>2025-10-18T17:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Helfen/veranstaltungPatentreffen/</loc>
+    <loc>http://localhost:1313/de/Helfen/veranstaltungPatentreffen/</loc>
     <lastmod>2025-10-07T19:13:07+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Versorgung/brunnenRettetLeben/</loc>
+    <loc>http://localhost:1313/de/Versorgung/brunnenRettetLeben/</loc>
     <lastmod>2025-09-21T15:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Versorgung/brunnenbau_6/</loc>
+    <loc>http://localhost:1313/de/Versorgung/brunnenbau_6/</loc>
     <lastmod>2025-09-21T14:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Bildung/ausbildung/</loc>
+    <loc>http://localhost:1313/de/Bildung/ausbildung/</loc>
     <lastmod>2025-07-13T17:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Helfen/unterst%C3%BCtzungHausDerSonne/</loc>
+    <loc>http://localhost:1313/de/Helfen/unterst%C3%BCtzungHausDerSonne/</loc>
     <lastmod>2025-07-11T20:18:07+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/HannahArendtGymnasiumKrefeld/projektWoche06-2025/</loc>
+    <loc>http://localhost:1313/de/HannahArendtGymnasiumKrefeld/projektWoche06-2025/</loc>
     <lastmod>2025-06-18T15:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/WirUeberUns/dasTeamInMbouda/</loc>
+    <loc>http://localhost:1313/de/WirUeberUns/dasTeamInMbouda/</loc>
     <lastmod>2025-06-10T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Reisetagebuch/2025/</loc>
+    <loc>http://localhost:1313/de/Reisetagebuch/2025/</loc>
     <lastmod>2025-06-07T22:06:51+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Reisetagebuch/2024/</loc>
+    <loc>http://localhost:1313/de/Reisetagebuch/2024/</loc>
     <lastmod>2025-06-07T21:06:51+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Reisetagebuch/2023/</loc>
+    <loc>http://localhost:1313/de/Reisetagebuch/2023/</loc>
     <lastmod>2025-06-07T20:06:51+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Reisetagebuch/2022/</loc>
+    <loc>http://localhost:1313/de/Reisetagebuch/2022/</loc>
     <lastmod>2025-06-07T19:06:51+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Reisetagebuch/2019/</loc>
+    <loc>http://localhost:1313/de/Reisetagebuch/2019/</loc>
     <lastmod>2025-06-07T18:06:51+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Reisetagebuch/2018/</loc>
+    <loc>http://localhost:1313/de/Reisetagebuch/2018/</loc>
     <lastmod>2025-06-07T17:06:51+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/WirUeberUns/presse/</loc>
+    <loc>http://localhost:1313/de/WirUeberUns/presse/</loc>
     <lastmod>2025-06-06T21:28:43+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/WirUeberUns/presse/"
+                href="http://localhost:1313/en/WirUeberUns/presse/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/WirUeberUns/presse/"
+                href="http://localhost:1313/fr/WirUeberUns/presse/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/WirUeberUns/presse/"
+                href="http://localhost:1313/de/WirUeberUns/presse/"
                 />
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Versorgung/eineWarmeMahlzeit/</loc>
+    <loc>http://localhost:1313/de/Versorgung/eineWarmeMahlzeit/</loc>
     <lastmod>2025-05-27T21:11:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/Versorgung/eineWarmeMahlzeit/"
+                href="http://localhost:1313/en/Versorgung/eineWarmeMahlzeit/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/Versorgung/eineWarmeMahlzeit/"
+                href="http://localhost:1313/fr/Versorgung/eineWarmeMahlzeit/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/Versorgung/eineWarmeMahlzeit/"
+                href="http://localhost:1313/de/Versorgung/eineWarmeMahlzeit/"
                 />
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/HannahArendtGymnasiumKrefeld/unserePartnerschaft/</loc>
+    <loc>http://localhost:1313/de/HannahArendtGymnasiumKrefeld/unserePartnerschaft/</loc>
     <lastmod>2025-05-24T21:12:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/HannahArendtGymnasiumKrefeld/besondererWeihnachtsmarkt/</loc>
+    <loc>http://localhost:1313/de/HannahArendtGymnasiumKrefeld/besondererWeihnachtsmarkt/</loc>
     <lastmod>2025-05-24T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/HilfeZurSelbsthilfe/umwelt/</loc>
+    <loc>http://localhost:1313/de/HilfeZurSelbsthilfe/umwelt/</loc>
     <lastmod>2025-05-24T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/HilfeZurSelbsthilfe/waisenhaeuser/</loc>
+    <loc>http://localhost:1313/de/HilfeZurSelbsthilfe/waisenhaeuser/</loc>
     <lastmod>2025-05-23T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/GesamtSchuleKempen/</loc>
+    <loc>http://localhost:1313/de/GesamtSchuleKempen/</loc>
     <lastmod>2025-05-22T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/HannahArendtGymnasiumKrefeld/</loc>
+    <loc>http://localhost:1313/de/HannahArendtGymnasiumKrefeld/</loc>
     <lastmod>2025-05-22T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/WirUeberUns/ziel/</loc>
+    <loc>http://localhost:1313/de/WirUeberUns/ziel/</loc>
     <lastmod>2025-05-18T11:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/HilfeZurSelbsthilfe/nutztiere/</loc>
+    <loc>http://localhost:1313/de/HilfeZurSelbsthilfe/nutztiere/</loc>
     <lastmod>2025-05-15T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Galerie/fotos/</loc>
+    <loc>http://localhost:1313/de/Galerie/fotos/</loc>
     <lastmod>2025-05-14T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Galerie/videos/</loc>
+    <loc>http://localhost:1313/de/Galerie/videos/</loc>
     <lastmod>2025-05-14T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/HilfeZurSelbsthilfe/gemuesegarten/</loc>
+    <loc>http://localhost:1313/de/HilfeZurSelbsthilfe/gemuesegarten/</loc>
     <lastmod>2025-05-13T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Bildung/aufklaerung/</loc>
+    <loc>http://localhost:1313/de/Bildung/aufklaerung/</loc>
     <lastmod>2025-05-09T17:10:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/Bildung/aufklaerung/"
+                href="http://localhost:1313/en/Bildung/aufklaerung/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/Bildung/aufklaerung/"
+                href="http://localhost:1313/de/Bildung/aufklaerung/"
                 />
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Versorgung/brunnenbau_1/</loc>
+    <loc>http://localhost:1313/de/Versorgung/brunnenbau_1/</loc>
     <lastmod>2025-05-06T22:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Versorgung/brunnenbau_2/</loc>
+    <loc>http://localhost:1313/de/Versorgung/brunnenbau_2/</loc>
     <lastmod>2025-05-05T22:10:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Versorgung/brunnenbau_3/</loc>
+    <loc>http://localhost:1313/de/Versorgung/brunnenbau_3/</loc>
     <lastmod>2025-05-04T22:08:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Versorgung/brunnenbau_4/</loc>
+    <loc>http://localhost:1313/de/Versorgung/brunnenbau_4/</loc>
     <lastmod>2025-05-03T22:07:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Versorgung/brunnenbau_5/</loc>
+    <loc>http://localhost:1313/de/Versorgung/brunnenbau_5/</loc>
     <lastmod>2025-05-02T16:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Reisetagebuch/</loc>
+    <loc>http://localhost:1313/de/Reisetagebuch/</loc>
     <lastmod>2025-04-07T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Helfen/</loc>
+    <loc>http://localhost:1313/de/Helfen/</loc>
     <lastmod>2025-03-27T21:11:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/Helfen/"
+                href="http://localhost:1313/en/Helfen/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/Helfen/"
+                href="http://localhost:1313/fr/Helfen/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/Helfen/"
+                href="http://localhost:1313/de/Helfen/"
                 />
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Helfen/pateWerden/</loc>
+    <loc>http://localhost:1313/de/Helfen/pateWerden/</loc>
     <lastmod>2025-03-21T19:14:20+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/Helfen/pateWerden/"
+                href="http://localhost:1313/en/Helfen/pateWerden/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/Helfen/pateWerden/"
+                href="http://localhost:1313/fr/Helfen/pateWerden/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/Helfen/pateWerden/"
+                href="http://localhost:1313/de/Helfen/pateWerden/"
                 />
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/WirUeberUns/derVorstand/</loc>
+    <loc>http://localhost:1313/de/WirUeberUns/derVorstand/</loc>
     <lastmod>2025-03-15T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/WirUeberUns/dieSatzung/</loc>
+    <loc>http://localhost:1313/de/WirUeberUns/dieSatzung/</loc>
     <lastmod>2025-03-15T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Versorgung/</loc>
+    <loc>http://localhost:1313/de/Versorgung/</loc>
     <lastmod>2025-03-12T21:11:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/Versorgung/"
+                href="http://localhost:1313/en/Versorgung/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/Versorgung/"
+                href="http://localhost:1313/fr/Versorgung/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/Versorgung/"
+                href="http://localhost:1313/de/Versorgung/"
                 />
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Finanzen/</loc>
+    <loc>http://localhost:1313/de/Finanzen/</loc>
     <lastmod>2025-03-10T21:11:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/Finanzen/"
+                href="http://localhost:1313/en/Finanzen/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/Finanzen/"
+                href="http://localhost:1313/fr/Finanzen/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/Finanzen/"
+                href="http://localhost:1313/de/Finanzen/"
                 />
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Helfen/mitgliedWerden/</loc>
+    <loc>http://localhost:1313/de/Helfen/mitgliedWerden/</loc>
     <lastmod>2025-03-07T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Helfen/spenden/</loc>
+    <loc>http://localhost:1313/de/Helfen/spenden/</loc>
     <lastmod>2025-03-06T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Helfen/gezieltSpenden/</loc>
+    <loc>http://localhost:1313/de/Helfen/gezieltSpenden/</loc>
     <lastmod>2025-03-05T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Finanzen/2024/</loc>
+    <loc>http://localhost:1313/de/Finanzen/2024/</loc>
     <lastmod>2025-03-02T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Helfen/patenschaftVerwalten/</loc>
+    <loc>http://localhost:1313/de/Helfen/patenschaftVerwalten/</loc>
     <lastmod>2025-03-02T20:26:54+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Finanzen/2023/</loc>
+    <loc>http://localhost:1313/de/Finanzen/2023/</loc>
     <lastmod>2025-03-01T21:11:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/Finanzen/2023/"
+                href="http://localhost:1313/en/Finanzen/2023/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/Finanzen/2023/"
+                href="http://localhost:1313/fr/Finanzen/2023/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/Finanzen/2023/"
+                href="http://localhost:1313/de/Finanzen/2023/"
                 />
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Helfen/mitgliedschaftVerwalten/</loc>
+    <loc>http://localhost:1313/de/Helfen/mitgliedschaftVerwalten/</loc>
     <lastmod>2025-03-01T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Bildung/</loc>
+    <loc>http://localhost:1313/de/Bildung/</loc>
     <lastmod>2025-02-19T21:11:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/Bildung/"
+                href="http://localhost:1313/en/Bildung/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/Bildung/"
+                href="http://localhost:1313/fr/Bildung/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/Bildung/"
+                href="http://localhost:1313/de/Bildung/"
                 />
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Campus/</loc>
+    <loc>http://localhost:1313/de/Campus/</loc>
     <lastmod>2025-02-19T21:11:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/Campus/"
+                href="http://localhost:1313/en/Campus/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/Campus/"
+                href="http://localhost:1313/fr/Campus/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/Campus/"
+                href="http://localhost:1313/de/Campus/"
                 />
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/HilfeZurSelbsthilfe/</loc>
+    <loc>http://localhost:1313/de/HilfeZurSelbsthilfe/</loc>
     <lastmod>2025-02-19T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/WirUeberUns/</loc>
+    <loc>http://localhost:1313/de/WirUeberUns/</loc>
     <lastmod>2025-02-19T21:11:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/WirUeberUns/"
+                href="http://localhost:1313/en/WirUeberUns/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/WirUeberUns/"
+                href="http://localhost:1313/fr/WirUeberUns/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/WirUeberUns/"
+                href="http://localhost:1313/de/WirUeberUns/"
                 />
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/</loc>
+    <loc>http://localhost:1313/de/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/"
+                href="http://localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/"
+                href="http://localhost:1313/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/"
+                href="http://localhost:1313/de/"
                 />
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Galerie/</loc>
+    <loc>http://localhost:1313/de/Galerie/</loc>
     <lastmod>2025-02-18T21:11:48+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/Galerie/"
+                href="http://localhost:1313/en/Galerie/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/Galerie/"
+                href="http://localhost:1313/fr/Galerie/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/Galerie/"
+                href="http://localhost:1313/de/Galerie/"
                 />
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/Finanzen/2022/</loc>
+    <loc>http://localhost:1313/de/Finanzen/2022/</loc>
     <lastmod>2025-02-01T21:11:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/categories/</loc>
+    <loc>http://localhost:1313/de/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/categories/"
+                href="http://localhost:1313/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/categories/"
+                href="http://localhost:1313/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/categories/"
+                href="http://localhost:1313/de/categories/"
                 />
   </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/tags/</loc>
+    <loc>http://localhost:1313/de/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/tags/"
+                href="http://localhost:1313/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/tags/"
+                href="http://localhost:1313/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/tags/"
+                href="http://localhost:1313/de/tags/"
                 />
   </url>
 </urlset>
