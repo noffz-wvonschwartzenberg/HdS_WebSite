@@ -10,8 +10,8 @@
     <div class="swiper blog-swiper">
       <div class="swiper-wrapper">
         {{ range .Site.Pages }}
-          {{ if lt (sub now.YearDay .Lastmod.YearDay) 30 }}  
-            {{ if strings.HasSuffix .File.LogicalName ".md" }}
+          {{ if lt (sub now.YearDay .Lastmod.YearDay) 30 }}
+            {{ if and .File (strings.HasSuffix .File.LogicalName ".md") }}
               <div class="swiper-slide">
                 <div class="list-container list-container-swiper" onclick="location.href='{{ .RelPermalink }}';">
                   <img src="{{ .Params.image }}" alt="Home Picture" class="list-picture">
@@ -120,7 +120,7 @@
         {{ end }}
     {{ end }}
   </div>
-
+  </div>
   <!-- Einbindung von Swiper.js -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
