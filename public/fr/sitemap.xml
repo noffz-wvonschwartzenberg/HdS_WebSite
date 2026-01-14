@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.hausdersonne-kempen.de/fr/WirUeberUns/presse/</loc>
+    <lastmod>2026-01-14T20:18:18+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.hausdersonne-kempen.de/de/WirUeberUns/presse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.hausdersonne-kempen.de/en/WirUeberUns/presse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.hausdersonne-kempen.de/fr/WirUeberUns/presse/"
+                />
+  </url><url>
     <loc>https://www.hausdersonne-kempen.de/fr/Finanzen/aktuelleFinanzuebersicht/</loc>
     <lastmod>2026-01-02T11:07:31+01:00</lastmod>
     <xhtml:link
@@ -36,24 +54,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://www.hausdersonne-kempen.de/fr/WirUeberUns/veranstaltungen/"
-                />
-  </url><url>
-    <loc>https://www.hausdersonne-kempen.de/fr/WirUeberUns/presse/</loc>
-    <lastmod>2025-06-06T21:28:43+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/WirUeberUns/presse/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/WirUeberUns/presse/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/WirUeberUns/presse/"
                 />
   </url><url>
     <loc>https://www.hausdersonne-kempen.de/fr/Helfen/pateWerden/</loc>

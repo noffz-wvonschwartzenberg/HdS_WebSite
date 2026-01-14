@@ -6,8 +6,15 @@
     <description>Recent content on Haus der Sonne</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <lastBuildDate>Fri, 02 Jan 2026 11:07:31 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jan 2026 20:18:18 +0100</lastBuildDate>
     <atom:link href="https://www.hausdersonne-kempen.de/de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Presse</title>
+      <link>https://www.hausdersonne-kempen.de/de/WirUeberUns/presse/</link>
+      <pubDate>Wed, 14 Jan 2026 20:18:18 +0100</pubDate>
+      <guid>https://www.hausdersonne-kempen.de/de/WirUeberUns/presse/</guid>
+      <description>&lt;p&gt;Bitte informieren Sie sich in der öffentlichen Presse über uns. Hier finden Sie eine Liste der Beiträge.&lt;br&gt;&#xA;&lt;br&gt;&lt;/p&gt;&#xA;&lt;!-- &lt;div class=&#34;article-line&#34; onclick=&#34;window.location.href=&#39;https://rp-online.de/nrw/staedte/kempen/kempen-kempener-helfen-kindern-in-kamerun_aid-118664301&#39;&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;article-column&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;https://www.hausdersonne-kempen.de/img/wirueberuns/presse/Rheinische_Post.png&#34; alt=&#34;alt&#34; class=&#34;image-logo&#34;&gt;&#xD;&#xA;        &lt;p class=&#34;article-date&#34;&gt;10.10.2010&lt;/p&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;p class=&#34;article-title&#34;&gt;Der Titel&lt;/p&gt;&#xD;&#xA;&lt;/div&gt; --&gt;&#xD;&#xA;&lt;!-- &lt;a class=&#34;article-title&#34; href=&#34;${press.ArticleLink}&#34;&gt;${press.ArticleTitle}&lt;/a&gt; --&gt;&#xD;&#xA;&lt;div id=&#34;article-container&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;script type=&#34;module&#34; src=&#34;https://www.hausdersonne-kempen.de/js/presse/generatePresseHTML.js&#34;&gt;&lt;/script&gt;&#xD;&#xA;&lt;script type=&#34;module&#34;&gt;&#xD;&#xA;    import { generatePresseHTML } from &#39;/js/presse/generatePresseHTML.js&#39;;&#xD;&#xA;    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; {&#xD;&#xA;        const container = document.getElementById(&#39;article-container&#39;);&#xD;&#xA;        container.innerHTML = generatePresseHTML();&#xD;&#xA;    });&#xD;&#xA;&lt;/script&gt;</description>
+    </item>
     <item>
       <title>Aktuelle Finanzübersicht</title>
       <link>https://www.hausdersonne-kempen.de/de/Finanzen/aktuelleFinanzuebersicht/</link>
@@ -168,13 +175,6 @@
       <pubDate>Sat, 07 Jun 2025 17:06:51 +0100</pubDate>
       <guid>https://www.hausdersonne-kempen.de/de/Reisetagebuch/2018/</guid>
       <description>&lt;h2 id=&#34;19-märz-2018&#34;&gt;19. März 2018&lt;/h2&gt;&#xA;&lt;p&gt;Ab Düsseldorf geht es auf eigene Kosten mit dem Flieger zunächst nach Paris, von dort nach Yaoundé (Kamerun).&lt;br&gt;&#xA;Im Gepäck hat Christian aus dem Geldbestand von &amp;ldquo;Haus der Sonne e. V.&amp;rdquo; 2.000 € in bar. Sie stammen aus Spenden und Mitgliedsbeiträgen (je 1.000 €) und sind für die Renovierung des Hauses und die Einrichtung von Küche und Essraum des Projekts &amp;ldquo;Eine warme Mahlzeit am Tag&amp;rdquo; bestimmt.&lt;/p&gt;&#xA;&lt;h2 id=&#34;20-märz-2018&#34;&gt;20. März 2018&lt;/h2&gt;&#xA;&lt;p&gt;Heute stehen Termine im Außen- und Innenministerium und in der Deutschen Botschaft an.&lt;br&gt;&#xA;&amp;ldquo;Haus der Sonne e. V.&amp;rdquo; soll auch in Kamerun als Hilfsorganisation registriert werden. Das dient der Rechtssicherheit unseres Vereins und soll helfen finanzielle Unterstützung staatlicherseits zu erhalten.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Presse</title>
-      <link>https://www.hausdersonne-kempen.de/de/WirUeberUns/presse/</link>
-      <pubDate>Fri, 06 Jun 2025 21:28:43 +0100</pubDate>
-      <guid>https://www.hausdersonne-kempen.de/de/WirUeberUns/presse/</guid>
-      <description>&lt;p&gt;Bitte informieren Sie sich in der öffentlichen Presse über uns. Hier finden Sie eine Liste der Beiträge.&lt;br&gt;&#xA;&lt;br&gt;&lt;/p&gt;&#xA;&lt;!-- &lt;div class=&#34;article-line&#34; onclick=&#34;window.location.href=&#39;https://rp-online.de/nrw/staedte/kempen/kempen-kempener-helfen-kindern-in-kamerun_aid-118664301&#39;&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;article-column&#34;&gt;&#xD;&#xA;        &lt;img src=&#34;https://www.hausdersonne-kempen.de/img/wirueberuns/presse/Rheinische_Post.png&#34; alt=&#34;alt&#34; class=&#34;image-logo&#34;&gt;&#xD;&#xA;        &lt;p class=&#34;article-date&#34;&gt;10.10.2010&lt;/p&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;    &lt;p class=&#34;article-title&#34;&gt;Der Titel&lt;/p&gt;&#xD;&#xA;&lt;/div&gt; --&gt;&#xD;&#xA;&lt;!-- &lt;a class=&#34;article-title&#34; href=&#34;${press.ArticleLink}&#34;&gt;${press.ArticleTitle}&lt;/a&gt; --&gt;&#xD;&#xA;&lt;div id=&#34;article-container&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;script type=&#34;module&#34; src=&#34;https://www.hausdersonne-kempen.de/js/presse/generatePresseHTML.js&#34;&gt;&lt;/script&gt;&#xD;&#xA;&lt;script type=&#34;module&#34;&gt;&#xD;&#xA;    import { generatePresseHTML } from &#39;/js/presse/generatePresseHTML.js&#39;;&#xD;&#xA;    document.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; {&#xD;&#xA;        const container = document.getElementById(&#39;article-container&#39;);&#xD;&#xA;        container.innerHTML = generatePresseHTML();&#xD;&#xA;    });&#xD;&#xA;&lt;/script&gt;</description>
     </item>
     <item>
       <title>Eine warme Mahlzeit</title>
