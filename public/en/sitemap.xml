@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.hausdersonne-kempen.de/en/Finanzen/aktuelleFinanzuebersicht/</loc>
+    <lastmod>2026-03-01T12:04:43+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.hausdersonne-kempen.de/de/Finanzen/aktuelleFinanzuebersicht/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.hausdersonne-kempen.de/fr/Finanzen/aktuelleFinanzuebersicht/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.hausdersonne-kempen.de/en/Finanzen/aktuelleFinanzuebersicht/"
+                />
+  </url><url>
     <loc>https://www.hausdersonne-kempen.de/en/WirUeberUns/presse/</loc>
     <lastmod>2026-01-14T20:18:18+01:00</lastmod>
     <xhtml:link
@@ -18,24 +36,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.hausdersonne-kempen.de/en/WirUeberUns/presse/"
-                />
-  </url><url>
-    <loc>https://www.hausdersonne-kempen.de/en/Finanzen/aktuelleFinanzuebersicht/</loc>
-    <lastmod>2026-01-02T11:07:31+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/Finanzen/aktuelleFinanzuebersicht/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/Finanzen/aktuelleFinanzuebersicht/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/Finanzen/aktuelleFinanzuebersicht/"
                 />
   </url><url>
     <loc>https://www.hausdersonne-kempen.de/en/WirUeberUns/veranstaltungen/</loc>
