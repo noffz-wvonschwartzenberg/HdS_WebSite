@@ -2,8 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.hausdersonne-kempen.de/de/WirUeberUns/veranstaltungen/</loc>
+    <lastmod>2026-07-01T07:42:09+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.hausdersonne-kempen.de/en/WirUeberUns/veranstaltungen/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://www.hausdersonne-kempen.de/fr/WirUeberUns/veranstaltungen/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://www.hausdersonne-kempen.de/de/WirUeberUns/veranstaltungen/"
+                />
+  </url><url>
     <loc>https://www.hausdersonne-kempen.de/de/Finanzen/aktuelleFinanzuebersicht/</loc>
-    <lastmod>2026-05-02T17:22:33+01:00</lastmod>
+    <lastmod>2026-07-01T07:33:50+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -58,24 +76,6 @@
   </url><url>
     <loc>https://www.hausdersonne-kempen.de/de/WirUeberUns/mitgliederversammlung/</loc>
     <lastmod>2025-11-23T18:12:48+01:00</lastmod>
-  </url><url>
-    <loc>https://www.hausdersonne-kempen.de/de/WirUeberUns/veranstaltungen/</loc>
-    <lastmod>2025-10-25T17:48:57+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.hausdersonne-kempen.de/en/WirUeberUns/veranstaltungen/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.hausdersonne-kempen.de/fr/WirUeberUns/veranstaltungen/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://www.hausdersonne-kempen.de/de/WirUeberUns/veranstaltungen/"
-                />
   </url><url>
     <loc>https://www.hausdersonne-kempen.de/de/Reisetagebuch/2025_10/</loc>
     <lastmod>2025-10-18T22:06:51+01:00</lastmod>
