@@ -1,5 +1,5 @@
 {
-    "date": "2026-07-01T07:42:09+01:00",
+    "date": "2026-07-01T08:01:29+01:00",
     "draft": false,
     "title": "Veranstaltungen",
     "author": "WvS",
@@ -17,6 +17,7 @@
 {{< include-file csv="static/img/Finanzen/AktuelleFinanzuebersicht/AktuellerKontostand.csv" >}}
 {{< /csv-table >}}
 </div>  
+
 
 
 
